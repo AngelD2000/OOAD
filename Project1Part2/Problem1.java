@@ -5,6 +5,7 @@ public class Problem1 {
     public static void main(String[] args) {
         Boolean going = true;
         Scanner scanner = new Scanner(System.in);
+        //Get input from console until null string has been entered
         while (going){
             System.out.println("Give me a string");
             String message = scanner.nextLine();
@@ -12,7 +13,7 @@ public class Problem1 {
             if (message.equals("")){
                 going = false;
             }
-            //Change string to uppercase and sort
+            //Change string to uppercase and sort; then print
             else{
                 //Uppercase whole string method found here: https://www.w3schools.com/java/ref_string_touppercase.asp
                 message = message.toUpperCase();
