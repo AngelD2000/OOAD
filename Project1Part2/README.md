@@ -1,4 +1,4 @@
-## Object Oriented Analysis and Design Projects ##
+## Project 1 Part 2 ##
 ### Team Members: ### 
 Elly Landrum, Angel Dong, Sam Feig
 
