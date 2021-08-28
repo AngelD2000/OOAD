@@ -1,0 +1,23 @@
+Enter a list of ASCII codes seperated by commas
+66,114,117,99,101,32,83,97,121,115,32,72,105,33,7,9,50,48,49,57
+Code: 66 	Type: Upper Case 	Char: B
+Code: 114 	Type: Lower Case 	Char: r
+Code: 117 	Type: Lower Case 	Char: u
+Code: 99 	Type: Lower Case 	Char: c
+Code: 101 	Type: Lower Case 	Char: e
+Code: 32 	Type: White Space 	Char:
+Code: 83 	Type: Upper Case 	Char: S
+Code: 97 	Type: Lower Case 	Char: a
+Code: 121 	Type: Lower Case 	Char: y
+Code: 115 	Type: Lower Case 	Char: s
+Code: 32 	Type: White Space 	Char:
+Code: 72 	Type: Upper Case 	Char: H
+Code: 105 	Type: Lower Case 	Char: i
+Code: 33 	Type: Special Character 	Char: !
+Code: 7 	Type: Other/Non-Printable 	Char: 
+Code: 9 	Type: White Space 	Char:
+Code: 50 	Type: Digit 	Char: 2
+Code: 48 	Type: Digit 	Char: 0
+Code: 49 	Type: Digit 	Char: 1
+Code: 57 	Type: Digit 	Char: 9
+Enter a list of ASCII codes seperated by commas
