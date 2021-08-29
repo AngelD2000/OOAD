@@ -15,6 +15,7 @@ class Decoder {
         return message.replaceAll("\\s+","");
     }
 
+    //Finds type of character from ASCII code and prints it
     void decode(int ASCIICode) {
         // ASCII Ranges from chart at: https://www.ascii-code.com/
         int[] lowercaseBounds = new int[]{97,122};
