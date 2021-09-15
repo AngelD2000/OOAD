@@ -16,7 +16,7 @@ public class Cashier extends Employee{
     /**
      * Cashier does their best to vacuum
      */
-    public String vacuum(HashMap<String, Game> games){
+    public String vacuum(GameList games){
         String broken = null;
         report("has started vacuuming the store.");
         //Description of Math.random: https://www.geeksforgeeks.org/java-math-random-method-examples/

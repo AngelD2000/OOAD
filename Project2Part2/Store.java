@@ -5,12 +5,13 @@ public class Store {
     int moneyFills = 0;
     int startingGames = 3;
     String[] employeeNames = {"Burt", "Ernie"};
-    Double[] vacSkill = {.05, .1};
+    //TODO: Set these values to be right once tested better
+    Double[] vacSkill = {.5, .5};
     String[] gameNames = {"Catan", "Gloomhaven", "Risk"};
     List<Cashier> cashiers = new ArrayList<>();
-    HashMap<String, Game> inventory = new HashMap<String, Game>();
-    HashMap<String, Game> brokenGames = new HashMap<String, Game>();
-    HashMap<String, Game> orderedGames = new HashMap<String, Game>();
+    GameList inventory = new GameList();
+    GameList brokenGames = new GameList();
+    GameList orderedGames = new GameList();
     Store(){
         for (int i = 0; i < employeeNames.length; i++) {
             Cashier temp = new Cashier(employeeNames[i], vacSkill[i]);
@@ -33,12 +34,11 @@ public class Store {
         countRegister();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
-        removeGame(brokenGame, inventory);
-        addGame(brokenGame, brokenGames);
+        inventory.removeGame(brokenGame);
+        brokenGames.addGame(brokenGame);
         //TODO: Cashier stacks ordered games
         //TODO: Cashier opens store
         //TODO: Cashier orders more games
-        //NOTE: The tasks above should be done in cashier, but they would like to access the game lists and add/removeGame functions here so GL
         currentCashier.close();
     }
     /**
@@ -67,57 +67,19 @@ public class Store {
     void print(String content){
         System.out.println(content);
     }
-
-    /**
-     * Function to handle removing a game of name from a game list of location
-     * Used for breaking games and selling games
-     */
-    void removeGame(String game, HashMap<String, Game> location){
-        if (game != null){
-            Game gameObject = location.get(game);
-            gameObject.incrementCount(-1);
-            if (gameObject.getCount() == 0){
-                location.remove(game);
-            }
-        }
-    }
-    /**
-     * Function to handle adding a game of name from a game list of location
-     */
-    void addGame(String game, HashMap<String, Game> location){
-        if (game != null){
-            if (location.containsKey(game)){
-                location.get(game).incrementCount(1);
-            }
-            else{
-                int[] dimensions = {10, 10, 10};
-                BoardGame x = new BoardGame();
-                x.init(game, dimensions);
-                x.incrementCount(1);
-                location.put(game, x);
-            }
-        }
-    }
-    /**
-     * Pretty prints games in list
-     */
-    void prettyPrintList(HashMap<String, Game> list){
-        //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
-        list.forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount())));
-    }
     /**
      * Pretty prints games in inventory
      */
     void printInventory(){
         print("Games in inventory: ");
-        prettyPrintList(inventory);
+        inventory.prettyPrintList();
     }
     /**
      * Pretty prints broken games
      */
     void printBroken(){
         print("Games that were broken: ");
-        prettyPrintList(brokenGames);
+        brokenGames.prettyPrintList();
     }
 
     /**
@@ -128,6 +90,6 @@ public class Store {
         printInventory();
         printBroken();
         countRegister();
-        print("The money was refilled " + String.valueOf(moneyFills) + "time(s)");
+        print("The money was refilled " + String.valueOf(moneyFills) + " time(s)");
     }
 }
