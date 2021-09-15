@@ -14,8 +14,6 @@ public class Store {
             Cashier temp = new Cashier(employeeNames[i], vacSkill[i]);
             cashiers.add(temp);
         }
-        int[] dimensions = {10, 10, 10};
-        games.add(new BoardGame("Catan", dimensions));
     }
     /**
      * Runs the store through all the actions needed for a day

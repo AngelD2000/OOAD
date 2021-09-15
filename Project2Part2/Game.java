@@ -7,32 +7,20 @@ abstract class Game {
     void setDimensions(int[] newDimensions){
         dimensions = newDimensions;
     }
-}
-
-class FamilyGame extends Game {
-    FamilyGame(String setName, int[] newDimensions){
-        setName(setName);
+    void init(String newName, int[] newDimensions){
+        setName(newName);
         setDimensions(newDimensions);
     }
+}
+
+abstract class FamilyGame extends Game {
 }
 
 class KidGame extends Game {
-    KidGame(String setName, int[] newDimensions){
-        setName(setName);
-        setDimensions(newDimensions);
-    }
 }
 
 class CardGame extends Game {
-    CardGame(String setName, int[] newDimensions){
-        setName(setName);
-        setDimensions(newDimensions);
-    }
 }
 
 class BoardGame extends Game {
-    BoardGame(String setName, int[] newDimensions){
-        setName(setName);
-        setDimensions(newDimensions);
-    }
 }
