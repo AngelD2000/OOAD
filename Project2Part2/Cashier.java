@@ -2,17 +2,20 @@ import java.util.*;
 
 public class Cashier extends Employee{
     private double vacSkill;
+
     Cashier(String setName, double vacBreakage){
         setType("Cashier");
         setName(setName);
         vacSkill = vacBreakage;
     }
+
     /**
      * Cashier announces who they are and that they have arrived at the store.
      */
-    public void arrive(){
-        report("has arrived at the store.");
+    public void arrive(int day){
+        report("has arrived at the store on Day ", day);
     }
+
     /**
      * Cashier does their best to vacuum
      */
@@ -32,10 +35,18 @@ public class Cashier extends Employee{
         report("has finished vacuuming the store.");
         return broken;
     }
+
+    /**
+     * Cashier opens the store
+     */
+    public void open(){
+        report("opens the store");
+    }
+
     /**
      * Cashier announces who they are and that they are leaving the store.
      */
     public void close(){
-        report("has left the store.");
+        report("closed the store.");
     }
 }

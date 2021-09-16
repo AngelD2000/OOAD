@@ -19,4 +19,7 @@ abstract class Employee {
     public void report(String action){
         System.out.println(identifier() + " " + action);
     }
+    public void report(String action, int day){
+        System.out.println(identifier() + " " + action);
+    }
 }

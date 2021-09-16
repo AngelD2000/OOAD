@@ -2,6 +2,7 @@ abstract class Game {
     String name;
     int[] dimensions;
     int count;
+    int cost;
     void setName(String newName){
         name = newName;
     }
@@ -22,9 +23,20 @@ abstract class Game {
     int getCount(){
         return count;
     }
+    /**
+    * Set cost of the game
+    * */
+    public int getCost() {
+        return cost;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
 }
 
 abstract class FamilyGame extends Game {
+
 }
 
 class KidGame extends Game {
