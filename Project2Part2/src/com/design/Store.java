@@ -65,12 +65,10 @@ public class Store {
             }
             orderedGames.clear();
         }
-        //TODO: Cashier stack the shelves
         stackShelf(currentCashier);
         //TODO: Cashier opens store
         currentCashier.open();
         //storeOpen();
-        //TODO: Cashier orders more games
         if(flag){
             orderGame(brokenGame, register);
         }
@@ -104,11 +102,49 @@ public class Store {
     }
     public void stackShelf(Cashier at_work){
         String working_cashier = at_work.getName();
-        if(working_cashier == "Bernie"){
+        String gameName = "";
+        int shelfSize = inventory.size();
+        if(working_cashier == "Burt"){
             //Loop through width to restack from widest to narrowest
+            int curr_width = 0;
+            ArrayList<String> gameAssigned = new ArrayList<>();
+            for(int i = 0; i < shelfSize; i++){
+                int max_width = Integer.MIN_VALUE;
+                for (Map.Entry<String, Game> item:
+                        inventory.entrySet()) {
+                    if(!gameAssigned.contains(item.getKey())){
+                        curr_width = item.getValue().getGameDimension().get(1);
+                        if(curr_width > max_width){
+                            max_width = curr_width;
+                            gameName = item.getKey();
+                        }
+                    }
+                }
+                Game game = inventory.get(gameName);
+                game.setPosOnShelf(i+1);
+                gameAssigned.add(game.getGameName());
+            }
         }
         else{
-            //Loop through height to restack from shortest to tallest
+            //Loop shortest to tallest
+            int curr_height = 0;
+            ArrayList<String> gameAssigned = new ArrayList<>();
+            for(int i = 0; i < shelfSize; i++){
+                int min_height = Integer.MAX_VALUE;
+                for (Map.Entry<String, Game> item:
+                        inventory.entrySet()) {
+                    if(!gameAssigned.contains(item.getKey())){
+                        curr_height = item.getValue().getGameDimension().get(2);
+                        if(curr_height < min_height){
+                            min_height = curr_height;
+                            gameName = item.getKey();
+                        }
+                    }
+                }
+                Game game = inventory.get(gameName);
+                game.setPosOnShelf(i+1);
+                gameAssigned.add(game.getGameName());
+            }
         }
     }
     /**

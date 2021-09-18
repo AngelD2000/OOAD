@@ -55,6 +55,10 @@ class Game{
     public String getGameName() {
         return gameName;
     }
+
+    public ArrayList<Integer> getGameDimension() {
+        return gameDimension;
+    }
 }
 
 class FamilyGames extends Game{
