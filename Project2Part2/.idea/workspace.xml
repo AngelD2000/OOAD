@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43432a0c-2804-4ce1-8567-0e72938d53fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Homework1/problem1/5448_hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework1/problem2/problem2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework1/problem2/src/com/design/Ranger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework1/problem3/problem3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CSCI5454/Hw/Hw2_Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CSCI5454/Hw/Hw2_Code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3022/Lec/clean_titanic_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/CA HANDBOOK Fall 2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Calc2_Series_Review.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/PS/PS5 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/PS/PS9_template.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/PS/csci3104_F2020_PS1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/PS/csci3104_F2020_PS3-template.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/PS/csci3104_F2020_PS4-template.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/PS/csci3104_S2020_PS2-template.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS10_solution (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS10_solution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS11_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS4_Solutions_Spring2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS7_solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS8_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/PS9_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/csci3104_F2020_PS1_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/csci3104_F2020_PS2-solution (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/csci3104_F2020_PS3-solution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3155/CA Fall 2020/Sol/csci3104_F2020_PS4-Solution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSCI3753/PA/MultiThreading" beforeDir="false" afterPath="$PROJECT_DIR$/../../CSCI3753/PA/MultiThreading" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1yA16QJcKkOLFAuPNvzB8vhHLkM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.design.Main" />
+      <module name="Project2Part2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43432a0c-2804-4ce1-8567-0e72938d53fd" name="Default Changelist" comment="" />
+      <created>1631679402649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631679402649</updated>
+      <workItem from="1631679403887" duration="934000" />
+      <workItem from="1631739764462" duration="1461000" />
+      <workItem from="1631759899273" duration="262000" />
+      <workItem from="1631762461591" duration="1782000" />
+      <workItem from="1631764260103" duration="11314000" />
+      <workItem from="1631843132952" duration="16702000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1093" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1631997715132">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="615" y="266" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1631910886689" />
+    <state x="1093" y="425" key="#com.intellij.ide.util.MemberChooser/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631997715132" />
+    <state x="968" y="460" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1631997970280">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="968" y="460" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631997970280" />
+    <state x="1018" y="471" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1631817641525">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="471" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631817641525" />
+    <state width="2518" height="242" key="GridCell.Tab.0.bottom" timestamp="1631997984803">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631911583878" />
+    <state width="2518" height="242" key="GridCell.Tab.0.bottom/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631997984803" />
+    <state width="2518" height="242" key="GridCell.Tab.0.center" timestamp="1631997984801">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1631911583876" />
+    <state width="2518" height="242" key="GridCell.Tab.0.center/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631997984801" />
+    <state width="2518" height="242" key="GridCell.Tab.0.left" timestamp="1631997984800">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1631911583875" />
+    <state width="2518" height="242" key="GridCell.Tab.0.left/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631997984800" />
+    <state width="2518" height="242" key="GridCell.Tab.0.right" timestamp="1631997984802">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1631911583877" />
+    <state width="2518" height="242" key="GridCell.Tab.0.right/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631997984802" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom" timestamp="1631996712595">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631844385555" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631996712595" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center" timestamp="1631996712590">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1631844385554" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631996712590" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left" timestamp="1631996712589">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1631844385553" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631996712589" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right" timestamp="1631996712594">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1631844385554" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631996712594" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631910398871">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1631910398871" />
+    <state x="244" y="190" width="951" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631844251988">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="244" y="190" width="951" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1631844251988" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1631816047157">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/493.1440.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1631816047157" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

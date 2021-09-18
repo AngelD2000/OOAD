@@ -1,3 +1,5 @@
+package com.design;
+
 public class Register {
     private int moneyFills = 0;
     private float storeTotal = 0;

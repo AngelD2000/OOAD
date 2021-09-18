@@ -1,3 +1,5 @@
+package com.design;
+
 abstract class Employee {
     public String name;
     public String type;
@@ -7,6 +9,11 @@ abstract class Employee {
     void setType(String newType){
         type = newType;
     }
+
+    public String getName() {
+        return name;
+    }
+
     /**
      * Gets the name and type as a string of this employee
      */
@@ -20,6 +27,6 @@ abstract class Employee {
         System.out.println(identifier() + " " + action);
     }
     public void report(String action, int day){
-        System.out.println(identifier() + " " + action);
+        System.out.println(identifier() + " " + action + day + ".");
     }
 }

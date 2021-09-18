@@ -1,4 +1,7 @@
+package com.design;
+
 public class Print {
+
     /**
      * Function to handle printing syntax
      */
@@ -19,7 +22,4 @@ public class Print {
         print("Games that were broken: ");
         brokenGames.prettyPrintList();
     }
-
-
-
 }
