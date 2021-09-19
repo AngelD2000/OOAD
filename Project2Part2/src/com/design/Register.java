@@ -19,4 +19,6 @@ public class Register {
     public float getStoreTotal() {
         return storeTotal;
     }
+
+    public void printAmount() {System.out.println("Register has $" + getStoreTotal());}
 }

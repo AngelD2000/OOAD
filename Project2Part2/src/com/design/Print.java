@@ -13,13 +13,13 @@ public class Print {
      */
     public void printInventory(GameList inventory){
         print("Games in inventory: ");
-        inventory.prettyPrintList();
+        inventory.printGameAmount();
     }
     /**
      * Pretty prints broken games
      */
     public void printBroken(GameList brokenGames){
         print("Games that were broken: ");
-        brokenGames.prettyPrintList();
+        brokenGames.printGameAmount();
     }
 }

@@ -4,9 +4,16 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class GameList extends HashMap<String, Game> {
-    void prettyPrintList(){
+    /**
+     * Function to handle removing a game of name from a game list of self.
+     * Used for breaking games and selling games
+     */
+    void printGameAmount(){
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
         forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount())));
+    }
+    void printGamePosition(){
+        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getPosOnShelf()) + " " + value.getGameDimension()));
     }
 
     /**
