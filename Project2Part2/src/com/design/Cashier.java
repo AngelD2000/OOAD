@@ -35,42 +35,98 @@ public class Cashier extends Employee{
         report("has finished vacuuming the store.");
         return broken;
     }
+
     /**
-     * Cashier announces who they are and that they are leaving the store.
-     */
-    public void open(){report("is opening the store");}
-    public void close(){
-        report("has left the store.");
-    }
-    public void stackShelf(GameList inventory){
-        report("is stacking games on the shelf");
-        String gameName = "";
-        int shelfSize = inventory.size();
-        int curr_dim = 0;
-        int index = 1;
-        int pick_dim = Integer.MIN_VALUE;
-        if (stackPref == "height"){
-            index = 2;
-            pick_dim = Integer.MAX_VALUE;
+    * Cashier stacks the shelf based on their preferences
+     * If there are any ordered games from the previous night, cashier will restock the games in their original positions
+    * */
+    public void stackShelf(GameList inventory, GameList orderedGames, Print print){
+        if(orderedGames.size() > 0){
+            for (Map.Entry<String, Game> order:
+                    orderedGames.entrySet()) {
+                String ordered_game = order.getKey();
+                Game restock = inventory.get(ordered_game);
+                restock.setCount(3);
+                print.print("ORDER ARRIVED " + restock.getGameName() + " is now in stock");
+            }
+            orderedGames.clear();
         }
-        ArrayList<String> gameAssigned = new ArrayList<>();
-        //Loop through width to restack from widest to narrowest
-        for(int i = 0; i < shelfSize; i++){
-            int next = pick_dim;
-            for (Map.Entry<String, Game> item:
-                    inventory.entrySet()) {
-                if(!gameAssigned.contains(item.getKey())){
-                    curr_dim = item.getValue().getGameDimension().get(index);
-                    if((stackPref == "width" && curr_dim > next) || (stackPref == "height" && curr_dim < next)){
-                        next = curr_dim;
-                        gameName = item.getKey();
+        else{
+            report("is stacking games on the shelf");
+            String gameName = "";
+            int shelfSize = inventory.size();
+            int curr_dim = 0;
+            int index = 1;
+            int pick_dim = Integer.MIN_VALUE;
+            if (stackPref == "height"){
+                index = 2;
+                pick_dim = Integer.MAX_VALUE;
+            }
+            ArrayList<String> gameAssigned = new ArrayList<>();
+            //Loop through width to restack from widest to narrowest
+            for(int i = 0; i < shelfSize; i++){
+                int next = pick_dim;
+                for (Map.Entry<String, Game> item:
+                        inventory.entrySet()) {
+                    if(!gameAssigned.contains(item.getKey())){
+                        curr_dim = item.getValue().getGameDimension().get(index);
+                        if((stackPref == "width" && curr_dim > next) || (stackPref == "height" && curr_dim < next)){
+                            next = curr_dim;
+                            gameName = item.getKey();
+                        }
+                    }
+                }
+                Game game = inventory.get(gameName);
+                game.setPosOnShelf(i+1);
+                gameAssigned.add(game.getGameName());
+            }
+            inventory.printGamePosition();
+        }
+    }
+    /**
+     * Cashier announce they are opening the store
+     * Generate the number of customers that goes into the store
+     * Generate the number of games a customer will buy and prints it out
+     * Customer buys games
+     */
+    public void storeOpen(GameList inventory, GameList orderedGames, Register register, Print print){
+        report("is opening the store");
+        Random customer_rand = new Random();
+        String game_buy = "";
+        int num_customers = customer_rand.nextInt(5);
+        print.print(num_customers + " customers entered the store.");
+        for(int i = 0; i < num_customers; i++){
+            Random game_rand = new Random();
+            int num_games = game_rand.nextInt(3);
+            Random rand = new Random();
+            if(num_games == 0){
+                print.print("Customer " + (i + 1)+ " didn't buy a game.");
+            }
+            for(int j = 0; j < num_games; j++){
+                List<String> keysAsArray = new ArrayList<String>(inventory.keySet());
+                game_buy = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+                int cost = inventory.get(game_buy).getCost();
+                register.setStoreTotal(register.getStoreTotal() + cost);
+                if(inventory.get(game_buy).getCount() == 0){
+                    print.print(game_buy + " out of stock.");
+                }
+                else{
+                    boolean flag_store = inventory.removeGame(game_buy,orderedGames);
+                    if(flag_store){
+                        orderedGames.put(game_buy, inventory.get(game_buy).getType());
+                        print.print(game_buy + " out of stock.");
+                    }
+                    else {
+                        print.print("Customer " + (i + 1) + " bought " + game_buy);
                     }
                 }
             }
-            Game game = inventory.get(gameName);
-            game.setPosOnShelf(i+1);
-            gameAssigned.add(game.getGameName());
         }
-        inventory.printGamePosition();
+    }
+    /**
+     * Cashier announces who they are and that they are leaving the store.
+     */
+    public void close(){
+        report("has left the store.");
     }
 }

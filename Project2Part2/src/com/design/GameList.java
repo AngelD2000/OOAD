@@ -2,6 +2,7 @@ package com.design;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class GameList extends HashMap<String, Game> {
     /**
@@ -53,9 +54,16 @@ public class GameList extends HashMap<String, Game> {
         }
     }
 
-    public float orderGame(String gameName, GameList inventory, float storeTotal){
-        Game game = inventory.get(gameName);
-        storeTotal -= (game.getCost()/2) * 3;
-        return storeTotal;
+    /**
+     * Go through every item in orderedGames list and order the games with orderGame function and spend money to get the games
+     */
+    public void orderGame(GameList inventory,Register register){
+        for (Map.Entry<String, Game> order: entrySet()) {
+            String gameName = order.getKey();
+            float storeTotal = register.getStoreTotal();
+            Game game = inventory.get(gameName);
+            storeTotal -= (game.getCost()/2) * 3;
+            register.setStoreTotal(storeTotal);
+        }
     }
 }

@@ -26,6 +26,9 @@ abstract class Employee {
     public void report(String action){
         System.out.println(identifier() + " " + action);
     }
+    /**
+     * Has a cashier report that they are doing the action + the day
+     */
     public void report(String action, int day){
         System.out.println(identifier() + " " + action + day + ".");
     }

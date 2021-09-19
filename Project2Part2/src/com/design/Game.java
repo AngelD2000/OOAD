@@ -3,6 +3,7 @@ package com.design;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 class Game{
     private String gameName;
@@ -63,6 +64,26 @@ class Game{
 
     public ArrayList<Integer> getGameDimension() {
         return gameDimension;
+    }
+
+    /**
+     * Assign the dimensions of a game randomly
+     * Could be modified
+     *      length: between 0 and 10
+     *      width: between 10 and 20
+     *      height: between 1 and 20
+     */
+
+    public ArrayList<Integer> assign_dim(){
+        ArrayList<Integer> dimensions = new ArrayList<>();
+        Random dim = new Random();
+        int length = dim.nextInt(10 + 1);
+        int width = dim.nextInt((20 - 10) + 1) + 10;
+        int height = dim.nextInt(21) + 1;
+        dimensions.add(length);
+        dimensions.add(width);
+        dimensions.add(height);
+        return dimensions;
     }
 }
 
