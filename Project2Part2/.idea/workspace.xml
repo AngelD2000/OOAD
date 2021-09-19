@@ -23,14 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43432a0c-2804-4ce1-8567-0e72938d53fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/GameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/GameList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,7 @@
       <workItem from="1631762461591" duration="1782000" />
       <workItem from="1631764260103" duration="11314000" />
       <workItem from="1631843132952" duration="25010000" />
-      <workItem from="1632088920313" duration="2994000" />
+      <workItem from="1632088920313" duration="3312000" />
     </task>
     <servers />
   </component>
