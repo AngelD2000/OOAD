@@ -13,12 +13,16 @@ public class GameList extends HashMap<String, Game> {
      * Function to handle removing a game of name from a game list of self.
      * Used for breaking games and selling games
      */
-    public boolean removeGame(String game){
-        if (game != null){
-            Game gameObject = get(game);
+    public boolean removeGame(String gameName, GameList orderedGames){
+        if (gameName != null){
+            Game gameObject = get(gameName);
             if(gameObject.getCount() > 0){
                 gameObject.incrementCount(-1);
                 if(gameObject.getCount() == 0){
+                    Game game = get(gameName);
+                    Game temp = new Game();
+                    temp.setType(game.getType());
+                    orderedGames.put(gameName, temp);
                     return true;
                 }
             }
@@ -44,9 +48,6 @@ public class GameList extends HashMap<String, Game> {
 
     public float orderGame(String gameName, GameList inventory, float storeTotal){
         Game game = inventory.get(gameName);
-        Game temp = new Game();
-        temp.setType(game.getType());
-        put(gameName, temp);
         storeTotal -= (game.getCost()/2) * 3;
         return storeTotal;
     }

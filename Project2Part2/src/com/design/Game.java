@@ -11,6 +11,7 @@ class Game{
     private int posOnShelf;
     private int count = 0;
     private Game type;
+    private int numSold = 0;
 
     public int getCount() {
         return count;
@@ -19,6 +20,9 @@ class Game{
 
     void incrementCount(int value){
         this.count += value;
+        if(value == -1){
+            this.numSold += 1;
+        }
     }
 
     public void newGame(String name, ArrayList<Integer> dim, int price, Game Type){

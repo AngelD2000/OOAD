@@ -17,6 +17,7 @@ public class Store {
     Register register = new Register();
     Print print = new Print();
 
+
     Store(){
         for (int i = 0; i < employeeNames.length; i++) {
             Cashier temp = new Cashier(employeeNames[i], vacSkill[i]);
@@ -33,11 +34,16 @@ public class Store {
             board.incrementCount(3);
             inventory.put(boardGames[i], board);
         }
+        Double[] shelfProbability = new Double[inventory.size()];
+        for(int j = 0; j < inventory.size();j++){
+            shelfProbability[j] = .2 - (2*j);
+        }
     }
     /**
      * Runs the store through all the actions needed for a day
      */
     void runDay(int day){
+        boolean flag_vac = false;
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
         float curr_storeTotal = register.getStoreTotal();
@@ -50,7 +56,10 @@ public class Store {
         }
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
-        boolean flag = inventory.removeGame(brokenGame);
+        flag_vac = inventory.removeGame(brokenGame, orderedGames);
+        if(flag_vac){
+            orderedGames.put(brokenGame, inventory.get(brokenGame).getType());
+        }
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);
         //TODO: Cashier stacks ordered games
@@ -68,10 +77,9 @@ public class Store {
         stackShelf(currentCashier);
         //TODO: Cashier opens store
         currentCashier.open();
-        //storeOpen();
-        if(flag){
-            orderGame(brokenGame, register);
-        }
+        storeOpen(inventory);
+        //TODO:Order games
+        orderGames();
         //Cashier have finished ordering
         currentCashier.close();
     }
@@ -83,11 +91,51 @@ public class Store {
         Random rand = new Random();
         return cashiers.get(rand.nextInt(cashiers.size()));
     }
-
-    public void orderGame(String gameName, Register register){
-        float totalUpdated = orderedGames.orderGame(gameName, inventory, register.getStoreTotal());
-        register.setStoreTotal(totalUpdated);
+    public void storeOpen(GameList items){
+        boolean flag_store = false;
+        Random customer_rand = new Random();
+        String game_buy = "";
+        int num_customers = customer_rand.nextInt(5);
+        System.out.println(num_customers + " customers entered the store.");
+        for(int i = 0; i < num_customers; i++){
+            Random game_rand = new Random();
+            int num_games = game_rand.nextInt(3);
+            Random rand = new Random();
+            if(num_games == 0){
+                System.out.println("Customer " + (i + 1)+ " didn't buy any game.");
+            }
+            for(int j = 0; j < num_games; j++){
+                List<String> keysAsArray = new ArrayList<String>(items.keySet());
+                game_buy = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+                int cost = inventory.get(game_buy).getCost();
+                register.setStoreTotal(register.getStoreTotal() + cost);
+                if(inventory.get(game_buy).getCount() == 0){
+                    System.out.println(game_buy + " out of stock.");
+                }
+                else{
+                    flag_store = inventory.removeGame(game_buy,orderedGames);
+                    if(flag_store){
+                        orderedGames.put(game_buy, inventory.get(game_buy).getType());
+                        System.out.println(game_buy + " out of stock.");
+                    }
+                    else {
+                        System.out.println("Customer " + (i + 1) + " bought " + game_buy);
+                    }
+                }
+            }
+        }
     }
+
+    public void orderGames(){
+        for (Map.Entry<String, Game> order:
+             orderedGames.entrySet()) {
+            String gameName = order.getKey();
+            float totalUpdated = orderedGames.orderGame(gameName, inventory, register.getStoreTotal());
+            register.setStoreTotal(totalUpdated);
+        }
+    }
+
+
 
     public ArrayList<Integer> assign_dim(){
         ArrayList<Integer> dimensions = new ArrayList<>();
@@ -158,25 +206,3 @@ public class Store {
         print.print("The money was refilled " + register.getMoneyFills() + " time(s)");
     }
 }
-
-
-//    void storeOpen(){
-//        if(invent.getOrder_games().size() > 0){
-//            for(int j = 0; j < orderedGames.size(); j++){
-//                orderedGames.get(j);
-//            }
-//        }
-//        Random rand = new Random();
-//        Double[] shelfPos = {.2,.38,.54,.68,.8,.9,.98,1.0};
-//        int numCustomers = rand.nextInt(4);
-//        for(int i = 0; i < numCustomers; i++){
-//            double randomValue = Math.random();
-//            for(int j = 0; j < shelfPos.length; j++){
-//                if(randomValue <= shelfPos[j]){
-//                    /** Choose game from the stack
-//                     *
-//                     * */
-//                }
-//            }
-//        }
-//    }
