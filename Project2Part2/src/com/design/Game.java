@@ -69,7 +69,7 @@ class Game{
     /**
      * Assign the dimensions of a game randomly
      * Could be modified
-     *      length: between 0 and 10
+     *      length: between 1 and 10
      *      width: between 10 and 20
      *      height: between 1 and 20
      */
@@ -77,7 +77,7 @@ class Game{
     public ArrayList<Integer> assign_dim(){
         ArrayList<Integer> dimensions = new ArrayList<>();
         Random dim = new Random();
-        int length = dim.nextInt(10 + 1);
+        int length = dim.nextInt(11) + 1;
         int width = dim.nextInt((20 - 10) + 1) + 10;
         int height = dim.nextInt(21) + 1;
         dimensions.add(length);
