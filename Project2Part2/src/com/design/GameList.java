@@ -1,8 +1,6 @@
 package com.design;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 public class GameList extends HashMap<String, Game> {
     /**

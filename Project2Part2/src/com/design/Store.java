@@ -15,9 +15,9 @@ public class Store {
         }
 
         initGames("BoardGame", Util.boardGames);
-        initGames("FamilyGame", Util.familyGames);
-        initGames("KidsGame", Util.kidsGames);
-        initGames("CardGame", Util.cardGames);
+//        initGames("FamilyGame", Util.familyGames);
+//        initGames("KidsGame", Util.kidsGames);
+//        initGames("CardGame", Util.cardGames);
 
 
         Double[] shelfProbability = new Double[inventory.size()];
@@ -28,31 +28,31 @@ public class Store {
 
     private void initGames(String type, String[] gameNames) {
         Random r = new Random();
-        for (int i = 0; i < gameNames.length; i++) {
-            int price = r.nextInt((100 - 5) + 1) + 5;
-            ArrayList<Integer> dimensions = Util.assign_dim();
+        int price = r.nextInt((100 - 5) + 1) + 5;
 
+        for (String gameName : gameNames) {
+            ArrayList<Integer> dimensions = Util.assign_dim();
             Game game;
-            switch(type) {
+            switch (type) {
                 case "BoardGame":
-                    game = new BoardGame(gameNames[i], dimensions, price);
+                    game = new BoardGame(gameName, dimensions, price);
                     break;
                 case "FamilyGame":
-                    game = new FamilyGame(gameNames[i], dimensions, price);
+                    game = new FamilyGame(gameName, dimensions, price);
                     break;
                 case "KidsGame":
-                    game = new KidsGame(gameNames[i], dimensions, price);
+                    game = new KidsGame(gameName, dimensions, price);
                     break;
                 case "CardGame":
-                    game = new CardGame(gameNames[i], dimensions, price);
+                    game = new CardGame(gameName, dimensions, price);
                     break;
                 default:
-                    game = new BoardGame(gameNames[i], dimensions, price);
+                    game = new BoardGame(gameName, dimensions, price);
             }
 
 //            game.newGame(gameNames[i], dimensions, price, game);
             game.setCount(3);
-            inventory.put(gameNames[i], game);
+            inventory.put(gameName, game);
         }
     }
 

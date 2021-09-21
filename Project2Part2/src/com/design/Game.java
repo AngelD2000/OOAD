@@ -1,9 +1,6 @@
 package com.design;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
 
 abstract class Game{
     private String gameName;
@@ -34,12 +31,12 @@ abstract class Game{
         }
     }
 
-    public void newGame(String name, ArrayList<Integer> dim, int price, Game Type){
-        this.gameName = name;
-        this.gameDimension = dim;
-        this.cost = price;
-//        this.type = Type;
-    }
+//    public void newGame(String name, ArrayList<Integer> dim, int price, Game Type){
+//        this.gameName = name;
+//        this.gameDimension = dim;
+//        this.cost = price;
+////        this.type = Type;
+//    }
 
     public void setCount(int count) {
         this.count = count;
