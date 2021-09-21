@@ -2,8 +2,8 @@ package com.design;
 import java.util.*;
 
 public class Cashier extends Employee{
-    private double vacSkill;
-    private String stackPref;
+    private final double vacSkill;
+    private final String stackPref;
     Cashier(String setName, double vacBreakage, String stackPreference){
         setType("Cashier");
         setName(setName);
@@ -40,7 +40,7 @@ public class Cashier extends Employee{
     * Cashier stacks the shelf based on their preferences
      * If there are any ordered games from the previous night, cashier will restock the games in their original positions
     * */
-    public void stackShelf(GameList inventory, GameList orderedGames, Print print){
+    public void stackShelf(GameList inventory, GameList orderedGames){
         if(orderedGames.size() > 0){
             report("is restocking the games");
             for (Map.Entry<String, Game> order:
@@ -48,7 +48,7 @@ public class Cashier extends Employee{
                 String ordered_game = order.getKey();
                 Game restock = inventory.get(ordered_game);
                 restock.setCount(3);
-                print.print("ORDER ARRIVED " + restock.getGameName() + " is now in stock");
+                Util.print("ORDER ARRIVED " + restock.getGameName() + " is now in stock");
             }
             orderedGames.clear();
         }
@@ -59,7 +59,7 @@ public class Cashier extends Employee{
             int curr_dim = 0;
             int index = 1;
             int pick_dim = Integer.MIN_VALUE;
-            if (stackPref == "height"){
+            if (stackPref.equals("height")){
                 index = 2;
                 pick_dim = Integer.MAX_VALUE;
             }
@@ -71,7 +71,7 @@ public class Cashier extends Employee{
                         inventory.entrySet()) {
                     if(!gameAssigned.contains(item.getKey())){
                         curr_dim = item.getValue().getGameDimension().get(index);
-                        if((stackPref == "width" && curr_dim > next) || (stackPref == "height" && curr_dim < next)){
+                        if((stackPref.equals("width") && curr_dim > next) || (stackPref.equals("height") && curr_dim < next)){
                             next = curr_dim;
                             gameName = item.getKey();
                         }
@@ -90,18 +90,18 @@ public class Cashier extends Employee{
      * Generate the number of games a customer will buy and prints it out
      * Customer buys games
      */
-    public void storeOpen(GameList inventory, GameList orderedGames, Register register, Print print){
+    public void storeOpen(GameList inventory, GameList orderedGames, Register register){
         report("is opening the store");
         Random customer_rand = new Random();
         String game_buy = "";
         int num_customers = customer_rand.nextInt(5);
-        print.print(num_customers + " customers entered the store.");
+        Util.print(num_customers + " customers entered the store.");
         for(int i = 0; i < num_customers; i++){
             Random game_rand = new Random();
             int num_games = game_rand.nextInt(3);
             Random rand = new Random();
             if(num_games == 0){
-                print.print("Customer " + (i + 1)+ " didn't buy a game.");
+                Util.print("Customer " + (i + 1)+ " didn't buy a game.");
             }
             for(int j = 0; j < num_games; j++){
                 List<String> keysAsArray = new ArrayList<String>(inventory.keySet());
@@ -109,16 +109,16 @@ public class Cashier extends Employee{
                 int cost = inventory.get(game_buy).getCost();
                 register.setStoreTotal(register.getStoreTotal() + cost);
                 if(inventory.get(game_buy).getCount() == 0){
-                    print.print(game_buy + " out of stock.");
+                    Util.print(game_buy + " out of stock.");
                 }
                 else{
                     boolean flag_store = inventory.removeGame(game_buy,orderedGames);
                     if(flag_store){
                         orderedGames.put(game_buy, inventory.get(game_buy).getType());
-                        print.print(game_buy + " out of stock.");
+                        Util.print(game_buy + " out of stock.");
                     }
                     else {
-                        print.print("Customer " + (i + 1) + " bought " + game_buy);
+                        Util.print("Customer " + (i + 1) + " bought " + game_buy);
                     }
                 }
             }

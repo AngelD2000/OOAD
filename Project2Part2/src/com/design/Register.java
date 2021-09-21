@@ -19,13 +19,13 @@ public class Register {
         return storeTotal;
     }
 
-    public void printAmount() {System.out.println("Register has $" + getStoreTotal());}
+    public void printAmount() {Util.print("Register has $" + getStoreTotal());}
 
-    public void checkIfNeedFill(Print print){
+    public void checkIfNeedFill(){
         if (storeTotal < 100){
             setStoreTotal(1000 + storeTotal);
             setMoneyFills(moneyFills + 1);
-            print.print("Register had to be filled");
+            Util.print("Register had to be filled");
             printAmount();
         }
     }

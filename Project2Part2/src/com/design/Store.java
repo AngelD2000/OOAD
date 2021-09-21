@@ -1,30 +1,16 @@
 package com.design;
-import java.lang.reflect.Array;
 import java.util.*;
 
-
 public class Store {
-
-    private final String[] employeeNames = {"Burt", "Ernie"};
-    //TODO: Set these values to be right once tested better
-    private final Double[] vacSkill = {.5, .5};
-    private final String[] stackPref = {"width", "height"};
     List<Cashier> cashiers = new ArrayList<>();
-
-    String[] boardGames = {"Catan", "Gloomhaven", "Risk"};
-//    String[] familyGames = {"Monopoly", "Clue", "Life"};
-//    String[] kidsGames = {"Mousetrap", "Candyland","Connect Four"};
-//    String[] cardGames = {"Magic", "Pokemon", "Netrunner"};
     GameList inventory = new GameList();
     GameList brokenGames = new GameList();
     GameList orderedGames = new GameList();
     Register register = new Register();
-    Print print = new Print();
-
 
     Store(){
-        for (int i = 0; i < employeeNames.length; i++) {
-            Cashier temp = new Cashier(employeeNames[i], vacSkill[i], stackPref[i]);
+        for (int i = 0; i < Util.employeeNames.length; i++) {
+            Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
             cashiers.add(temp);
         }
 
@@ -33,13 +19,13 @@ public class Store {
 //        FamilyGames familyGame = new FamilyGames();
 //        KidsGames kidsGame = new KidsGames();
 //        CardGames cardGame = new CardGames();
-        for(int i = 0; i < boardGames.length; i++){
+        for(int i = 0; i < Util.boardGames.length; i++){
             int price = r.nextInt((100 - 5) + 1) + 5;
             Game game = new Game();
             ArrayList<Integer> dimensions = game.assign_dim();
-            game.newGame(boardGames[i], dimensions, price, boardGame);
+            game.newGame(Util.boardGames[i], dimensions, price, boardGame);
             game.setCount(3);
-            inventory.put(boardGames[i], game);
+            inventory.put(Util.boardGames[i], game);
 //            game.newGame(familyGames[i], dimensions, price, familyGame);
 //            game.newGame(kidsGames[i], dimensions, price, kidsGame);
 //            game.newGame(cardGames[i], dimensions, price, cardGame);
@@ -58,7 +44,7 @@ public class Store {
         currentCashier.arrive(day);
         float curr_storeTotal = register.getStoreTotal();
         int moneyFills = register.getMoneyFills();
-        register.checkIfNeedFill(print);
+        register.checkIfNeedFill();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
         boolean flag_vac = inventory.removeGame(brokenGame, orderedGames);
@@ -68,9 +54,9 @@ public class Store {
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);
         //Cashier stacks ordered games
-        currentCashier.stackShelf(inventory,orderedGames,print);
+        currentCashier.stackShelf(inventory,orderedGames);
         //Cashier opens the store
-        currentCashier.storeOpen(inventory, orderedGames, register, print);
+        currentCashier.storeOpen(inventory, orderedGames, register);
         //Cashier orders the games
         orderedGames.orderGame(inventory, register);
         currentCashier.close();
@@ -88,10 +74,10 @@ public class Store {
      * Prints all the stuff needed at end of sim
      */
     public void finalSummary(){
-        print.print("END OF SIMULATION");
-        print.printInventory(inventory);
-        print.printBroken(brokenGames);
+        Util.print("END OF SIMULATION");
+        Util.printInventory(inventory);
+        Util.printBroken(brokenGames);
         register.printAmount();
-        print.print("The money was refilled " + register.getMoneyFills() + " time(s)");
+        Util.print("The money was refilled " + register.getMoneyFills() + " time(s)");
     }
 }
