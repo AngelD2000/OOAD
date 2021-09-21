@@ -28,9 +28,10 @@ public class GameList extends HashMap<String, Game> {
                 gameObject.incrementCount(-1);
                 if(gameObject.getCount() == 0){
                     Game game = get(gameName);
-                    Game temp = new Game();
-                    temp.setType(game.getType());
-                    orderedGames.put(gameName, temp);
+//                    Game temp = new Game();
+//                    temp.setType(game.getType());
+//                    orderedGames.put(gameName, temp);
+                    orderedGames.put(gameName, game);
                     return true;
                 }
             }
@@ -46,8 +47,25 @@ public class GameList extends HashMap<String, Game> {
                 get(gameName).incrementCount(1);
             }
             else{
-                Game temp = new Game();
-                temp.setType(game.getType());
+                Game temp;
+                switch(game.getClass().getName()) {
+                    case "BoardGame":
+                        temp = new BoardGame();
+                        break;
+                    case "FamilyGame":
+                        temp = new FamilyGame();
+                        break;
+                    case "KidsGame":
+                        temp = new KidsGame();
+                        break;
+                    case "CardGame":
+                        temp = new CardGame();
+                        break;
+                    default:
+                       temp = new BoardGame();
+                }
+//                Game temp = new Game();
+//                temp.setType(game.getType());
                 temp.setCount(1);
                 put(gameName, temp);
             }

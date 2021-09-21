@@ -5,14 +5,21 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 
-class Game{
+abstract class Game{
     private String gameName;
     private ArrayList<Integer> gameDimension;
     private int cost;
     private int posOnShelf;
     private int count = 0;
-    private Game type;
+//    private Game type;
     private int numSold = 0;
+
+    Game() { }
+    Game(String name, ArrayList<Integer> dim, int price){
+        this.gameName = name;
+        this.gameDimension = dim;
+        this.cost = price;
+    }
 
     public int getCount() {
         return count;
@@ -31,20 +38,20 @@ class Game{
         this.gameName = name;
         this.gameDimension = dim;
         this.cost = price;
-        this.type = Type;
+//        this.type = Type;
     }
 
     public void setCount(int count) {
         this.count = count;
     }
 
-    public void setType(Game type) {
-        this.type = type;
-    }
+//    public void setType(Game type) {
+//        this.type = type;
+//    }
 
-    public Game getType() {
-        return type;
-    }
+//    public Game getType() {
+//        return type;
+//    }
 
     public int getCost() {
         return cost;
@@ -66,39 +73,37 @@ class Game{
         return gameDimension;
     }
 
-    /**
-     * Assign the dimensions of a game randomly
-     * Could be modified
-     *      length: between 1 and 10
-     *      width: between 10 and 20
-     *      height: between 1 and 20
-     */
 
-    public ArrayList<Integer> assign_dim(){
-        ArrayList<Integer> dimensions = new ArrayList<>();
-        Random dim = new Random();
-        int length = dim.nextInt(11) + 1;
-        int width = dim.nextInt((20 - 10) + 1) + 10;
-        int height = dim.nextInt(21) + 1;
-        dimensions.add(length);
-        dimensions.add(width);
-        dimensions.add(height);
-        return dimensions;
+}
+
+class FamilyGame extends Game{
+    FamilyGame() {}
+    FamilyGame(String name, ArrayList<Integer> dim, int price){
+        super(name, dim, price);
     }
-}
-
-class FamilyGames extends Game{
 
 }
 
-class KidsGames extends Game{
+class KidsGame extends Game{
+    KidsGame() {}
+    KidsGame(String name, ArrayList<Integer> dim, int price){
+        super(name, dim, price);
+    }
 
 }
 
-class BoardGames extends Game{
+class BoardGame extends Game{
+    BoardGame() {}
+    BoardGame(String name, ArrayList<Integer> dim, int price){
+        super(name, dim, price);
+    }
 
 }
 
-class CardGames extends Game{
+class CardGame extends Game{
+    CardGame() {}
+    CardGame(String name, ArrayList<Integer> dim, int price){
+        super(name, dim, price);
+    }
 
 }

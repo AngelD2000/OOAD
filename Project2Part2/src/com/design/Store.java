@@ -14,26 +14,45 @@ public class Store {
             cashiers.add(temp);
         }
 
-        Random r = new Random();
-        BoardGames boardGame = new BoardGames();
-//        FamilyGames familyGame = new FamilyGames();
-//        KidsGames kidsGame = new KidsGames();
-//        CardGames cardGame = new CardGames();
-        for (int i = 0; i < Util.boardGames.length; i++) {
-            int price = r.nextInt((100 - 5) + 1) + 5;
-            Game game = new Game();
-            ArrayList<Integer> dimensions = game.assign_dim();
-            game.newGame(Util.boardGames[i], dimensions, price, boardGame);
-            game.setCount(3);
-            inventory.put(Util.boardGames[i], game);
-//            game.newGame(familyGames[i], dimensions, price, familyGame);
-//            game.newGame(kidsGames[i], dimensions, price, kidsGame);
-//            game.newGame(cardGames[i], dimensions, price, cardGame);
-            //TODO: Put the games in inventory
-        }
+        initGames("BoardGame", Util.boardGames);
+        initGames("FamilyGame", Util.familyGames);
+        initGames("KidsGame", Util.kidsGames);
+        initGames("CardGame", Util.cardGames);
+
+
         Double[] shelfProbability = new Double[inventory.size()];
         for (int j = 0; j < inventory.size(); j++) {
             shelfProbability[j] = .2 - (2 * j);
+        }
+    }
+
+    private void initGames(String type, String[] gameNames) {
+        Random r = new Random();
+        for (int i = 0; i < gameNames.length; i++) {
+            int price = r.nextInt((100 - 5) + 1) + 5;
+            ArrayList<Integer> dimensions = Util.assign_dim();
+
+            Game game;
+            switch(type) {
+                case "BoardGame":
+                    game = new BoardGame(gameNames[i], dimensions, price);
+                    break;
+                case "FamilyGame":
+                    game = new FamilyGame(gameNames[i], dimensions, price);
+                    break;
+                case "KidsGame":
+                    game = new KidsGame(gameNames[i], dimensions, price);
+                    break;
+                case "CardGame":
+                    game = new CardGame(gameNames[i], dimensions, price);
+                    break;
+                default:
+                    game = new BoardGame(gameNames[i], dimensions, price);
+            }
+
+//            game.newGame(gameNames[i], dimensions, price, game);
+            game.setCount(3);
+            inventory.put(gameNames[i], game);
         }
     }
 
@@ -50,7 +69,8 @@ public class Store {
         String brokenGame = currentCashier.vacuum(inventory);
         boolean flag_vac = inventory.removeGame(brokenGame, orderedGames);
         if (flag_vac) {
-            orderedGames.put(brokenGame, inventory.get(brokenGame).getType());
+//            orderedGames.put(brokenGame, inventory.get(brokenGame).getType());
+            orderedGames.put(brokenGame, inventory.get(brokenGame));
         }
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);

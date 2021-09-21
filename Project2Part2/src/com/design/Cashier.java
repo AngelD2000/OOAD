@@ -30,7 +30,7 @@ public class Cashier extends Employee{
             //Random key of hashmap: https://stackoverflow.com/questions/12385284/how-to-select-a-random-key-from-a-hashmap-in-java
             List<String> keysAsArray = new ArrayList<String>(games.keySet());
             broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
-            System.out.println(name + " the " + type + " broke a " + broken);
+            Util.print(name + " the " + type + " broke a " + broken);
         }
         report("has finished vacuuming the store.");
         return broken;
@@ -146,7 +146,8 @@ public class Cashier extends Employee{
             } else {
                 boolean flag_store = inventory.removeGame(game_buy, orderedGames);
                 if (flag_store) {
-                    orderedGames.put(game_buy, inventory.get(game_buy).getType());
+//                    orderedGames.put(game_buy, inventory.get(game_buy).getType());
+                    orderedGames.put(game_buy, inventory.get(game_buy));
                     Util.print(game_buy + " out of stock.");
                 } else {
                     Util.print("Customer " + (customerNum + 1) + " bought " + game_buy);
