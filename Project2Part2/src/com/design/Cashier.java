@@ -42,6 +42,7 @@ public class Cashier extends Employee{
     * */
     public void stackShelf(GameList inventory, GameList orderedGames, Print print){
         if(orderedGames.size() > 0){
+            report("is restocking the games");
             for (Map.Entry<String, Game> order:
                     orderedGames.entrySet()) {
                 String ordered_game = order.getKey();
