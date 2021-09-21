@@ -8,7 +8,7 @@ public class Store {
     GameList orderedGames = new GameList();
     Register register = new Register();
 
-    Store(){
+    Store() {
         for (int i = 0; i < Util.employeeNames.length; i++) {
             Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
             cashiers.add(temp);
@@ -19,7 +19,7 @@ public class Store {
 //        FamilyGames familyGame = new FamilyGames();
 //        KidsGames kidsGame = new KidsGames();
 //        CardGames cardGame = new CardGames();
-        for(int i = 0; i < Util.boardGames.length; i++){
+        for (int i = 0; i < Util.boardGames.length; i++) {
             int price = r.nextInt((100 - 5) + 1) + 5;
             Game game = new Game();
             ArrayList<Integer> dimensions = game.assign_dim();
@@ -32,39 +32,41 @@ public class Store {
             //TODO: Put the games in inventory
         }
         Double[] shelfProbability = new Double[inventory.size()];
-        for(int j = 0; j < inventory.size();j++){
-            shelfProbability[j] = .2 - (2*j);
+        for (int j = 0; j < inventory.size(); j++) {
+            shelfProbability[j] = .2 - (2 * j);
         }
     }
+
     /**
      * Runs the store through all the actions needed for a day
      */
-    void runDay(int day){
+    void runDay(int day) {
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
-        float curr_storeTotal = register.getStoreTotal();
+        double curr_storeTotal = register.getStoreTotal();
         int moneyFills = register.getMoneyFills();
         register.checkIfNeedFill();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
         boolean flag_vac = inventory.removeGame(brokenGame, orderedGames);
-        if(flag_vac){
+        if (flag_vac) {
             orderedGames.put(brokenGame, inventory.get(brokenGame).getType());
         }
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);
         //Cashier stacks ordered games
-        currentCashier.stackShelf(inventory,orderedGames);
+        currentCashier.stackShelf(inventory, orderedGames);
         //Cashier opens the store
         currentCashier.storeOpen(inventory, orderedGames, register);
         //Cashier orders the games
-        orderedGames.orderGame(inventory, register);
+        currentCashier.orderGame(inventory, register);
         currentCashier.close();
     }
+
     /**
      * Pick a random cashier to work today
      */
-    Cashier pickCashier(){
+    Cashier pickCashier() {
         //Method: https://www.baeldung.com/java-random-list-element
         Random rand = new Random();
         return cashiers.get(rand.nextInt(cashiers.size()));
@@ -73,7 +75,7 @@ public class Store {
     /**
      * Prints all the stuff needed at end of sim
      */
-    public void finalSummary(){
+    public void finalSummary() {
         Util.print("END OF SIMULATION");
         Util.printInventory(inventory);
         Util.printBroken(brokenGames);

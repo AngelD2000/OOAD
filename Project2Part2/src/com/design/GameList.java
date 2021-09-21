@@ -53,19 +53,4 @@ public class GameList extends HashMap<String, Game> {
             }
         }
     }
-
-    /**
-     * Go through every item in orderedGames list grab the cost of each game and order them (decreases money in register)
-     * Documentation said to order games it is half the price it's listed (so buying a game is double the amount we ordered it.... expensive)
-     */
-    public void orderGame(GameList inventory,Register register){
-        //https://stackoverflow.com/questions/3973512/java-hashmap-how-to-get-a-key-and-value-by-index
-        for (Map.Entry<String, Game> order: entrySet()) {
-            String gameName = order.getKey();
-            Game game = inventory.get(gameName);
-            float storeTotal = register.getStoreTotal();
-            storeTotal -= (game.getCost()/2) * 3;
-            register.setStoreTotal(storeTotal);
-        }
-    }
 }

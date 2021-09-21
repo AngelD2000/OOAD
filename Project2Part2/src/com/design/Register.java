@@ -2,7 +2,7 @@ package com.design;
 
 public class Register {
     private int moneyFills = 0;
-    private float storeTotal = 0;
+    private double storeTotal = 0;
 
     public int getMoneyFills() {
         return moneyFills;
@@ -12,10 +12,10 @@ public class Register {
         this.moneyFills = moneyFills;
     }
 
-    public void setStoreTotal(float storeTotal) {
+    public void setStoreTotal(double storeTotal) {
         this.storeTotal = storeTotal;
     }
-    public float getStoreTotal() {
+    public double getStoreTotal() {
         return storeTotal;
     }
 

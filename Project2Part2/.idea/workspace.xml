@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43432a0c-2804-4ce1-8567-0e72938d53fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/GameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/GameList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Store.java" afterDir="false" />
     </list>
