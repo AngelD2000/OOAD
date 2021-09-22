@@ -3,7 +3,7 @@ package com.design;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Util {
+public abstract class Util {
     //Initialization data for Store simulation
     public static final String[] employeeNames = {"Burt", "Ernie"};
     //TODO: Set these values to be right once tested better
@@ -42,7 +42,6 @@ public class Util {
      *      width: between 10 and 20
      *      height: between 1 and 20
      */
-
     public static ArrayList<Integer> assign_dim(){
         ArrayList<Integer> dimensions = new ArrayList<>();
         Random dim = new Random();

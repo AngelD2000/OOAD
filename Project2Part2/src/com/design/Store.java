@@ -27,6 +27,9 @@ public class Store {
         }
     }
 
+    /**
+     * Function to initialize the games in the store inventory and set their initial price, dimensions, and count
+     */
     private void initGames(String type, String[] gameNames) {
         Random r = new Random();
         int price = r.nextInt((100 - 5) + 1) + 5;

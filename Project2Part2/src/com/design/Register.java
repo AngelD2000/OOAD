@@ -21,6 +21,9 @@ public class Register {
 
     public void printAmount() {Util.print("Register has $" + getStoreTotal());}
 
+    /**
+     * Check is the register needs to be refilled, if so, fills it.
+     */
     public void checkIfNeedFill(){
         if (storeTotal < 100){
             setStoreTotal(1000 + storeTotal);

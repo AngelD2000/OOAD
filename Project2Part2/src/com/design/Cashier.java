@@ -1,6 +1,7 @@
 package com.design;
 import java.util.*;
 
+
 public class Cashier extends Employee{
     private final double vacSkill;
     private final String stackPref;
@@ -172,6 +173,33 @@ public class Cashier extends Employee{
         Util.print(num_customers + " customer(s) entered the store.");
         for (int i = 0; i < num_customers; i++) {
             Random game_rand = new Random();
+            int shelf = game_rand.nextInt(100);
+
+            //20% from shelf 1 18% from shelf 2 ...
+
+//            if(self <= 20) //5% chance
+//            {
+//                Util.print("You found 10 gold!");
+//            }
+//            else if(rand <= 25) //20% chance
+//            {
+//                Util.print("You found a sword!");
+//            }
+//            else if(rand <= 70) //45% chance
+//            {
+//                Util.print("You found a shield!");
+//            }
+//            else if(rand <= 90) //20% chance
+//            {
+//                Util.print("You found armor!");
+//            }
+//            else //80% chance
+//            {
+//                //Do Nothing
+//            }
+
+
+
             int num_games = game_rand.nextInt(3);
             if (num_games == 0) {
                 Util.print("Customer " + (i + 1) + " didn't buy a game.");

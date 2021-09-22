@@ -11,6 +11,10 @@ public class GameList extends HashMap<String, Game> {
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
         forEach((key, value) -> Util.print("    -" + key + " : " + (value.getCount())));
     }
+
+    /**
+     * Function to print the game position on the shelf
+     */
     void printGamePosition(){
         forEach((key, value) -> Util.print("    -" + key + " : " + (value.getPosOnShelf()) + " " + value.getGameDimension()));
     }
