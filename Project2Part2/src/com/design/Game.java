@@ -2,7 +2,9 @@ package com.design;
 
 import java.util.ArrayList;
 
+//This class has high Cohesion as it is designed with the single purpose of representing and storing information about each game
 abstract class Game{
+    //This private data is an example of encapsulation
     private String gameName;
     private ArrayList<Integer> gameDimension;
     private int cost;
@@ -73,6 +75,7 @@ abstract class Game{
 
 }
 
+// Each of these classes is an example of Inheritance
 class FamilyGame extends Game{
     FamilyGame() {}
     FamilyGame(String name, ArrayList<Integer> dim, int price){

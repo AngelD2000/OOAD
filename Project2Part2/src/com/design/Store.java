@@ -27,6 +27,13 @@ public class Store {
         }
     }
 
+    public void runSim() {
+        for(int i = 0; i < Util.simDays; i++){
+            runDay(i + 1);
+        }
+        finalSummary();
+    }
+
     /**
      * Function to initialize the games in the store inventory and set their initial price, dimensions, and count
      */

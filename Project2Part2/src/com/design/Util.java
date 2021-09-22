@@ -5,6 +5,7 @@ import java.util.Random;
 
 public abstract class Util {
     //Initialization data for Store simulation
+    public static final int simDays = 11;
     public static final String[] employeeNames = {"Burt", "Ernie"};
     //TODO: Set these values to be right once tested better
     public static final Double[] vacSkill = {.5, .5};

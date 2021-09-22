@@ -138,6 +138,8 @@ public class Cashier extends Employee{
     private void checkout(Register register, double total) {
         register.setStoreTotal(register.getStoreTotal() + total);
     }
+
+    //This is an example of Abstraction as this function is only needed within the Cashier class
     /**
      * Process each customer buying their game
      */
