@@ -19,17 +19,12 @@ public class GameList extends HashMap<String, Game> {
      * Function to handle removing a game of name from a game list of self.
      * Used for breaking games and selling games
      */
-    public boolean removeGame(String gameName, GameList orderedGames){
+    public boolean removeGame(String gameName){
         if (gameName != null){
             Game gameObject = get(gameName);
             if(gameObject.getCount() > 0){
                 gameObject.incrementCount(-1);
                 if(gameObject.getCount() == 0){
-                    Game game = get(gameName);
-//                    Game temp = new Game();
-//                    temp.setType(game.getType());
-//                    orderedGames.put(gameName, temp);
-                    orderedGames.put(gameName, game);
                     return true;
                 }
             }

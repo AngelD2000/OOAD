@@ -6,6 +6,7 @@ public class Store {
     GameList inventory = new GameList();
     GameList brokenGames = new GameList();
     GameList orderedGames = new GameList();
+    GameList gamesToOrder = new GameList();
     Register register = new Register();
 
     Store() {
@@ -60,6 +61,7 @@ public class Store {
      * Runs the store through all the actions needed for a day
      */
     void runDay(int day) {
+        Util.print("Start of day " + String.valueOf(day));
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
         double curr_storeTotal = register.getStoreTotal();
@@ -67,20 +69,20 @@ public class Store {
         register.checkIfNeedFill();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
-        boolean flag_vac = inventory.removeGame(brokenGame, orderedGames);
+        boolean flag_vac = inventory.removeGame(brokenGame);
         if (flag_vac) {
-//            orderedGames.put(brokenGame, inventory.get(brokenGame).getType());
-            orderedGames.put(brokenGame, inventory.get(brokenGame));
+            gamesToOrder.addGame(brokenGame, inventory.get(brokenGame));
         }
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);
         //Cashier stacks ordered games
         currentCashier.stackShelf(inventory, orderedGames);
         //Cashier opens the store
-        currentCashier.storeOpen(inventory, orderedGames, register);
+        currentCashier.storeOpen(inventory, gamesToOrder, register);
         //Cashier orders the games
-        currentCashier.orderGame(inventory, register);
+        currentCashier.orderGame(inventory, gamesToOrder, register);
         currentCashier.close();
+        Util.print("End of day " + String.valueOf(day));
     }
 
     /**

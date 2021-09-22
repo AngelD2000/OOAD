@@ -30,6 +30,9 @@ public class Cashier extends Employee{
             //Random key of hashmap: https://stackoverflow.com/questions/12385284/how-to-select-a-random-key-from-a-hashmap-in-java
             List<String> keysAsArray = new ArrayList<String>(games.keySet());
             broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+            while (games.get(broken).getCount() == 0){
+                broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+            }
             Util.print(name + " the " + type + " broke a " + broken);
         }
         report("has finished vacuuming the store.");
@@ -116,21 +119,27 @@ public class Cashier extends Employee{
      * Go through every item in orderedGames list grab the cost of each game and order them (decreases money in register)
      * Documentation said to order games it is half the price it's listed (so buying a game is double the amount we ordered it.... expensive)
      */
-    public void orderGame(GameList inventory, Register register){
+    public void orderGame(GameList orderedGames, GameList inventory, Register register){
         //https://stackoverflow.com/questions/3973512/java-hashmap-how-to-get-a-key-and-value-by-index
         for (Map.Entry<String, Game> order: inventory.entrySet()) {
             String gameName = order.getKey();
             Game game = inventory.get(gameName);
-            double storeTotal = register.getStoreTotal();
-            storeTotal -= (game.getCost()/2) * 3;
-            register.setStoreTotal(storeTotal);
+            if(game.getCount() == 0) {
+                report("ordered 3 more " + gameName);
+                double storeTotal = register.getStoreTotal();
+                storeTotal -= (game.getCost() / 2) * 3;
+                register.setStoreTotal(storeTotal);
+                orderedGames.addGame(gameName, game);
+            }
         }
     }
 
     private void checkout(Register register, double total) {
         register.setStoreTotal(register.getStoreTotal() + total);
     }
-
+    /**
+     * Process each customer buying their game
+     */
     private double buyGames(GameList inventory, GameList orderedGames, int customerNum, int num_games) {
         Random rand = new Random();
         double total = 0.0;
@@ -138,20 +147,18 @@ public class Cashier extends Employee{
         for (int j = 0; j < num_games; j++) {
             List<String> keysAsArray = new ArrayList<String>(inventory.keySet());
             game_buy = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+//            while (inventory.get(game_buy).getCount() == 0) {
+//                Util.print("Customer tries to buy " + game_buy + " but it was out of stock.");
+//                game_buy = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+//            }
             int cost = inventory.get(game_buy).getCost();
             total += cost;
-
-            if (inventory.get(game_buy).getCount() == 0) {
-                Util.print(game_buy + " out of stock.");
+            boolean flag_store = inventory.removeGame(game_buy);
+            if (flag_store) {
+                orderedGames.put(game_buy, inventory.get(game_buy));
+                Util.print("Customer " + (customerNum + 1) + " bought the last " + game_buy);
             } else {
-                boolean flag_store = inventory.removeGame(game_buy, orderedGames);
-                if (flag_store) {
-//                    orderedGames.put(game_buy, inventory.get(game_buy).getType());
-                    orderedGames.put(game_buy, inventory.get(game_buy));
-                    Util.print(game_buy + " out of stock.");
-                } else {
-                    Util.print("Customer " + (customerNum + 1) + " bought " + game_buy);
-                }
+                Util.print("Customer " + (customerNum + 1) + " bought " + game_buy);
             }
         }
         return total;
@@ -162,7 +169,7 @@ public class Cashier extends Employee{
         Random customer_rand = new Random();
         String game_buy = "";
         int num_customers = customer_rand.nextInt(5);
-        Util.print(num_customers + " customers entered the store.");
+        Util.print(num_customers + " customer(s) entered the store.");
         for (int i = 0; i < num_customers; i++) {
             Random game_rand = new Random();
             int num_games = game_rand.nextInt(3);
