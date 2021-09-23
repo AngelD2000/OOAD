@@ -128,7 +128,7 @@ public class Cashier extends Employee{
     }
 
     /**
-     * Go through every item in orderedGames list grab the cost of each game and order them (decreases money in register)
+     * Go through every item in inventory and order them if 0 in stock (decreases money in register)
      * Documentation said to order games it is half the price it's listed (so buying a game is double the amount we ordered it.... expensive)
      */
     public void orderGame(GameList orderedGames, GameList inventory, Register register){
@@ -153,7 +153,7 @@ public class Cashier extends Employee{
 
     //This is an example of Abstraction as this function is only needed within the Cashier class
     /**
-     * Process each customer buying their game
+     * Process each customer buying their game(s)
      */
     private double buyGames(GameList inventory, int customerNum, List<Integer> bought) {
         Random rand = new Random();

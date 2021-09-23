@@ -7,8 +7,7 @@ public class GameList extends HashMap<String, Game> {
     //This function is Polymorphic as it is iterating over all the games irrespective of their individual type
     //Some will be board games, some will be card games etc.
     /**
-     * Function to handle removing a game of name from a game list of self.
-     * Used for breaking games and selling games
+     * Prints all the game in the gamelist and their count
      */
     void printGameAmount(){
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
@@ -16,8 +15,7 @@ public class GameList extends HashMap<String, Game> {
     }
 
     /**
-     * Function to handle removing a game of name from a game list of self.
-     * Used for breaking games and selling games
+     * Prints all the game in the gamelist and their count, number sold, and total value of sold
      */
     void printGameAmountAndSold(){
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
@@ -53,7 +51,7 @@ public class GameList extends HashMap<String, Game> {
     }
 
     /**
-     * Function to handle removing a game of name from a game list of self.
+     * Function to handle removing a game of name from this game list.
      * Used for breaking games and selling games
      */
     public boolean removeGame(String gameName, boolean sold){

@@ -38,24 +38,9 @@ abstract class Game{
         this.numSold += value;
     }
 
-//    public void newGame(String name, ArrayList<Integer> dim, int price, Game Type){
-//        this.gameName = name;
-//        this.gameDimension = dim;
-//        this.cost = price;
-////        this.type = Type;
-//    }
-
     public void setCount(int count) {
         this.count = count;
     }
-
-//    public void setType(Game type) {
-//        this.type = type;
-//    }
-
-//    public Game getType() {
-//        return type;
-//    }
 
     public int getCost() {
         return cost;

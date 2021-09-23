@@ -108,7 +108,7 @@ public class Store {
     }
 
     /**
-     * Prints all the stuff needed at end of sim
+     * Prints all the stuff needed at end of each day
      */
     public void finalSummary() {
         Util.printInventory(inventory);
