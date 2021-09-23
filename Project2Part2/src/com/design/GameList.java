@@ -21,7 +21,7 @@ public class GameList extends HashMap<String, Game> {
      */
     void printGameAmountAndSold(){
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
-        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" is in inventory and " + value.getNumSold() + " were sold in total, and the total sold was $" + value.getNumSold()*value.getPrice()));
+        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" is in inventory and " + value.getNumSold() + " were sold in total, and the total value of the games sold was $" + value.getNumSold()*value.getPrice()));
     }
 
     /**

@@ -91,7 +91,7 @@ public class Cashier extends Employee{
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i+1);
             gameAssigned.add(game.getGameName());
-            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of it's " + stackPref + " of " + game.getGameDimension().get(index));
+            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of its " + stackPref + " of " + game.getGameDimension().get(index));
         }
     }
 
@@ -190,7 +190,7 @@ public class Cashier extends Employee{
                 //See if game picked if in stock
                 if(inventory.getGameAtPos(j+1).getCount() > 0) {
                     odds = game_rand.nextInt(100);
-                    if (odds > 20 - 2 * j && bought.size() < 2) {
+                    if (odds < 20 - 2 * j && bought.size() < 2) {
                         bought.add(j + 1);
                     }
                 }
