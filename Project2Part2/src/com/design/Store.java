@@ -41,11 +41,12 @@ public class Store {
      */
     private void initGames(String type, String[] gameNames) {
         Random r = new Random();
-        int price = r.nextInt((100 - 5) + 1) + 5;
+        int price = 0;
 
         for (String gameName : gameNames) {
             ArrayList<Integer> dimensions = Util.assign_dim();
             Game game;
+            price = r.nextInt((100 - 5) + 1) + 5;
             switch (type) {
                 case "BoardGame":
                     game = new BoardGame(gameName, dimensions, price);
