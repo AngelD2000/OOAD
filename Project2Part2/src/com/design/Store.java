@@ -34,6 +34,7 @@ public class Store {
             runDay(i + 1);
         }
         finalSummary();
+        Util.print("END OF SIMULATION");
     }
 
     /**
@@ -77,12 +78,14 @@ public class Store {
         Util.print("Start of day " + String.valueOf(day));
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
+        //Cashier stacks ordered games
+        currentCashier.unpackOrders(inventory, orderedGames);
         double curr_storeTotal = register.getStoreTotal();
         int moneyFills = register.getMoneyFills();
         register.checkIfNeedFill();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
-        inventory.removeGame(brokenGame);
+        inventory.removeGame(brokenGame, false);
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);
         //Cashier stacks ordered games
@@ -108,7 +111,6 @@ public class Store {
      * Prints all the stuff needed at end of sim
      */
     public void finalSummary() {
-        Util.print("END OF SIMULATION");
         Util.printInventory(inventory);
         Util.printBroken(brokenGames);
         register.printAmount();

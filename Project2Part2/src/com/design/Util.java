@@ -21,12 +21,14 @@ public abstract class Util {
         System.out.println(content);
     }
     /**
-     * Pretty prints games in inventory
+     * Pretty prints games in inventory and number sold
      */
     public static void printInventory(GameList inventory){
-        print("Games in inventory: ");
-        inventory.printGameAmount();
+        print("Games in inventory and number sold: ");
+//        inventory.printGameAmount();
+        inventory.printGameAmountAndSold();
     }
+
     /**
      * Pretty prints broken games
      */

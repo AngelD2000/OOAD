@@ -16,6 +16,15 @@ public class GameList extends HashMap<String, Game> {
     }
 
     /**
+     * Function to handle removing a game of name from a game list of self.
+     * Used for breaking games and selling games
+     */
+    void printGameAmountAndSold(){
+        //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
+        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" is in inventory and " + value.getNumSold() + " were sold in total, and the total sold was $" + value.getNumSold()*value.getPrice()));
+    }
+
+    /**
      * Function to print the game position on the shelf
      */
     void printGamePosition(){
@@ -47,11 +56,14 @@ public class GameList extends HashMap<String, Game> {
      * Function to handle removing a game of name from a game list of self.
      * Used for breaking games and selling games
      */
-    public boolean removeGame(String gameName){
+    public boolean removeGame(String gameName, boolean sold){
         if (gameName != null){
             Game gameObject = get(gameName);
             if(gameObject.getCount() > 0){
                 gameObject.incrementCount(-1);
+                if(sold) {
+                    gameObject.incrementNumSold(1);
+                }
                 if(gameObject.getCount() == 0){
                     return true;
                 }

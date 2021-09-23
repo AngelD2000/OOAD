@@ -48,7 +48,7 @@ public class Cashier extends Employee{
     /**
      * Unpack games ordered the previous day and add them to inventory
      */
-    private void unpackOrders(GameList inventory, GameList orderedGames) {
+    public void unpackOrders(GameList inventory, GameList orderedGames) {
         report("is restocking the games");
         for (Map.Entry<String, Game> order:
                 orderedGames.entrySet()) {
@@ -162,11 +162,11 @@ public class Cashier extends Employee{
         for (int j = 0; j < bought.size(); j++) {
             Game current = inventory.getGameAtPos(bought.get(j));
             total += current.getCost();
-            boolean flag_store = inventory.removeGame(current.getGameName());
+            boolean flag_store = inventory.removeGame(current.getGameName(), true);
             if (flag_store) {
-                Util.print("Customer " + (customerNum + 1) + " bought the last " + current.getGameName());
+                Util.print(name + " sold the last " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
             } else {
-                Util.print("Customer " + (customerNum + 1) + " bought " + current.getGameName());
+                Util.print(name + " sold a " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
             }
         }
         return total;

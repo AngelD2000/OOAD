@@ -24,13 +24,18 @@ abstract class Game{
         return count;
     }
 
+    public int getNumSold() {
+        return numSold;
+    }
 
+    public double getPrice() { return cost; }
 
     void incrementCount(int value){
         this.count += value;
-        if(value == -1){
-            this.numSold += 1;
-        }
+    }
+
+    void incrementNumSold(int value) {
+        this.numSold += value;
     }
 
 //    public void newGame(String name, ArrayList<Integer> dim, int price, Game Type){
