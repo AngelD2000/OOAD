@@ -26,7 +26,7 @@ public class Cashier extends Employee{
         report("has started vacuuming the store.");
         //Description of Math.random: https://www.geeksforgeeks.org/java-math-random-method-examples/
         double randomValue = Math.random();
-        if(randomValue < vacSkill){
+        if(randomValue < vacSkill && games.getTotalInventory() > 0){
             Random rand = new Random();
             //Random key of hashmap: https://stackoverflow.com/questions/12385284/how-to-select-a-random-key-from-a-hashmap-in-java
             List<String> keysAsArray = new ArrayList<String>(games.keySet());
@@ -80,8 +80,8 @@ public class Cashier extends Employee{
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i+1);
             gameAssigned.add(game.getGameName());
+            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1));
         }
-        inventory.printGamePosition();
     }
 
     /**

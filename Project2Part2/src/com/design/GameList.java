@@ -20,6 +20,16 @@ public class GameList extends HashMap<String, Game> {
     void printGamePosition(){
         forEach((key, value) -> Util.print("    -" + key + " : " + (value.getPosOnShelf()) + " " + value.getGameDimension()));
     }
+    /**
+     * Function to print the total inventory of games
+     */
+    int getTotalInventory(){
+        int total = 0;
+        for (String key : this.keySet()) {
+            total+=get(key).getCount();
+        }
+        return total;
+    }
 
     /**
      * Function to handle removing a game of name from a game list of self.
