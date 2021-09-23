@@ -27,6 +27,9 @@ public class Store {
         }
     }
 
+    /**
+     * Run simulation for Util.simDays
+     */
     public void runSim() {
         for(int i = 0; i < Util.simDays; i++){
             runDay(i + 1);
@@ -88,7 +91,7 @@ public class Store {
         //Cashier stacks ordered games
         currentCashier.stackShelf(inventory, orderedGames);
         //Cashier opens the store
-        currentCashier.storeOpen(inventory, gamesToOrder, register);
+        currentCashier.storeOpen(inventory, register);
         //Cashier orders the games
         currentCashier.orderGame(inventory, gamesToOrder, register);
         currentCashier.close();

@@ -103,10 +103,10 @@ public class Cashier extends Employee{
      * Generate the number of games a customer will buy and prints it out
      * Customer buys games
      */
-    public void storeOpen(GameList inventory, GameList orderedGames, Register register){
+    public void storeOpen(GameList inventory, Register register){
         report("is opening the store");
 
-        double total = customersCome(inventory, orderedGames);
+        double total = customersCome(inventory);
         checkout(register, total);
     }
     /**
@@ -143,7 +143,7 @@ public class Cashier extends Employee{
     /**
      * Process each customer buying their game
      */
-    private double buyGames(GameList inventory, GameList orderedGames, int customerNum, int num_games) {
+    private double buyGames(GameList inventory, int customerNum, int num_games) {
         Random rand = new Random();
         double total = 0.0;
         String game_buy = "";
@@ -158,7 +158,7 @@ public class Cashier extends Employee{
             total += cost;
             boolean flag_store = inventory.removeGame(game_buy);
             if (flag_store) {
-                orderedGames.put(game_buy, inventory.get(game_buy));
+//                orderedGames.put(game_buy, inventory.get(game_buy));
                 Util.print("Customer " + (customerNum + 1) + " bought the last " + game_buy);
             } else {
                 Util.print("Customer " + (customerNum + 1) + " bought " + game_buy);
@@ -167,7 +167,7 @@ public class Cashier extends Employee{
         return total;
     }
 
-    private double customersCome(GameList inventory, GameList orderedGames) {
+    private double customersCome(GameList inventory) {
         double total = 0.0;
         Random customer_rand = new Random();
         String game_buy = "";
@@ -206,7 +206,7 @@ public class Cashier extends Employee{
             if (num_games == 0) {
                 Util.print("Customer " + (i + 1) + " didn't buy a game.");
             }
-            total = buyGames(inventory, orderedGames, i, num_games);
+            total += buyGames(inventory, i, num_games);
         }
         return total;
     }
