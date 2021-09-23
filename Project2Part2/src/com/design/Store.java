@@ -6,7 +6,6 @@ public class Store {
     GameList inventory = new GameList();
     GameList brokenGames = new GameList();
     GameList orderedGames = new GameList();
-    GameList gamesToOrder = new GameList();
     Register register = new Register();
 
     Store() {
@@ -82,10 +81,7 @@ public class Store {
         register.checkIfNeedFill();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
-        boolean flag_vac = inventory.removeGame(brokenGame);
-        if (flag_vac) {
-            gamesToOrder.addGame(brokenGame, inventory.get(brokenGame));
-        }
+        inventory.removeGame(brokenGame);
         Game game = inventory.get(brokenGame);
         brokenGames.addGame(brokenGame, game);
         //Cashier stacks ordered games
@@ -93,7 +89,7 @@ public class Store {
         //Cashier opens the store
         currentCashier.storeOpen(inventory, register);
         //Cashier orders the games
-        currentCashier.orderGame(inventory, gamesToOrder, register);
+        currentCashier.orderGame(orderedGames, inventory, register);
         currentCashier.close();
         Util.print("End of day " + String.valueOf(day));
     }

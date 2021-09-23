@@ -121,9 +121,7 @@ public class Cashier extends Employee{
      * Documentation said to order games it is half the price it's listed (so buying a game is double the amount we ordered it.... expensive)
      */
     public void orderGame(GameList orderedGames, GameList inventory, Register register){
-        //https://stackoverflow.com/questions/3973512/java-hashmap-how-to-get-a-key-and-value-by-index
-        for (Map.Entry<String, Game> order: inventory.entrySet()) {
-            String gameName = order.getKey();
+        for (String gameName : inventory.keySet()) {
             Game game = inventory.get(gameName);
             if(game.getCount() == 0) {
                 report("ordered 3 more " + gameName);
