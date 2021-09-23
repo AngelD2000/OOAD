@@ -143,25 +143,18 @@ public class Cashier extends Employee{
     /**
      * Process each customer buying their game
      */
-    private double buyGames(GameList inventory, int customerNum, int num_games) {
+    private double buyGames(GameList inventory, int customerNum, List<Integer> bought) {
         Random rand = new Random();
         double total = 0.0;
         String game_buy = "";
-        for (int j = 0; j < num_games; j++) {
-            List<String> keysAsArray = new ArrayList<String>(inventory.keySet());
-            game_buy = keysAsArray.get(rand.nextInt(keysAsArray.size()));
-//            while (inventory.get(game_buy).getCount() == 0) {
-//                Util.print("Customer tries to buy " + game_buy + " but it was out of stock.");
-//                game_buy = keysAsArray.get(rand.nextInt(keysAsArray.size()));
-//            }
-            int cost = inventory.get(game_buy).getCost();
-            total += cost;
-            boolean flag_store = inventory.removeGame(game_buy);
+        for (int j = 0; j < bought.size(); j++) {
+            Game current = inventory.getGameAtPos(bought.get(j));
+            total += current.getCost();
+            boolean flag_store = inventory.removeGame(current.getGameName());
             if (flag_store) {
-//                orderedGames.put(game_buy, inventory.get(game_buy));
-                Util.print("Customer " + (customerNum + 1) + " bought the last " + game_buy);
+                Util.print("Customer " + (customerNum + 1) + " bought the last " + current.getGameName());
             } else {
-                Util.print("Customer " + (customerNum + 1) + " bought " + game_buy);
+                Util.print("Customer " + (customerNum + 1) + " bought " + current.getGameName());
             }
         }
         return total;
@@ -173,40 +166,25 @@ public class Cashier extends Employee{
         String game_buy = "";
         int num_customers = customer_rand.nextInt(5);
         Util.print(num_customers + " customer(s) entered the store.");
+        Random game_rand = new Random();
+        int odds = game_rand.nextInt(100);
         for (int i = 0; i < num_customers; i++) {
-            Random game_rand = new Random();
-            int shelf = game_rand.nextInt(100);
-
-            //20% from shelf 1 18% from shelf 2 ...
-
-//            if(self <= 20) //5% chance
-//            {
-//                Util.print("You found 10 gold!");
-//            }
-//            else if(rand <= 25) //20% chance
-//            {
-//                Util.print("You found a sword!");
-//            }
-//            else if(rand <= 70) //45% chance
-//            {
-//                Util.print("You found a shield!");
-//            }
-//            else if(rand <= 90) //20% chance
-//            {
-//                Util.print("You found armor!");
-//            }
-//            else //80% chance
-//            {
-//                //Do Nothing
-//            }
-
-
-
-            int num_games = game_rand.nextInt(3);
-            if (num_games == 0) {
+            List<Integer> bought = new ArrayList<Integer>();
+            //For every shelf position
+            for (int j = 0; j < inventory.size(); j++) {
+                //See if game picked if in stock
+                if(inventory.getGameAtPos(j+1).getCount() > 0) {
+                    odds = game_rand.nextInt(100);
+                    if (odds > 20 - 2 * j && bought.size() < 2) {
+                        bought.add(j + 1);
+                    }
+                    odds = game_rand.nextInt(100);
+                }
+            }
+            if (bought.size() == 0) {
                 Util.print("Customer " + (i + 1) + " didn't buy a game.");
             }
-            total += buyGames(inventory, i, num_games);
+            total += buyGames(inventory, i, bought);
         }
         return total;
     }

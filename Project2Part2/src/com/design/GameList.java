@@ -30,6 +30,17 @@ public class GameList extends HashMap<String, Game> {
         }
         return total;
     }
+    /**
+     * Get the game at a certain position
+     */
+    Game getGameAtPos(int i){
+        for (String key : this.keySet()) {
+            if (get(key).getPosOnShelf() == i){
+                return get(key);
+            }
+        }
+        return null;
+    }
 
     /**
      * Function to handle removing a game of name from a game list of self.
