@@ -40,6 +40,9 @@ public class Cashier extends Employee{
         return broken;
     }
 
+    /**
+     * Unpack games ordered the previous day and add them to inventory
+     */
     private void unpackOrders(GameList inventory, GameList orderedGames) {
         report("is restocking the games");
         for (Map.Entry<String, Game> order:
@@ -52,6 +55,9 @@ public class Cashier extends Employee{
         orderedGames.clear();
     }
 
+    /**
+     * Function to stack the games on shelves according to cashier preferences
+     */
     private void stackGames(GameList inventory) {
         report("is stacking games on the shelf");
         String gameName = "";
@@ -133,6 +139,9 @@ public class Cashier extends Employee{
         }
     }
 
+    /**
+     * Checkout customers and add purchased games total to the register
+     */
     private void checkout(Register register, double total) {
         register.setStoreTotal(register.getStoreTotal() + total);
     }
@@ -158,6 +167,9 @@ public class Cashier extends Employee{
         return total;
     }
 
+    /**
+     * Function to handle customers entering the store and shopping
+     */
     private double customersCome(GameList inventory) {
         double total = 0.0;
         Random customer_rand = new Random();
@@ -176,7 +188,6 @@ public class Cashier extends Employee{
                     if (odds > 20 - 2 * j && bought.size() < 2) {
                         bought.add(j + 1);
                     }
-                    odds = game_rand.nextInt(100);
                 }
             }
             if (bought.size() == 0) {
