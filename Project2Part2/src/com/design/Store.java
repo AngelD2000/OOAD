@@ -15,9 +15,9 @@ public class Store {
         }
 
         initGames("BoardGame", Util.boardGames);
-//        initGames("FamilyGame", Util.familyGames);
-//        initGames("KidsGame", Util.kidsGames);
-//        initGames("CardGame", Util.cardGames);
+        initGames("FamilyGame", Util.familyGames);
+        initGames("KidsGame", Util.kidsGames);
+        initGames("CardGame", Util.cardGames);
 
 
         Double[] shelfProbability = new Double[inventory.size()];
