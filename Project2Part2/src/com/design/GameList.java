@@ -5,6 +5,7 @@ import java.util.HashMap;
 //Each game in GameList has its own unique Identity
 public class GameList extends HashMap<String, Game> {
     //This function is Polymorphic as it is iterating over all the games irrespective of their individual type
+    //Some will be board games, some will be card games etc.
     /**
      * Function to handle removing a game of name from a game list of self.
      * Used for breaking games and selling games

@@ -34,7 +34,12 @@ public class Cashier extends Employee{
             while (games.get(broken).getCount() == 0){
                 broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
             }
-            Util.print(name + " the " + type + " broke a " + broken);
+            if(games.get(broken).getCount() == 1){
+                Util.print(name + " the " + type + " broke the last " + broken);
+            }
+            else{
+                Util.print(name + " the " + type + " broke a " + broken);
+            }
         }
         report("has finished vacuuming the store.");
         return broken;
@@ -86,7 +91,7 @@ public class Cashier extends Employee{
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i+1);
             gameAssigned.add(game.getGameName());
-            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1));
+            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of it's " + stackPref + " of " + game.getGameDimension().get(index));
         }
     }
 
