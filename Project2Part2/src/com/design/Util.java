@@ -5,18 +5,7 @@ import java.util.Random;
 
 public abstract class Util {
     //Initialization data for Store simulation
-    //Constants
     public static final int simDays = 30;
-    //Price that store buys cookies at, needs to be *2 when sold to customer
-    public static final double cookiePricePerDozen = 12;
-    public static final int dozen = 12;
-    public static final int maxInventory = 3;
-    public static final int noneConsumed = 0;
-    public static final int consumed = 1;
-    public static final int dissapointed = 2;
-    public static final double cookieDesire = .5;
-    public static final int maxCookiesDesired = 3;
-    //Init helpers
     public static final String[] employeeNames = {"Burt", "Ernie", "Bart"};
     public static final Double[] vacSkill = {.1, .05, .02};
     public static StackShortToTall height = new StackShortToTall();

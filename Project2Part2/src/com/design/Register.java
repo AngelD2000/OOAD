@@ -15,9 +15,6 @@ public class Register {
     public void setStoreTotal(double storeTotal) {
         this.storeTotal = storeTotal;
     }
-    public void incrementStoreTotal(double value) {
-        this.storeTotal += value;
-    }
     public double getStoreTotal() {
         return storeTotal;
     }

@@ -54,7 +54,7 @@ public class Cashier extends PublisherEmployee{
                 orderedGames.entrySet()) {
             String ordered_game = order.getKey();
             Game restock = inventory.get(ordered_game);
-            restock.setCount(Util.maxInventory);
+            restock.setCount(3);
             Util.print("ORDER ARRIVED " + restock.getGameName() + " is now in stock");
         }
         orderedGames.clear();
@@ -108,7 +108,9 @@ public class Cashier extends PublisherEmployee{
             Game game = inventory.get(gameName);
             if(game.getCount() == 0) {
                 report("ordered 3 more " + gameName);
-                register.incrementStoreTotal((game.getCost() / 2) * Util.maxInventory);
+                double storeTotal = register.getStoreTotal();
+                storeTotal -= (game.getCost() / 2) * 3;
+                register.setStoreTotal(storeTotal);
                 orderedGames.addGame(gameName, game);
             }
         }
@@ -118,7 +120,7 @@ public class Cashier extends PublisherEmployee{
      * Checkout customers and add purchased games total to the register
      */
     private void checkout(Register register, double total) {
-        register.incrementStoreTotal(total);
+        register.setStoreTotal(register.getStoreTotal() + total);
     }
 
     //This is an example of Abstraction as this function is only needed within the Cashier class
