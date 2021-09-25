@@ -7,14 +7,21 @@ public class Store {
     GameList brokenGames = new GameList();
     GameList orderedGames = new GameList();
     Register register = new Register();
-    Announcer guy = new Announcer("Guy");
-
+    Announcer guy;
+    Baker baker;
+    int cookies = 0;
+    int cookiesSold = 0;
+    int cookiesSoldTotal = 0;
+    int eatenCookies = 0;
     Store() {
+        //Create employees
         for (int i = 0; i < Util.employeeNames.length; i++) {
             Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
             cashiers.add(temp);
         }
-
+        guy = new Announcer("Guy");
+        baker = new Baker("Gongor");
+        //Create inventory
         initGames("BoardGame", Util.boardGames);
         initGames("FamilyGame", Util.familyGames);
         initGames("KidsGame", Util.kidsGames);
@@ -33,9 +40,9 @@ public class Store {
     public void runSim() {
         cashiers.get(0).subscribe(guy);
         guy.onNext("This");
-        //        for(int i = 0; i < Util.simDays; i++){
-//            runDay(i + 1);
-//        }
+                for(int i = 0; i < Util.simDays; i++){
+            runDay(i + 1);
+        }
         finalSummary();
         Util.print("END OF SIMULATION");
     }
@@ -69,7 +76,7 @@ public class Store {
             }
 
 //            game.newGame(gameNames[i], dimensions, price, game);
-            game.setCount(3);
+            game.setCount(Util.maxInventory);
             inventory.put(gameName, game);
         }
     }
@@ -86,6 +93,8 @@ public class Store {
         double curr_storeTotal = register.getStoreTotal();
         int moneyFills = register.getMoneyFills();
         register.checkIfNeedFill();
+        //Baker comes
+        welcomeBaker();
         //Vacuum and break games
         String brokenGame = currentCashier.vacuum(inventory);
         inventory.removeGame(brokenGame, false);
@@ -109,6 +118,15 @@ public class Store {
         Random rand = new Random();
         return cashiers.get(rand.nextInt(cashiers.size()));
     }
+    /**
+     * Gets baker into the store
+     * Buys cookies from baker, updates register
+     */
+    public void welcomeBaker() {
+        double cost = baker.sellCookies();
+        register.incrementStoreTotal(cost);
+        cookies += Util.dozen*baker.getDozenPerDay();
+    }
 
     /**
      * Prints all the stuff needed at end of each day
@@ -118,5 +136,12 @@ public class Store {
         Util.printBroken(brokenGames);
         register.printAmount();
         Util.print("The money was refilled " + register.getMoneyFills() + " time(s)");
+        //Number of cookies sold each day and total
+        Util.print("Today " + cookiesSold + " cookies were sold today");
+        Util.print("Today " + cookiesSoldTotal + " cookies were sold in total");
+        //Number of cookies eaten by monster
+        Util.print(eatenCookies + " total cookies have been eaten by cookie monster");
+        //Amount paid to Gonger
+        Util.print("Gonger was paid " + baker.getPocketAmount() + " in total");
     }
 }
