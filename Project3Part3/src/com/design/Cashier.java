@@ -100,6 +100,18 @@ public class Cashier extends PublisherEmployee{
             }
         }
     }
+    /**
+     * Cashier orders cookies for next day
+     * Changes the dozens of cookies the cashier will bring
+     */
+    public void orderCookies(Baker baker, int cookies){
+        if (cookies > 0){
+            baker.incrementDozenPerDay(-1);
+        }
+        else{
+            baker.incrementDozenPerDay(1);
+        }
+    }
 
     /**
      * Checkout customers and add purchased games total to the register
@@ -140,12 +152,12 @@ public class Cashier extends PublisherEmployee{
         Util.print(num_customers + " customer(s) entered the store.");
         List<Customer> customers = new ArrayList<>();
         for(int i=0; i < num_customers; i++){
-            Customer nextCustomer = new Customer(Util.monsterChance);
+            Customer nextCustomer = new Customer(Util.monsterChance, (i+1));
             if (nextCustomer.isMonster() == true){
                 store.rampage();
             }
             else {
-                nextCustomer.considerCookies(store.cookies);
+                nextCustomer.considerCookies(store);
                 //TODO: Customer buys games with new cookie odds
             }
         }

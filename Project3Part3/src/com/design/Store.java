@@ -20,7 +20,7 @@ public class Store {
             cashiers.add(temp);
         }
         guy = new Announcer("Guy");
-        baker = new Baker("Gongor");
+        baker = new Baker("Gonger");
         //Create inventory
         initGames("BoardGame", Util.boardGames);
         initGames("FamilyGame", Util.familyGames);
@@ -40,10 +40,10 @@ public class Store {
     public void runSim() {
         cashiers.get(0).subscribe(guy);
         guy.onNext("This");
-                for(int i = 0; i < Util.simDays; i++){
+        for(int i = 0; i < Util.simDays; i++){
             runDay(i + 1);
+            finalSummary();
         }
-        finalSummary();
         Util.print("END OF SIMULATION");
     }
 
@@ -105,6 +105,7 @@ public class Store {
         currentCashier.storeOpen(inventory, register, this);
         //Cashier orders the games
         currentCashier.orderGame(orderedGames, inventory, register);
+        currentCashier.orderCookies(baker, cookies);
         currentCashier.close();
         Util.print("End of day " + String.valueOf(day));
     }
@@ -122,6 +123,7 @@ public class Store {
      * Buys cookies from baker, updates register
      */
     public void welcomeBaker() {
+        cookiesSold = 0;
         double cost = baker.sellCookies();
         register.incrementStoreTotal(cost);
         cookies += Util.dozen*baker.getDozenPerDay();
@@ -136,8 +138,8 @@ public class Store {
         register.printAmount();
         Util.print("The money was refilled " + register.getMoneyFills() + " time(s)");
         //Number of cookies sold each day and total
-        Util.print("Today " + cookiesSold + " cookies were sold today");
-        Util.print("Today " + cookiesSoldTotal + " cookies were sold in total");
+        Util.print("Today " + cookiesSold + " cookies were sold");
+        Util.print(cookiesSoldTotal + " cookies were sold in total");
         //Number of cookies eaten by monster
         Util.print(eatenCookies + " total cookies have been eaten by cookie monster");
         //Amount paid to Gonger
@@ -189,5 +191,13 @@ public class Store {
         else{
             Util.print("The cookie monster was so sad it couldn't eat any cookies. It cried and left");
         }
+    }
+    /**
+     * Cookie monster goes on a rampage
+     */
+    public void sellCookies(int numCookies) {
+        cookiesSold+=numCookies;
+        cookiesSoldTotal+=numCookies;
+        register.incrementStoreTotal(numCookies*Util.cookiePricePerDozen/12*2);
     }
 }

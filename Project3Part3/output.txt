@@ -1,913 +1,1608 @@
+SubscribedRequesting new items...Test
+Test
+Test
+This
 Start of day 1
-Burt the Cashier has arrived at the store Day 1.
-Burt the Cashier is restocking the games
+Bart the Cashier has arrived at the store Day 1.
+Bart the Cashier is restocking the games
 Register had to be filled
 Register has $1000.0
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
-Burt the Cashier is opening the store
-3 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Burt sold a Magic to customer 2 for $35.0
-Burt sold a Pokemon to customer 3 for $89.0
-Burt the Cashier has left the store.
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Candyland in position 1 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Mousetrap in position 2 because of its width of 18 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 3 because of its width of 18 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 4 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Clue in position 5 because of its width of 15 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 6 because of its width of 14 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 7 because of its width of 14 and it's inventory of 3
+Bart the Cashier stacked the game Life in position 8 because of its width of 11 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 9 because of its width of 11 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 10 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Monopoly in position 11 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 10 and it's inventory of 3
+Bart the Cashier is opening the store
+0 customer(s) entered the store.
+Bart the Cashier has left the store.
 End of day 1
+Games in inventory and number sold: 
+    -Mousetrap : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Gloomhaven : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Magic : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Life : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Candyland : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Connect Four : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+Games that were broken: 
+Register has $1012.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+0 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 12.0 in total
 Start of day 2
 Ernie the Cashier has arrived at the store Day 2.
 Ernie the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
 Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
 Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
 Ernie the Cashier is opening the store
-0 customer(s) entered the store.
+4 customer(s) entered the store.
+Customer 1 bought 2 cookies.
+Customer 2 bought 2 cookies.
+Customer 3 didn't want any cookies
+Customer 4 didn't want any cookies
+Ernie sold a Gloomhaven to customer 1 for $39.0
+Ernie sold a Connect Four to customer 2 for $97.0
+Ernie sold a Life to customer 3 for $69.0
+Ernie sold a Mousetrap to customer 3 for $74.0
+Ernie sold a Pokemon to customer 4 for $80.0
 Ernie the Cashier has left the store.
 End of day 2
+Games in inventory and number sold: 
+    -Mousetrap : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $74.0
+    -Gloomhaven : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Magic : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Life : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $69.0
+    -Candyland : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+Games that were broken: 
+Register has $1391.0
+The money was refilled 1 time(s)
+Today 4 cookies were sold
+4 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 24.0 in total
 Start of day 3
-Bart the Cashier has arrived at the store Day 3.
-Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 3
-Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 4 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Clue in position 5 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Candyland in position 6 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Netrunner in position 7 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Pokemon in position 8 because of its width of 14 and it's inventory of 2
-Bart the Cashier stacked the game Connect Four in position 9 because of its width of 13 and it's inventory of 3
-Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 3
-Bart the Cashier is opening the store
-1 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Bart the Cashier has left the store.
-End of day 3
-Start of day 4
-Burt the Cashier has arrived at the store Day 4.
+Burt the Cashier has arrived at the store Day 3.
 Burt the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Burt the Cashier has started vacuuming the store.
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
 Burt the Cashier is opening the store
-2 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Burt sold a Monopoly to customer 2 for $64.0
-Burt sold a Risk to customer 2 for $60.0
+4 customer(s) entered the store.
+Customer 1 bought 1 cookies.
+Customer 2 didn't want any cookies
+Customer 3 didn't want any cookies
+Customer 4 didn't want any cookies
+Burt sold a Catan to customer 1 for $91.0
+Burt sold a Clue to customer 2 for $14.0
+Customer 3 didn't buy a game.
+Customer 4 didn't buy a game.
 Burt the Cashier has left the store.
+End of day 3
+Games in inventory and number sold: 
+    -Mousetrap : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $74.0
+    -Gloomhaven : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Magic : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Life : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $69.0
+    -Candyland : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $91.0
+Games that were broken: 
+Register has $1510.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+5 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 36.0 in total
+Start of day 4
+Ernie the Cashier has arrived at the store Day 4.
+Ernie the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
+3 customer(s) entered the store.
+Customer 1 bought 2 cookies.
+Customer 2 bought 1 cookies.
+Customer 3 bought 1 cookies.
+Customer 1 didn't buy a game.
+Ernie sold a Life to customer 2 for $69.0
+Ernie sold a Catan to customer 2 for $91.0
+Ernie sold a Magic to customer 3 for $72.0
+Ernie sold a Mousetrap to customer 3 for $74.0
+Ernie the Cashier has left the store.
 End of day 4
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $148.0
+    -Gloomhaven : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Magic : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $72.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+Register has $1836.0
+The money was refilled 1 time(s)
+Today 4 cookies were sold
+9 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 48.0 in total
 Start of day 5
 Bart the Cashier has arrived at the store Day 5.
 Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Bart the Cashier has started vacuuming the store.
 Bart the Cashier has finished vacuuming the store.
 Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
-Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 4 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Clue in position 5 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Candyland in position 6 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Netrunner in position 7 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Pokemon in position 8 because of its width of 14 and it's inventory of 2
-Bart the Cashier stacked the game Connect Four in position 9 because of its width of 13 and it's inventory of 3
-Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Candyland in position 1 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 2 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Clue in position 3 because of its width of 15 and it's inventory of 2
+Bart the Cashier stacked the game Gloomhaven in position 4 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 5 because of its width of 14 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 6 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Magic in position 7 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 8 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 9 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 11 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 12 because of its width of 11 and it's inventory of 1
 Bart the Cashier is opening the store
-2 customer(s) entered the store.
-Bart sold a Magic to customer 1 for $35.0
-Customer 2 didn't buy a game.
+0 customer(s) entered the store.
 Bart the Cashier has left the store.
 End of day 5
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $148.0
+    -Gloomhaven : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Magic : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $72.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+Register has $1848.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+9 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 60.0 in total
 Start of day 6
-Burt the Cashier has arrived at the store Day 6.
-Burt the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
-Burt the Cashier is opening the store
-1 customer(s) entered the store.
-Burt sold a Life to customer 1 for $49.0
-Burt sold a Pokemon to customer 1 for $89.0
-Burt the Cashier has left the store.
+Ernie the Cashier has arrived at the store Day 6.
+Ernie the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
+4 customer(s) entered the store.
+Customer 1 bought 1 cookies.
+Customer 2 didn't want any cookies
+Customer 3 bought 1 cookies.
+Customer 4 didn't want any cookies
+Ernie sold a Magic to customer 1 for $72.0
+Customer 2 didn't buy a game.
+Ernie sold a Candyland to customer 3 for $11.0
+Ernie sold a Gloomhaven to customer 3 for $39.0
+Ernie sold the last Gloomhaven to customer 4 for $39.0
+Ernie the Cashier ordered 3 more Gloomhaven
+Ernie the Cashier has left the store.
 End of day 6
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $148.0
+    -Gloomhaven : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $117.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $11.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+Register has $2082.0
+The money was refilled 1 time(s)
+Today 2 cookies were sold
+11 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 72.0 in total
 Start of day 7
-Burt the Cashier has arrived at the store Day 7.
-Burt the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
-Burt the Cashier is opening the store
+Ernie the Cashier has arrived at the store Day 7.
+Ernie the Cashier is restocking the games
+ORDER ARRIVED Gloomhaven is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
 0 customer(s) entered the store.
-Burt the Cashier has left the store.
+Ernie the Cashier has left the store.
 End of day 7
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $148.0
+    -Gloomhaven : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $117.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $11.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+Register has $2094.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+11 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 84.0 in total
 Start of day 8
-Burt the Cashier has arrived at the store Day 8.
-Burt the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier broke the last broken
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
-Burt the Cashier is opening the store
+Ernie the Cashier has arrived at the store Day 8.
+Ernie the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
 0 customer(s) entered the store.
-Burt the Cashier has left the store.
+Ernie the Cashier has left the store.
 End of day 8
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $148.0
+    -Gloomhaven : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $117.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $11.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+Register has $2106.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+11 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 96.0 in total
 Start of day 9
-Bart the Cashier has arrived at the store Day 9.
-Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Clue in position 4 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Candyland in position 5 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Netrunner in position 6 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 7 because of its width of 13 and it's inventory of 3
-Bart the Cashier stacked the game Mousetrap in position 8 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 9 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Catan in position 10 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Magic in position 11 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
-Bart the Cashier is opening the store
-3 customer(s) entered the store.
-Bart sold a Candyland to customer 1 for $40.0
-Bart sold a Candyland to customer 2 for $40.0
-Bart sold a Connect Four to customer 2 for $95.0
-Bart sold a Gloomhaven to customer 3 for $5.0
-Bart the Cashier has left the store.
+Ernie the Cashier has arrived at the store Day 9.
+Ernie the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier broke a Monopoly
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
+0 customer(s) entered the store.
+Ernie the Cashier has left the store.
 End of day 9
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $148.0
+    -Gloomhaven : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $117.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $11.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $14.0
+    -Monopoly : 2 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $2118.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+11 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 108.0 in total
 Start of day 10
 Bart the Cashier has arrived at the store Day 10.
 Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Bart the Cashier has started vacuuming the store.
 Bart the Cashier has finished vacuuming the store.
 Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Clue in position 4 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Netrunner in position 5 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 6 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Mousetrap in position 7 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 8 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Catan in position 9 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Magic in position 10 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 11 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 1 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Netrunner in position 2 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Clue in position 3 because of its width of 15 and it's inventory of 2
+Bart the Cashier stacked the game Gloomhaven in position 4 because of its width of 14 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 5 because of its width of 14 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 6 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 7 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Pokemon in position 8 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 9 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 10 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 11 because of its width of 11 and it's inventory of 1
+Bart the Cashier stacked the game Magic in position 12 because of its width of 10 and it's inventory of 1
 Bart the Cashier is opening the store
-1 customer(s) entered the store.
-Bart sold a Life to customer 1 for $49.0
+3 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Customer 2 didn't want any cookies
+Customer 3 bought 1 cookies.
+Bart sold a Netrunner to customer 1 for $87.0
+Bart sold a Gloomhaven to customer 1 for $39.0
+Bart sold a Clue to customer 2 for $14.0
+Bart sold a Candyland to customer 3 for $11.0
+Bart sold the last Mousetrap to customer 3 for $74.0
+Bart the Cashier ordered 3 more Mousetrap
 Bart the Cashier has left the store.
 End of day 10
+Games in inventory and number sold: 
+    -Mousetrap : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $222.0
+    -Gloomhaven : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $156.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $22.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 2 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $87.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $2468.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+12 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 120.0 in total
 Start of day 11
 Bart the Cashier has arrived at the store Day 11.
 Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+ORDER ARRIVED Mousetrap is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Bart the Cashier has started vacuuming the store.
 Bart the Cashier has finished vacuuming the store.
 Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Clue in position 3 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Netrunner in position 4 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 5 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Mousetrap in position 6 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 7 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Catan in position 8 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Magic in position 9 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Life in position 10 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 11 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 18 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 2 because of its width of 17 and it's inventory of 2
+Bart the Cashier stacked the game Gloomhaven in position 3 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 4 because of its width of 14 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 5 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 6 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Pokemon in position 7 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Candyland in position 8 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 9 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 10 because of its width of 15 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 11 because of its width of 11 and it's inventory of 1
+Bart the Cashier stacked the game Magic in position 12 because of its width of 10 and it's inventory of 1
 Bart the Cashier is opening the store
-2 customer(s) entered the store.
-Bart sold a Netrunner to customer 1 for $9.0
-Bart sold a Clue to customer 2 for $53.0
-Bart sold a Netrunner to customer 2 for $9.0
+1 customer(s) entered the store.
+Customer 1 bought 1 cookies.
+Bart sold a Gloomhaven to customer 1 for $39.0
+Bart sold a Risk to customer 1 for $39.0
 Bart the Cashier has left the store.
 End of day 11
+Games in inventory and number sold: 
+    -Mousetrap : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $222.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $22.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 2 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $87.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $2560.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+13 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 132.0 in total
 Start of day 12
-Ernie the Cashier has arrived at the store Day 12.
-Ernie the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
-Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
-Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
-Ernie the Cashier is opening the store
-1 customer(s) entered the store.
-Ernie sold a Monopoly to customer 1 for $64.0
-Ernie sold the last Magic to customer 1 for $35.0
-Ernie the Cashier ordered 3 more Magic
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 12.
+Bart the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 18 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 2 because of its width of 17 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 3 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 4 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 5 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Pokemon in position 6 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Candyland in position 7 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 8 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 9 because of its width of 15 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 10 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 11 because of its width of 11 and it's inventory of 1
+Bart the Cashier stacked the game Magic in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+3 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Customer 2 didn't want any cookies
+Customer 3 didn't want any cookies
+Bart sold a Mousetrap to customer 1 for $74.0
+Bart sold a Netrunner to customer 1 for $87.0
+Bart sold a Mousetrap to customer 2 for $74.0
+Customer 3 didn't buy a game.
+Bart the Cashier has left the store.
 End of day 12
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $22.0
+    -Connect Four : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $97.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 2 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $2807.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+13 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 144.0 in total
 Start of day 13
 Bart the Cashier has arrived at the store Day 13.
 Bart the Cashier is restocking the games
-ORDER ARRIVED Magic is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Bart the Cashier has started vacuuming the store.
 Bart the Cashier has finished vacuuming the store.
 Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Connect Four in position 3 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Mousetrap in position 4 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 5 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Catan in position 6 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Monopoly in position 7 because of its width of 20 and it's inventory of 1
-Bart the Cashier stacked the game Life in position 8 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Clue in position 9 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 10 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 11 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Risk in position 1 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 2 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 3 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Pokemon in position 4 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Candyland in position 5 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Mousetrap in position 6 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 7 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 8 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 9 because of its width of 15 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 10 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 11 because of its width of 11 and it's inventory of 1
+Bart the Cashier stacked the game Magic in position 12 because of its width of 10 and it's inventory of 1
 Bart the Cashier is opening the store
-4 customer(s) entered the store.
-Bart sold a Magic to customer 1 for $35.0
-Bart sold a Catan to customer 1 for $72.0
-Bart sold a Risk to customer 2 for $60.0
-Bart sold a Magic to customer 3 for $35.0
-Bart sold a Mousetrap to customer 3 for $36.0
-Bart sold the last Risk to customer 4 for $60.0
-Bart sold a Mousetrap to customer 4 for $36.0
-Bart the Cashier ordered 3 more Risk
+1 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Bart sold a Connect Four to customer 1 for $97.0
+Bart sold a Monopoly to customer 1 for $18.0
 Bart the Cashier has left the store.
 End of day 13
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $22.0
+    -Connect Four : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $194.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $2934.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+13 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 156.0 in total
 Start of day 14
 Burt the Cashier has arrived at the store Day 14.
 Burt the Cashier is restocking the games
-ORDER ARRIVED Risk is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Burt the Cashier has started vacuuming the store.
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
 Burt the Cashier is opening the store
 3 customer(s) entered the store.
-Burt sold the last Monopoly to customer 1 for $64.0
-Burt sold the last Life to customer 2 for $49.0
-Burt sold the last Clue to customer 2 for $53.0
-Burt sold the last Magic to customer 3 for $35.0
-Burt the Cashier ordered 3 more Magic
-Burt the Cashier ordered 3 more Life
-Burt the Cashier ordered 3 more Clue
-Burt the Cashier ordered 3 more Monopoly
+Customer 1 bought 1 cookies.
+Customer 2 bought 2 cookies.
+Customer 3 bought 2 cookies.
+Burt sold the last Candyland to customer 1 for $11.0
+Burt sold the last Connect Four to customer 1 for $97.0
+Customer 2 didn't buy a game.
+Customer 3 didn't buy a game.
+Burt the Cashier ordered 3 more Candyland
+Burt the Cashier ordered 3 more Connect Four
 Burt the Cashier has left the store.
 End of day 14
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $138.0
+    -Candyland : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $33.0
+    -Connect Four : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $291.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $3223.0
+The money was refilled 1 time(s)
+Today 5 cookies were sold
+18 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 168.0 in total
 Start of day 15
 Ernie the Cashier has arrived at the store Day 15.
 Ernie the Cashier is restocking the games
-ORDER ARRIVED Magic is now in stock
-ORDER ARRIVED Life is now in stock
-ORDER ARRIVED Clue is now in stock
-ORDER ARRIVED Monopoly is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+ORDER ARRIVED Candyland is now in stock
+ORDER ARRIVED Connect Four is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
 Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
 Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
 Ernie the Cashier is opening the store
 1 customer(s) entered the store.
-Oh not, the cookie monster came in.
-The cookie monster ate 180 cookies!
-The cookie monster broke the last broken
-Ernie sold the last Mousetrap to customer 1 for $36.0
-Ernie sold a Clue to customer 1 for $53.0
-Ernie the Cashier ordered 3 more Mousetrap
+Customer 1 bought 1 cookies.
+Ernie sold the last Life to customer 1 for $69.0
+Ernie the Cashier ordered 3 more Life
 Ernie the Cashier has left the store.
 End of day 15
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $207.0
+    -Candyland : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $33.0
+    -Connect Four : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $291.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $3408.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+19 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 180.0 in total
 Start of day 16
-Burt the Cashier has arrived at the store Day 16.
-Burt the Cashier is restocking the games
-ORDER ARRIVED Mousetrap is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
-Burt the Cashier is opening the store
+Ernie the Cashier has arrived at the store Day 16.
+Ernie the Cashier is restocking the games
+ORDER ARRIVED Life is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
 0 customer(s) entered the store.
-Burt the Cashier has left the store.
+Ernie the Cashier has left the store.
 End of day 16
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $207.0
+    -Candyland : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $33.0
+    -Connect Four : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $291.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $3420.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+19 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 192.0 in total
 Start of day 17
 Burt the Cashier has arrived at the store Day 17.
 Burt the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Burt the Cashier has started vacuuming the store.
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
 Burt the Cashier is opening the store
-3 customer(s) entered the store.
+1 customer(s) entered the store.
+Customer 1 bought 2 cookies.
 Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
-Burt sold a Monopoly to customer 3 for $64.0
-Burt sold a Magic to customer 3 for $35.0
 Burt the Cashier has left the store.
 End of day 17
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $195.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $207.0
+    -Candyland : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $33.0
+    -Connect Four : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $291.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $3436.0
+The money was refilled 1 time(s)
+Today 2 cookies were sold
+21 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 204.0 in total
 Start of day 18
-Bart the Cashier has arrived at the store Day 18.
-Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
-Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 4 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 5 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Mousetrap in position 6 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 7 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Catan in position 8 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Clue in position 9 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 10 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 11 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
-Bart the Cashier is opening the store
-3 customer(s) entered the store.
-Bart sold a Monopoly to customer 1 for $64.0
-Customer 2 didn't buy a game.
-Customer 3 didn't buy a game.
-Bart the Cashier has left the store.
-End of day 18
-Start of day 19
-Ernie the Cashier has arrived at the store Day 19.
+Ernie the Cashier has arrived at the store Day 18.
 Ernie the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
 Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
 Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
 Ernie the Cashier is opening the store
 1 customer(s) entered the store.
-Customer 1 didn't buy a game.
+Customer 1 bought 2 cookies.
+Ernie sold the last Gloomhaven to customer 1 for $39.0
+Ernie sold a Connect Four to customer 1 for $97.0
+Ernie the Cashier ordered 3 more Gloomhaven
 Ernie the Cashier has left the store.
+End of day 18
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $234.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $207.0
+    -Candyland : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $33.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $388.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $28.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $182.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $3645.0
+The money was refilled 1 time(s)
+Today 2 cookies were sold
+23 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 216.0 in total
+Start of day 19
+Burt the Cashier has arrived at the store Day 19.
+Burt the Cashier is restocking the games
+ORDER ARRIVED Gloomhaven is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
+Burt the Cashier is opening the store
+4 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Customer 2 didn't want any cookies
+Customer 3 didn't want any cookies
+Customer 4 didn't want any cookies
+Burt sold a Candyland to customer 1 for $11.0
+Burt sold the last Catan to customer 2 for $91.0
+Burt sold the last Clue to customer 3 for $14.0
+Customer 4 didn't buy a game.
+Burt the Cashier ordered 3 more Clue
+Burt the Cashier ordered 3 more Catan
+Burt the Cashier has left the store.
 End of day 19
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 3 is in inventory and 6 were sold in total, and the total value of the games sold was $234.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $207.0
+    -Candyland : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $44.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $388.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $273.0
+Games that were broken: 
+    -Monopoly : 1
+Register has $3929.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+23 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 228.0 in total
 Start of day 20
-Bart the Cashier has arrived at the store Day 20.
-Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Gloomhaven in position 6 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Catan in position 7 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Monopoly in position 8 because of its width of 20 and it's inventory of 1
-Bart the Cashier stacked the game Clue in position 9 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 10 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 11 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
-Bart the Cashier is opening the store
-1 customer(s) entered the store.
-Bart sold a Life to customer 1 for $49.0
-Bart sold a Gloomhaven to customer 1 for $5.0
-Bart the Cashier has left the store.
+Burt the Cashier has arrived at the store Day 20.
+Burt the Cashier is restocking the games
+ORDER ARRIVED Clue is now in stock
+ORDER ARRIVED Catan is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier broke a Life
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
+Burt the Cashier is opening the store
+2 customer(s) entered the store.
+Customer 1 bought 1 cookies.
+Customer 2 didn't want any cookies
+Customer 1 didn't buy a game.
+Burt sold a Candyland to customer 2 for $11.0
+Burt sold a Catan to customer 2 for $91.0
+Burt the Cashier has left the store.
 End of day 20
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 3 is in inventory and 6 were sold in total, and the total value of the games sold was $234.0
+    -Magic : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
+    -Life : 2 is in inventory and 3 were sold in total, and the total value of the games sold was $207.0
+    -Candyland : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $55.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $388.0
+    -Risk : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $364.0
+Games that were broken: 
+    -Life : 1
+    -Monopoly : 1
+Register has $4045.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+24 cookies were sold in total
+0 total cookies have been eaten by cookie monster
+Gonger was paid 240.0 in total
 Start of day 21
-Bart the Cashier has arrived at the store Day 21.
-Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Catan in position 6 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Monopoly in position 7 because of its width of 20 and it's inventory of 1
-Bart the Cashier stacked the game Clue in position 8 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 9 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 10 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 11 because of its width of 14 and it's inventory of 1
-Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 10 and it's inventory of 1
-Bart the Cashier is opening the store
+Ernie the Cashier has arrived at the store Day 21.
+Ernie the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
 3 customer(s) entered the store.
-Bart sold a Connect Four to customer 1 for $95.0
-Bart sold the last Connect Four to customer 2 for $95.0
-Bart sold a Mousetrap to customer 3 for $36.0
-Bart sold a Catan to customer 3 for $72.0
-Bart the Cashier ordered 3 more Connect Four
-Bart the Cashier has left the store.
+Customer 1 didn't want any cookies
+Customer 2 bought 2 cookies.
+Oh not, the cookie monster came in.
+The cookie monster ate 252 cookies!
+The cookie monster broke a Risk
+The cookie monster broke the last Candyland
+Ernie sold the last Magic to customer 1 for $72.0
+Ernie sold a Life to customer 2 for $69.0
+Ernie sold a Gloomhaven to customer 2 for $39.0
+Ernie sold the last Life to customer 3 for $69.0
+Ernie the Cashier ordered 3 more Magic
+Ernie the Cashier ordered 3 more Life
+Ernie the Cashier ordered 3 more Candyland
+Ernie the Cashier has left the store.
 End of day 21
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $273.0
+    -Magic : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 0 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 0 is in inventory and 5 were sold in total, and the total value of the games sold was $55.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $388.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $364.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $4535.0
+The money was refilled 1 time(s)
+Today 2 cookies were sold
+26 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 252.0 in total
 Start of day 22
-Bart the Cashier has arrived at the store Day 22.
-Bart the Cashier is restocking the games
-ORDER ARRIVED Connect Four is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 3
-Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Monopoly in position 6 because of its width of 20 and it's inventory of 1
-Bart the Cashier stacked the game Clue in position 7 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 10 because of its width of 14 and it's inventory of 1
-Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
-Bart the Cashier is opening the store
+Burt the Cashier has arrived at the store Day 22.
+Burt the Cashier is restocking the games
+ORDER ARRIVED Magic is now in stock
+ORDER ARRIVED Life is now in stock
+ORDER ARRIVED Candyland is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 2 packages of cookies
+Gonger the Baker has charged the store 24.0
+Gonger the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
+Burt the Cashier is opening the store
 0 customer(s) entered the store.
-Bart the Cashier has left the store.
+Burt the Cashier has left the store.
 End of day 22
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $273.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $55.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $388.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $364.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $4559.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+26 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 276.0 in total
 Start of day 23
 Bart the Cashier has arrived at the store Day 23.
 Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Bart the Cashier has started vacuuming the store.
 Bart the Cashier has finished vacuuming the store.
 Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 3
-Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 2
-Bart the Cashier stacked the game Monopoly in position 6 because of its width of 20 and it's inventory of 1
-Bart the Cashier stacked the game Clue in position 7 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 10 because of its width of 14 and it's inventory of 1
-Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 1 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 2 because of its width of 18 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 3 because of its width of 15 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 4 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 5 because of its width of 11 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 6 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Magic in position 7 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 8 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 9 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 10 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Risk in position 11 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Monopoly in position 12 because of its width of 10 and it's inventory of 1
 Bart the Cashier is opening the store
 1 customer(s) entered the store.
-Bart sold a Magic to customer 1 for $35.0
-Bart sold a Connect Four to customer 1 for $95.0
+Customer 1 didn't want any cookies
+Customer 1 didn't buy a game.
 Bart the Cashier has left the store.
 End of day 23
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $273.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $55.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $388.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $364.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $4571.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+26 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 288.0 in total
 Start of day 24
-Ernie the Cashier has arrived at the store Day 24.
-Ernie the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
-Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
-Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
-Ernie the Cashier is opening the store
+Bart the Cashier has arrived at the store Day 24.
+Bart the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Candyland in position 1 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 2 because of its width of 18 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 3 because of its width of 15 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 4 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 5 because of its width of 11 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 6 because of its width of 11 and it's inventory of 2
+Bart the Cashier stacked the game Magic in position 7 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 8 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 9 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 10 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Risk in position 11 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Monopoly in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
 1 customer(s) entered the store.
-Ernie sold the last Monopoly to customer 1 for $64.0
-Ernie sold the last Clue to customer 1 for $53.0
-Ernie the Cashier ordered 3 more Clue
-Ernie the Cashier ordered 3 more Monopoly
-Ernie the Cashier has left the store.
+Customer 1 didn't want any cookies
+Bart sold a Catan to customer 1 for $91.0
+Bart sold a Connect Four to customer 1 for $97.0
+Bart the Cashier has left the store.
 End of day 24
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $273.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $55.0
+    -Connect Four : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $485.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $455.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $4771.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+26 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 300.0 in total
 Start of day 25
-Ernie the Cashier has arrived at the store Day 25.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Clue is now in stock
-ORDER ARRIVED Monopoly is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
-Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
-Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
-Ernie the Cashier is opening the store
-4 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Ernie sold a Life to customer 2 for $49.0
-Ernie sold a Monopoly to customer 3 for $64.0
-Ernie sold the last Magic to customer 3 for $35.0
-Ernie sold the last Netrunner to customer 4 for $9.0
-Ernie sold a Mousetrap to customer 4 for $36.0
-Ernie the Cashier ordered 3 more Magic
-Ernie the Cashier ordered 3 more Netrunner
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 25.
+Bart the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Candyland in position 1 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Clue in position 2 because of its width of 15 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 3 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 4 because of its width of 11 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 5 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 6 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 7 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 8 because of its width of 18 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Risk in position 10 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Connect Four in position 11 because of its width of 11 and it's inventory of 1
+Bart the Cashier stacked the game Monopoly in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+2 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Customer 2 bought 1 cookies.
+Bart sold a Candyland to customer 1 for $11.0
+Customer 2 didn't buy a game.
+Bart the Cashier has left the store.
 End of day 25
+Games in inventory and number sold: 
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $370.0
+    -Gloomhaven : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $273.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $66.0
+    -Connect Four : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $485.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $42.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $455.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $4796.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+27 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 312.0 in total
 Start of day 26
-Bart the Cashier has arrived at the store Day 26.
-Bart the Cashier is restocking the games
-ORDER ARRIVED Magic is now in stock
-ORDER ARRIVED Netrunner is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
-Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Clue in position 4 because of its width of 19 and it's inventory of 3
-Bart the Cashier stacked the game Netrunner in position 5 because of its width of 17 and it's inventory of 3
-Bart the Cashier stacked the game Connect Four in position 6 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Life in position 7 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 9 because of its width of 14 and it's inventory of 1
-Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
-Bart the Cashier is opening the store
-4 customer(s) entered the store.
-Bart sold a Risk to customer 1 for $60.0
-Bart sold a Clue to customer 1 for $53.0
-Customer 2 didn't buy a game.
-Bart sold a Monopoly to customer 3 for $64.0
-Bart sold a Magic to customer 3 for $35.0
-Bart sold a Netrunner to customer 4 for $9.0
-Bart the Cashier has left the store.
+Burt the Cashier has arrived at the store Day 26.
+Burt the Cashier is restocking the games
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
+Burt the Cashier is opening the store
+3 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Customer 2 bought 2 cookies.
+Customer 3 didn't want any cookies
+Burt sold a Clue to customer 1 for $14.0
+Burt sold a Gloomhaven to customer 1 for $39.0
+Burt sold the last Catan to customer 2 for $91.0
+Burt sold the last Mousetrap to customer 3 for $74.0
+Burt the Cashier ordered 3 more Mousetrap
+Burt the Cashier ordered 3 more Catan
+Burt the Cashier has left the store.
 End of day 26
+Games in inventory and number sold: 
+    -Mousetrap : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $444.0
+    -Gloomhaven : 1 is in inventory and 8 were sold in total, and the total value of the games sold was $312.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $66.0
+    -Connect Four : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $485.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $56.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $546.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $5276.0
+The money was refilled 1 time(s)
+Today 2 cookies were sold
+29 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 324.0 in total
 Start of day 27
-Bart the Cashier has arrived at the store Day 27.
-Bart the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Clue in position 3 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Netrunner in position 4 because of its width of 17 and it's inventory of 2
-Bart the Cashier stacked the game Connect Four in position 5 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Monopoly in position 6 because of its width of 20 and it's inventory of 1
-Bart the Cashier stacked the game Life in position 7 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 9 because of its width of 14 and it's inventory of 1
-Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
-Bart the Cashier is opening the store
-4 customer(s) entered the store.
-Bart sold a Clue to customer 1 for $53.0
-Bart sold the last Monopoly to customer 1 for $64.0
-Customer 2 didn't buy a game.
-Customer 3 didn't buy a game.
-Customer 4 didn't buy a game.
-Bart the Cashier ordered 3 more Monopoly
-Bart the Cashier has left the store.
+Burt the Cashier has arrived at the store Day 27.
+Burt the Cashier is restocking the games
+ORDER ARRIVED Mousetrap is now in stock
+ORDER ARRIVED Catan is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
+Burt the Cashier is opening the store
+1 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Burt sold a Catan to customer 1 for $91.0
+Burt sold a Clue to customer 1 for $14.0
+Burt the Cashier has left the store.
 End of day 27
+Games in inventory and number sold: 
+    -Mousetrap : 3 is in inventory and 6 were sold in total, and the total value of the games sold was $444.0
+    -Gloomhaven : 1 is in inventory and 8 were sold in total, and the total value of the games sold was $312.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 3 is in inventory and 5 were sold in total, and the total value of the games sold was $345.0
+    -Candyland : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $66.0
+    -Connect Four : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $485.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $70.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $80.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $637.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $5393.0
+The money was refilled 1 time(s)
+Today 0 cookies were sold
+29 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 336.0 in total
 Start of day 28
 Ernie the Cashier has arrived at the store Day 28.
 Ernie the Cashier is restocking the games
-ORDER ARRIVED Monopoly is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
-Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
-Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
-Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
-Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
-Ernie the Cashier stacked the game Life in position 6 because of its height of 12
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
 Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
 Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
-Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
-Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
 Ernie the Cashier is opening the store
-1 customer(s) entered the store.
-Ernie sold a Netrunner to customer 1 for $9.0
+2 customer(s) entered the store.
+Customer 1 bought 1 cookies.
+Customer 2 didn't want any cookies
+Ernie sold a Mousetrap to customer 1 for $74.0
+Ernie sold a Pokemon to customer 1 for $80.0
+Ernie sold a Life to customer 2 for $69.0
 Ernie the Cashier has left the store.
 End of day 28
+Games in inventory and number sold: 
+    -Mousetrap : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $518.0
+    -Gloomhaven : 1 is in inventory and 8 were sold in total, and the total value of the games sold was $312.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $414.0
+    -Candyland : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $66.0
+    -Connect Four : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $485.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $70.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $160.0
+    -Netrunner : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $174.0
+    -Catan : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $637.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $5630.0
+The money was refilled 1 time(s)
+Today 1 cookies were sold
+30 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 348.0 in total
 Start of day 29
 Burt the Cashier has arrived at the store Day 29.
 Burt the Cashier is restocking the games
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
 Burt the Cashier has started vacuuming the store.
-Burt the Cashier broke the last broken
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
-Burt the Cashier stacked the game Magic in position 2 because of its width of 19
-Burt the Cashier stacked the game Life in position 3 because of its width of 19
-Burt the Cashier stacked the game Risk in position 4 because of its width of 19
-Burt the Cashier stacked the game Clue in position 5 because of its width of 19
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
-Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
-Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
-Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
-Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
-Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier stacked the game Candyland in position 1 because of its width of 19
+Burt the Cashier stacked the game Mousetrap in position 2 because of its width of 18
+Burt the Cashier stacked the game Catan in position 3 because of its width of 18
+Burt the Cashier stacked the game Netrunner in position 4 because of its width of 17
+Burt the Cashier stacked the game Clue in position 5 because of its width of 15
+Burt the Cashier stacked the game Gloomhaven in position 6 because of its width of 14
+Burt the Cashier stacked the game Risk in position 7 because of its width of 14
+Burt the Cashier stacked the game Life in position 8 because of its width of 11
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 11
+Burt the Cashier stacked the game Magic in position 10 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 11 because of its width of 10
+Burt the Cashier stacked the game Pokemon in position 12 because of its width of 10
 Burt the Cashier is opening the store
-1 customer(s) entered the store.
-Burt sold a Magic to customer 1 for $35.0
-Burt the Cashier ordered 3 more Catan
+4 customer(s) entered the store.
+Customer 1 bought 2 cookies.
+Customer 2 didn't want any cookies
+Customer 3 bought 2 cookies.
+Customer 4 bought 2 cookies.
+Customer 1 didn't buy a game.
+Burt sold the last Netrunner to customer 2 for $87.0
+Burt sold the last Clue to customer 2 for $14.0
+Burt sold the last Connect Four to customer 3 for $97.0
+Customer 4 didn't buy a game.
+Burt the Cashier ordered 3 more Connect Four
+Burt the Cashier ordered 3 more Clue
+Burt the Cashier ordered 3 more Netrunner
 Burt the Cashier has left the store.
 End of day 29
-Start of day 30
-Bart the Cashier has arrived at the store Day 30.
-Bart the Cashier is restocking the games
-ORDER ARRIVED Catan is now in stock
-Gongor the Baker has arrived at the store.
-Gongor the Baker has sold 1 packages of cookies
-Gongor the Baker has charged the store12.0
-Gongor the Baker has left store
-Bart the Cashier has started vacuuming the store.
-Bart the Cashier has finished vacuuming the store.
-Bart the Cashier is stacking games on the shelf
-Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 3
-Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
-Bart the Cashier stacked the game Connect Four in position 3 because of its width of 13 and it's inventory of 2
-Bart the Cashier stacked the game Catan in position 4 because of its width of 10 and it's inventory of 3
-Bart the Cashier stacked the game Magic in position 5 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Life in position 6 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Clue in position 7 because of its width of 19 and it's inventory of 1
-Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
-Bart the Cashier stacked the game Pokemon in position 10 because of its width of 14 and it's inventory of 1
-Bart the Cashier stacked the game Mousetrap in position 11 because of its width of 10 and it's inventory of 1
-Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 10 and it's inventory of 1
-Bart the Cashier is opening the store
-1 customer(s) entered the store.
-Bart sold the last Life to customer 1 for $49.0
-Bart the Cashier ordered 3 more Life
-Bart the Cashier has left the store.
-End of day 30
-Games in inventory and number sold:
-    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $180.0
-    -Gloomhaven : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $10.0
-    -Magic : 1 is in inventory and 11 were sold in total, and the total value of the games sold was $385.0
-    -Life : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $294.0
-    -Candyland : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $80.0
-    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $380.0
-    -Risk : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $240.0
-    -Clue : 1 is in inventory and 6 were sold in total, and the total value of the games sold was $318.0
-    -Monopoly : 3 is in inventory and 9 were sold in total, and the total value of the games sold was $576.0
-    -Pokemon : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $178.0
-    -Netrunner : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $45.0
-    -Catan : 3 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
-Games that were broken:
-    -Clue : 2
-    -Catan : 1
-Register has $5336.0
+Games in inventory and number sold: 
+    -Mousetrap : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $518.0
+    -Gloomhaven : 1 is in inventory and 8 were sold in total, and the total value of the games sold was $312.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $414.0
+    -Candyland : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $66.0
+    -Connect Four : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $582.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $84.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $160.0
+    -Netrunner : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $261.0
+    -Catan : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $637.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Monopoly : 1
+Register has $6146.0
 The money was refilled 1 time(s)
-Today 0 cookies were sold today
-Today 0 cookies were sold in total
-180 total cookies have been eaten by cookie monster
+Today 6 cookies were sold
+36 cookies were sold in total
+252 total cookies have been eaten by cookie monster
 Gonger was paid 360.0 in total
+Start of day 30
+Ernie the Cashier has arrived at the store Day 30.
+Ernie the Cashier is restocking the games
+ORDER ARRIVED Connect Four is now in stock
+ORDER ARRIVED Clue is now in stock
+ORDER ARRIVED Netrunner is now in stock
+Gonger the Baker has arrived at the store.
+Gonger the Baker has sold 1 packages of cookies
+Gonger the Baker has charged the store 12.0
+Gonger the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier broke a Clue
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Life in position 1 because of its height of 1
+Ernie the Cashier stacked the game Candyland in position 2 because of its height of 1
+Ernie the Cashier stacked the game Gloomhaven in position 3 because of its height of 7
+Ernie the Cashier stacked the game Connect Four in position 4 because of its height of 9
+Ernie the Cashier stacked the game Magic in position 5 because of its height of 11
+Ernie the Cashier stacked the game Mousetrap in position 6 because of its height of 12
+Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 14
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Netrunner in position 10 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 11 because of its height of 19
+Ernie the Cashier stacked the game Clue in position 12 because of its height of 20
+Ernie the Cashier is opening the store
+3 customer(s) entered the store.
+Customer 1 didn't want any cookies
+Customer 2 bought 1 cookies.
+Customer 3 bought 2 cookies.
+Ernie sold a Life to customer 1 for $69.0
+Ernie sold the last Pokemon to customer 2 for $80.0
+Customer 3 didn't buy a game.
+Ernie the Cashier ordered 3 more Pokemon
+Ernie the Cashier has left the store.
+End of day 30
+Games in inventory and number sold: 
+    -Mousetrap : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $518.0
+    -Gloomhaven : 1 is in inventory and 8 were sold in total, and the total value of the games sold was $312.0
+    -Magic : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $216.0
+    -Life : 1 is in inventory and 7 were sold in total, and the total value of the games sold was $483.0
+    -Candyland : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $66.0
+    -Connect Four : 3 is in inventory and 6 were sold in total, and the total value of the games sold was $582.0
+    -Risk : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $39.0
+    -Clue : 2 is in inventory and 6 were sold in total, and the total value of the games sold was $84.0
+    -Monopoly : 1 is in inventory and 1 were sold in total, and the total value of the games sold was $18.0
+    -Pokemon : 0 is in inventory and 3 were sold in total, and the total value of the games sold was $240.0
+    -Netrunner : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $261.0
+    -Catan : 2 is in inventory and 7 were sold in total, and the total value of the games sold was $637.0
+Games that were broken: 
+    -Life : 1
+    -Candyland : 1
+    -Risk : 1
+    -Clue : 1
+    -Monopoly : 1
+Register has $6433.0
+The money was refilled 1 time(s)
+Today 3 cookies were sold
+39 cookies were sold in total
+252 total cookies have been eaten by cookie monster
+Gonger was paid 372.0 in total
 END OF SIMULATION
-
-Process finished with exit code 0
