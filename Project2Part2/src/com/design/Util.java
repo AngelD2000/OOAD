@@ -6,12 +6,9 @@ import java.util.Random;
 public abstract class Util {
     //Initialization data for Store simulation
     public static final int simDays = 30;
-    public static final String[] employeeNames = {"Burt", "Ernie", "Bart"};
-    public static final Double[] vacSkill = {.1, .05, .02};
-    public static StackShortToTall height = new StackShortToTall();
-    public static StackWideToNarrow wide = new StackWideToNarrow();
-    public static StackWidthAndCount odd = new StackWidthAndCount();
-    public static final StackBehaviour[] stackPref = new StackBehaviour[]{wide, height, odd};
+    public static final String[] employeeNames = {"Burt", "Ernie"};
+    public static final Double[] vacSkill = {.1, .05};
+    public static final String[] stackPref = {"width", "height"};
     public static final String[] boardGames = {"Catan", "Gloomhaven", "Risk"};
     public static final String[] familyGames = {"Monopoly", "Clue", "Life"};
     public static final String[] kidsGames = {"Mousetrap", "Candyland","Connect Four"};

@@ -7,7 +7,6 @@ public class Store {
     GameList brokenGames = new GameList();
     GameList orderedGames = new GameList();
     Register register = new Register();
-    Announcer guy = new Announcer("Guy");
 
     Store() {
         for (int i = 0; i < Util.employeeNames.length; i++) {
@@ -31,11 +30,9 @@ public class Store {
      * Run simulation for Util.simDays
      */
     public void runSim() {
-        cashiers.get(0).subscribe(guy);
-        guy.onNext("This");
-        //        for(int i = 0; i < Util.simDays; i++){
-//            runDay(i + 1);
-//        }
+        for(int i = 0; i < Util.simDays; i++){
+            runDay(i + 1);
+        }
         finalSummary();
         Util.print("END OF SIMULATION");
     }

@@ -2,10 +2,10 @@ package com.design;
 import java.util.*;
 
 
-public class Cashier extends PublisherEmployee{
+public class Cashier extends Employee{
     private final double vacSkill;
-    private StackBehaviour stackPref;
-    Cashier(String setName, double vacBreakage, StackBehaviour stackPreference){
+    private final String stackPref;
+    Cashier(String setName, double vacBreakage, String stackPreference){
         setType("Cashier");
         setName(setName);
         vacSkill = vacBreakage;
@@ -64,7 +64,35 @@ public class Cashier extends PublisherEmployee{
      * Function to stack the games on shelves according to cashier preferences
      */
     private void stackGames(GameList inventory) {
-        stackPref.stack(this, inventory);
+        report("is stacking games on the shelf");
+        String gameName = "";
+//        int shelfSize = inventory.size();
+        int curr_dim = 0;
+        int index = 1;
+        int pick_dim = Integer.MIN_VALUE;
+        if (stackPref.equals("height")){
+            index = 2;
+            pick_dim = Integer.MAX_VALUE;
+        }
+        ArrayList<String> gameAssigned = new ArrayList<>();
+        //Loop through width to restack from widest to narrowest
+        for(int i = 0; i < inventory.size(); i++){
+            int next = pick_dim;
+            for (Map.Entry<String, Game> item:
+                    inventory.entrySet()) {
+                if(!gameAssigned.contains(item.getKey())){
+                    curr_dim = item.getValue().getGameDimension().get(index);
+                    if((stackPref.equals("width") && curr_dim > next) || (stackPref.equals("height") && curr_dim < next)){
+                        next = curr_dim;
+                        gameName = item.getKey();
+                    }
+                }
+            }
+            Game game = inventory.get(gameName);
+            game.setPosOnShelf(i+1);
+            gameAssigned.add(game.getGameName());
+            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of its " + stackPref + " of " + game.getGameDimension().get(index));
+        }
     }
 
     /**
