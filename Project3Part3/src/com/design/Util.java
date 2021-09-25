@@ -6,9 +6,30 @@ import java.util.Random;
 public abstract class Util {
     //Initialization data for Store simulation
     public static final int simDays = 30;
+<<<<<<< Updated upstream
     public static final String[] employeeNames = {"Burt", "Ernie"};
     public static final Double[] vacSkill = {.1, .05};
     public static final String[] stackPref = {"width", "height"};
+=======
+    //Price that store buys cookies at, needs to be *2 when sold to customer
+    public static final double cookiePricePerDozen = 12;
+    public static final int dozen = 12;
+    public static final int maxInventory = 3;
+    public static final int noneConsumed = 0;
+    public static final int consumed = 1;
+    public static final int dissapointed = 2;
+    public static final double cookieDesire = .5;
+    public static final int maxCookiesDesired = 3;
+    public static final double monsterChance = .01;
+    public static final int maxMonsterBreaks = 6;
+    //Init helpers
+    public static final String[] employeeNames = {"Burt", "Ernie", "Bart"};
+    public static final Double[] vacSkill = {.1, .05, .02};
+    public static StackShortToTall height = new StackShortToTall();
+    public static StackWideToNarrow wide = new StackWideToNarrow();
+    public static StackWidthAndCount odd = new StackWidthAndCount();
+    public static final StackBehaviour[] stackPref = new StackBehaviour[]{wide, height, odd};
+>>>>>>> Stashed changes
     public static final String[] boardGames = {"Catan", "Gloomhaven", "Risk"};
     public static final String[] familyGames = {"Monopoly", "Clue", "Life"};
     public static final String[] kidsGames = {"Mousetrap", "Candyland","Connect Four"};

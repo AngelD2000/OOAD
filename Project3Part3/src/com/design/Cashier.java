@@ -21,28 +21,15 @@ public class Cashier extends Employee{
     /**
      * Cashier does their best to vacuum
      */
-    public String vacuum(GameList games){
+    public boolean vacuum(){
         String broken = null;
         report("has started vacuuming the store.");
         //Description of Math.random: https://www.geeksforgeeks.org/java-math-random-method-examples/
         double randomValue = Math.random();
-        if(randomValue < vacSkill && games.getTotalInventory() > 0){
-            Random rand = new Random();
-            //Random key of hashmap: https://stackoverflow.com/questions/12385284/how-to-select-a-random-key-from-a-hashmap-in-java
-            List<String> keysAsArray = new ArrayList<String>(games.keySet());
-            broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
-            while (games.get(broken).getCount() == 0){
-                broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
-            }
-            if(games.get(broken).getCount() == 1){
-                Util.print(name + " the " + type + " broke the last " + broken);
-            }
-            else{
-                Util.print(name + " the " + type + " broke a " + broken);
-            }
+        if(randomValue < vacSkill){
+           return true;
         }
-        report("has finished vacuuming the store.");
-        return broken;
+        return false;
     }
 
     /**
@@ -114,10 +101,10 @@ public class Cashier extends Employee{
      * Generate the number of games a customer will buy and prints it out
      * Customer buys games
      */
-    public void storeOpen(GameList inventory, Register register){
+    public void storeOpen(GameList inventory, Register register, Store store){
         report("is opening the store");
 
-        double total = customersCome(inventory);
+        double total = customersCome(inventory, store);
         checkout(register, total);
     }
     /**
@@ -175,12 +162,23 @@ public class Cashier extends Employee{
     /**
      * Function to handle customers entering the store and shopping
      */
-    private double customersCome(GameList inventory) {
+    private double customersCome(GameList inventory, Store store) {
         double total = 0.0;
         Random customer_rand = new Random();
         String game_buy = "";
         int num_customers = customer_rand.nextInt(5);
         Util.print(num_customers + " customer(s) entered the store.");
+        List<Customer> customers = new ArrayList<>();
+        for(int i=0; i < num_customers; i++){
+            Customer nextCustomer = new Customer(Util.monsterChance);
+            if (nextCustomer.isMonster() == true){
+                store.rampage();
+            }
+            else {
+                nextCustomer.considerCookies(store.cookies);
+                //TODO: Customer buys games with new cookie odds
+            }
+        }
         Random game_rand = new Random();
         int odds = game_rand.nextInt(100);
         for (int i = 0; i < num_customers; i++) {

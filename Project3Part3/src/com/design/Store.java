@@ -64,9 +64,13 @@ public class Store {
                 default:
                     game = new BoardGame(gameName, dimensions, price);
             }
+<<<<<<< Updated upstream
 
 //            game.newGame(gameNames[i], dimensions, price, game);
             game.setCount(3);
+=======
+            game.setCount(Util.maxInventory);
+>>>>>>> Stashed changes
             inventory.put(gameName, game);
         }
     }
@@ -84,14 +88,15 @@ public class Store {
         int moneyFills = register.getMoneyFills();
         register.checkIfNeedFill();
         //Vacuum and break games
-        String brokenGame = currentCashier.vacuum(inventory);
-        inventory.removeGame(brokenGame, false);
-        Game game = inventory.get(brokenGame);
-        brokenGames.addGame(brokenGame, game);
+        //Cashier vaccuums; check if game broken
+        if(currentCashier.vacuum()){
+            currentCashier.report(breakGame());
+        }
+        currentCashier.report("has finished vacuuming the store.");
         //Cashier stacks ordered games
         currentCashier.stackShelf(inventory, orderedGames);
         //Cashier opens the store
-        currentCashier.storeOpen(inventory, register);
+        currentCashier.storeOpen(inventory, register, this);
         //Cashier orders the games
         currentCashier.orderGame(orderedGames, inventory, register);
         currentCashier.close();
@@ -115,5 +120,52 @@ public class Store {
         Util.printBroken(brokenGames);
         register.printAmount();
         Util.print("The money was refilled " + register.getMoneyFills() + " time(s)");
+    }
+    /**
+     * Breaks a game in inventory
+     */
+    public String breakGame() {
+        Random rand = new Random();
+        String answer = "";
+        //Random key of hashmap: https://stackoverflow.com/questions/12385284/how-to-select-a-random-key-from-a-hashmap-in-java
+        List<String> keysAsArray = new ArrayList<String>(inventory.keySet());
+        String broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+        if(inventory.getTotalInventory() > 0){
+            while (inventory.get(broken).getCount() == 0){
+                broken = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+            }
+            if(inventory.get(broken).getCount() == 1){
+                answer = "broke the last " + broken;
+            }
+            else{
+                answer = "broke a " + broken;
+            }
+            inventory.removeGame(broken, false);
+            brokenGames.addGame(broken, inventory.get(broken));
+        }
+        else{
+            answer = "tried to break a game but there were no games to break.";
+        }
+        return answer;
+    }
+
+    /**
+     * Cookie monster goes on a rampage
+     */
+    public void rampage() {
+        Util.print("Oh not, the cookie monster came in.");
+        if(cookies > 0){
+            eatenCookies+=cookies;
+            Util.print("The cookie monster ate " + cookies + " cookies!");
+            cookies = 0;
+            Random rand = new Random();
+            int brokenGames = rand.nextInt(Util.maxCookiesDesired-1) + 1;
+            for(int i = 0; i < brokenGames; i++){
+                Util.print("The cookie monster " + breakGame());
+            }
+        }
+        else{
+            Util.print("The cookie monster was so sad it couldn't eat any cookies. It cried and left");
+        }
     }
 }

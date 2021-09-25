@@ -95,8 +95,6 @@ public class GameList extends HashMap<String, Game> {
                     default:
                        temp = new BoardGame();
                 }
-//                Game temp = new Game();
-//                temp.setType(game.getType());
                 temp.setCount(1);
                 put(gameName, temp);
             }
