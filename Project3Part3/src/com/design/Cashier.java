@@ -2,10 +2,10 @@ package com.design;
 import java.util.*;
 
 
-public class Cashier extends Employee{
+public class Cashier extends PublisherEmployee{
     private final double vacSkill;
-    private final String stackPref;
-    Cashier(String setName, double vacBreakage, String stackPreference){
+    private StackBehaviour stackPref;
+    Cashier(String setName, double vacBreakage, StackBehaviour stackPreference){
         setType("Cashier");
         setName(setName);
         vacSkill = vacBreakage;
@@ -41,7 +41,7 @@ public class Cashier extends Employee{
                 orderedGames.entrySet()) {
             String ordered_game = order.getKey();
             Game restock = inventory.get(ordered_game);
-            restock.setCount(3);
+            restock.setCount(Util.maxInventory);
             Util.print("ORDER ARRIVED " + restock.getGameName() + " is now in stock");
         }
         orderedGames.clear();
@@ -51,35 +51,7 @@ public class Cashier extends Employee{
      * Function to stack the games on shelves according to cashier preferences
      */
     private void stackGames(GameList inventory) {
-        report("is stacking games on the shelf");
-        String gameName = "";
-//        int shelfSize = inventory.size();
-        int curr_dim = 0;
-        int index = 1;
-        int pick_dim = Integer.MIN_VALUE;
-        if (stackPref.equals("height")){
-            index = 2;
-            pick_dim = Integer.MAX_VALUE;
-        }
-        ArrayList<String> gameAssigned = new ArrayList<>();
-        //Loop through width to restack from widest to narrowest
-        for(int i = 0; i < inventory.size(); i++){
-            int next = pick_dim;
-            for (Map.Entry<String, Game> item:
-                    inventory.entrySet()) {
-                if(!gameAssigned.contains(item.getKey())){
-                    curr_dim = item.getValue().getGameDimension().get(index);
-                    if((stackPref.equals("width") && curr_dim > next) || (stackPref.equals("height") && curr_dim < next)){
-                        next = curr_dim;
-                        gameName = item.getKey();
-                    }
-                }
-            }
-            Game game = inventory.get(gameName);
-            game.setPosOnShelf(i+1);
-            gameAssigned.add(game.getGameName());
-            report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of its " + stackPref + " of " + game.getGameDimension().get(index));
-        }
+        stackPref.stack(this, inventory);
     }
 
     /**
@@ -123,9 +95,7 @@ public class Cashier extends Employee{
             Game game = inventory.get(gameName);
             if(game.getCount() == 0) {
                 report("ordered 3 more " + gameName);
-                double storeTotal = register.getStoreTotal();
-                storeTotal -= (game.getCost() / 2) * 3;
-                register.setStoreTotal(storeTotal);
+                register.incrementStoreTotal((game.getCost() / 2) * Util.maxInventory);
                 orderedGames.addGame(gameName, game);
             }
         }
@@ -135,7 +105,7 @@ public class Cashier extends Employee{
      * Checkout customers and add purchased games total to the register
      */
     private void checkout(Register register, double total) {
-        register.setStoreTotal(register.getStoreTotal() + total);
+        register.incrementStoreTotal(total);
     }
 
     //This is an example of Abstraction as this function is only needed within the Cashier class

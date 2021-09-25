@@ -5,12 +5,8 @@ import java.util.Random;
 
 public abstract class Util {
     //Initialization data for Store simulation
+    //Constants
     public static final int simDays = 30;
-<<<<<<< Updated upstream
-    public static final String[] employeeNames = {"Burt", "Ernie"};
-    public static final Double[] vacSkill = {.1, .05};
-    public static final String[] stackPref = {"width", "height"};
-=======
     //Price that store buys cookies at, needs to be *2 when sold to customer
     public static final double cookiePricePerDozen = 12;
     public static final int dozen = 12;
@@ -29,7 +25,6 @@ public abstract class Util {
     public static StackWideToNarrow wide = new StackWideToNarrow();
     public static StackWidthAndCount odd = new StackWidthAndCount();
     public static final StackBehaviour[] stackPref = new StackBehaviour[]{wide, height, odd};
->>>>>>> Stashed changes
     public static final String[] boardGames = {"Catan", "Gloomhaven", "Risk"};
     public static final String[] familyGames = {"Monopoly", "Clue", "Life"};
     public static final String[] kidsGames = {"Mousetrap", "Candyland","Connect Four"};
