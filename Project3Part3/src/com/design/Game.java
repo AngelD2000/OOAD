@@ -5,13 +5,12 @@ import java.util.ArrayList;
 //This class has high Cohesion as it is designed with the single purpose of representing and storing information about each game
 abstract class Game{
     //This private data is an example of encapsulation
-    private String gameName;
-    private ArrayList<Integer> gameDimension;
-    private int cost;
-    private int posOnShelf;
-    private int count = 0;
-//    private Game type;
-    private int numSold = 0;
+    protected String gameName;
+    protected ArrayList<Integer> gameDimension;
+    protected int cost;
+    protected int posOnShelf;
+    protected int count = 0;
+    protected int numSold = 0;
 
     Game() { }
     Game(String name, ArrayList<Integer> dim, int price){
@@ -29,6 +28,8 @@ abstract class Game{
     }
 
     public double getPrice() { return cost; }
+
+    public void setPrice() {};
 
     void incrementCount(int value){
         this.count += value;
@@ -96,4 +97,32 @@ class CardGame extends Game{
         super(name, dim, price);
     }
 
+}
+
+class AddOn extends Game{
+    Game base;
+    int num_possible_buy;
+    double odds_buy;
+    double each_price;
+    int num_bought = 0;
+    AddOn(Game base, String name, int num_buy, double odds_buy, double each_price){
+        this.gameName = name;
+        this.base = base;
+        this.num_possible_buy = num_buy;
+        this.odds_buy = odds_buy;
+        this.each_price = each_price;
+        this.gameDimension = base.getGameDimension();
+
+    }
+    public void setPrice() {
+        if (Util.testOdds(odds_buy)) {
+            num_bought = Util.rndFromRange(1, num_possible_buy);
+        }
+    };
+    public double getPrice() {
+        return base.getPrice() + num_bought*each_price;
+    }
+    public String getGameName() {
+        return base.getGameName() + " with " + num_bought + " add-ons of " + this.gameName;
+    }
 }

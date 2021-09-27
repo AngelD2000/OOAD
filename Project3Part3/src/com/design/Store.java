@@ -13,6 +13,7 @@ public class Store {
     int cookiesSold = 0;
     int cookiesSoldTotal = 0;
     int eatenCookies = 0;
+    List<Integer> customers = new ArrayList<>();
     Store() {
         //Create employees
         for (int i = 0; i < Util.employeeNames.length; i++) {
@@ -27,6 +28,7 @@ public class Store {
         initGames("KidsGame", Util.kidsGames);
         initGames("CardGame", Util.cardGames);
 
+        inventory.printGameAmount();
 
         Double[] shelfProbability = new Double[inventory.size()];
         for (int j = 0; j < inventory.size(); j++) {
@@ -42,8 +44,8 @@ public class Store {
         guy.onNext("This");
         for(int i = 0; i < Util.simDays; i++){
             runDay(i + 1);
-            finalSummary();
         }
+        finalSummary();
         Util.print("END OF SIMULATION");
     }
 
@@ -57,19 +59,29 @@ public class Store {
         for (String gameName : gameNames) {
             ArrayList<Integer> dimensions = Util.assign_dim();
             Game game;
-            price = r.nextInt((100 - 5) + 1) + 5;
+            price = Util.rndFromRange(10, 50);
             switch (type) {
                 case "BoardGame":
                     game = new BoardGame(gameName, dimensions, price);
+                    if(gameName == "Monopoly"){
+                        game = new AddOn(game, "Special Token pack", 1, .5, 5);
+                    }
+                    else if(gameName == "Gloomhaven"){
+                        game = new AddOn(game, "spare parts", 4, .2, 10);
+                    }
                     break;
                 case "FamilyGame":
                     game = new FamilyGame(gameName, dimensions, price);
+                    if(gameName == "Mousetrap"){
+                        game = new AddOn(game, "spare parts", 2, .3, 1);
+                    }
                     break;
                 case "KidsGame":
                     game = new KidsGame(gameName, dimensions, price);
                     break;
                 case "CardGame":
                     game = new CardGame(gameName, dimensions, price);
+                    game = new AddOn(game, "Special Cards", 6, .2, 1);
                     break;
                 default:
                     game = new BoardGame(gameName, dimensions, price);
@@ -143,7 +155,8 @@ public class Store {
         //Number of cookies eaten by monster
         Util.print(eatenCookies + " total cookies have been eaten by cookie monster");
         //Amount paid to Gonger
-        Util.print("Gonger was paid " + baker.getPocketAmount() + " in total");
+        Util.print("Gonger was paid " + Util.asDollar(baker.getPocketAmount()) + " in total");
+        System.out.println(customers);
     }
     /**
      * Breaks a game in inventory
@@ -177,13 +190,12 @@ public class Store {
      * Cookie monster goes on a rampage
      */
     public void rampage() {
-        Util.print("Oh not, the cookie monster came in.");
+        Util.print("Oh no, the cookie monster came in.");
         if(cookies > 0){
             eatenCookies+=cookies;
             Util.print("The cookie monster ate " + cookies + " cookies!");
             cookies = 0;
-            Random rand = new Random();
-            int brokenGames = rand.nextInt(Util.maxCookiesDesired-1) + 1;
+            int brokenGames = Util.rndFromRange(1, Util.maxMonsterBreaks);
             for(int i = 0; i < brokenGames; i++){
                 Util.print("The cookie monster " + breakGame());
             }

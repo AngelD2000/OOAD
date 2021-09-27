@@ -19,7 +19,9 @@ public class GameList extends HashMap<String, Game> {
      */
     void printGameAmountAndSold(){
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
-        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" is in inventory and " + value.getNumSold() + " were sold in total, and the total value of the games sold was $" + value.getNumSold()*value.getPrice()));
+        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" are in inventory and "
+                + value.getNumSold() + " were sold in total, " +
+                "and the total value of the games sold was " + Util.asDollar(value.getNumSold()*value.getPrice())));
     }
 
     /**
@@ -99,5 +101,17 @@ public class GameList extends HashMap<String, Game> {
                 put(gameName, temp);
             }
         }
+    }
+    /**
+     * Get key value of a game in the gamelist
+     * https://www.baeldung.com/java-map-key-from-value
+     */
+    public String getKey(Game value) {
+        for (Entry<String, Game> entry : this.entrySet()) {
+            if (entry.getValue().equals(value)) {
+                return entry.getKey();
+            }
+        }
+        return null;
     }
 }

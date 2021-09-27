@@ -1,5 +1,6 @@
 package com.design;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -62,13 +63,70 @@ public abstract class Util {
      */
     public static ArrayList<Integer> assign_dim(){
         ArrayList<Integer> dimensions = new ArrayList<>();
-        Random dim = new Random();
-        int length = dim.nextInt(11) + 1;
-        int width = dim.nextInt((20 - 10) + 1) + 10;
-        int height = dim.nextInt(21) + 1;
+        int length = rndFromRange(1, 12);
+        int width = rndFromRange(1, 12);
+        int height = rndFromRange(1, 12);;
         dimensions.add(length);
         dimensions.add(width);
         dimensions.add(height);
         return dimensions;
     }
+    /**
+     * Picks random int from min to max inclusive
+     * https://www.baeldung.com/java-generating-random-numbers-in-range via Bruce Montgomery solution to project 2
+     */
+    static int rndFromRange(int min, int max) {
+        //returns a uniform inclusive random number from a given min and max range
+        return (int) ((Math.random() * ((max+1) - min)) + min);
+    }
+    /**
+     * Returns string as pretty mones
+     * https://stackoverflow.com/questions/13791409/java-format-double-value-as-dollar-amount via Bruce Montgomery solution to project 2
+     */
+    static String asDollar(double value) {
+        NumberFormat formatter = NumberFormat.getCurrencyInstance();
+        return formatter.format(value);
+    }
+
+    /**
+     * Calculates if an event with odds has occurred
+     */
+    static boolean testOdds(double odds){
+        //Description of Math.random: https://www.geeksforgeeks.org/java-math-random-method-examples/
+        double randomValue = Math.random();
+        if(randomValue < odds){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public static double uniform() {
+        Random random = new Random();
+        return random.nextDouble();
+    }
+    /**
+     * Returns a random integer from a Poisson distribution with mean &lambda;.
+     * https://introcs.cs.princeton.edu/java/stdlib/StdRandom.java.html
+     * @param  lambda the mean of the Poisson distribution
+     * @return a random integer from a Poisson distribution with mean {@code lambda}
+     * @throws IllegalArgumentException unless {@code lambda > 0.0} and not infinite
+     */
+    public static int poisson(double lambda) {
+        if (!(lambda > 0.0))
+            throw new IllegalArgumentException("lambda must be positive: " + lambda);
+        if (Double.isInfinite(lambda))
+            throw new IllegalArgumentException("lambda must not be infinite: " + lambda);
+        // using algorithm given by Knuth
+        // see http://en.wikipedia.org/wiki/Poisson_distribution
+        int k = 0;
+        double p = 1.0;
+        double expLambda = Math.exp(-lambda);
+        do {
+            k++;
+            p *= uniform();
+        } while (p >= expLambda);
+        return k-1;
+    }
 }
+

@@ -38,8 +38,8 @@ class StackShortToTall extends StackBehaviour{
             }
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i+1);
-            gameAssigned.add(game.getGameName());
-            cashier.report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of its height of " + game.getGameDimension().get(index));
+            gameAssigned.add(gameName);
+            cashier.report("stacked the game " + gameName + " in position " + String.valueOf(i+1) + " because of its height of " + game.getGameDimension().get(index));
         }
     }
 }
@@ -70,8 +70,8 @@ class StackWideToNarrow extends StackBehaviour{
             }
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i+1);
-            gameAssigned.add(game.getGameName());
-            cashier.report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i+1) + " because of its width of " + game.getGameDimension().get(index));
+            gameAssigned.add(gameName);
+            cashier.report("stacked the game " + gameName + " in position " + String.valueOf(i+1) + " because of its width of " + game.getGameDimension().get(index));
         }
     }
 }
@@ -110,9 +110,9 @@ class StackWidthAndCount extends StackBehaviour {
             }
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i + 1);
-            gameAssigned.add(game.getGameName());
-            cashier.report("stacked the game " + game.getGameName() + " in position " + String.valueOf(i + 1) + " because of its width of "
-                    + game.getGameDimension().get(index) + " and it's inventory of " + game.getCount());
+            gameAssigned.add(gameName);
+            cashier.report("stacked the game " + gameName + " in position " + String.valueOf(i + 1) + " because of its width of "
+                    + game.getGameDimension().get(index) + " and its inventory of " + game.getCount());
         }
     }
 }

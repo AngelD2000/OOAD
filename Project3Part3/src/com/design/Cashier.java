@@ -24,12 +24,7 @@ public class Cashier extends PublisherEmployee{
     public boolean vacuum(){
         String broken = null;
         report("has started vacuuming the store.");
-        //Description of Math.random: https://www.geeksforgeeks.org/java-math-random-method-examples/
-        double randomValue = Math.random();
-        if(randomValue < vacSkill){
-           return true;
-        }
-        return false;
+        return Util.testOdds(vacSkill);
     }
 
     /**
@@ -42,7 +37,7 @@ public class Cashier extends PublisherEmployee{
             String ordered_game = order.getKey();
             Game restock = inventory.get(ordered_game);
             restock.setCount(Util.maxInventory);
-            Util.print("ORDER ARRIVED " + restock.getGameName() + " is now in stock");
+            Util.print("ORDER ARRIVED " + inventory.getKey(restock) + " is now in stock");
         }
         orderedGames.clear();
     }
@@ -127,11 +122,11 @@ public class Cashier extends PublisherEmployee{
     private double buyGames(GameList inventory, int customerNum, List<Integer> bought) {
         Random rand = new Random();
         double total = 0.0;
-        String game_buy = "";
         for (int j = 0; j < bought.size(); j++) {
             Game current = inventory.getGameAtPos(bought.get(j));
+            current.setPrice();
             total += current.getCost();
-            boolean flag_store = inventory.removeGame(current.getGameName(), true);
+            boolean flag_store = inventory.removeGame(inventory.getKey(current), true);
             if (flag_store) {
                 Util.print(name + " sold the last " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
             } else {
@@ -148,7 +143,8 @@ public class Cashier extends PublisherEmployee{
         double total = 0.0;
         Random customer_rand = new Random();
         String game_buy = "";
-        int num_customers = customer_rand.nextInt(5);
+        int num_customers = 1+Util.poisson(3);
+        store.customers.add(num_customers);
         Util.print(num_customers + " customer(s) entered the store.");
         List<Customer> customers = new ArrayList<>();
         for(int i=0; i < num_customers; i++){
@@ -162,15 +158,13 @@ public class Cashier extends PublisherEmployee{
             }
         }
         Random game_rand = new Random();
-        int odds = game_rand.nextInt(100);
         for (int i = 0; i < num_customers; i++) {
             List<Integer> bought = new ArrayList<Integer>();
             //For every shelf position
             for (int j = 0; j < inventory.size(); j++) {
-                //See if game picked if in stock
+                //See if game picked in stock
                 if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                    odds = game_rand.nextInt(100);
-                    if (odds < 20 - 2 * j && bought.size() < 2) {
+                    if (Util.testOdds(20 - 2 * j) && bought.size() < 2) {
                         bought.add(j + 1);
                     }
                 }

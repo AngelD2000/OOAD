@@ -22,7 +22,7 @@ public class Register {
         return storeTotal;
     }
 
-    public void printAmount() {Util.print("Register has $" + getStoreTotal());}
+    public void printAmount() {Util.print("Register has " + Util.asDollar(getStoreTotal()));}
 
     /**
      * Check is the register needs to be refilled, if so, fills it.
