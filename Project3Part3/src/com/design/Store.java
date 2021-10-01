@@ -96,7 +96,7 @@ public class Store {
      * Runs the store through all the actions needed for a day
      */
     void runDay(int day) {
-        Util.print("S--- Simulation starting day " + String.valueOf(day));
+        Util.print("--- Simulation starting day " + String.valueOf(day));
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
         //Cashier stacks ordered games
