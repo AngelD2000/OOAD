@@ -16,7 +16,7 @@ public class Cashier extends PublisherEmployee{
      * Cashier announces who they are and that they have arrived at the store.
      */
     public void arrive(int day){
-        report("has arrived at the store Day ",day);
+        report("has arrived at the store on day ",day);
     }
     /**
      * Cashier does their best to vacuum
@@ -99,13 +99,15 @@ public class Cashier extends PublisherEmployee{
      * Cashier orders cookies for next day
      * Changes the dozens of cookies the cashier will bring
      */
-    public void orderCookies(Baker baker, int cookies){
+    public void orderCookies(Baker baker, Store store){
+        int cookies = store.getCookieInventory();
         if (cookies > 0){
             baker.incrementDozenPerDay(-1);
         }
         else{
             baker.incrementDozenPerDay(1);
         }
+        store.countMissingCookies();
     }
 
     /**
@@ -148,7 +150,7 @@ public class Cashier extends PublisherEmployee{
         Util.print(num_customers + " customer(s) entered the store.");
         List<Customer> customers = new ArrayList<>();
         for(int i=0; i < num_customers; i++){
-            Customer nextCustomer = new Customer(Util.monsterChance, (i+1));
+            Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){
                 store.rampage();
             }

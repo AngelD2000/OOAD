@@ -6,8 +6,7 @@ public class Customer {
     int cookiesConsumed = Util.noneConsumed;
     Boolean cookieMonster = false;
     int customerNum;
-    Customer(double monsterChance, int num){
-        double randomValue = Math.random();
+    Customer(int num){
         cookieMonster = Util.testOdds(Util.monsterChance);
         customerNum = num;
     }
@@ -16,19 +15,20 @@ public class Customer {
      * Sets the cookiesConsumed if the customer ate, didn't eat, or wanted more cookies
      */
     void considerCookies(Store store){
-        double randomValue = Math.random();
         //Check if customer wants any cookies
         if (Util.testOdds(Util.cookieDesire)){
             Random customer_rand = new Random();
             //Randomly generate how many cookies customer wants
             int desired_cookies = Util.rndFromRange(1, Util.maxCookiesDesired);
-            if (desired_cookies < store.cookies){
+            if (desired_cookies < store.getCookieInventory()){
                 customerReport("bought " + desired_cookies + " cookies.");
                 store.sellCookies(desired_cookies);
+                cookiesConsumed = Util.consumed;
             }
             else{
-                customerReport("bought " + store.cookies + " cookies but wanted " + desired_cookies + " cookies");
-                store.sellCookies(store.cookies);
+                customerReport("bought " + store.getCookieInventory() + " cookies but wanted " + desired_cookies + " cookies");
+                store.sellCookies(store.getCookieInventory());
+                cookiesConsumed = Util.dissapointed;
             }
         }
         else{

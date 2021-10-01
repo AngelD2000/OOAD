@@ -98,11 +98,17 @@ class CardGame extends Game{
     }
 
 }
-
+/**
+ * AddOn is a decorator for a game
+ * This is some product that a customer will optionally choose to buy with the game
+ */
 class AddOn extends Game{
     Game base;
+    //Max number of the add-on that will be bought
     int num_possible_buy;
+    //Odds the customer will buy any add-on
     double odds_buy;
+    //Price for each add-on
     double each_price;
     int num_bought = 0;
     AddOn(Game base, String name, int num_buy, double odds_buy, double each_price){

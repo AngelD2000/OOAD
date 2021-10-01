@@ -1,5 +1,6 @@
 package com.design;
 import java.util.*;
+import java.util.stream.IntStream;
 
 public class Store {
     List<Cashier> cashiers = new ArrayList<>();
@@ -11,7 +12,7 @@ public class Store {
     Baker baker;
     int cookies = 0;
     int cookiesSold = 0;
-    int cookiesSoldTotal = 0;
+    List<Integer> allCookiesSold = new ArrayList<Integer>();
     int eatenCookies = 0;
     List<Integer> customers = new ArrayList<>();
     Store() {
@@ -95,7 +96,7 @@ public class Store {
      * Runs the store through all the actions needed for a day
      */
     void runDay(int day) {
-        Util.print("Start of day " + String.valueOf(day));
+        Util.print("S--- Simulation starting day " + String.valueOf(day));
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
         //Cashier stacks ordered games
@@ -117,7 +118,7 @@ public class Store {
         currentCashier.storeOpen(inventory, register, this);
         //Cashier orders the games
         currentCashier.orderGame(orderedGames, inventory, register);
-        currentCashier.orderCookies(baker, cookies);
+        currentCashier.orderCookies(baker, this);
         currentCashier.close();
         Util.print("End of day " + String.valueOf(day));
     }
@@ -145,18 +146,22 @@ public class Store {
      * Prints all the stuff needed at end of each day
      */
     public void finalSummary() {
+        Util.print("==Store Summary Report==");
         Util.printInventory(inventory);
         Util.printBroken(brokenGames);
         register.printAmount();
         Util.print("The money was refilled " + register.getMoneyFills() + " time(s)");
         //Number of cookies sold each day and total
-        Util.print("Today " + cookiesSold + " cookies were sold");
-        Util.print(cookiesSoldTotal + " cookies were sold in total");
+        int sum = 0;
+        for(int i = 0; i < allCookiesSold.size(); i++)
+            sum += allCookiesSold.get(i);
+        Util.print(sum + " cookies were sold in total");
+        Util.print("For each of the days, the number of cookies sold were: ");
+        Util.print(allCookiesSold + "");
         //Number of cookies eaten by monster
         Util.print(eatenCookies + " total cookies have been eaten by cookie monster");
         //Amount paid to Gonger
         Util.print("Gonger was paid " + Util.asDollar(baker.getPocketAmount()) + " in total");
-        System.out.println(customers);
     }
     /**
      * Breaks a game in inventory
@@ -209,7 +214,18 @@ public class Store {
      */
     public void sellCookies(int numCookies) {
         cookiesSold+=numCookies;
-        cookiesSoldTotal+=numCookies;
         register.incrementStoreTotal(numCookies*Util.cookiePricePerDozen/12*2);
+    }
+    public int getCookieInventory(){
+        return this.cookies;
+    }
+    public int getCookieSold(){
+        return this.cookiesSold;
+    }
+    /**
+     * Store adds the cookies sold today to the total cookies sold
+     */
+    public void countMissingCookies(){
+        allCookiesSold.add(cookiesSold);
     }
 }

@@ -107,7 +107,7 @@ public abstract class Util {
     }
     /**
      * Returns a random integer from a Poisson distribution with mean &lambda;.
-     * https://introcs.cs.princeton.edu/java/stdlib/StdRandom.java.html
+     * Source: https://introcs.cs.princeton.edu/java/stdlib/StdRandom.java.html
      * @param  lambda the mean of the Poisson distribution
      * @return a random integer from a Poisson distribution with mean {@code lambda}
      * @throws IllegalArgumentException unless {@code lambda > 0.0} and not infinite
