@@ -70,7 +70,6 @@ public class Cashier extends PublisherEmployee{
      */
     public void storeOpen(GameList inventory, Register register, Store store){
         report("is opening the store");
-
         double total = customersCome(inventory, store);
         checkout(register, total);
     }

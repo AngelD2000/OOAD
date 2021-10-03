@@ -37,18 +37,6 @@ public class Store {
         }
     }
 
-    /**
-     * Run simulation for Util.simDays
-     */
-    public void runSim() {
-        cashiers.get(0).subscribe(guy);
-        guy.onNext("This");
-        for(int i = 0; i < Util.simDays; i++){
-            runDay(i + 1);
-        }
-        finalSummary();
-        Util.print("END OF SIMULATION");
-    }
 
     /**
      * Function to initialize the games in the store inventory and set their initial price, dimensions, and count
@@ -96,6 +84,7 @@ public class Store {
      * Runs the store through all the actions needed for a day
      */
     void runDay(int day) {
+
         Util.print("--- Simulation starting day " + String.valueOf(day));
         Cashier currentCashier = pickCashier();
         currentCashier.arrive(day);
@@ -143,7 +132,7 @@ public class Store {
     }
 
     /**
-     * Prints all the stuff needed at end of each day
+     * Prints all the stuff needed at end of 30 days
      */
     public void finalSummary() {
         Util.print("==Store Summary Report==");

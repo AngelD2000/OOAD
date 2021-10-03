@@ -11,7 +11,7 @@ functions and simulation setup variables.
  */
 public class Main {
     public static void main(String[] args) {
-        Store store = new Store();
-        store.runSim();
+        Simulator sim = new Simulator();
+        sim.runSim();
     }
 }
