@@ -2,7 +2,7 @@ package com.design;
 import java.util.*;
 
 public class Simulator {
-    private Store store;
+    private Store store = new Store();
 
     /**
      * Run simulation for Util.simDays
