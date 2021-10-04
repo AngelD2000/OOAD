@@ -120,9 +120,15 @@ class AddOn extends Game{
         this.gameDimension = base.getGameDimension();
 
     }
+    /**
+     * Calculates if (and how many) add-ons are bought
+     */
     public void setPrice() {
         if (Util.testOdds(odds_buy)) {
             num_bought = Util.rndFromRange(1, num_possible_buy);
+        }
+        else{
+            num_bought = 0;
         }
     };
     public double getPrice() {
