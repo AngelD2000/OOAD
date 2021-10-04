@@ -1,6 +1,6 @@
 package com.design;
 
-public class Baker extends PublisherEmployee{
+public class Baker extends Employee {
     double pocketTotal;
     int dozenPerDay = 1;
     Baker(String setName){

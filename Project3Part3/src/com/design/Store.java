@@ -17,12 +17,19 @@ public class Store {
     List<Integer> customers = new ArrayList<>();
     Store() {
         //Create employees
+        guy = new Announcer("Guy");
+
         for (int i = 0; i < Util.employeeNames.length; i++) {
             Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
+            //Subscribe to Announcer
+            temp.subscribe(guy);
             cashiers.add(temp);
         }
-        guy = new Announcer("Guy");
+
         baker = new Baker("Gonger");
+        //Subscribe to Announcer
+        baker.subscribe(guy);
+
         //Create inventory
         initGames("BoardGame", Util.boardGames);
         initGames("FamilyGame", Util.familyGames);

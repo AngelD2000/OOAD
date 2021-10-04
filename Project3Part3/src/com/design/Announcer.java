@@ -1,17 +1,14 @@
 package com.design;
 
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.Flow;
 import java.util.LinkedList;
 
-public class Announcer<String> extends Employee implements Flow.Subscriber<String>{
-    private java.lang.String LOG_MESSAGE_FORMAT = "Subscriber %s >> [%s] %s%n";
-
-    private static final int DEMAND = 3;
-    private static final Random RANDOM = new Random();
-
+public class Announcer extends Employee implements Flow.Subscriber<String> {
     private String name;
     private Flow.Subscription subscription;
+    public List<String> consumedElements = new LinkedList<String>();
 
     private int count;
 
@@ -19,36 +16,32 @@ public class Announcer<String> extends Employee implements Flow.Subscriber<Strin
         this.name = name;
     }
 
-    @Override
-    public void onSubscribe(Flow.Subscription subscription) {
-        log("Subscribed");
-        this.subscription = subscription;
-
-        count = DEMAND;
-        requestItems(DEMAND);
+    public String getName() {
+        return name;
     }
 
-    private void requestItems(int n) {
-        log("Requesting new items...");
-        subscription.request(n);
+    @Override
+    public void onSubscribe(Flow.Subscription subscription) {
+        System.out.println(name + " Subscribed to " + subscription.getClass().getName());
+        this.subscription = subscription;
+        //Infinite buffer
+        subscription.request(Long.MAX_VALUE);
     }
 
     @Override
     public void onNext(String item) {
-        System.out.println(item);
-    }
-
-    @Override
-    public void onComplete() {
-        log("Complete!");
+        System.out.println("Guy Says: " + item);
+        consumedElements.add(item);
+        subscription.request(1);
     }
 
     @Override
     public void onError(Throwable t) {
-        log("Subscriber Error >> %s", t);
+        t.printStackTrace();
     }
 
-    private void log(java.lang.String message, Object... args) {
-        System.out.printf(message);
+    @Override
+    public void onComplete() {
+        System.out.println("Done");
     }
 }

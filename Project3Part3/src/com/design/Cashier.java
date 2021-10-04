@@ -2,7 +2,7 @@ package com.design;
 import java.util.*;
 
 
-public class Cashier extends PublisherEmployee{
+public class Cashier extends Employee {
     private final double vacSkill;
     private StackBehaviour stackPref;
     Cashier(String setName, double vacBreakage, StackBehaviour stackPreference){
@@ -37,7 +37,7 @@ public class Cashier extends PublisherEmployee{
             String ordered_game = order.getKey();
             Game restock = inventory.get(ordered_game);
             restock.setCount(Util.maxInventory);
-            Util.print("ORDER ARRIVED " + inventory.getKey(restock) + " is now in stock");
+            report("ORDER ARRIVED " + inventory.getKey(restock) + " is now in stock");
         }
         orderedGames.clear();
     }
@@ -129,9 +129,9 @@ public class Cashier extends PublisherEmployee{
             total += current.getCost();
             boolean flag_store = inventory.removeGame(inventory.getKey(current), true);
             if (flag_store) {
-                Util.print(name + " sold the last " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(name + " sold the last " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
             } else {
-                Util.print(name + " sold a " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(name + " sold a " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
             }
         }
         return total;
@@ -146,7 +146,7 @@ public class Cashier extends PublisherEmployee{
         String game_buy = "";
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
-        Util.print(num_customers + " customer(s) entered the store.");
+        report(num_customers + " customer(s) entered the store.");
         List<Customer> customers = new ArrayList<>();
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
@@ -171,7 +171,7 @@ public class Cashier extends PublisherEmployee{
                 }
             }
             if (bought.size() == 0) {
-                Util.print("Customer " + (i + 1) + " didn't buy a game.");
+                report("Customer " + (i + 1) + " didn't buy a game.");
             }
             total += buyGames(inventory, i, bought);
         }
