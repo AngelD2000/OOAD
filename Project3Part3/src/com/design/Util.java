@@ -18,7 +18,6 @@ public abstract class Util {
     public static final int consumed = 1;
     public static final int dissapointed = 2;
     public static List<Double> cookieOdds = Arrays.asList(0.0, .1, -.2);
-    List<String> strings = new ArrayList<>(List.of("Hello", "world"));
     public static final double cookieDesire = .5;
     public static final int maxCookiesDesired = 3;
     public static final double monsterChance = .01;
@@ -69,7 +68,7 @@ public abstract class Util {
         ArrayList<Integer> dimensions = new ArrayList<>();
         int length = rndFromRange(1, 12);
         int width = rndFromRange(1, 12);
-        int height = rndFromRange(1, 12);;
+        int height = rndFromRange(1, 12);
         dimensions.add(length);
         dimensions.add(width);
         dimensions.add(height);

@@ -55,7 +55,7 @@ class StackWideToNarrow extends StackBehaviour{
         int index = 1;
         int pick_dim = Integer.MIN_VALUE;
         ArrayList<String> gameAssigned = new ArrayList<>();
-        //Loop through width to restack from shortest to tallest
+        //Loop through width to restack from widest to narrowest
         for(int i = 0; i < inventory.size(); i++){
             int next = pick_dim;
             for (Map.Entry<String, Game> item:
@@ -85,12 +85,11 @@ class StackWidthAndCount extends StackBehaviour {
         cashier.report("is stacking games on the shelf");
         int curr_dim;
         int index = 1;
-        int pick_dim = Integer.MIN_VALUE;
         ArrayList<String> gameAssigned = new ArrayList<>();
-        //Loop through width to restack from shortest to tallest
+        //Loop through width to restack from widest to narrowest
         //EXCEPT stack multi-inventory games before 1 inventory games
         for (int i = 0; i < inventory.size(); i++) {
-            int next = pick_dim;
+            int next = Integer.MIN_VALUE;
             String gameName = "";
             for (Map.Entry<String, Game> item :
                     inventory.entrySet()) {
@@ -111,7 +110,7 @@ class StackWidthAndCount extends StackBehaviour {
             Game game = inventory.get(gameName);
             game.setPosOnShelf(i + 1);
             gameAssigned.add(gameName);
-            cashier.report("stacked the game " + gameName + " in position " + String.valueOf(i + 1) + " because of its width of "
+            cashier.report("stacked the game " + gameName + " in position " + String.valueOf(game.getPosOnShelf()) + " because of its width of "
                     + game.getGameDimension().get(index) + " and its inventory of " + game.getCount());
         }
     }
