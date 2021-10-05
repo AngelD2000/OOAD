@@ -30,7 +30,7 @@ public class Announcer extends Employee implements Flow.Subscriber<String> {
 
     @Override
     public void onNext(String item) {
-        System.out.println("Guy Says: " + item);
+        System.out.println(name + " Says: " + item);
         consumedElements.add(item);
         subscription.request(1);
     }
