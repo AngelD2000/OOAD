@@ -73,6 +73,7 @@ public class GameList extends HashMap<String, Game> {
     }
     /**
      * Function to handle adding a game of name from a game list of self.
+     * NOTE: The passed game is not put in inventory, just a copy of it
      */
     public void addGame(String gameName, Game game){
         if(gameName != null){

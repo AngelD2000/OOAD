@@ -7,6 +7,7 @@ abstract class Game{
     //This private data is an example of encapsulation
     protected String gameName;
     protected ArrayList<Integer> gameDimension;
+    //This is the price to sell, not to order
     protected double price;
     protected int posOnShelf;
     protected int count = 0;
