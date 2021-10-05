@@ -90,6 +90,7 @@ public abstract class Util {
 
     /**
      * Calculates if an event with odds has occurred
+     * Odds 1=Always true, Odds 0=Never true
      */
     static boolean testOdds(double odds){
         //Description of Math.random: https://www.geeksforgeeks.org/java-math-random-method-examples/
