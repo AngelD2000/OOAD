@@ -1,12 +1,13 @@
 package com.design;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Customer {
     int cookiesConsumed = Util.noneConsumed;
     Boolean cookieMonster = false;
     int customerNum;
-    int additional_odds = 0;
     Customer(int num){
         cookieMonster = Util.testOdds(Util.monsterChance);
         customerNum = num;
@@ -34,6 +35,19 @@ public class Customer {
             }
         }
         return choice;
+    }
+    List<Integer> considerGames(GameList inventory, int additional_odds){
+        List<Integer> bought = new ArrayList<Integer>();
+        //For every shelf position
+        for (int j = 0; j < inventory.size(); j++) {
+            //See if game picked in stock
+            if(inventory.getGameAtPos(j+1).getCount() > 0) {
+                if (Util.testOdds(.2 - (.02 * j) + additional_odds) && bought.size() < 2) {
+                    bought.add(j + 1);
+                }
+            }
+        }
+        return bought;
     }
 
     boolean isMonster(){

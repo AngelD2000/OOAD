@@ -147,48 +147,34 @@ public class Cashier extends Employee {
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
         report(" welcomed " + num_customers +  " customer(s) into the store.");
-        List<Customer> customers = new ArrayList<>();
+        //List<Customer> customers = new ArrayList<>();
+        int additional_odds = 0;
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){
                 store.rampage();
-                nextCustomer.additional_odds = -20; //Cookie monster doesn't buy games......
             }
             else {
                 //TODO: Customer buys games with new cookie odds
                 nextCustomer.considerCookies(store);
                 if(nextCustomer.cookiesConsumed == 1) {
                     //Increase all buy game chance by 20%
-                    nextCustomer.additional_odds = 4;
+                    additional_odds = 4;
                 }
                 else if(nextCustomer.cookiesConsumed == 2) {
-                    nextCustomer.additional_odds = -2;
                     //Decrease all buy game chance by 10%
+                    additional_odds = -2;
                 }
 
                 else {
-                    nextCustomer.additional_odds = 0;
+                    additional_odds = 0;
                 }
-
-            }
-            customers.add(nextCustomer);
-        }
-        for (int i = 0; i < num_customers; i++) {
-            List<Integer> bought = new ArrayList<Integer>();
-            //For every shelf position
-            int cookie_add_odds = customers.get(i).additional_odds;
-            for (int j = 0; j < inventory.size(); j++) {
-                //See if game picked in stock
-                if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                    if (Util.testOdds(.2 - (.02 * j) + cookie_add_odds) && bought.size() < 2) {
-                        bought.add(j + 1);
-                    }
+                List<Integer> bought = nextCustomer.considerGames(inventory,additional_odds);
+                if (bought.size() == 0) {
+                    report("Customer " + (i + 1) + " didn't buy a game.");
                 }
+                total += buyGames(inventory, i, bought);
             }
-            if (bought.size() == 0) {
-                report("Customer " + (i + 1) + " didn't buy a game.");
-            }
-            total += buyGames(inventory, i, bought);
         }
         return total;
     }
