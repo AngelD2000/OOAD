@@ -69,7 +69,24 @@ class FamilyGame extends Game{
     FamilyGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
-
+}
+class Monopoly extends FamilyGame{
+    Monopoly() {}
+    Monopoly(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Clue extends FamilyGame{
+    Clue() {}
+    Clue(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Life extends FamilyGame{
+    Life() {}
+    Life(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
 }
 
 class KidsGame extends Game{
@@ -77,7 +94,24 @@ class KidsGame extends Game{
     KidsGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
-
+}
+class Mousetrap extends KidsGame{
+    Mousetrap() {}
+    Mousetrap(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Candyland extends KidsGame{
+    Candyland() {}
+    Candyland(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class ConnectFour extends KidsGame{
+    ConnectFour() {}
+    ConnectFour(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
 }
 
 class BoardGame extends Game{
@@ -85,7 +119,24 @@ class BoardGame extends Game{
     BoardGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
-
+}
+class Gloomhaven extends BoardGame{
+    Gloomhaven() {}
+    Gloomhaven(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Risk extends BoardGame{
+    Risk() {}
+    Risk(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Catan extends BoardGame{
+    Catan() {}
+    Catan(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
 }
 
 class CardGame extends Game{
@@ -93,8 +144,26 @@ class CardGame extends Game{
     CardGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
-
 }
+class Magic extends CardGame{
+    Magic() {}
+    Magic(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Pokemon extends CardGame{
+    Pokemon() {}
+    Pokemon(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+class Netrunner extends CardGame{
+    Netrunner() {}
+    Netrunner(String name, ArrayList<Integer> dim, double price){
+        super(name, dim, price);
+    }
+}
+
 /**
  * AddOn is a decorator for a game
  * This is some product that a customer will optionally choose to buy with the game

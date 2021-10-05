@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e122c7fb-d3ab-4994-8594-a33f867d58dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpdatedUML.png" beforeDir="false" afterPath="$PROJECT_DIR$/UpdatedUML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Announcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Announcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

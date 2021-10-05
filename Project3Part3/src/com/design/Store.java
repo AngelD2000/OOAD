@@ -61,25 +61,51 @@ public class Store {
             price = Util.rndFromRange(10, 50);
             switch (type) {
                 case "BoardGame":
-                    game = new BoardGame(gameName, dimensions, price);
-                    if(gameName == "Monopoly"){
-                        game = new AddOn(game, "Special Token pack", 1, .5, 5);
+                    if(gameName == "Gloomhaven"){
+                        game = new Gloomhaven(gameName, dimensions, price);
+                        game = new AddOn(game, "custom miniatures", 4, .2, 10);
                     }
-                    else if(gameName == "Gloomhaven"){
-                        game = new AddOn(game, "spare parts", 4, .2, 10);
+                    else if(gameName == "Risk"){
+                        game = new Risk(gameName, dimensions, price);
+                    }
+                    else{
+                        game = new Catan(gameName, dimensions, price);
                     }
                     break;
                 case "FamilyGame":
-                    game = new FamilyGame(gameName, dimensions, price);
-                    if(gameName == "Mousetrap"){
-                        game = new AddOn(game, "spare parts", 2, .3, 1);
+                    if(gameName == "Clue"){
+                        game = new Clue(gameName, dimensions, price);
+                    }
+                    else if(gameName == "Monopoly"){
+                        game = new Monopoly(gameName, dimensions, price);
+                        game = new AddOn(game, "Special Token pack", 1, .5, 5);
+                    }
+                    else {
+                        game = new Life(gameName, dimensions, price);
                     }
                     break;
                 case "KidsGame":
-                    game = new KidsGame(gameName, dimensions, price);
+                    if(gameName == "Mousetrap"){
+                        game = new Mousetrap(gameName, dimensions, price);
+                        game = new AddOn(game, "spare parts", 2, .3, 1);
+                    }
+                    else if(gameName == "Candyland"){
+                        game = new Candyland(gameName, dimensions, price);
+                    }
+                    else{
+                        game = new ConnectFour(gameName, dimensions, price);
+                    }
                     break;
                 case "CardGame":
-                    game = new CardGame(gameName, dimensions, price);
+                    if(gameName == "Magic"){
+                        game = new Magic(gameName, dimensions, price);
+                    }
+                    else if(gameName == "Pokemon"){
+                        game = new Pokemon(gameName, dimensions, price);
+                    }
+                    else{
+                        game = new Netrunner(gameName, dimensions, price);
+                    }
                     game = new AddOn(game, "Special Cards", 6, .2, 1);
                     break;
                 default:
