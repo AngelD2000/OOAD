@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e122c7fb-d3ab-4994-8594-a33f867d58dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedUML.png" beforeDir="false" afterPath="$PROJECT_DIR$/UpdatedUML.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Announcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Announcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,5 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project3Part3$Main.ic" NAME="Main Coverage Results" MODIFIED="1633466701610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

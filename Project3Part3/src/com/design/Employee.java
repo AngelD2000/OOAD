@@ -4,8 +4,8 @@ import java.util.concurrent.Flow;
 import java.util.concurrent.SubmissionPublisher;
 
 abstract class Employee extends SubmissionPublisher<String> {
-    public String name;
-    public String type;
+    private String name;
+    private String type;
 
     // Synchronize Publisher and Subscriber threads as shown here:
     // https://stackoverflow.com/questions/66402091/synchronous-submissionpublisher

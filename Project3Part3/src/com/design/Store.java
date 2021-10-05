@@ -24,12 +24,14 @@ public class Store {
             Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
             //Subscribe to Announcer
             temp.subscribe(guy);
+            Util.print(guy.getName() + " Subscribed to " + temp.getName());
             cashiers.add(temp);
         }
 
         baker = new Baker("Gonger");
         //Subscribe to Announcer
         baker.subscribe(guy);
+        Util.print(guy.getName() + " Subscribed to " + baker.getName());
 
         //Create inventory
         initGames("BoardGame", Util.boardGames);

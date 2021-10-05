@@ -5,32 +5,26 @@ import java.util.concurrent.Flow;
 import java.util.LinkedList;
 
 public class Announcer extends Employee implements Flow.Subscriber<String> {
-    private String name;
     private Flow.Subscription subscription;
     public List<String> consumedElements = new LinkedList<String>();
 
-    private int count;
-
     public Announcer(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
+        setType("Announcer");
+        setName(name);
     }
 
     /**
      * Announcer announces who they are and that they have arrived at the store.
      */
     public void arrive(int day){
-        System.out.println(name + " has arrived at the store on day " + day);
+        System.out.println(getName() + " has arrived at the store on day " + day);
     }
 
     /**
      * Announcer announces who they are and that they are leaving the store.
      */
     public void leave(){
-        System.out.println(name + " has left the store.");
+        System.out.println(getName() + " has left the store.");
     }
 
     /**
@@ -39,7 +33,7 @@ public class Announcer extends Employee implements Flow.Subscriber<String> {
      */
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
-        System.out.println(name + " Subscribed to " + subscription.getClass().getName());
+//        System.out.println(name + " Subscribed to " + subscription.);
         this.subscription = subscription;
         //Infinite buffer
         subscription.request(Long.MAX_VALUE);
@@ -52,7 +46,7 @@ public class Announcer extends Employee implements Flow.Subscriber<String> {
      */
     @Override
     public void onNext(String item) {
-        System.out.println(name + " Says: " + item);
+        System.out.println(getName() + " Says: " + item);
         consumedElements.add(item);
         subscription.request(1);
     }

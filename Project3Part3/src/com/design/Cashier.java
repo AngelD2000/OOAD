@@ -130,9 +130,9 @@ public class Cashier extends Employee {
             total += current.getPrice();
             boolean flag_store = inventory.removeGame(inventory.getKey(current), true);
             if (flag_store) {
-                report(name + " sold the last " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(getName() + " sold the last " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
             } else {
-                report(name + " sold a " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(getName() + " sold a " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
             }
         }
         return total;
