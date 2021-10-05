@@ -121,7 +121,6 @@ public class Cashier extends Employee {
      * Process each customer buying their game(s)
      */
     private double buyGames(GameList inventory, int customerNum, List<Integer> bought) {
-        Random rand = new Random();
         double total = 0.0;
         for (int j = 0; j < bought.size(); j++) {
             Game current = inventory.getGameAtPos(bought.get(j));
@@ -138,18 +137,17 @@ public class Cashier extends Employee {
     }
 
     /**
-     * Function to handle customers entering the store and shopping
+     * Function to handle customers entering the store and shopping for games and cookies
+     * The customers first considers whether they buy cookies or not
+     * Then decides what games they buy
      */
     private double customersCome(GameList inventory, Store store) {
         double total = 0.0;
-        Random customer_rand = new Random();
-        String game_buy = "";
         String choice;
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
         report(" welcomed " + num_customers +  " customer(s) into the store.");
-        //List<Customer> customers = new ArrayList<>();
-        double additional_odds = 0;
+        double additional_odds = 0.0;
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){

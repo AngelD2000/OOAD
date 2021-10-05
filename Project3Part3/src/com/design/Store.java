@@ -189,7 +189,7 @@ public class Store {
     }
 
     /**
-     * Cookie monster goes on a rampage
+     * Cookie monster goes on a rampage (sugar rush)
      */
     public void rampage() {
         currentCashier.report("saw the cookie monster come in.");
@@ -207,12 +207,17 @@ public class Store {
         }
     }
     /**
-     * Cookie monster goes on a rampage
+     * Selling cookies
+     * - Increase number of cookies sold
+     * - increase register
      */
     public void sellCookies(int numCookies) {
         cookiesSold+=numCookies;
         register.incrementStoreTotal(numCookies*Util.cookiePricePerDozen/12*2);
     }
+    /**
+     * Get the current number of cookies
+     * */
     public int getCookieInventory(){
         return this.cookies;
     }

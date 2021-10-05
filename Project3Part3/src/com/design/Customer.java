@@ -2,7 +2,7 @@ package com.design;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+
 
 public class Customer {
     int cookiesConsumed = Util.noneConsumed;
@@ -20,7 +20,6 @@ public class Customer {
         //Check if customer wants any cookies
         String choice = " didn't want any cookies";
         if (Util.testOdds(Util.cookieDesire)){
-            //Random customer_rand = new Random();
             //Randomly generate how many cookies customer wants
             int desired_cookies = Util.rndFromRange(1, Util.maxCookiesDesired);
             if (desired_cookies < store.getCookieInventory()){
@@ -36,6 +35,11 @@ public class Customer {
         }
         return choice;
     }
+    /**
+     * Customer decides what games/ how many games they want to buy
+     * Puts them in the bought arraylist (the shopping cart)
+     * Returns the list
+     * */
     List<Integer> considerGames(GameList inventory, double additional_odds){
         List<Integer> bought = new ArrayList<Integer>();
         //For every shelf position
@@ -50,6 +54,9 @@ public class Customer {
         return bought;
     }
 
+    /**
+     * Checks whether a customer is a monster or not
+     * */
     boolean isMonster(){
         return cookieMonster;
     }
