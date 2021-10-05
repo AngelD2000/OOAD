@@ -173,7 +173,6 @@ public class Cashier extends Employee {
             }
             customers.add(nextCustomer);
         }
-        //Random game_rand = new Random();
         for (int i = 0; i < num_customers; i++) {
             List<Integer> bought = new ArrayList<Integer>();
             //For every shelf position
@@ -181,7 +180,7 @@ public class Cashier extends Employee {
             for (int j = 0; j < inventory.size(); j++) {
                 //See if game picked in stock
                 if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                    if (Util.testOdds(20 - (2 * j) + cookie_add_odds) && bought.size() < 2) {
+                    if (Util.testOdds(.2 - (.02 * j) + cookie_add_odds) && bought.size() < 2) {
                         bought.add(j + 1);
                     }
                 }
