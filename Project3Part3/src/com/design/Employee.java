@@ -33,7 +33,7 @@ abstract class Employee extends SubmissionPublisher<String> {
     }
 
     /**
-     * Has a cashier report that they are doing the action
+     * Has a cashier send message to Announcer that they are doing the action
      */
     public void report(String action) {
         submit(identifier() + " " + action);
@@ -41,7 +41,7 @@ abstract class Employee extends SubmissionPublisher<String> {
     }
 
     /**
-     * Has a cashier report that they are doing the action + the day
+     * Has a cashier send message to Announcer that they are doing the action + the day
      */
     public void report(String action, int day) {
         submit(identifier() + " " + action + day + ".");

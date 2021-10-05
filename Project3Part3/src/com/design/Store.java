@@ -92,11 +92,8 @@ public class Store {
      * Runs the store through all the actions needed for a day
      */
     void runDay(int day) {
-
-
-//        Announcer.printSimDayInfo(day);
         Util.print("--- Simulation starting day " + String.valueOf(day));
-        guy.arrive(day);
+        guy.arrive(day); //Announcer arrives first
         currentCashier = pickCashier();
         currentCashier.arrive(day);
         //Cashier stacks ordered games
@@ -117,8 +114,7 @@ public class Store {
         currentCashier.orderGame(orderedGames, inventory, register);
         currentCashier.orderCookies(baker, this);
         currentCashier.close();
-        guy.leave();
-//        Announcer.printEndDayInfo(day);
+        guy.leave(); //Announcer leaves last
         Util.print("End of day " + String.valueOf(day));
     }
 

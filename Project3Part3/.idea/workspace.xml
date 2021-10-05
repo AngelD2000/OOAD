@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e122c7fb-d3ab-4994-8594-a33f867d58dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Announcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Announcer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Store.java" afterDir="false" />
@@ -51,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Android JUnit.OrderGame">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="OrderGame" type="AndroidJUnit" factoryName="Android JUnit">
       <module name="Project3Part2" />
       <shortenClasspath name="NONE" />
