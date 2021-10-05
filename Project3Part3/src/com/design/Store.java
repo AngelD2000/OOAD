@@ -98,13 +98,10 @@ public class Store {
         currentCashier.arrive(day);
         //Cashier stacks ordered games
         currentCashier.unpackOrders(inventory, orderedGames);
-        double curr_storeTotal = register.getStoreTotal();
-        int moneyFills = register.getMoneyFills();
         register.checkIfNeedFill();
         //Baker comes
         welcomeBaker();
         //Vacuum and break games
-        //Cashier vaccuums; check if game broken
         if(currentCashier.vacuum()){
             currentCashier.report(breakGame());
         }
