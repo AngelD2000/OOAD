@@ -14,26 +14,25 @@ public class Customer {
      * Customer decides how many cookies they want
      * Sets the cookiesConsumed if the customer ate, didn't eat, or wanted more cookies
      */
-    void considerCookies(Store store){
+    String considerCookies(Store store){
         //Check if customer wants any cookies
+        String choice = "didn't want any cookies";
         if (Util.testOdds(Util.cookieDesire)){
             Random customer_rand = new Random();
             //Randomly generate how many cookies customer wants
             int desired_cookies = Util.rndFromRange(1, Util.maxCookiesDesired);
             if (desired_cookies < store.getCookieInventory()){
-                customerReport("bought " + desired_cookies + " cookies.");
+                choice="bought " + desired_cookies + " cookies.";
                 store.sellCookies(desired_cookies);
                 cookiesConsumed = Util.consumed;
             }
             else{
-                customerReport("bought " + store.getCookieInventory() + " cookies but wanted " + desired_cookies + " cookies");
+                choice = "bought " + store.getCookieInventory() + " cookies but wanted " + desired_cookies + " cookies";
                 store.sellCookies(store.getCookieInventory());
                 cookiesConsumed = Util.dissapointed;
             }
         }
-        else{
-            customerReport("didn't want any cookies");
-        }
+        return choice;
     }
 
     boolean isMonster(){

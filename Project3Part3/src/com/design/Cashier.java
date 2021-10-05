@@ -146,7 +146,7 @@ public class Cashier extends Employee {
         String game_buy = "";
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
-        report(num_customers + " customer(s) entered the store.");
+        report(" welcomed " + num_customers +  " customer(s) into the store.");
         List<Customer> customers = new ArrayList<>();
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
@@ -154,7 +154,8 @@ public class Cashier extends Employee {
                 store.rampage();
             }
             else {
-                nextCustomer.considerCookies(store);
+                String result = nextCustomer.considerCookies(store);
+                report("says that he \"Customer " + nextCustomer.customerNum + " " + result + "\"");
                 //TODO: Customer buys games with new cookie odds
             }
         }
