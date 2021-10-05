@@ -155,7 +155,7 @@ public class Cashier extends Employee {
             }
             else {
                 String result = nextCustomer.considerCookies(store);
-                report("says that he \"Customer " + nextCustomer.customerNum + " " + result + "\"");
+                report("says that \"Customer " + nextCustomer.customerNum + " " + result + "\"");
                 //TODO: Customer buys games with new cookie odds
             }
         }

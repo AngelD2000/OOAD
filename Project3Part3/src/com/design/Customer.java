@@ -38,8 +38,4 @@ public class Customer {
     boolean isMonster(){
         return cookieMonster;
     }
-
-    void customerReport(String action){
-        Util.print("Customer " + customerNum + " " + action);
-    }
 }
