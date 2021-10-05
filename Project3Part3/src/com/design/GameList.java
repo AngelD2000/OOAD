@@ -19,7 +19,9 @@ public class GameList extends HashMap<String, Game> {
      */
     void printGameAmountAndSold(){
         //https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
-        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" is in inventory and " + value.getNumSold() + " were sold in total, and the total value of the games sold was $" + value.getNumSold()*value.getPrice()));
+        forEach((key, value) -> System.out.println("    -" + key + " : " + (value.getCount()) +" are in inventory and "
+                + value.getNumSold() + " were sold in total, " +
+                "and the total value of the games sold was " + Util.asDollar(value.getNumSold()*value.getPrice())));
     }
 
     /**
@@ -71,6 +73,7 @@ public class GameList extends HashMap<String, Game> {
     }
     /**
      * Function to handle adding a game of name from a game list of self.
+     * NOTE: The passed game is not put in inventory, just a copy of it
      */
     public void addGame(String gameName, Game game){
         if(gameName != null){
@@ -81,25 +84,39 @@ public class GameList extends HashMap<String, Game> {
                 Game temp;
                 switch(game.getClass().getName()) {
                     case "BoardGame":
-                        temp = new BoardGame();
+                    case "com.design.BoardGame":
+                        temp = new BoardGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     case "FamilyGame":
-                        temp = new FamilyGame();
+                    case "com.design.FamilyGame":
+                        temp = new FamilyGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     case "KidsGame":
-                        temp = new KidsGame();
+                    case "com.design.KidsGame":
+                        temp = new KidsGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     case "CardGame":
-                        temp = new CardGame();
+                    case "com.design.CardGame":
+                        temp = new CardGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     default:
-                       temp = new BoardGame();
+                       temp = new BoardGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                 }
-//                Game temp = new Game();
-//                temp.setType(game.getType());
-                temp.setCount(1);
+                temp.setCount(Util.maxInventory);
                 put(gameName, temp);
             }
         }
+    }
+    /**
+     * Get key value of a game in the gamelist
+     * https://www.baeldung.com/java-map-key-from-value
+     */
+    public String getKey(Game value) {
+        for (Entry<String, Game> entry : this.entrySet()) {
+            if (entry.getValue().equals(value)) {
+                return entry.getKey();
+            }
+        }
+        return null;
     }
 }

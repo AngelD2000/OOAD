@@ -1,6 +1,7 @@
 package com.design;
 
 public class Register {
+
     private int moneyFills = 0;
     private double storeTotal = 0;
 
@@ -15,11 +16,14 @@ public class Register {
     public void setStoreTotal(double storeTotal) {
         this.storeTotal = storeTotal;
     }
+    public void incrementStoreTotal(double value) {
+        setStoreTotal(this.storeTotal += value);
+    }
     public double getStoreTotal() {
         return storeTotal;
     }
 
-    public void printAmount() {Util.print("Register has $" + getStoreTotal());}
+    public void printAmount() {Util.print("Register has " + Util.asDollar(getStoreTotal()));}
 
     /**
      * Check is the register needs to be refilled, if so, fills it.

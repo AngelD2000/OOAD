@@ -1,799 +1,913 @@
 Start of day 1
-Ernie the Cashier has arrived at the store Day 1.
-Ernie the Cashier is restocking the games
+Burt the Cashier has arrived at the store Day 1.
+Burt the Cashier is restocking the games
 Register had to be filled
 Register has $1000.0
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-2 customer(s) entered the store.
-Ernie sold a Monopoly to customer 1 for $79.0
-Ernie sold a Connect Four to customer 2 for $45.0
-Ernie the Cashier has left the store.
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier is opening the store
+3 customer(s) entered the store.
+Customer 1 didn't buy a game.
+Burt sold a Magic to customer 2 for $35.0
+Burt sold a Pokemon to customer 3 for $89.0
+Burt the Cashier has left the store.
 End of day 1
 Start of day 2
 Ernie the Cashier has arrived at the store Day 2.
 Ernie the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-1 customer(s) entered the store.
-Ernie sold a Netrunner to customer 1 for $30.0
-Ernie sold a Risk to customer 1 for $56.0
-Ernie the Cashier has left the store.
-End of day 2
-Start of day 3
-Ernie the Cashier has arrived at the store Day 3.
-Ernie the Cashier is restocking the games
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-3 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Ernie sold a Netrunner to customer 2 for $30.0
-Ernie sold a Monopoly to customer 2 for $79.0
-Ernie sold a Connect Four to customer 3 for $45.0
-Ernie the Cashier has left the store.
-End of day 3
-Start of day 4
-Ernie the Cashier has arrived at the store Day 4.
-Ernie the Cashier is restocking the games
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-1 customer(s) entered the store.
-Ernie sold a Risk to customer 1 for $56.0
-Ernie the Cashier has left the store.
-End of day 4
-Start of day 5
-Ernie the Cashier has arrived at the store Day 5.
-Ernie the Cashier is restocking the games
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-2 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
-Ernie the Cashier has left the store.
-End of day 5
-Start of day 6
-Ernie the Cashier has arrived at the store Day 6.
-Ernie the Cashier is restocking the games
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
 Ernie the Cashier is opening the store
 0 customer(s) entered the store.
 Ernie the Cashier has left the store.
+End of day 2
+Start of day 3
+Bart the Cashier has arrived at the store Day 3.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 4 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Clue in position 5 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Candyland in position 6 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 7 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 8 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 9 because of its width of 13 and it's inventory of 3
+Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 3
+Bart the Cashier is opening the store
+1 customer(s) entered the store.
+Customer 1 didn't buy a game.
+Bart the Cashier has left the store.
+End of day 3
+Start of day 4
+Burt the Cashier has arrived at the store Day 4.
+Burt the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier is opening the store
+2 customer(s) entered the store.
+Customer 1 didn't buy a game.
+Burt sold a Monopoly to customer 2 for $64.0
+Burt sold a Risk to customer 2 for $60.0
+Burt the Cashier has left the store.
+End of day 4
+Start of day 5
+Bart the Cashier has arrived at the store Day 5.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
+Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 4 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 5 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Candyland in position 6 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 7 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Pokemon in position 8 because of its width of 14 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 9 because of its width of 13 and it's inventory of 3
+Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 3
+Bart the Cashier is opening the store
+2 customer(s) entered the store.
+Bart sold a Magic to customer 1 for $35.0
+Customer 2 didn't buy a game.
+Bart the Cashier has left the store.
+End of day 5
+Start of day 6
+Burt the Cashier has arrived at the store Day 6.
+Burt the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier is opening the store
+1 customer(s) entered the store.
+Burt sold a Life to customer 1 for $49.0
+Burt sold a Pokemon to customer 1 for $89.0
+Burt the Cashier has left the store.
 End of day 6
 Start of day 7
-Ernie the Cashier has arrived at the store Day 7.
-Ernie the Cashier is restocking the games
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-2 customer(s) entered the store.
-Ernie sold the last Netrunner to customer 1 for $30.0
-Ernie sold the last Monopoly to customer 1 for $79.0
-Ernie sold a Candyland to customer 2 for $14.0
-Ernie the Cashier ordered 3 more Monopoly
-Ernie the Cashier ordered 3 more Netrunner
-Ernie the Cashier has left the store.
+Burt the Cashier has arrived at the store Day 7.
+Burt the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier is opening the store
+0 customer(s) entered the store.
+Burt the Cashier has left the store.
 End of day 7
 Start of day 8
 Burt the Cashier has arrived at the store Day 8.
 Burt the Cashier is restocking the games
-ORDER ARRIVED Monopoly is now in stock
-ORDER ARRIVED Netrunner is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Burt the Cashier has started vacuuming the store.
+Burt the Cashier broke the last broken
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
 Burt the Cashier is opening the store
-2 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
+0 customer(s) entered the store.
 Burt the Cashier has left the store.
 End of day 8
 Start of day 9
-Burt the Cashier has arrived at the store Day 9.
-Burt the Cashier is restocking the games
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
-Burt the Cashier is opening the store
-4 customer(s) entered the store.
-Burt sold a Clue to customer 1 for $11.0
-Burt sold a Magic to customer 2 for $90.0
-Burt sold the last Connect Four to customer 3 for $45.0
-Burt sold a Monopoly to customer 4 for $79.0
-Burt sold a Netrunner to customer 4 for $30.0
-Burt the Cashier ordered 3 more Connect Four
-Burt the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 9.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 4 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Candyland in position 5 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 6 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 7 because of its width of 13 and it's inventory of 3
+Bart the Cashier stacked the game Mousetrap in position 8 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 9 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 10 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 11 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier is opening the store
+3 customer(s) entered the store.
+Bart sold a Candyland to customer 1 for $40.0
+Bart sold a Candyland to customer 2 for $40.0
+Bart sold a Connect Four to customer 2 for $95.0
+Bart sold a Gloomhaven to customer 3 for $5.0
+Bart the Cashier has left the store.
 End of day 9
 Start of day 10
-Ernie the Cashier has arrived at the store Day 10.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Connect Four is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-3 customer(s) entered the store.
-Ernie sold a Clue to customer 1 for $11.0
-Ernie sold a Connect Four to customer 2 for $45.0
-Ernie sold a Monopoly to customer 2 for $79.0
-Ernie sold a Netrunner to customer 3 for $30.0
-Ernie sold a Connect Four to customer 3 for $45.0
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 10.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 4 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Netrunner in position 5 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 6 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 7 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 8 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Catan in position 9 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 10 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 11 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier is opening the store
+1 customer(s) entered the store.
+Bart sold a Life to customer 1 for $49.0
+Bart the Cashier has left the store.
 End of day 10
 Start of day 11
-Ernie the Cashier has arrived at the store Day 11.
+Bart the Cashier has arrived at the store Day 11.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 3 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Netrunner in position 4 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 5 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 6 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 7 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Catan in position 8 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 9 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 10 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 11 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier is opening the store
+2 customer(s) entered the store.
+Bart sold a Netrunner to customer 1 for $9.0
+Bart sold a Clue to customer 2 for $53.0
+Bart sold a Netrunner to customer 2 for $9.0
+Bart the Cashier has left the store.
+End of day 11
+Start of day 12
+Ernie the Cashier has arrived at the store Day 12.
 Ernie the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
 Ernie the Cashier is opening the store
 1 customer(s) entered the store.
-Ernie sold the last Netrunner to customer 1 for $30.0
-Ernie sold a Mousetrap to customer 1 for $96.0
-Ernie the Cashier ordered 3 more Netrunner
+Ernie sold a Monopoly to customer 1 for $64.0
+Ernie sold the last Magic to customer 1 for $35.0
+Ernie the Cashier ordered 3 more Magic
 Ernie the Cashier has left the store.
-End of day 11
-Start of day 12
-Burt the Cashier has arrived at the store Day 12.
+End of day 12
+Start of day 13
+Bart the Cashier has arrived at the store Day 13.
+Bart the Cashier is restocking the games
+ORDER ARRIVED Magic is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 3 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 4 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 5 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Catan in position 6 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Monopoly in position 7 because of its width of 20 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 8 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 9 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 10 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 11 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier is opening the store
+4 customer(s) entered the store.
+Bart sold a Magic to customer 1 for $35.0
+Bart sold a Catan to customer 1 for $72.0
+Bart sold a Risk to customer 2 for $60.0
+Bart sold a Magic to customer 3 for $35.0
+Bart sold a Mousetrap to customer 3 for $36.0
+Bart sold the last Risk to customer 4 for $60.0
+Bart sold a Mousetrap to customer 4 for $36.0
+Bart the Cashier ordered 3 more Risk
+Bart the Cashier has left the store.
+End of day 13
+Start of day 14
+Burt the Cashier has arrived at the store Day 14.
 Burt the Cashier is restocking the games
-ORDER ARRIVED Netrunner is now in stock
+ORDER ARRIVED Risk is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Burt the Cashier has started vacuuming the store.
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
 Burt the Cashier is opening the store
-1 customer(s) entered the store.
-Burt sold a Netrunner to customer 1 for $30.0
+3 customer(s) entered the store.
+Burt sold the last Monopoly to customer 1 for $64.0
+Burt sold the last Life to customer 2 for $49.0
+Burt sold the last Clue to customer 2 for $53.0
+Burt sold the last Magic to customer 3 for $35.0
+Burt the Cashier ordered 3 more Magic
+Burt the Cashier ordered 3 more Life
+Burt the Cashier ordered 3 more Clue
+Burt the Cashier ordered 3 more Monopoly
 Burt the Cashier has left the store.
-End of day 12
-Start of day 13
-Ernie the Cashier has arrived at the store Day 13.
-Ernie the Cashier is restocking the games
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-1 customer(s) entered the store.
-Ernie sold the last Monopoly to customer 1 for $79.0
-Ernie sold a Magic to customer 1 for $90.0
-Ernie the Cashier ordered 3 more Monopoly
-Ernie the Cashier has left the store.
-End of day 13
-Start of day 14
-Ernie the Cashier has arrived at the store Day 14.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Monopoly is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-4 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
-Ernie sold a Netrunner to customer 3 for $30.0
-Customer 4 didn't buy a game.
-Ernie the Cashier has left the store.
 End of day 14
 Start of day 15
 Ernie the Cashier has arrived at the store Day 15.
 Ernie the Cashier is restocking the games
+ORDER ARRIVED Magic is now in stock
+ORDER ARRIVED Life is now in stock
+ORDER ARRIVED Clue is now in stock
+ORDER ARRIVED Monopoly is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
 Ernie the Cashier is opening the store
-3 customer(s) entered the store.
-Ernie sold the last Netrunner to customer 1 for $30.0
-Ernie sold the last Risk to customer 2 for $56.0
-Ernie sold a Mousetrap to customer 3 for $96.0
-Ernie the Cashier ordered 3 more Risk
-Ernie the Cashier ordered 3 more Netrunner
+1 customer(s) entered the store.
+Oh not, the cookie monster came in.
+The cookie monster ate 180 cookies!
+The cookie monster broke the last broken
+Ernie sold the last Mousetrap to customer 1 for $36.0
+Ernie sold a Clue to customer 1 for $53.0
+Ernie the Cashier ordered 3 more Mousetrap
 Ernie the Cashier has left the store.
 End of day 15
 Start of day 16
 Burt the Cashier has arrived at the store Day 16.
 Burt the Cashier is restocking the games
-ORDER ARRIVED Risk is now in stock
-ORDER ARRIVED Netrunner is now in stock
+ORDER ARRIVED Mousetrap is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Burt the Cashier has started vacuuming the store.
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
 Burt the Cashier is opening the store
-2 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Burt sold a Pokemon to customer 2 for $12.0
+0 customer(s) entered the store.
 Burt the Cashier has left the store.
 End of day 16
 Start of day 17
 Burt the Cashier has arrived at the store Day 17.
 Burt the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Burt the Cashier has started vacuuming the store.
 Burt the Cashier has finished vacuuming the store.
 Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
 Burt the Cashier is opening the store
-2 customer(s) entered the store.
-Burt sold the last Magic to customer 1 for $90.0
-Burt sold the last Connect Four to customer 1 for $45.0
-Burt sold a Life to customer 2 for $5.0
-Burt sold a Candyland to customer 2 for $14.0
-Burt the Cashier ordered 3 more Magic
-Burt the Cashier ordered 3 more Connect Four
+3 customer(s) entered the store.
+Customer 1 didn't buy a game.
+Customer 2 didn't buy a game.
+Burt sold a Monopoly to customer 3 for $64.0
+Burt sold a Magic to customer 3 for $35.0
 Burt the Cashier has left the store.
 End of day 17
 Start of day 18
-Ernie the Cashier has arrived at the store Day 18.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Magic is now in stock
-ORDER ARRIVED Connect Four is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier broke a Magic
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-0 customer(s) entered the store.
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 18.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
+Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 4 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 5 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 6 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 7 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Catan in position 8 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 9 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 10 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 11 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier is opening the store
+3 customer(s) entered the store.
+Bart sold a Monopoly to customer 1 for $64.0
+Customer 2 didn't buy a game.
+Customer 3 didn't buy a game.
+Bart the Cashier has left the store.
 End of day 18
 Start of day 19
 Ernie the Cashier has arrived at the store Day 19.
 Ernie the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
 Ernie the Cashier is opening the store
-3 customer(s) entered the store.
-Ernie sold the last Candyland to customer 1 for $14.0
-Customer 2 didn't buy a game.
-Ernie sold a Netrunner to customer 3 for $30.0
-Ernie the Cashier ordered 3 more Candyland
+1 customer(s) entered the store.
+Customer 1 didn't buy a game.
 Ernie the Cashier has left the store.
 End of day 19
 Start of day 20
-Ernie the Cashier has arrived at the store Day 20.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Candyland is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-3 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
-Ernie sold a Catan to customer 3 for $20.0
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 20.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Gloomhaven in position 6 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Catan in position 7 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 8 because of its width of 20 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 9 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 10 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 11 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 12 because of its width of 14 and it's inventory of 1
+Bart the Cashier is opening the store
+1 customer(s) entered the store.
+Bart sold a Life to customer 1 for $49.0
+Bart sold a Gloomhaven to customer 1 for $5.0
+Bart the Cashier has left the store.
 End of day 20
 Start of day 21
-Burt the Cashier has arrived at the store Day 21.
-Burt the Cashier is restocking the games
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
-Burt the Cashier is opening the store
-4 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
-Burt sold a Connect Four to customer 3 for $45.0
-Burt sold a Life to customer 4 for $5.0
-Burt the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 21.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Catan in position 6 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 7 because of its width of 20 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 8 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 9 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 10 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 11 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+3 customer(s) entered the store.
+Bart sold a Connect Four to customer 1 for $95.0
+Bart sold the last Connect Four to customer 2 for $95.0
+Bart sold a Mousetrap to customer 3 for $36.0
+Bart sold a Catan to customer 3 for $72.0
+Bart the Cashier ordered 3 more Connect Four
+Bart the Cashier has left the store.
 End of day 21
 Start of day 22
-Burt the Cashier has arrived at the store Day 22.
-Burt the Cashier is restocking the games
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
-Burt the Cashier is opening the store
-2 customer(s) entered the store.
-Burt sold a Netrunner to customer 1 for $30.0
-Burt sold the last Life to customer 2 for $5.0
-Burt the Cashier ordered 3 more Life
-Burt the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 22.
+Bart the Cashier is restocking the games
+ORDER ARRIVED Connect Four is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 3
+Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 6 because of its width of 20 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 7 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 10 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+0 customer(s) entered the store.
+Bart the Cashier has left the store.
 End of day 22
 Start of day 23
-Ernie the Cashier has arrived at the store Day 23.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Life is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-2 customer(s) entered the store.
-Ernie sold a Connect Four to customer 1 for $45.0
-Customer 2 didn't buy a game.
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 23.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 4 because of its width of 13 and it's inventory of 3
+Bart the Cashier stacked the game Mousetrap in position 5 because of its width of 10 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 6 because of its width of 20 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 7 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 10 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+1 customer(s) entered the store.
+Bart sold a Magic to customer 1 for $35.0
+Bart sold a Connect Four to customer 1 for $95.0
+Bart the Cashier has left the store.
 End of day 23
 Start of day 24
 Ernie the Cashier has arrived at the store Day 24.
 Ernie the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
 Ernie the Cashier is opening the store
-2 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
+1 customer(s) entered the store.
+Ernie sold the last Monopoly to customer 1 for $64.0
+Ernie sold the last Clue to customer 1 for $53.0
+Ernie the Cashier ordered 3 more Clue
+Ernie the Cashier ordered 3 more Monopoly
 Ernie the Cashier has left the store.
 End of day 24
 Start of day 25
-Burt the Cashier has arrived at the store Day 25.
-Burt the Cashier is restocking the games
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
-Burt the Cashier is opening the store
-3 customer(s) entered the store.
+Ernie the Cashier has arrived at the store Day 25.
+Ernie the Cashier is restocking the games
+ORDER ARRIVED Clue is now in stock
+ORDER ARRIVED Monopoly is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Ernie the Cashier has started vacuuming the store.
+Ernie the Cashier has finished vacuuming the store.
+Ernie the Cashier is stacking games on the shelf
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
+Ernie the Cashier is opening the store
+4 customer(s) entered the store.
 Customer 1 didn't buy a game.
-Burt sold a Monopoly to customer 2 for $79.0
-Burt sold the last Netrunner to customer 2 for $30.0
-Burt sold a Candyland to customer 3 for $14.0
-Burt the Cashier ordered 3 more Netrunner
-Burt the Cashier has left the store.
+Ernie sold a Life to customer 2 for $49.0
+Ernie sold a Monopoly to customer 3 for $64.0
+Ernie sold the last Magic to customer 3 for $35.0
+Ernie sold the last Netrunner to customer 4 for $9.0
+Ernie sold a Mousetrap to customer 4 for $36.0
+Ernie the Cashier ordered 3 more Magic
+Ernie the Cashier ordered 3 more Netrunner
+Ernie the Cashier has left the store.
 End of day 25
 Start of day 26
-Burt the Cashier has arrived at the store Day 26.
-Burt the Cashier is restocking the games
+Bart the Cashier has arrived at the store Day 26.
+Bart the Cashier is restocking the games
+ORDER ARRIVED Magic is now in stock
 ORDER ARRIVED Netrunner is now in stock
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
-Burt the Cashier is opening the store
-3 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Burt sold a Magic to customer 2 for $90.0
-Burt sold a Monopoly to customer 2 for $79.0
-Customer 3 didn't buy a game.
-Burt the Cashier has left the store.
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 2
+Bart the Cashier stacked the game Magic in position 2 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 3 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Clue in position 4 because of its width of 19 and it's inventory of 3
+Bart the Cashier stacked the game Netrunner in position 5 because of its width of 17 and it's inventory of 3
+Bart the Cashier stacked the game Connect Four in position 6 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Life in position 7 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 9 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+4 customer(s) entered the store.
+Bart sold a Risk to customer 1 for $60.0
+Bart sold a Clue to customer 1 for $53.0
+Customer 2 didn't buy a game.
+Bart sold a Monopoly to customer 3 for $64.0
+Bart sold a Magic to customer 3 for $35.0
+Bart sold a Netrunner to customer 4 for $9.0
+Bart the Cashier has left the store.
 End of day 26
 Start of day 27
-Burt the Cashier has arrived at the store Day 27.
-Burt the Cashier is restocking the games
-Burt the Cashier has started vacuuming the store.
-Burt the Cashier broke the last Connect Four
-Burt the Cashier has finished vacuuming the store.
-Burt the Cashier is stacking games on the shelf
-Burt the Cashier stacked the game Magic in position 1 because of its width of 20
-Burt the Cashier stacked the game Connect Four in position 2 because of its width of 20
-Burt the Cashier stacked the game Monopoly in position 3 because of its width of 19
-Burt the Cashier stacked the game Netrunner in position 4 because of its width of 19
-Burt the Cashier stacked the game Life in position 5 because of its width of 18
-Burt the Cashier stacked the game Candyland in position 6 because of its width of 18
-Burt the Cashier stacked the game Clue in position 7 because of its width of 18
-Burt the Cashier stacked the game Catan in position 8 because of its width of 17
-Burt the Cashier stacked the game Risk in position 9 because of its width of 16
-Burt the Cashier stacked the game Pokemon in position 10 because of its width of 11
-Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 10
-Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 10
-Burt the Cashier is opening the store
-0 customer(s) entered the store.
-Burt the Cashier ordered 3 more Connect Four
-Burt the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 27.
+Bart the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Magic in position 1 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Clue in position 3 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Netrunner in position 4 because of its width of 17 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 5 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Monopoly in position 6 because of its width of 20 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 7 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 9 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Catan in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+4 customer(s) entered the store.
+Bart sold a Clue to customer 1 for $53.0
+Bart sold the last Monopoly to customer 1 for $64.0
+Customer 2 didn't buy a game.
+Customer 3 didn't buy a game.
+Customer 4 didn't buy a game.
+Bart the Cashier ordered 3 more Monopoly
+Bart the Cashier has left the store.
 End of day 27
 Start of day 28
 Ernie the Cashier has arrived at the store Day 28.
 Ernie the Cashier is restocking the games
-ORDER ARRIVED Connect Four is now in stock
+ORDER ARRIVED Monopoly is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
 Ernie the Cashier has started vacuuming the store.
 Ernie the Cashier has finished vacuuming the store.
 Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
+Ernie the Cashier stacked the game Monopoly in position 1 because of its height of 2
+Ernie the Cashier stacked the game Magic in position 2 because of its height of 4
+Ernie the Cashier stacked the game Netrunner in position 3 because of its height of 4
+Ernie the Cashier stacked the game Mousetrap in position 4 because of its height of 6
+Ernie the Cashier stacked the game Pokemon in position 5 because of its height of 11
+Ernie the Cashier stacked the game Life in position 6 because of its height of 12
+Ernie the Cashier stacked the game Clue in position 7 because of its height of 12
+Ernie the Cashier stacked the game Catan in position 8 because of its height of 15
+Ernie the Cashier stacked the game Risk in position 9 because of its height of 17
+Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 18
+Ernie the Cashier stacked the game Connect Four in position 11 because of its height of 20
+Ernie the Cashier stacked the game Candyland in position 12 because of its height of 21
 Ernie the Cashier is opening the store
-4 customer(s) entered the store.
-Ernie sold the last Mousetrap to customer 1 for $96.0
-Ernie sold the last Clue to customer 2 for $11.0
-Ernie sold a Candyland to customer 3 for $14.0
-Ernie sold a Risk to customer 3 for $56.0
-Ernie sold a Connect Four to customer 4 for $45.0
-Ernie the Cashier ordered 3 more Mousetrap
-Ernie the Cashier ordered 3 more Clue
+1 customer(s) entered the store.
+Ernie sold a Netrunner to customer 1 for $9.0
 Ernie the Cashier has left the store.
 End of day 28
 Start of day 29
-Ernie the Cashier has arrived at the store Day 29.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Mousetrap is now in stock
-ORDER ARRIVED Clue is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier broke a Connect Four
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-4 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Customer 2 didn't buy a game.
-Ernie sold a Netrunner to customer 3 for $30.0
-Ernie sold the last Candyland to customer 4 for $14.0
-Ernie sold the last Monopoly to customer 4 for $79.0
-Ernie the Cashier ordered 3 more Candyland
-Ernie the Cashier ordered 3 more Monopoly
-Ernie the Cashier has left the store.
+Burt the Cashier has arrived at the store Day 29.
+Burt the Cashier is restocking the games
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Burt the Cashier has started vacuuming the store.
+Burt the Cashier broke the last broken
+Burt the Cashier has finished vacuuming the store.
+Burt the Cashier is stacking games on the shelf
+Burt the Cashier stacked the game Monopoly in position 1 because of its width of 20
+Burt the Cashier stacked the game Magic in position 2 because of its width of 19
+Burt the Cashier stacked the game Life in position 3 because of its width of 19
+Burt the Cashier stacked the game Risk in position 4 because of its width of 19
+Burt the Cashier stacked the game Clue in position 5 because of its width of 19
+Burt the Cashier stacked the game Candyland in position 6 because of its width of 17
+Burt the Cashier stacked the game Netrunner in position 7 because of its width of 17
+Burt the Cashier stacked the game Pokemon in position 8 because of its width of 14
+Burt the Cashier stacked the game Connect Four in position 9 because of its width of 13
+Burt the Cashier stacked the game Mousetrap in position 10 because of its width of 10
+Burt the Cashier stacked the game Gloomhaven in position 11 because of its width of 10
+Burt the Cashier stacked the game Catan in position 12 because of its width of 10
+Burt the Cashier is opening the store
+1 customer(s) entered the store.
+Burt sold a Magic to customer 1 for $35.0
+Burt the Cashier ordered 3 more Catan
+Burt the Cashier has left the store.
 End of day 29
 Start of day 30
-Ernie the Cashier has arrived at the store Day 30.
-Ernie the Cashier is restocking the games
-ORDER ARRIVED Candyland is now in stock
-ORDER ARRIVED Monopoly is now in stock
-Ernie the Cashier has started vacuuming the store.
-Ernie the Cashier has finished vacuuming the store.
-Ernie the Cashier is stacking games on the shelf
-Ernie the Cashier stacked the game Netrunner in position 1 because of its height of 2
-Ernie the Cashier stacked the game Candyland in position 2 because of its height of 3
-Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 3
-Ernie the Cashier stacked the game Risk in position 4 because of its height of 4
-Ernie the Cashier stacked the game Monopoly in position 5 because of its height of 4
-Ernie the Cashier stacked the game Magic in position 6 because of its height of 5
-Ernie the Cashier stacked the game Clue in position 7 because of its height of 6
-Ernie the Cashier stacked the game Mousetrap in position 8 because of its height of 14
-Ernie the Cashier stacked the game Life in position 9 because of its height of 15
-Ernie the Cashier stacked the game Catan in position 10 because of its height of 15
-Ernie the Cashier stacked the game Pokemon in position 11 because of its height of 17
-Ernie the Cashier stacked the game Gloomhaven in position 12 because of its height of 18
-Ernie the Cashier is opening the store
-2 customer(s) entered the store.
-Customer 1 didn't buy a game.
-Ernie sold a Netrunner to customer 2 for $30.0
-Ernie sold a Mousetrap to customer 2 for $96.0
-Ernie the Cashier has left the store.
+Bart the Cashier has arrived at the store Day 30.
+Bart the Cashier is restocking the games
+ORDER ARRIVED Catan is now in stock
+Gongor the Baker has arrived at the store.
+Gongor the Baker has sold 1 packages of cookies
+Gongor the Baker has charged the store12.0
+Gongor the Baker has left store
+Bart the Cashier has started vacuuming the store.
+Bart the Cashier has finished vacuuming the store.
+Bart the Cashier is stacking games on the shelf
+Bart the Cashier stacked the game Monopoly in position 1 because of its width of 20 and it's inventory of 3
+Bart the Cashier stacked the game Risk in position 2 because of its width of 19 and it's inventory of 2
+Bart the Cashier stacked the game Connect Four in position 3 because of its width of 13 and it's inventory of 2
+Bart the Cashier stacked the game Catan in position 4 because of its width of 10 and it's inventory of 3
+Bart the Cashier stacked the game Magic in position 5 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Life in position 6 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Clue in position 7 because of its width of 19 and it's inventory of 1
+Bart the Cashier stacked the game Candyland in position 8 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Netrunner in position 9 because of its width of 17 and it's inventory of 1
+Bart the Cashier stacked the game Pokemon in position 10 because of its width of 14 and it's inventory of 1
+Bart the Cashier stacked the game Mousetrap in position 11 because of its width of 10 and it's inventory of 1
+Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 10 and it's inventory of 1
+Bart the Cashier is opening the store
+1 customer(s) entered the store.
+Bart sold the last Life to customer 1 for $49.0
+Bart the Cashier ordered 3 more Life
+Bart the Cashier has left the store.
 End of day 30
 Games in inventory and number sold:
-    -Mousetrap : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $384.0
-    -Gloomhaven : 3 is in inventory and 0 were sold in total, and the total value of the games sold was $0.0
-    -Magic : 1 is in inventory and 4 were sold in total, and the total value of the games sold was $360.0
-    -Life : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $15.0
-    -Candyland : 3 is in inventory and 6 were sold in total, and the total value of the games sold was $84.0
-    -Connect Four : 1 is in inventory and 9 were sold in total, and the total value of the games sold was $405.0
-    -Risk : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $224.0
-    -Clue : 3 is in inventory and 3 were sold in total, and the total value of the games sold was $33.0
-    -Monopoly : 3 is in inventory and 9 were sold in total, and the total value of the games sold was $711.0
-    -Pokemon : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $12.0
-    -Netrunner : 1 is in inventory and 14 were sold in total, and the total value of the games sold was $420.0
-    -Catan : 2 is in inventory and 1 were sold in total, and the total value of the games sold was $20.0
+    -Mousetrap : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $180.0
+    -Gloomhaven : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $10.0
+    -Magic : 1 is in inventory and 11 were sold in total, and the total value of the games sold was $385.0
+    -Life : 0 is in inventory and 6 were sold in total, and the total value of the games sold was $294.0
+    -Candyland : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $80.0
+    -Connect Four : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $380.0
+    -Risk : 2 is in inventory and 4 were sold in total, and the total value of the games sold was $240.0
+    -Clue : 1 is in inventory and 6 were sold in total, and the total value of the games sold was $318.0
+    -Monopoly : 3 is in inventory and 9 were sold in total, and the total value of the games sold was $576.0
+    -Pokemon : 1 is in inventory and 2 were sold in total, and the total value of the games sold was $178.0
+    -Netrunner : 1 is in inventory and 5 were sold in total, and the total value of the games sold was $45.0
+    -Catan : 3 is in inventory and 2 were sold in total, and the total value of the games sold was $144.0
 Games that were broken:
-    -Magic : 1
-    -Connect Four : 2
-Register has $2513.0
+    -Clue : 2
+    -Catan : 1
+Register has $5336.0
 The money was refilled 1 time(s)
+Today 0 cookies were sold today
+Today 0 cookies were sold in total
+180 total cookies have been eaten by cookie monster
+Gonger was paid 360.0 in total
 END OF SIMULATION
+
+Process finished with exit code 0
