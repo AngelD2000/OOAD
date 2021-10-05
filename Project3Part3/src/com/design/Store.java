@@ -10,6 +10,7 @@ public class Store {
     Register register = new Register();
     Announcer guy;
     Baker baker;
+    Cashier currentCashier;
     int cookies = 0;
     int cookiesSold = 0;
     List<Integer> allCookiesSold = new ArrayList<Integer>();
@@ -93,7 +94,7 @@ public class Store {
     void runDay(int day) {
 
         Util.print("--- Simulation starting day " + String.valueOf(day));
-        Cashier currentCashier = pickCashier();
+        currentCashier = pickCashier();
         currentCashier.arrive(day);
         //Cashier stacks ordered games
         currentCashier.unpackOrders(inventory, orderedGames);
@@ -191,18 +192,18 @@ public class Store {
      * Cookie monster goes on a rampage
      */
     public void rampage() {
-        Util.print("Oh no, the cookie monster came in.");
+        currentCashier.report("saw the cookie monster come in.");
         if(cookies > 0){
             eatenCookies+=cookies;
-            Util.print("The cookie monster ate " + cookies + " cookies!");
+            currentCashier.report("watched in horror as the cookie monster ate " + cookies + " cookies!");
             cookies = 0;
             int brokenGames = Util.rndFromRange(1, Util.maxMonsterBreaks);
             for(int i = 0; i < brokenGames; i++){
-                Util.print("The cookie monster " + breakGame());
+                currentCashier.report("watched in terror as the cookie monster " + breakGame());
             }
         }
         else{
-            Util.print("The cookie monster was so sad it couldn't eat any cookies. It cried and left");
+            currentCashier.report("watched in as the cookie monster cried for lack of cookies.");
         }
     }
     /**

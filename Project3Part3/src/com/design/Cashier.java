@@ -146,7 +146,7 @@ public class Cashier extends Employee {
         String game_buy = "";
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
-        report(num_customers + " customer(s) entered the store.");
+        report(" welcomed " + num_customers +  " customer(s) into the store.");
         List<Customer> customers = new ArrayList<>();
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
@@ -160,16 +160,16 @@ public class Cashier extends Employee {
                 if(nextCustomer.cookiesConsumed == 1){
                     //Increase all buy game chance by 20%
                    nextCustomer.additional_odds = 4;
-
-                }
                 else if(nextCustomer.cookiesConsumed == 2){
-                    //Decrease all buy game chance by 10%
-                    nextCustomer.additional_odds = -2;
 
                 }
+                    nextCustomer.additional_odds = -2;
+                    //Decrease all buy game chance by 10%
+
                 else {
-                    nextCustomer.additional_odds = 0;
                 }
+                }
+                    nextCustomer.additional_odds = 0;
             }
             customers.add(nextCustomer);
         }
