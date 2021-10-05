@@ -157,19 +157,19 @@ public class Cashier extends Employee {
             else {
                 //TODO: Customer buys games with new cookie odds
                 nextCustomer.considerCookies(store);
-                if(nextCustomer.cookiesConsumed == 1){
+                if(nextCustomer.cookiesConsumed == 1) {
                     //Increase all buy game chance by 20%
-                   nextCustomer.additional_odds = 4;
-                else if(nextCustomer.cookiesConsumed == 2){
-
+                    nextCustomer.additional_odds = 4;
                 }
+                else if(nextCustomer.cookiesConsumed == 2) {
                     nextCustomer.additional_odds = -2;
                     //Decrease all buy game chance by 10%
+                }
 
                 else {
-                }
-                }
                     nextCustomer.additional_odds = 0;
+                }
+
             }
             customers.add(nextCustomer);
         }
