@@ -40,13 +40,13 @@ public class Customer {
      * Puts them in the bought arraylist (the shopping cart)
      * Returns the list
      * */
-    List<Integer> considerGames(GameList inventory, double additional_odds){
+    List<Integer> considerGames(GameList inventory){
         List<Integer> bought = new ArrayList<Integer>();
         //For every shelf position
         for (int j = 0; j < inventory.size(); j++) {
             //See if game picked in stock
             if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                if (Util.testOdds(.2 - (.02 * j) + Util.cookieOdds.get(cookiesConsumed)) && bought.size() <= 2) {
+                if (bought.size() <= 2 && Util.testOdds(.2 - (.02 * j) + Util.cookieOdds.get(cookiesConsumed))) {
                     bought.add(j + 1);
                 }
             }

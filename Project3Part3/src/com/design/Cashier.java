@@ -149,7 +149,6 @@ public class Cashier extends Employee {
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
         report(" welcomed " + num_customers +  " customer(s) into the store.");
-        double additional_odds = 0.0;
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){
@@ -158,7 +157,7 @@ public class Cashier extends Employee {
             else {
                 choice = nextCustomer.considerCookies(store);
                 report("sold customer " + (i + 1) + " " + choice);
-                List<Integer> bought = nextCustomer.considerGames(inventory,additional_odds);
+                List<Integer> bought = nextCustomer.considerGames(inventory);
                 if (bought.size() == 0) {
                     report("Customer " + (i + 1) + " didn't buy a game.");
                 }
