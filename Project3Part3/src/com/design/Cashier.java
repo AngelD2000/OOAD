@@ -37,7 +37,7 @@ public class Cashier extends Employee {
             String ordered_game = order.getKey();
             Game restock = inventory.get(ordered_game);
             restock.setCount(Util.maxInventory);
-            report("unpacked the order of  " + inventory.getKey(restock));
+            report("unpacked the order of " + inventory.getKey(restock));
         }
         orderedGames.clear();
     }
@@ -50,9 +50,9 @@ public class Cashier extends Employee {
     }
 
     /**
-    * Cashier stacks the shelf based on their preferences
+     * Cashier stacks the shelf based on their preferences
      * If there are any ordered games from the previous night, cashier will restock the games in their original positions
-    * */
+     * */
     public void stackShelf(GameList inventory, GameList orderedGames){
         if(orderedGames.size() > 0){
             unpackOrders(inventory, orderedGames);
@@ -89,7 +89,7 @@ public class Cashier extends Employee {
             Game game = inventory.get(gameName);
             if(game.getCount() == 0) {
                 report("ordered 3 more " + gameName);
-                register.incrementStoreTotal(((game.getCost() / 2) * Util.maxInventory) * -1);
+                register.incrementStoreTotal(((game.getPrice() / 2) * Util.maxInventory) * -1);
                 orderedGames.addGame(gameName, game);
             }
         }
@@ -127,7 +127,7 @@ public class Cashier extends Employee {
         for (int j = 0; j < bought.size(); j++) {
             Game current = inventory.getGameAtPos(bought.get(j));
             current.setPrice();
-            total += current.getCost();
+            total += current.getPrice();
             boolean flag_store = inventory.removeGame(inventory.getKey(current), true);
             if (flag_store) {
                 report(name + " sold the last " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());

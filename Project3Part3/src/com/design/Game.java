@@ -7,16 +7,16 @@ abstract class Game{
     //This private data is an example of encapsulation
     protected String gameName;
     protected ArrayList<Integer> gameDimension;
-    protected int cost;
+    protected double price;
     protected int posOnShelf;
     protected int count = 0;
     protected int numSold = 0;
 
     Game() { }
-    Game(String name, ArrayList<Integer> dim, int price){
+    Game(String name, ArrayList<Integer> dim, double price){
         this.gameName = name;
         this.gameDimension = dim;
-        this.cost = price;
+        this.price = price;
     }
 
     public int getCount() {
@@ -27,7 +27,7 @@ abstract class Game{
         return numSold;
     }
 
-    public double getPrice() { return cost; }
+    public double getPrice() { return price; }
 
     public void setPrice() {};
 
@@ -39,12 +39,8 @@ abstract class Game{
         this.numSold += value;
     }
 
-    public void setCount(int count) {
-        this.count = count;
-    }
-
-    public int getCost() {
-        return cost;
+    public void setCount(int newCount) {
+        count = newCount;
     }
 
     public void setPosOnShelf(int posOnShelf) {
@@ -69,7 +65,7 @@ abstract class Game{
 // Each of these classes is an example of Inheritance
 class FamilyGame extends Game{
     FamilyGame() {}
-    FamilyGame(String name, ArrayList<Integer> dim, int price){
+    FamilyGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
 
@@ -77,7 +73,7 @@ class FamilyGame extends Game{
 
 class KidsGame extends Game{
     KidsGame() {}
-    KidsGame(String name, ArrayList<Integer> dim, int price){
+    KidsGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
 
@@ -85,7 +81,7 @@ class KidsGame extends Game{
 
 class BoardGame extends Game{
     BoardGame() {}
-    BoardGame(String name, ArrayList<Integer> dim, int price){
+    BoardGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
 
@@ -93,7 +89,7 @@ class BoardGame extends Game{
 
 class CardGame extends Game{
     CardGame() {}
-    CardGame(String name, ArrayList<Integer> dim, int price){
+    CardGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
     }
 
