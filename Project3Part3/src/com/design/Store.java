@@ -98,7 +98,7 @@ public class Store {
         currentCashier.arrive(day);
         //Cashier stacks ordered games
         currentCashier.unpackOrders(inventory, orderedGames);
-        register.checkIfNeedFill();
+        currentCashier.report("sees that " + register.checkIfNeedFill());
         //Baker comes
         welcomeBaker();
         //Vacuum and break games
@@ -143,7 +143,7 @@ public class Store {
         Util.print("==Store Summary Report==");
         Util.printInventory(inventory);
         Util.printBroken(brokenGames);
-        register.printAmount();
+        Util.print(register.printAmount());
         Util.print("The money was refilled " + register.getMoneyFills() + " time(s)");
         //Number of cookies sold each day and total
         int sum = 0;

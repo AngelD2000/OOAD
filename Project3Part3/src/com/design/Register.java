@@ -23,17 +23,19 @@ public class Register {
         return storeTotal;
     }
 
-    public void printAmount() {Util.print("Register has " + Util.asDollar(getStoreTotal()));}
+    public String printAmount() { return "register has " + Util.asDollar(getStoreTotal());}
 
     /**
      * Check is the register needs to be refilled, if so, fills it.
      */
-    public void checkIfNeedFill(){
+    public String checkIfNeedFill(){
+        String answer = printAmount();
         if (storeTotal < 100){
             setStoreTotal(1000 + storeTotal);
             setMoneyFills(moneyFills + 1);
-            Util.print("Register had to be filled");
+            answer += ", so it was refilled";
             printAmount();
         }
+        return answer;
     }
 }

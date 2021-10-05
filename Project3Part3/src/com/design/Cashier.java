@@ -148,7 +148,7 @@ public class Cashier extends Employee {
         String choice;
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
-        report(" welcomed " + num_customers +  " customer(s) into the store.");
+        report("welcomed " + num_customers +  " customer(s) into the store.");
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){
