@@ -129,9 +129,9 @@ public class Cashier extends Employee {
             total += current.getCost();
             boolean flag_store = inventory.removeGame(inventory.getKey(current), true);
             if (flag_store) {
-                report(name + " sold the last " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(name + " sold the last " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
             } else {
-                report(name + " sold a " + current.getGameName() + " to customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(name + " sold a " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
             }
         }
         return total;
@@ -144,11 +144,12 @@ public class Cashier extends Employee {
         double total = 0.0;
         Random customer_rand = new Random();
         String game_buy = "";
+        String choice;
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
         report(" welcomed " + num_customers +  " customer(s) into the store.");
         //List<Customer> customers = new ArrayList<>();
-        int additional_odds = 0;
+        double additional_odds = 0;
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){
@@ -156,19 +157,20 @@ public class Cashier extends Employee {
             }
             else {
                 //TODO: Customer buys games with new cookie odds
-                nextCustomer.considerCookies(store);
+                choice = nextCustomer.considerCookies(store);
                 if(nextCustomer.cookiesConsumed == 1) {
                     //Increase all buy game chance by 20%
-                    additional_odds = 4;
+                    additional_odds = .2;
                 }
                 else if(nextCustomer.cookiesConsumed == 2) {
                     //Decrease all buy game chance by 10%
-                    additional_odds = -2;
+                    additional_odds = -.1;
                 }
 
                 else {
-                    additional_odds = 0;
+                    additional_odds = 0.0;
                 }
+                report("Customer " + (i + 1)  + choice);
                 List<Integer> bought = nextCustomer.considerGames(inventory,additional_odds);
                 if (bought.size() == 0) {
                     report("Customer " + (i + 1) + " didn't buy a game.");

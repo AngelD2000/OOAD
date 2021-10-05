@@ -18,25 +18,25 @@ public class Customer {
      */
     String considerCookies(Store store){
         //Check if customer wants any cookies
-        String choice = "didn't want any cookies";
+        String choice = " didn't want any cookies";
         if (Util.testOdds(Util.cookieDesire)){
             //Random customer_rand = new Random();
             //Randomly generate how many cookies customer wants
             int desired_cookies = Util.rndFromRange(1, Util.maxCookiesDesired);
             if (desired_cookies < store.getCookieInventory()){
-                choice="bought " + desired_cookies + " cookies.";
+                choice=" bought " + desired_cookies + " cookies.";
                 store.sellCookies(desired_cookies);
                 cookiesConsumed = Util.consumed;
             }
             else{
-                choice = "bought " + store.getCookieInventory() + " cookies but wanted " + desired_cookies + " cookies";
+                choice = " bought " + store.getCookieInventory() + " cookies but wanted " + desired_cookies + " cookies";
                 store.sellCookies(store.getCookieInventory());
                 cookiesConsumed = Util.dissapointed;
             }
         }
         return choice;
     }
-    List<Integer> considerGames(GameList inventory, int additional_odds){
+    List<Integer> considerGames(GameList inventory, double additional_odds){
         List<Integer> bought = new ArrayList<Integer>();
         //For every shelf position
         for (int j = 0; j < inventory.size(); j++) {
