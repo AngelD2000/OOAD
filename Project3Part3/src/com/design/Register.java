@@ -1,6 +1,7 @@
 package com.design;
 
 public class Register {
+
     private int moneyFills = 0;
     private double storeTotal = 0;
 
@@ -16,7 +17,7 @@ public class Register {
         this.storeTotal = storeTotal;
     }
     public void incrementStoreTotal(double value) {
-        this.storeTotal += value;
+        setStoreTotal(this.storeTotal += value);
     }
     public double getStoreTotal() {
         return storeTotal;

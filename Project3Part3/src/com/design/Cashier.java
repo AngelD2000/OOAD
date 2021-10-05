@@ -89,7 +89,7 @@ public class Cashier extends Employee {
             Game game = inventory.get(gameName);
             if(game.getCount() == 0) {
                 report("ordered 3 more " + gameName);
-                register.incrementStoreTotal((game.getCost() / 2) * Util.maxInventory);
+                register.incrementStoreTotal(((game.getCost() / 2) * Util.maxInventory) * -1);
                 orderedGames.addGame(gameName, game);
             }
         }
