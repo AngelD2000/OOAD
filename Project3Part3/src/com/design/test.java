@@ -47,9 +47,11 @@ public class test {
     void orderGame(){
         String gameName = "Gloomhaven";
         Game game = new BoardGame(gameName, Util.assign_dim(), 20);
+        Util.print(game.getGameName());
         Cashier cashier = new Cashier("Bernie", .3, Util.height);
         GameList inventory = new GameList();
         inventory.addGame(gameName,game);
+        inventory.printGameAmount();
         GameList orderGames = new GameList();
         orderGames.addGame(gameName,game);
         Register register = new Register();
@@ -59,7 +61,7 @@ public class test {
         cashier.orderGame(orderGames,inventory,register);
 
         Assertions.assertEquals(0, inventory.get(gameName).getCount());
-        Assertions.assertEquals(20, inventory.get(gameName).getCost());
+        Assertions.assertEquals(20, inventory.get(gameName).getPrice());
         Assertions.assertEquals(270, register.getStoreTotal());
     }
 

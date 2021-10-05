@@ -83,21 +83,25 @@ public class GameList extends HashMap<String, Game> {
                 Game temp;
                 switch(game.getClass().getName()) {
                     case "BoardGame":
-                        temp = new BoardGame();
+                    case "com.design.BoardGame":
+                        temp = new BoardGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     case "FamilyGame":
-                        temp = new FamilyGame();
+                    case "com.design.FamilyGame":
+                        temp = new FamilyGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     case "KidsGame":
-                        temp = new KidsGame();
+                    case "com.design.KidsGame":
+                        temp = new KidsGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     case "CardGame":
-                        temp = new CardGame();
+                    case "com.design.CardGame":
+                        temp = new CardGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                         break;
                     default:
-                       temp = new BoardGame();
+                       temp = new BoardGame(game.getGameName(), game.getGameDimension(), game.getPrice());
                 }
-                temp.setCount(1);
+                temp.setCount(Util.maxInventory);
                 put(gameName, temp);
             }
         }
