@@ -6,6 +6,7 @@ public class Customer {
     int cookiesConsumed = Util.noneConsumed;
     Boolean cookieMonster = false;
     int customerNum;
+    int additional_odds = 0;
     Customer(int num){
         cookieMonster = Util.testOdds(Util.monsterChance);
         customerNum = num;
@@ -17,7 +18,7 @@ public class Customer {
     void considerCookies(Store store){
         //Check if customer wants any cookies
         if (Util.testOdds(Util.cookieDesire)){
-            Random customer_rand = new Random();
+            //Random customer_rand = new Random();
             //Randomly generate how many cookies customer wants
             int desired_cookies = Util.rndFromRange(1, Util.maxCookiesDesired);
             if (desired_cookies < store.getCookieInventory()){

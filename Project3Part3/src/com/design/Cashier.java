@@ -152,20 +152,36 @@ public class Cashier extends Employee {
             Customer nextCustomer = new Customer((i+1));
             if (nextCustomer.isMonster() == true){
                 store.rampage();
+                nextCustomer.additional_odds = -20; //Cookie monster doesn't buy games......
             }
             else {
-                nextCustomer.considerCookies(store);
                 //TODO: Customer buys games with new cookie odds
+                nextCustomer.considerCookies(store);
+                if(nextCustomer.cookiesConsumed == 1){
+                    //Increase all buy game chance by 20%
+                   nextCustomer.additional_odds = 4;
+
+                }
+                else if(nextCustomer.cookiesConsumed == 2){
+                    //Decrease all buy game chance by 10%
+                    nextCustomer.additional_odds = -2;
+
+                }
+                else {
+                    nextCustomer.additional_odds = 0;
+                }
             }
+            customers.add(nextCustomer);
         }
-        Random game_rand = new Random();
+        //Random game_rand = new Random();
         for (int i = 0; i < num_customers; i++) {
             List<Integer> bought = new ArrayList<Integer>();
             //For every shelf position
+            int cookie_add_odds = customers.get(i).additional_odds;
             for (int j = 0; j < inventory.size(); j++) {
                 //See if game picked in stock
                 if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                    if (Util.testOdds(20 - 2 * j) && bought.size() < 2) {
+                    if (Util.testOdds(20 - (2 * j) + cookie_add_odds) && bought.size() < 2) {
                         bought.add(j + 1);
                     }
                 }
