@@ -3,6 +3,7 @@ package com.design;
 import java.util.concurrent.Flow;
 import java.util.concurrent.SubmissionPublisher;
 
+// Employees inherit from SubmissionPublisher which implements Flow.Publisher to be an observable object
 abstract class Employee extends SubmissionPublisher<String> {
     private String name;
     private String type;

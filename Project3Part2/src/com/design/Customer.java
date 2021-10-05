@@ -28,7 +28,7 @@ public class Customer {
                 cookiesConsumed = Util.consumed;
             }
             else{
-                choice = " bought " + store.getCookieInventory() + "cookie(s), but customer wanted " + desired_cookies + " cookies";
+                choice = store.getCookieInventory() + " cookie(s), but customer wanted " + desired_cookies + " cookies";
                 store.sellCookies(store.getCookieInventory());
                 cookiesConsumed = Util.dissapointed;
             }

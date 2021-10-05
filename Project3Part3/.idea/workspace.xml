@@ -5,10 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e122c7fb-d3ab-4994-8594-a33f867d58dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3Part2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedUML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-4.13.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-params-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-commons-1.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-engine-1.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Announcer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Baker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Cashier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/GameList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Simulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/StackBehaviour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/design/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +100,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <output_file path="C:\Users\elly\Documents\Programming\OOAD\Project3Part3\output.txt" is_save="true" />
+      <output_file path="$PROJECT_DIR$/output.txt" is_save="true" />
       <option name="MAIN_CLASS_NAME" value="com.design.Main" />
       <module name="Project3Part2" />
       <method v="2">

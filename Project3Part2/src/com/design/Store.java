@@ -229,7 +229,7 @@ public class Store {
             }
         }
         else{
-            currentCashier.report("watched in as the cookie monster cried for lack of cookies.");
+            currentCashier.report("watched in joy as the cookie monster cried for lack of cookies.");
         }
     }
     /**

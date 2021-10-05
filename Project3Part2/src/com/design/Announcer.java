@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.concurrent.Flow;
 import java.util.LinkedList;
 
+// Announcer implements Flow.Subscriber to become an observer
 public class Announcer extends Employee implements Flow.Subscriber<String> {
     private Flow.Subscription subscription;
     public List<String> consumedElements = new LinkedList<String>();
