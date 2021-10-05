@@ -80,7 +80,7 @@ public class test {
         game.setCount(Util.maxInventory);
         Cashier cashier = new Cashier("Bernie", .3, Util.height);
         GameList inventory = new GameList();
-        inventory.addGame(gameName,game);
+        inventory.put(gameName,game);
         GameList orderGames = new GameList();
         orderGames.addGame(gameName,game);
         Register register = new Register();
@@ -91,10 +91,6 @@ public class test {
         cashier.orderGame(orderGames,inventory,register);
 
         Assertions.assertEquals(270, register.getStoreTotal());
-
-        cashier.unpackOrders(inventory, orderGames);
-        Assertions.assertEquals(3, inventory.get(gameName).getCount());
-        Assertions.assertEquals(20, inventory.get(gameName).getPrice());
     }
 
     //Cashier Test 2
