@@ -20,6 +20,20 @@ public class Announcer extends Employee implements Flow.Subscriber<String> {
         return name;
     }
 
+    /**
+     * Cashier announces who they are and that they have arrived at the store.
+     */
+    public void arrive(int day){
+        System.out.println(name + " has arrived at the store on day " + day);
+    }
+
+    /**
+     * Cashier announces who they are and that they are leaving the store.
+     */
+    public void leave(){
+        System.out.println(name + " has left the store.");
+    }
+
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
         System.out.println(name + " Subscribed to " + subscription.getClass().getName());
@@ -43,5 +57,12 @@ public class Announcer extends Employee implements Flow.Subscriber<String> {
     @Override
     public void onComplete() {
         System.out.println("Done");
+    }
+
+    public static void printSimDayInfo(int day) {
+        System.out.println("--- Simulation starting day " + String.valueOf(day));
+    }
+    public static void printEndDayInfo(int day) {
+        System.out.println("End of day " + String.valueOf(day));
     }
 }
