@@ -37,7 +37,7 @@ public class Cashier extends Employee {
             String ordered_game = order.getKey();
             Game restock = inventory.get(ordered_game);
             restock.setCount(Util.maxInventory);
-            report("ORDER ARRIVED " + inventory.getKey(restock) + " is now in stock");
+            report("unpacked the order of  " + inventory.getKey(restock));
         }
         orderedGames.clear();
     }
@@ -119,8 +119,10 @@ public class Cashier extends Employee {
     //This is an example of Abstraction as this function is only needed within the Cashier class
     /**
      * Process each customer buying their game(s)
+     * Handles changing the money in regsiter and games in stock
+     * Will also announce sale
      */
-    private double buyGames(GameList inventory, int customerNum, List<Integer> bought) {
+    private double sellGames(GameList inventory, int customerNum, List<Integer> bought) {
         double total = 0.0;
         for (int j = 0; j < bought.size(); j++) {
             Game current = inventory.getGameAtPos(bought.get(j));
@@ -154,26 +156,13 @@ public class Cashier extends Employee {
                 store.rampage();
             }
             else {
-                //TODO: Customer buys games with new cookie odds
                 choice = nextCustomer.considerCookies(store);
-                if(nextCustomer.cookiesConsumed == 1) {
-                    //Increase all buy game chance by 20%
-                    additional_odds = .2;
-                }
-                else if(nextCustomer.cookiesConsumed == 2) {
-                    //Decrease all buy game chance by 10%
-                    additional_odds = -.1;
-                }
-
-                else {
-                    additional_odds = 0.0;
-                }
-                report("Customer " + (i + 1)  + choice);
+                report("sold customer " + (i + 1) + " " + choice);
                 List<Integer> bought = nextCustomer.considerGames(inventory,additional_odds);
                 if (bought.size() == 0) {
                     report("Customer " + (i + 1) + " didn't buy a game.");
                 }
-                total += buyGames(inventory, i, bought);
+                total += sellGames(inventory, i, bought);
             }
         }
         return total;

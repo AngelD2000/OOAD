@@ -18,17 +18,17 @@ public class Customer {
      */
     String considerCookies(Store store){
         //Check if customer wants any cookies
-        String choice = " didn't want any cookies";
+        String choice = "no cookies";
         if (Util.testOdds(Util.cookieDesire)){
             //Randomly generate how many cookies customer wants
             int desired_cookies = Util.rndFromRange(1, Util.maxCookiesDesired);
             if (desired_cookies < store.getCookieInventory()){
-                choice=" bought " + desired_cookies + " cookies.";
+                choice =  desired_cookies + " cookie(s).";
                 store.sellCookies(desired_cookies);
                 cookiesConsumed = Util.consumed;
             }
             else{
-                choice = " bought " + store.getCookieInventory() + " cookies but wanted " + desired_cookies + " cookies";
+                choice = " bought " + store.getCookieInventory() + "cookie(s), but customer wanted " + desired_cookies + " cookies";
                 store.sellCookies(store.getCookieInventory());
                 cookiesConsumed = Util.dissapointed;
             }
@@ -46,7 +46,7 @@ public class Customer {
         for (int j = 0; j < inventory.size(); j++) {
             //See if game picked in stock
             if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                if (Util.testOdds(.2 - (.02 * j) + additional_odds) && bought.size() < 2) {
+                if (Util.testOdds(.2 - (.02 * j) + Util.cookieOdds.get(cookiesConsumed)) && bought.size() <= 2) {
                     bought.add(j + 1);
                 }
             }
