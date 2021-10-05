@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e122c7fb-d3ab-4994-8594-a33f867d58dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/StackBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/StackBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/design/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2Part2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project3Part2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
   </component>
   <component name="RunManager" selected="Android JUnit.OrderGame">
     <configuration name="OrderGame" type="AndroidJUnit" factoryName="Android JUnit">
-      <module name="Project2Part2" />
+      <module name="Project3Part2" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <option name="PACKAGE_NAME" value="com.design" />
@@ -59,7 +56,20 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <output_file path="C:\Users\elly\Documents\Programming\OOAD\Project3Part3\output.txt" is_save="true" />
       <option name="MAIN_CLASS_NAME" value="com.design.Main" />
-      <module name="Project2Part2" />
+      <module name="Project3Part2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Project3Part2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Project3Part2" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
