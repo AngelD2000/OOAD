@@ -17,7 +17,7 @@ public abstract class Util {
     public static final int noneConsumed = 0;
     public static final int consumed = 1;
     public static final int dissapointed = 2;
-    public static List<Double> cookieOdds = Arrays.asList(0.0, .1, -.2);
+    public static List<Double> cookieOdds = Arrays.asList(0.0, .2, -.1);
     public static final double cookieDesire = .5;
     public static final int maxCookiesDesired = 3;
     public static final double monsterChance = .01;
