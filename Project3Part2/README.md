@@ -18,3 +18,8 @@ Elly Landrum, Angel Dong, Sam Feig
 - Employee inheritance was added for SubmissionPublisher which is defined in java.util.concurrent that implements Flow.Publisher
 - The above two changes enable the Observer Pattern and are both using the implementations of the pattern from java.util.concurrent.Flow
 - Store methods and variables were updated to add customers and associations to new employee types
+
+### For Bonus Run Difference with/without test###
+JUnit runs through IntelliJ: (Private post piazza, got confirmation this is ok)
+- Running without tests: Configuration is set to Main and click the run button
+- Running with tests: Configuration is set to test and click the run button
