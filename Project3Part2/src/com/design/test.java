@@ -1,15 +1,12 @@
 package com.design;
 
-import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.api.extension.ExtensionContext;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.SortedMap;
 
-import static org.junit.jupiter.api.Assertions.*;
+@ExtendWith(gameTestWatcher.class)
 public class test {
     //Register Test 1
     @Test
@@ -219,6 +216,4 @@ public class test {
         Assertions.assertEquals("Gloomhaven", inventory.getGameAtPos(2).getGameName());
         Assertions.assertEquals("Catan", inventory.getGameAtPos(3).getGameName());
     }
-
-
 }
