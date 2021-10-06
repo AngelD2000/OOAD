@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 
 import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.extension.AfterAllCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
 
@@ -17,7 +18,8 @@ import org.junit.jupiter.api.extension.TestWatcher;
 //https://www.baeldung.com/junit-testwatcher
 //https://stackoverflow.com/questions/31959039/using-testwatcher-for-logging-assertion-failures-in-test-cases
 //https://junit.org/junit5/docs/current/user-guide/
-public class gameTestWatcher implements TestWatcher {
+//https://www.baeldung.com/junit-5-extensions
+public class gameTestWatcher implements TestWatcher, AfterAllCallback {
     private final List<TestResultStatus> testResultsStatus = new ArrayList<>();
     static final Logger LOG = Logger.getLogger(gameTestWatcher.class.getName());
 
@@ -57,10 +59,12 @@ public class gameTestWatcher implements TestWatcher {
         testResultsStatus.add(TestResultStatus.FAILED);
     }
 
-//    @Override
-//    static void afterAll(ExtensionContext context){
-//        LOG.info(() -> String.format("Test result summary for {%s}",
-//                context.getDisplayName()));
-//    }
+    @Override
+    public void afterAll(ExtensionContext context){
+        Map<TestResultStatus, Long> summary = testResultsStatus.stream()
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
+        LOG.info(()-> String.format("Test result summary for {%s} %s", context.getDisplayName(), summary.toString()));
+    }
 }
 
