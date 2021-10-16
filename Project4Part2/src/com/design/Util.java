@@ -36,6 +36,15 @@ public abstract class Util {
     public static final String announcerName = "Guy";
     public static final String announcerType = "Eager"; // Either "Eager" or "Lazy"
 
+    public static final String[] names = {
+            "Liam", "Olivia", "Noah", "Emma", "Oliver", "Ava", "William", "Sophia", "Elijah", "Isabella", "James",
+            "Charlotte", "Benjamin", "Amelia", "Lucas", "Mia", "Mason", "Harper", "Ethan", "Evelyn", "Adam", "Alex",
+            "Aaron", "Ben", "Carl", "Dan", "David", "Edward", "Fred", "Frank", "George", "Hank", "Ike", "John",
+            "Jack", "Joe", "Matthew", "Mark", "Nathan", "Otto", "Paul", "Peter", "Roger", "Steve", "Thomas", "Tim",
+            "Ty", "Victor", "Ashley", "Sarah", "Alexis", "Samantha", "Jessica", "Elizabeth", "Taylor", "Lauren",
+            "Alyssa", "Alexandra", "Savannah", "Chloe", "Rebecca" };
+
+
     /**
      * Function to handle printing syntax
      */
