@@ -5,14 +5,12 @@ import java.util.concurrent.Flow;
 import java.util.LinkedList;
 
 // Announcer implements Flow.Subscriber to become an observer
-public class Announcer extends Employee implements Flow.Subscriber<String> {
+// Abstract as Eager and Lazy announcer are Singleton classes
+public abstract class Announcer extends Employee implements Flow.Subscriber<String> {
     private Flow.Subscription subscription;
     public List<String> consumedElements = new LinkedList<String>();
 
-    public Announcer(String name) {
-        setType("Announcer");
-        setName(name);
-    }
+    public Announcer() {}
 
     /**
      * Announcer announces who they are and that they have arrived at the store.

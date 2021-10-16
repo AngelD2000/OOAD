@@ -33,6 +33,8 @@ public abstract class Util {
     public static final String[] familyGames = {"Monopoly", "Clue", "Life"};
     public static final String[] kidsGames = {"Mousetrap", "Candyland","Connect Four"};
     public static final String[] cardGames = {"Magic", "Pokemon", "Netrunner"};
+    public static final String announcerName = "Guy";
+    public static final String announcerType = "Eager"; // Either "Eager" or "Lazy"
 
     /**
      * Function to handle printing syntax

@@ -18,7 +18,18 @@ public class Store {
     List<Integer> customers = new ArrayList<>();
     Store() {
         //Create employees
-        guy = new Announcer("Guy");
+
+        // Create Announcer based on type and name in Util
+        switch (Util.announcerType) {
+            case "Eager":
+                guy = EagerAnnouncer.getInstance();
+                break;
+            case "Lazy":
+                guy = LazyAnnouncer.getInstance();
+                break;
+            default:
+                guy = EagerAnnouncer.getInstance();
+        }
 
         for (int i = 0; i < Util.employeeNames.length; i++) {
             Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
