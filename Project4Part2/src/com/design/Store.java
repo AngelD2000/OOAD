@@ -135,6 +135,9 @@ public class Store {
         guy.arrive(day); //Announcer arrives first
         currentCashier = pickCashier();
         currentCashier.arrive(day);
+        if((day-1) == 1){
+            if(getRobbed(currentCashier)) return;
+        }
         //Cashier stacks ordered games
         currentCashier.unpackOrders(inventory, orderedGames);
         currentCashier.report("sees that " + register.checkIfNeedFill());
@@ -160,6 +163,22 @@ public class Store {
     /**
      * Pick a random cashier to work today
      */
+    public boolean getRobbed(Cashier currentCashier){
+        int rand = Util.rndFromRange(1,30);
+        if(rand == 1){
+            register.setStoreTotal(0);
+            cookies = 0;
+            for (String gameName : inventory.keySet()) {
+                Game game = inventory.get(gameName);
+                game.setCount(3);
+            }
+            currentCashier.report("said: OH NO! The store got robbed!");
+            currentCashier.report("said: Dear Customers, we apologize for the inconvenience, the store will have to close for the day");
+            currentCashier.report("said: Please come back tomorrow, thank you.");
+            return true;
+        }
+        return false;
+    }
     Cashier pickCashier() {
         //Method: https://www.baeldung.com/java-random-list-element
         Random rand = new Random();
