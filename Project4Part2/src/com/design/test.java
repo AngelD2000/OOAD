@@ -1,5 +1,6 @@
 package com.design;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.extension.ExtensionContext;
@@ -216,4 +217,53 @@ public class test {
         Assertions.assertEquals("Gloomhaven", inventory.getGameAtPos(2).getGameName());
         Assertions.assertEquals("Catan", inventory.getGameAtPos(3).getGameName());
     }
+    // Game Test 1
+    /**
+     * Checks if a family game is instance of a game
+     * */
+    @Test
+    public void checkGameType(){
+        FamilyGame Life_plus = new FamilyGame();
+        Assertions.assertTrue(Life_plus instanceof Game);
+    }
+    //Game Test 2
+    /**
+     * Checks if a board game is instance of a game
+     * */
+    @Test
+    public void checkGameType1(){
+        BoardGame boardGame = new BoardGame();
+        Assertions.assertTrue(boardGame instanceof Game);
+    }
+    //Announcer Test 1
+    /**
+     * Check if guy is an eager announcer
+     * */
+    @Test
+    public void checkGuy(){
+        Announcer guyTest;
+        guyTest = EagerAnnouncer.getInstance();
+        Assertions.assertTrue(guyTest instanceof EagerAnnouncer);
+    }
+    //Announcer Test 2
+    /**
+     * Check if guy is a lazy announcer
+     * */
+    @Test
+    public void checkGuy2(){
+        Announcer guyTest;
+        guyTest = LazyAnnouncer.getInstance();
+        Assertions.assertTrue(guyTest instanceof LazyAnnouncer);
+    }
+    //Announcer Test 3
+    /**
+     * Check if guy is a lazy announcer, it is not an eagerannouncer
+     * */
+    @Test
+    public void checkGuy3(){
+        Announcer guyTest;
+        guyTest = EagerAnnouncer.getInstance();
+        Assertions.assertTrue(!(guyTest instanceof LazyAnnouncer));
+    }
+
 }
