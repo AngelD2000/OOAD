@@ -4,15 +4,47 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Customer {
-    String name;
-    int cookiesConsumed = Util.noneConsumed;
-    Boolean cookieMonster = false;
-    int customerNum;
-    Customer(int num){
-        cookieMonster = Util.testOdds(Util.monsterChance);
+public abstract class Customer {
+    private String name;
+    private int cookiesConsumed = Util.noneConsumed;
+    private Boolean cookieMonster = false;
+    private int customerNum;
+    private String type;
+    private double[] purchaseBonus = {0, 0, 0};
+
+    Customer(int num, String name){
+//        cookieMonster = Util.testOdds(Util.monsterChance);
         customerNum = num;
+        this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setPurchaseBonus(double[] bonus) {
+        purchaseBonus = bonus;
+    }
+
+    public double[] getPurchaseBonus() {
+        return purchaseBonus;
+    }
+
+    public void setCookieMonster(boolean val) {
+        cookieMonster = val;
+    }
+    public void setType(String type) {
+        this.type = type;
+    }
+    public String getType() { return type; }
+    /**
+     * Checks whether a customer is a monster or not
+     * */
+    boolean isMonster(){
+        return cookieMonster;
+    }
+
+
     /**
      * Customer decides how many cookies they want
      * Sets the cookiesConsumed if the customer ate, didn't eat, or wanted more cookies
@@ -55,15 +87,4 @@ public class Customer {
         return bought;
     }
 
-    /**
-     * Checks whether a customer is a monster or not
-     * */
-    boolean isMonster(){
-        return cookieMonster;
-    }
-
-    String pickName(){
-        int rand = Util.rndFromRange(1,Util.names.length);
-        return Util.names[rand-1];
-    }
 }

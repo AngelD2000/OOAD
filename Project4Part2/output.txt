@@ -26,76 +26,90 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Ernie the Cashier has started vacuuming the store.
 Guy Says: Ernie the Cashier has finished vacuuming the store.
 Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
 Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 no cookies
-Guy Says: Ernie the Cashier Customer 1 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 2 2 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 2 add-ons of spare parts to Customer 2 for $45.0
-Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer 2 for $19.0
-Guy Says: Ernie the Cashier Ernie sold a Magic with 0 add-ons of Special Cards to Customer 2 for $29.0
-Guy Says: Ernie the Cashier sold customer 3 no cookies
-Guy Says: Ernie the Cashier Customer 3 didn't buy a game.
+Guy Says: Ernie the Cashier welcomed 5 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Chloe no cookies
+Guy Says: Ernie the Cashier Customer Chloe didn't buy a game.
+Guy Says: Ernie the Cashier sold customer Ashley no cookies
+Guy Says: Ernie the Cashier Ernie sold a Netrunner with 0 add-ons of Special Cards to Customer Ashley for $47.0
+Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer Ashley for $23.0
+Guy Says: Ernie the Cashier sold customer Ethan 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Ethan for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer Ethan for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Monopoly with 0 add-ons of Special Token pack to Customer Ethan for $22.0
+Guy Says: Ernie the Cashier sold customer Harper no cookies
+Guy Says: Ernie the Cashier Ernie sold a Gloomhaven with 0 add-ons of custom miniatures to Customer Harper for $32.0
+Guy Says: Ernie the Cashier sold customer Jessica no cookies
+Guy Says: Ernie the Cashier Ernie sold the last Connect Four to Customer Jessica for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Gloomhaven with 0 add-ons of custom miniatures to Customer Jessica for $32.0
+Guy Says: Ernie the Cashier ordered 3 more Connect Four
 Guy Says: Ernie the Cashier has left the store.
 Guy has left the store.
 End of day 1
 --- Simulation starting day 2
 Guy has arrived at the store on day 2
-Guy Says: Bart the Cashier has arrived at the store on day 2.
-Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier sees that register has $1,109.00
+Guy Says: Burt the Cashier has arrived at the store on day 2.
+Guy Says: Burt the Cashier is restocking the games
+Guy Says: Burt the Cashier unpacked the order of Connect Four
+Guy Says: Burt the Cashier sees that register has $1,206.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Bart the Cashier has started vacuuming the store.
-Guy Says: Bart the Cashier has finished vacuuming the store.
-Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 2 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Netrunner in position 3 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Catan in position 4 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Magic in position 6 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Pokemon in position 7 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Monopoly in position 8 because of its width of 5 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Candyland in position 9 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Connect Four in position 10 because of its width of 4 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 11 because of its width of 3 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Risk in position 12 because of its width of 2 and its inventory of 3
-Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Clue to Customer 1 for $16.0
-Guy Says: Bart the Cashier Bart sold a Connect Four to Customer 1 for $19.0
-Guy Says: Bart the Cashier Bart sold a Risk to Customer 1 for $17.0
-Guy Says: Bart the Cashier sold customer 2 no cookies
-Guy Says: Bart the Cashier Customer 2 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Bart sold a Catan to Customer 3 for $43.0
-Guy Says: Bart the Cashier sold customer 4 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Gloomhaven with 0 add-ons of custom miniatures to Customer 4 for $41.0
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 4 for $28.0
-Guy Says: Bart the Cashier has left the store.
+Guy Says: Burt the Cashier has started vacuuming the store.
+Guy Says: Burt the Cashier has finished vacuuming the store.
+Guy Says: Burt the Cashier is stacking games on the shelf
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
+Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
+Guy Says: Burt the Cashier is opening the store
+Guy Says: Burt the Cashier welcomed 5 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Alyssa 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer Alyssa for $47.0
+Guy Says: Burt the Cashier sold customer Alexandra 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Alexandra for $33.0
+Guy Says: Burt the Cashier Burt sold a Connect Four to Customer Alexandra for $23.0
+Guy Says: Burt the Cashier Burt sold the last Netrunner with 0 add-ons of Special Cards to Customer Alexandra for $47.0
+Guy Says: Burt the Cashier sold customer Frank 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Life to Customer Frank for $30.0
+Guy Says: Burt the Cashier Burt sold a Candyland to Customer Frank for $23.0
+Guy Says: Burt the Cashier sold customer Dan no cookies
+Guy Says: Burt the Cashier Burt sold a Catan to Customer Dan for $31.0
+Guy Says: Burt the Cashier sold customer Lucas 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Lucas for $33.0
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Lucas for $42.0
+Guy Says: Burt the Cashier Burt sold a Catan to Customer Lucas for $31.0
+Guy Says: Burt the Cashier ordered 3 more Netrunner
+Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 2
 --- Simulation starting day 3
 Guy has arrived at the store on day 3
 Guy Says: Bart the Cashier has arrived at the store on day 3.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier sees that register has $1,297.00
+Guy Says: Bart the Cashier unpacked the order of Netrunner
+Guy Says: Bart the Cashier sees that register has $1,502.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -103,115 +117,133 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 2 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Netrunner in position 3 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Catan in position 4 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Magic in position 6 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Pokemon in position 7 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Monopoly in position 8 because of its width of 5 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Candyland in position 9 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 3 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Risk in position 11 because of its width of 2 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Connect Four in position 12 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 12 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Connect Four in position 3 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 4 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Monopoly in position 6 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Magic in position 7 because of its width of 4 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Risk in position 8 because of its width of 4 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 9 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Catan in position 10 because of its width of 9 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Candyland in position 11 because of its width of 2 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 1 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 5 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 1 for $28.0
-Guy Says: Bart the Cashier Bart sold a Monopoly with 0 add-ons of Special Token pack to Customer 1 for $22.0
-Guy Says: Bart the Cashier Bart sold a Risk to Customer 1 for $17.0
-Guy Says: Bart the Cashier sold customer 2 no cookies
-Guy Says: Bart the Cashier Bart sold the last Netrunner with 4 add-ons of Special Cards to Customer 2 for $32.0
-Guy Says: Bart the Cashier Bart sold a Life to Customer 2 for $32.0
-Guy Says: Bart the Cashier Bart sold a Magic with 0 add-ons of Special Cards to Customer 2 for $29.0
-Guy Says: Bart the Cashier sold customer 3 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Life to Customer 3 for $32.0
-Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer 3 for $23.0
-Guy Says: Bart the Cashier sold customer 4 no cookies
-Guy Says: Bart the Cashier Customer 4 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 5 no cookies
-Guy Says: Bart the Cashier Customer 5 didn't buy a game.
-Guy Says: Bart the Cashier ordered 3 more Netrunner
+Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Charlotte 3 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Clue to Customer Charlotte for $43.0
+Guy Says: Bart the Cashier Bart sold a Connect Four to Customer Charlotte for $23.0
+Guy Says: Bart the Cashier Bart sold a Life to Customer Charlotte for $30.0
+Guy Says: Bart the Cashier sold customer Fred no cookies
+Guy Says: Bart the Cashier Bart sold a Pokemon with 6 add-ons of Special Cards to Customer Fred for $48.0
+Guy Says: Bart the Cashier Bart sold a Magic with 0 add-ons of Special Cards to Customer Fred for $24.0
+Guy Says: Bart the Cashier sold customer Rebecca 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold the last Pokemon with 0 add-ons of Special Cards to Customer Rebecca for $42.0
+Guy Says: Bart the Cashier Bart sold the last Candyland to Customer Rebecca for $23.0
+Guy Says: Bart the Cashier sold customer Matthew no cookies
+Guy Says: Bart the Cashier Bart sold the last Connect Four to Customer Matthew for $23.0
+Guy Says: Bart the Cashier ordered 3 more Candyland
+Guy Says: Bart the Cashier ordered 3 more Connect Four
+Guy Says: Bart the Cashier ordered 3 more Pokemon
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 3
 --- Simulation starting day 4
 Guy has arrived at the store on day 4
-Guy Says: Ernie the Cashier has arrived at the store on day 4.
-Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier unpacked the order of Netrunner
-Guy Says: Ernie the Cashier sees that register has $1,488.00
+Guy Says: Bart the Cashier has arrived at the store on day 4.
+Guy Says: Bart the Cashier is restocking the games
+Guy Says: Bart the Cashier unpacked the order of Candyland
+Guy Says: Bart the Cashier unpacked the order of Connect Four
+Guy Says: Bart the Cashier unpacked the order of Pokemon
+Guy Says: Bart the Cashier sees that register has $1,648.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Ernie the Cashier has started vacuuming the store.
-Guy Says: Ernie the Cashier has finished vacuuming the store.
-Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
-Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Life to Customer 1 for $32.0
-Guy Says: Ernie the Cashier Ernie sold the last Connect Four to Customer 1 for $19.0
-Guy Says: Ernie the Cashier Ernie sold a Pokemon with 0 add-ons of Special Cards to Customer 1 for $23.0
-Guy Says: Ernie the Cashier sold customer 2 2 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer 2 for $30.0
-Guy Says: Ernie the Cashier sold customer 3 2 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Pokemon with 0 add-ons of Special Cards to Customer 3 for $23.0
-Guy Says: Ernie the Cashier Ernie sold a Gloomhaven with 0 add-ons of custom miniatures to Customer 3 for $41.0
-Guy Says: Ernie the Cashier ordered 3 more Life
-Guy Says: Ernie the Cashier ordered 3 more Connect Four
-Guy Says: Ernie the Cashier ordered 3 more Pokemon
-Guy Says: Ernie the Cashier has left the store.
+Guy Says: Bart the Cashier has started vacuuming the store.
+Guy Says: Bart the Cashier has finished vacuuming the store.
+Guy Says: Bart the Cashier is stacking games on the shelf
+Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Connect Four in position 3 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Netrunner in position 4 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Monopoly in position 5 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Magic in position 6 because of its width of 4 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Risk in position 7 because of its width of 4 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Candyland in position 8 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 9 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Catan in position 10 because of its width of 9 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Life in position 11 because of its width of 5 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 1 and its inventory of 1
+Guy Says: Bart the Cashier is opening the store
+Guy Says: Bart the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Noah 1 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Clue to Customer Noah for $43.0
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Noah for $42.0
+Guy Says: Bart the Cashier Bart sold a Connect Four to Customer Noah for $23.0
+Guy Says: Bart the Cashier sold customer Olivia 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold the last Clue to Customer Olivia for $43.0
+Guy Says: Bart the Cashier Bart sold a Connect Four to Customer Olivia for $23.0
+Guy Says: Bart the Cashier Bart sold a Netrunner with 3 add-ons of Special Cards to Customer Olivia for $50.0
+Guy Says: Bart the Cashier sold customer Amelia no cookies
+Guy Says: Bart the Cashier Customer Amelia didn't buy a game.
+Guy Says: Bart the Cashier ordered 3 more Clue
+Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 4
 --- Simulation starting day 5
 Guy has arrived at the store on day 5
 Guy Says: Burt the Cashier has arrived at the store on day 5.
 Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Life
-Guy Says: Burt the Cashier unpacked the order of Connect Four
-Guy Says: Burt the Cashier unpacked the order of Pokemon
-Guy Says: Burt the Cashier sees that register has $1,571.00
+Guy Says: Burt the Cashier unpacked the order of Clue
+Guy Says: Burt the Cashier sees that register has $1,825.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
 Guy Says: Burt the Cashier has started vacuuming the store.
-Guy Says: Burt the Cashier broke a Monopoly
 Guy Says: Burt the Cashier has finished vacuuming the store.
 Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
 Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
 Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
 Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 2 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 no cookies
-Guy Says: Burt the Cashier Customer 1 didn't buy a game.
-Guy Says: Burt the Cashier sold customer 2 no cookies
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 2 for $16.0
+Guy Says: Burt the Cashier welcomed 7 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Joe 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Gloomhaven with 0 add-ons of custom miniatures to Customer Joe for $32.0
+Guy Says: Burt the Cashier sold customer Otto 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Catan to Customer Otto for $31.0
+Guy Says: Burt the Cashier Burt sold the last Life to Customer Otto for $30.0
+Guy Says: Burt the Cashier Burt sold a Magic with 0 add-ons of Special Cards to Customer Otto for $24.0
+Guy Says: Burt the Cashier sold customer David no cookies
+Guy Says: Burt the Cashier Burt sold the last Mousetrap with 0 add-ons of spare parts to Customer David for $33.0
+Guy Says: Burt the Cashier Burt sold a Clue to Customer David for $43.0
+Guy Says: Burt the Cashier Burt sold the last Connect Four to Customer David for $23.0
+Guy Says: Burt the Cashier sold customer Chloe no cookies
+Guy Says: Burt the Cashier Customer Chloe didn't buy a game.
+Guy Says: Burt the Cashier sold customer Carl 3 cookie(s).
+Guy Says: Burt the Cashier Customer Carl didn't buy a game.
+Guy Says: Burt the Cashier sold customer Aaron 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Aaron for $42.0
+Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer Aaron for $47.0
+Guy Says: Burt the Cashier sold customer Ava 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Pokemon with 0 add-ons of Special Cards to Customer Ava for $42.0
+Guy Says: Burt the Cashier ordered 3 more Mousetrap
+Guy Says: Burt the Cashier ordered 3 more Gloomhaven
+Guy Says: Burt the Cashier ordered 3 more Life
+Guy Says: Burt the Cashier ordered 3 more Connect Four
+Guy Says: Burt the Cashier ordered 3 more Pokemon
+Guy Says: Burt the Cashier ordered 3 more Catan
 Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 5
@@ -219,7 +251,13 @@ End of day 5
 Guy has arrived at the store on day 6
 Guy Says: Bart the Cashier has arrived at the store on day 6.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier sees that register has $1,599.00
+Guy Says: Bart the Cashier unpacked the order of Mousetrap
+Guy Says: Bart the Cashier unpacked the order of Gloomhaven
+Guy Says: Bart the Cashier unpacked the order of Life
+Guy Says: Bart the Cashier unpacked the order of Connect Four
+Guy Says: Bart the Cashier unpacked the order of Pokemon
+Guy Says: Bart the Cashier unpacked the order of Catan
+Guy Says: Bart the Cashier sees that register has $1,920.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -227,28 +265,32 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Netrunner in position 1 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Catan in position 2 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Life in position 3 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Pokemon in position 4 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Candyland in position 5 because of its width of 4 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Connect Four in position 6 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 7 because of its width of 3 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Clue in position 8 because of its width of 11 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 9 because of its width of 9 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Monopoly in position 11 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Risk in position 12 because of its width of 2 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 12 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Clue in position 2 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Pokemon in position 3 because of its width of 11 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Catan in position 4 because of its width of 9 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Connect Four in position 5 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Life in position 6 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Monopoly in position 7 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Risk in position 8 because of its width of 4 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Candyland in position 9 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 10 because of its width of 1 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Netrunner in position 11 because of its width of 7 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Magic in position 12 because of its width of 4 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Customer 1 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 2 3 cookie(s).
-Guy Says: Bart the Cashier Customer 2 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Bart sold a Catan to Customer 3 for $43.0
-Guy Says: Bart the Cashier sold customer 4 no cookies
-Guy Says: Bart the Cashier Bart sold a Life to Customer 4 for $32.0
+Guy Says: Bart the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Lucas 1 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Mousetrap with 1 add-ons of spare parts to Customer Lucas for $34.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 1 add-ons of Special Token pack to Customer Lucas for $27.0
+Guy Says: Bart the Cashier Bart sold a Risk to Customer Lucas for $18.0
+Guy Says: Bart the Cashier sold customer Oliver 1 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Connect Four to Customer Oliver for $23.0
+Guy Says: Bart the Cashier Bart sold the last Monopoly with 0 add-ons of Special Token pack to Customer Oliver for $22.0
+Guy Says: Bart the Cashier Bart sold the last Netrunner with 0 add-ons of Special Cards to Customer Oliver for $47.0
+Guy Says: Bart the Cashier sold customer Chloe no cookies
+Guy Says: Bart the Cashier Bart sold a Life to Customer Chloe for $30.0
+Guy Says: Bart the Cashier ordered 3 more Monopoly
+Guy Says: Bart the Cashier ordered 3 more Netrunner
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 6
@@ -256,7 +298,9 @@ End of day 6
 Guy has arrived at the store on day 7
 Guy Says: Bart the Cashier has arrived at the store on day 7.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier sees that register has $1,692.00
+Guy Says: Bart the Cashier unpacked the order of Monopoly
+Guy Says: Bart the Cashier unpacked the order of Netrunner
+Guy Says: Bart the Cashier sees that register has $2,033.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -264,47 +308,30 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Netrunner in position 1 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Life in position 2 because of its width of 8 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Pokemon in position 3 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Candyland in position 4 because of its width of 4 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Connect Four in position 5 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 6 because of its width of 3 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Clue in position 7 because of its width of 11 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 8 because of its width of 9 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Catan in position 9 because of its width of 9 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Monopoly in position 11 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Risk in position 12 because of its width of 2 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Clue in position 2 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Pokemon in position 3 because of its width of 11 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Catan in position 4 because of its width of 9 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Connect Four in position 5 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 6 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Life in position 7 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Monopoly in position 8 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Risk in position 9 because of its width of 4 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Candyland in position 10 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 11 because of its width of 1 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Magic in position 12 because of its width of 4 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 7 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 1 for $28.0
-Guy Says: Bart the Cashier Bart sold the last Clue to Customer 1 for $16.0
-Guy Says: Bart the Cashier Bart sold the last Catan to Customer 1 for $43.0
-Guy Says: Bart the Cashier sold customer 2 2 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 2 for $28.0
-Guy Says: Bart the Cashier Bart sold a Candyland to Customer 2 for $30.0
-Guy Says: Bart the Cashier sold customer 3 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Life to Customer 3 for $32.0
-Guy Says: Bart the Cashier Bart sold the last Candyland to Customer 3 for $30.0
-Guy Says: Bart the Cashier Bart sold a Connect Four to Customer 3 for $19.0
-Guy Says: Bart the Cashier sold customer 4 no cookies
-Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer 4 for $23.0
-Guy Says: Bart the Cashier sold customer 5 no cookies
-Guy Says: Bart the Cashier Customer 5 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 6 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold the last Netrunner with 0 add-ons of Special Cards to Customer 6 for $28.0
-Guy Says: Bart the Cashier Bart sold the last Life to Customer 6 for $32.0
-Guy Says: Bart the Cashier Bart sold a Connect Four to Customer 6 for $19.0
-Guy Says: Bart the Cashier sold customer 7 1 cookie(s).
-Guy Says: Bart the Cashier Bart sold the last Risk to Customer 7 for $17.0
-Guy Says: Bart the Cashier ordered 3 more Life
-Guy Says: Bart the Cashier ordered 3 more Candyland
-Guy Says: Bart the Cashier ordered 3 more Risk
-Guy Says: Bart the Cashier ordered 3 more Clue
-Guy Says: Bart the Cashier ordered 3 more Netrunner
-Guy Says: Bart the Cashier ordered 3 more Catan
+Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Aaron no cookies
+Guy Says: Bart the Cashier Customer Aaron didn't buy a game.
+Guy Says: Bart the Cashier sold customer Jessica no cookies
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Jessica for $47.0
+Guy Says: Bart the Cashier sold customer Peter 3 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Mousetrap with 2 add-ons of spare parts to Customer Peter for $35.0
+Guy Says: Bart the Cashier Bart sold a Clue to Customer Peter for $43.0
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Peter for $42.0
+Guy Says: Bart the Cashier sold customer Ty no cookies
+Guy Says: Bart the Cashier Customer Ty didn't buy a game.
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 7
@@ -312,13 +339,7 @@ End of day 7
 Guy has arrived at the store on day 8
 Guy Says: Bart the Cashier has arrived at the store on day 8.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier unpacked the order of Life
-Guy Says: Bart the Cashier unpacked the order of Candyland
-Guy Says: Bart the Cashier unpacked the order of Risk
-Guy Says: Bart the Cashier unpacked the order of Clue
-Guy Says: Bart the Cashier unpacked the order of Netrunner
-Guy Says: Bart the Cashier unpacked the order of Catan
-Guy Says: Bart the Cashier sees that register has $1,818.00
+Guy Says: Bart the Cashier sees that register has $2,218.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -326,28 +347,38 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Netrunner in position 2 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Life in position 4 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Pokemon in position 5 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Candyland in position 6 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 7 because of its width of 3 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Risk in position 8 because of its width of 2 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 9 because of its width of 9 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Monopoly in position 11 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Connect Four in position 12 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Pokemon in position 1 because of its width of 11 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Catan in position 2 because of its width of 9 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Connect Four in position 3 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 4 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Monopoly in position 6 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Risk in position 7 because of its width of 4 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Candyland in position 8 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 9 because of its width of 1 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 10 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Clue in position 11 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Magic in position 12 because of its width of 4 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 1 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Clue to Customer 1 for $16.0
-Guy Says: Bart the Cashier sold customer 2 no cookies
-Guy Says: Bart the Cashier Bart sold a Catan to Customer 2 for $43.0
-Guy Says: Bart the Cashier Bart sold a Life to Customer 2 for $32.0
-Guy Says: Bart the Cashier Bart sold a Risk to Customer 2 for $17.0
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 3 for $28.0
+Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Benjamin 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Benjamin for $42.0
+Guy Says: Bart the Cashier Bart sold a Catan to Customer Benjamin for $31.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 0 add-ons of Special Token pack to Customer Benjamin for $22.0
+Guy Says: Bart the Cashier sold customer Nathan 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold the last Pokemon with 0 add-ons of Special Cards to Customer Nathan for $42.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 1 add-ons of Special Token pack to Customer Nathan for $27.0
+Guy Says: Bart the Cashier Bart sold a Risk to Customer Nathan for $18.0
+Guy Says: Bart the Cashier sold customer Sophia no cookies
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Sophia for $47.0
+Guy Says: Bart the Cashier Bart sold a Life to Customer Sophia for $30.0
+Guy Says: Bart the Cashier sold customer Alexandra 1 cookie(s).
+Guy Says: Bart the Cashier Bart sold the last Netrunner with 3 add-ons of Special Cards to Customer Alexandra for $50.0
+Guy Says: Bart the Cashier Bart sold the last Monopoly with 1 add-ons of Special Token pack to Customer Alexandra for $27.0
+Guy Says: Bart the Cashier Bart sold a Gloomhaven with 0 add-ons of custom miniatures to Customer Alexandra for $32.0
+Guy Says: Bart the Cashier ordered 3 more Monopoly
+Guy Says: Bart the Cashier ordered 3 more Pokemon
+Guy Says: Bart the Cashier ordered 3 more Netrunner
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 8
@@ -355,7 +386,10 @@ End of day 8
 Guy has arrived at the store on day 9
 Guy Says: Ernie the Cashier has arrived at the store on day 9.
 Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier sees that register has $1,968.00
+Guy Says: Ernie the Cashier unpacked the order of Monopoly
+Guy Says: Ernie the Cashier unpacked the order of Pokemon
+Guy Says: Ernie the Cashier unpacked the order of Netrunner
+Guy Says: Ernie the Cashier sees that register has $2,430.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -363,36 +397,82 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Ernie the Cashier has started vacuuming the store.
 Guy Says: Ernie the Cashier has finished vacuuming the store.
 Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
 Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 2 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 2 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 0 add-ons of spare parts to Customer 1 for $43.0
-Guy Says: Ernie the Cashier Ernie sold a Life to Customer 1 for $32.0
-Guy Says: Ernie the Cashier Ernie sold the last Connect Four to Customer 1 for $19.0
-Guy Says: Ernie the Cashier sold customer 2 no cookies
-Guy Says: Ernie the Cashier Customer 2 didn't buy a game.
-Guy Says: Ernie the Cashier ordered 3 more Connect Four
+Guy Says: Ernie the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Sarah no cookies
+Guy Says: Ernie the Cashier Ernie sold a Netrunner with 0 add-ons of Special Cards to Customer Sarah for $47.0
+Guy Says: Ernie the Cashier sold customer Roger no cookies
+Guy Says: Ernie the Cashier Ernie sold a Netrunner with 0 add-ons of Special Cards to Customer Roger for $47.0
+Guy Says: Ernie the Cashier sold customer John no cookies
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer John for $23.0
+Guy Says: Ernie the Cashier sold customer Peter 3 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Peter for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Life to Customer Peter for $30.0
+Guy Says: Ernie the Cashier ordered 3 more Life
 Guy Says: Ernie the Cashier has left the store.
 Guy has left the store.
 End of day 9
 --- Simulation starting day 10
 Guy has arrived at the store on day 10
-Guy Says: Bart the Cashier has arrived at the store on day 10.
+Guy Says: Ernie the Cashier has arrived at the store on day 10.
+Guy Says: Ernie the Cashier is restocking the games
+Guy Says: Ernie the Cashier unpacked the order of Life
+Guy Says: Ernie the Cashier sees that register has $2,573.00
+Guy Says: Gonger the Baker has arrived at the store.
+Guy Says: Gonger the Baker has sold 1 packages of cookies
+Guy Says: Gonger the Baker has charged the store $12.00
+Guy Says: Gonger the Baker has left store
+Guy Says: Ernie the Cashier has started vacuuming the store.
+Guy Says: Ernie the Cashier has finished vacuuming the store.
+Guy Says: Ernie the Cashier is stacking games on the shelf
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
+Guy Says: Ernie the Cashier is opening the store
+Guy Says: Ernie the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Samantha no cookies
+Guy Says: Ernie the Cashier Ernie sold a Gloomhaven with 0 add-ons of custom miniatures to Customer Samantha for $32.0
+Guy Says: Ernie the Cashier sold customer Jack no cookies
+Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer Jack for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Monopoly with 0 add-ons of Special Token pack to Customer Jack for $22.0
+Guy Says: Ernie the Cashier sold customer Paul no cookies
+Guy Says: Ernie the Cashier Customer Paul didn't buy a game.
+Guy Says: Ernie the Cashier sold customer Peter 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold the last Candyland to Customer Peter for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Mousetrap with 0 add-ons of spare parts to Customer Peter for $33.0
+Guy Says: Ernie the Cashier ordered 3 more Mousetrap
+Guy Says: Ernie the Cashier ordered 3 more Candyland
+Guy Says: Ernie the Cashier has left the store.
+Guy has left the store.
+End of day 10
+--- Simulation starting day 11
+Guy has arrived at the store on day 11
+Guy Says: Bart the Cashier has arrived at the store on day 11.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier unpacked the order of Connect Four
-Guy Says: Bart the Cashier sees that register has $2,049.50
+Guy Says: Bart the Cashier unpacked the order of Mousetrap
+Guy Says: Bart the Cashier unpacked the order of Candyland
+Guy Says: Bart the Cashier sees that register has $2,638.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -400,45 +480,55 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Netrunner in position 2 because of its width of 9 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 12 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 3
 Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Pokemon in position 4 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Candyland in position 5 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Connect Four in position 6 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Risk in position 7 because of its width of 2 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 8 because of its width of 9 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Life in position 9 because of its width of 8 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Monopoly in position 11 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 12 because of its width of 3 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Life in position 4 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Monopoly in position 5 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Candyland in position 6 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Clue in position 7 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Connect Four in position 8 because of its width of 7 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Netrunner in position 9 because of its width of 7 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Risk in position 11 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 1 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Bart sold a Clue to Customer 1 for $16.0
-Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer 1 for $23.0
-Guy Says: Bart the Cashier Bart sold a Connect Four to Customer 1 for $19.0
-Guy Says: Bart the Cashier sold customer 2 2 cookie(s).
-Guy Says: Bart the Cashier Bart sold the last Clue to Customer 2 for $16.0
-Guy Says: Bart the Cashier Bart sold a Candyland to Customer 2 for $30.0
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 3 for $28.0
-Guy Says: Bart the Cashier Bart sold the last Pokemon with 0 add-ons of Special Cards to Customer 3 for $23.0
-Guy Says: Bart the Cashier Bart sold the last Gloomhaven with 0 add-ons of custom miniatures to Customer 3 for $41.0
-Guy Says: Bart the Cashier ordered 3 more Gloomhaven
+Guy Says: Bart the Cashier welcomed 6 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Evelyn 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Candyland to Customer Evelyn for $23.0
+Guy Says: Bart the Cashier Bart sold the last Connect Four to Customer Evelyn for $23.0
+Guy Says: Bart the Cashier Bart sold the last Netrunner with 0 add-ons of Special Cards to Customer Evelyn for $47.0
+Guy Says: Bart the Cashier sold customer Jessica no cookies
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Jessica for $42.0
+Guy Says: Bart the Cashier sold customer Charlotte no cookies
+Guy Says: Bart the Cashier Bart sold a Mousetrap with 0 add-ons of spare parts to Customer Charlotte for $33.0
+Guy Says: Bart the Cashier Bart sold a Candyland to Customer Charlotte for $23.0
+Guy Says: Bart the Cashier sold customer Dan no cookies
+Guy Says: Bart the Cashier Bart sold a Monopoly with 0 add-ons of Special Token pack to Customer Dan for $22.0
+Guy Says: Bart the Cashier sold customer John no cookies
+Guy Says: Bart the Cashier Bart sold the last Clue to Customer John for $43.0
+Guy Says: Bart the Cashier sold customer Noah 3 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Noah for $42.0
+Guy Says: Bart the Cashier Bart sold the last Monopoly with 0 add-ons of Special Token pack to Customer Noah for $22.0
+Guy Says: Bart the Cashier Bart sold the last Candyland to Customer Noah for $23.0
+Guy Says: Bart the Cashier ordered 3 more Candyland
+Guy Says: Bart the Cashier ordered 3 more Connect Four
 Guy Says: Bart the Cashier ordered 3 more Clue
-Guy Says: Bart the Cashier ordered 3 more Pokemon
+Guy Says: Bart the Cashier ordered 3 more Monopoly
+Guy Says: Bart the Cashier ordered 3 more Netrunner
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
-End of day 10
---- Simulation starting day 11
-Guy has arrived at the store on day 11
-Guy Says: Burt the Cashier has arrived at the store on day 11.
+End of day 11
+--- Simulation starting day 12
+Guy has arrived at the store on day 12
+Guy Says: Burt the Cashier has arrived at the store on day 12.
 Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Gloomhaven
+Guy Says: Burt the Cashier unpacked the order of Candyland
+Guy Says: Burt the Cashier unpacked the order of Connect Four
 Guy Says: Burt the Cashier unpacked the order of Clue
-Guy Says: Burt the Cashier unpacked the order of Pokemon
-Guy Says: Burt the Cashier sees that register has $2,141.50
+Guy Says: Burt the Cashier unpacked the order of Monopoly
+Guy Says: Burt the Cashier unpacked the order of Netrunner
+Guy Says: Burt the Cashier sees that register has $2,766.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -446,76 +536,39 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Burt the Cashier has started vacuuming the store.
 Guy Says: Burt the Cashier has finished vacuuming the store.
 Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
 Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
 Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
 Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 2 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 no cookies
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier Burt sold the last Life to Customer 1 for $32.0
-Guy Says: Burt the Cashier sold customer 2 2 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 2 for $16.0
-Guy Says: Burt the Cashier Burt sold a Gloomhaven with 2 add-ons of custom miniatures to Customer 2 for $61.0
-Guy Says: Burt the Cashier Burt sold the last Netrunner with 0 add-ons of Special Cards to Customer 2 for $28.0
-Guy Says: Burt the Cashier ordered 3 more Life
-Guy Says: Burt the Cashier ordered 3 more Netrunner
+Guy Says: Burt the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Lucas 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Lucas for $43.0
+Guy Says: Burt the Cashier Burt sold the last Pokemon with 0 add-ons of Special Cards to Customer Lucas for $42.0
+Guy Says: Burt the Cashier Burt sold a Monopoly with 1 add-ons of Special Token pack to Customer Lucas for $27.0
+Guy Says: Burt the Cashier sold customer Lucas no cookies
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Lucas for $33.0
+Guy Says: Burt the Cashier Burt sold a Connect Four to Customer Lucas for $23.0
+Guy Says: Burt the Cashier sold customer Mia no cookies
+Guy Says: Burt the Cashier Customer Mia didn't buy a game.
+Guy Says: Burt the Cashier ordered 3 more Pokemon
 Guy Says: Burt the Cashier has left the store.
-Guy has left the store.
-End of day 11
---- Simulation starting day 12
-Guy has arrived at the store on day 12
-Guy Says: Bart the Cashier has arrived at the store on day 12.
-Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier unpacked the order of Life
-Guy Says: Bart the Cashier unpacked the order of Netrunner
-Guy Says: Bart the Cashier sees that register has $2,220.50
-Guy Says: Gonger the Baker has arrived at the store.
-Guy Says: Gonger the Baker has sold 1 packages of cookies
-Guy Says: Gonger the Baker has charged the store $12.00
-Guy Says: Gonger the Baker has left store
-Guy Says: Bart the Cashier has started vacuuming the store.
-Guy Says: Bart the Cashier has finished vacuuming the store.
-Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 1 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Netrunner in position 2 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Life in position 4 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Pokemon in position 5 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Candyland in position 6 because of its width of 4 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Connect Four in position 7 because of its width of 4 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Risk in position 8 because of its width of 2 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Clue in position 9 because of its width of 11 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Monopoly in position 11 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 12 because of its width of 3 and its inventory of 1
-Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Customer 1 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 2 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 2 for $28.0
-Guy Says: Bart the Cashier Bart sold a Candyland to Customer 2 for $30.0
-Guy Says: Bart the Cashier Bart sold a Connect Four to Customer 2 for $19.0
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Customer 3 didn't buy a game.
-Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 12
 --- Simulation starting day 13
 Guy has arrived at the store on day 13
 Guy Says: Bart the Cashier has arrived at the store on day 13.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier sees that register has $2,315.50
+Guy Says: Bart the Cashier unpacked the order of Pokemon
+Guy Says: Bart the Cashier sees that register has $2,889.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -523,81 +576,92 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 1 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Netrunner in position 2 because of its width of 9 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 3
 Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Life in position 4 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Pokemon in position 5 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Risk in position 6 because of its width of 2 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Clue in position 7 because of its width of 11 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 8 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Monopoly in position 9 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Candyland in position 10 because of its width of 4 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Connect Four in position 11 because of its width of 4 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 12 because of its width of 3 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Connect Four in position 4 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 5 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Life in position 6 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Monopoly in position 7 because of its width of 5 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Candyland in position 8 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 9 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Magic in position 10 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Risk in position 11 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 1 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Customer 1 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 2 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Netrunner with 5 add-ons of Special Cards to Customer 2 for $33.0
-Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer 2 for $23.0
-Guy Says: Bart the Cashier Bart sold the last Magic with 4 add-ons of Special Cards to Customer 2 for $33.0
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Bart sold the last Netrunner with 0 add-ons of Special Cards to Customer 3 for $28.0
-Guy Says: Bart the Cashier sold customer 4 no cookies
-Guy Says: Bart the Cashier Customer 4 didn't buy a game.
-Guy Says: Bart the Cashier ordered 3 more Magic
-Guy Says: Bart the Cashier ordered 3 more Netrunner
+Guy Says: Bart the Cashier welcomed 5 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Emma 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Clue to Customer Emma for $43.0
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Emma for $42.0
+Guy Says: Bart the Cashier Bart sold a Connect Four to Customer Emma for $23.0
+Guy Says: Bart the Cashier sold customer Ashley 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold the last Clue to Customer Ashley for $43.0
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Ashley for $47.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 1 add-ons of Special Token pack to Customer Ashley for $27.0
+Guy Says: Bart the Cashier sold customer Sarah 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Catan to Customer Sarah for $31.0
+Guy Says: Bart the Cashier Bart sold the last Connect Four to Customer Sarah for $23.0
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Sarah for $47.0
+Guy Says: Bart the Cashier sold customer Savannah no cookies
+Guy Says: Bart the Cashier Bart sold the last Catan to Customer Savannah for $31.0
+Guy Says: Bart the Cashier sold customer Alexis no cookies
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer Alexis for $42.0
+Guy Says: Bart the Cashier ordered 3 more Connect Four
+Guy Says: Bart the Cashier ordered 3 more Clue
+Guy Says: Bart the Cashier ordered 3 more Catan
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 13
 --- Simulation starting day 14
 Guy has arrived at the store on day 14
-Guy Says: Burt the Cashier has arrived at the store on day 14.
-Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Magic
-Guy Says: Burt the Cashier unpacked the order of Netrunner
-Guy Says: Burt the Cashier sees that register has $2,359.00
+Guy Says: Ernie the Cashier has arrived at the store on day 14.
+Guy Says: Ernie the Cashier is restocking the games
+Guy Says: Ernie the Cashier unpacked the order of Connect Four
+Guy Says: Ernie the Cashier unpacked the order of Clue
+Guy Says: Ernie the Cashier unpacked the order of Catan
+Guy Says: Ernie the Cashier sees that register has $3,166.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Burt the Cashier has started vacuuming the store.
-Guy Says: Burt the Cashier has finished vacuuming the store.
-Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
-Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 2 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 3 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer 1 for $28.0
-Guy Says: Burt the Cashier Burt sold a Magic with 0 add-ons of Special Cards to Customer 1 for $29.0
-Guy Says: Burt the Cashier sold customer 2 2 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Mousetrap with 0 add-ons of spare parts to Customer 2 for $43.0
-Guy Says: Burt the Cashier ordered 3 more Mousetrap
-Guy Says: Burt the Cashier ordered 3 more Clue
-Guy Says: Burt the Cashier has left the store.
+Guy Says: Ernie the Cashier has started vacuuming the store.
+Guy Says: Ernie the Cashier has finished vacuuming the store.
+Guy Says: Ernie the Cashier is stacking games on the shelf
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
+Guy Says: Ernie the Cashier is opening the store
+Guy Says: Ernie the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Thomas 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Thomas for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Pokemon with 0 add-ons of Special Cards to Customer Thomas for $42.0
+Guy Says: Ernie the Cashier Ernie sold a Catan to Customer Thomas for $31.0
+Guy Says: Ernie the Cashier sold customer Chloe no cookies
+Guy Says: Ernie the Cashier Customer Chloe didn't buy a game.
+Guy Says: Ernie the Cashier sold customer David no cookies
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer David for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Netrunner with 6 add-ons of Special Cards to Customer David for $53.0
+Guy Says: Ernie the Cashier ordered 3 more Pokemon
+Guy Says: Ernie the Cashier ordered 3 more Netrunner
+Guy Says: Ernie the Cashier has left the store.
 Guy has left the store.
 End of day 14
 --- Simulation starting day 15
 Guy has arrived at the store on day 15
 Guy Says: Bart the Cashier has arrived at the store on day 15.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier unpacked the order of Mousetrap
-Guy Says: Bart the Cashier unpacked the order of Clue
-Guy Says: Bart the Cashier sees that register has $2,408.50
+Guy Says: Bart the Cashier unpacked the order of Pokemon
+Guy Says: Bart the Cashier unpacked the order of Netrunner
+Guy Says: Bart the Cashier sees that register has $3,212.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -605,29 +669,38 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 2 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Netrunner in position 3 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Catan in position 4 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Magic in position 6 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Pokemon in position 7 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 8 because of its width of 3 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Risk in position 9 because of its width of 2 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Monopoly in position 10 because of its width of 5 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Candyland in position 11 because of its width of 4 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Connect Four in position 12 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 12 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Connect Four in position 4 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Netrunner in position 5 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Life in position 6 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 7 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Monopoly in position 8 because of its width of 5 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Magic in position 9 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Risk in position 10 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Candyland in position 11 because of its width of 2 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 12 because of its width of 1 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 2 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 2 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Clue to Customer 1 for $16.0
-Guy Says: Bart the Cashier Bart sold a Gloomhaven with 0 add-ons of custom miniatures to Customer 1 for $41.0
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 1 for $28.0
-Guy Says: Bart the Cashier saw the cookie monster come in.
-Guy Says: Bart the Cashier watched in horror as the cookie monster ate 180 cookies!
-Guy Says: Bart the Cashier watched in terror as the cookie monster broke the last Netrunner
-Guy Says: Bart the Cashier watched in terror as the cookie monster broke a Catan
-Guy Says: Bart the Cashier ordered 3 more Netrunner
+Guy Says: Bart the Cashier welcomed 5 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer John no cookies
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer John for $42.0
+Guy Says: Bart the Cashier sold customer Otto no cookies
+Guy Says: Bart the Cashier Bart sold a Life to Customer Otto for $30.0
+Guy Says: Bart the Cashier Bart sold the last Monopoly with 0 add-ons of Special Token pack to Customer Otto for $22.0
+Guy Says: Bart the Cashier sold customer Taylor no cookies
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Taylor for $47.0
+Guy Says: Bart the Cashier sold customer David 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Clue to Customer David for $43.0
+Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer David for $42.0
+Guy Says: Bart the Cashier Bart sold a Catan to Customer David for $31.0
+Guy Says: Bart the Cashier sold customer Steve 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Clue to Customer Steve for $43.0
+Guy Says: Bart the Cashier Bart sold the last Pokemon with 0 add-ons of Special Cards to Customer Steve for $42.0
+Guy Says: Bart the Cashier Bart sold the last Catan to Customer Steve for $31.0
+Guy Says: Bart the Cashier ordered 3 more Monopoly
+Guy Says: Bart the Cashier ordered 3 more Pokemon
+Guy Says: Bart the Cashier ordered 3 more Catan
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 15
@@ -635,238 +708,149 @@ End of day 15
 Guy has arrived at the store on day 16
 Guy Says: Burt the Cashier has arrived at the store on day 16.
 Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Netrunner
-Guy Says: Burt the Cashier sees that register has $2,467.50
+Guy Says: Burt the Cashier unpacked the order of Monopoly
+Guy Says: Burt the Cashier unpacked the order of Pokemon
+Guy Says: Burt the Cashier unpacked the order of Catan
+Guy Says: Burt the Cashier sees that register has $3,462.50
 Guy Says: Gonger the Baker has arrived at the store.
-Guy Says: Gonger the Baker has sold 2 packages of cookies
-Guy Says: Gonger the Baker has charged the store $24.00
+Guy Says: Gonger the Baker has sold 1 packages of cookies
+Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
 Guy Says: Burt the Cashier has started vacuuming the store.
 Guy Says: Burt the Cashier has finished vacuuming the store.
 Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
 Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
 Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
 Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 5 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 2 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier Burt sold the last Gloomhaven with 0 add-ons of custom miniatures to Customer 1 for $41.0
-Guy Says: Burt the Cashier Burt sold a Life to Customer 1 for $32.0
-Guy Says: Burt the Cashier sold customer 2 3 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer 2 for $28.0
-Guy Says: Burt the Cashier Burt sold a Life to Customer 2 for $32.0
-Guy Says: Burt the Cashier Burt sold a Magic with 0 add-ons of Special Cards to Customer 2 for $29.0
-Guy Says: Burt the Cashier sold customer 3 no cookies
-Guy Says: Burt the Cashier Burt sold the last Clue to Customer 3 for $16.0
-Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer 3 for $28.0
-Guy Says: Burt the Cashier Burt sold the last Magic with 0 add-ons of Special Cards to Customer 3 for $29.0
-Guy Says: Burt the Cashier sold customer 4 no cookies
-Guy Says: Burt the Cashier Burt sold the last Catan to Customer 4 for $43.0
-Guy Says: Burt the Cashier sold customer 5 1 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Netrunner with 0 add-ons of Special Cards to Customer 5 for $28.0
-Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer 5 for $23.0
-Guy Says: Burt the Cashier Burt sold the last Connect Four to Customer 5 for $19.0
-Guy Says: Burt the Cashier ordered 3 more Gloomhaven
-Guy Says: Burt the Cashier ordered 3 more Magic
-Guy Says: Burt the Cashier ordered 3 more Connect Four
+Guy Says: Burt the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Peter no cookies
+Guy Says: Burt the Cashier Burt sold a Connect Four to Customer Peter for $23.0
+Guy Says: Burt the Cashier sold customer Harper no cookies
+Guy Says: Burt the Cashier Burt sold the last Mousetrap with 0 add-ons of spare parts to Customer Harper for $33.0
+Guy Says: Burt the Cashier Burt sold the last Clue to Customer Harper for $43.0
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Harper for $42.0
+Guy Says: Burt the Cashier sold customer Joe 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Joe for $42.0
+Guy Says: Burt the Cashier Burt sold a Catan to Customer Joe for $31.0
+Guy Says: Burt the Cashier Burt sold a Monopoly with 1 add-ons of Special Token pack to Customer Joe for $27.0
+Guy Says: Burt the Cashier ordered 3 more Mousetrap
 Guy Says: Burt the Cashier ordered 3 more Clue
-Guy Says: Burt the Cashier ordered 3 more Netrunner
-Guy Says: Burt the Cashier ordered 3 more Catan
 Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 16
 --- Simulation starting day 17
 Guy has arrived at the store on day 17
-Guy Says: Ernie the Cashier has arrived at the store on day 17.
-Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier unpacked the order of Gloomhaven
-Guy Says: Ernie the Cashier unpacked the order of Magic
-Guy Says: Ernie the Cashier unpacked the order of Connect Four
-Guy Says: Ernie the Cashier unpacked the order of Clue
-Guy Says: Ernie the Cashier unpacked the order of Netrunner
-Guy Says: Ernie the Cashier unpacked the order of Catan
-Guy Says: Ernie the Cashier sees that register has $2,603.50
+Guy Says: Burt the Cashier has arrived at the store on day 17.
+Guy Says: Burt the Cashier is restocking the games
+Guy Says: Burt the Cashier unpacked the order of Mousetrap
+Guy Says: Burt the Cashier unpacked the order of Clue
+Guy Says: Burt the Cashier sees that register has $3,603.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Ernie the Cashier has started vacuuming the store.
-Guy Says: Ernie the Cashier broke a Clue
-Guy Says: Ernie the Cashier has finished vacuuming the store.
-Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
-Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 5 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Pokemon with 0 add-ons of Special Cards to Customer 1 for $23.0
-Guy Says: Ernie the Cashier Ernie sold the last Monopoly with 1 add-ons of Special Token pack to Customer 1 for $27.0
-Guy Says: Ernie the Cashier sold customer 2 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 2 add-ons of spare parts to Customer 2 for $45.0
-Guy Says: Ernie the Cashier sold customer 3 no cookies
-Guy Says: Ernie the Cashier Customer 3 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 4 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Magic with 5 add-ons of Special Cards to Customer 4 for $34.0
-Guy Says: Ernie the Cashier Ernie sold a Clue to Customer 4 for $16.0
-Guy Says: Ernie the Cashier Ernie sold a Catan to Customer 4 for $43.0
-Guy Says: Ernie the Cashier sold customer 5 no cookies
-Guy Says: Ernie the Cashier Customer 5 didn't buy a game.
-Guy Says: Ernie the Cashier ordered 3 more Monopoly
-Guy Says: Ernie the Cashier ordered 3 more Pokemon
-Guy Says: Ernie the Cashier has left the store.
+Guy Says: Burt the Cashier has started vacuuming the store.
+Guy Says: Burt the Cashier has finished vacuuming the store.
+Guy Says: Burt the Cashier is stacking games on the shelf
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
+Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
+Guy Says: Burt the Cashier is opening the store
+Guy Says: Burt the Cashier welcomed 6 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Mason 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Candyland to Customer Mason for $23.0
+Guy Says: Burt the Cashier Burt sold the last Gloomhaven with 1 add-ons of custom miniatures to Customer Mason for $42.0
+Guy Says: Burt the Cashier sold customer Thomas 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer Thomas for $47.0
+Guy Says: Burt the Cashier sold customer Sarah 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Sarah for $43.0
+Guy Says: Burt the Cashier Burt sold the last Pokemon with 6 add-ons of Special Cards to Customer Sarah for $48.0
+Guy Says: Burt the Cashier Burt sold a Catan to Customer Sarah for $31.0
+Guy Says: Burt the Cashier sold customer Ty no cookies
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Ty for $43.0
+Guy Says: Burt the Cashier sold customer Otto 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Clue to Customer Otto for $43.0
+Guy Says: Burt the Cashier Burt sold a Monopoly with 0 add-ons of Special Token pack to Customer Otto for $22.0
+Guy Says: Burt the Cashier sold customer Emma no cookies
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Emma for $33.0
+Guy Says: Burt the Cashier Burt sold a Connect Four to Customer Emma for $23.0
+Guy Says: Burt the Cashier ordered 3 more Gloomhaven
+Guy Says: Burt the Cashier ordered 3 more Candyland
+Guy Says: Burt the Cashier ordered 3 more Clue
+Guy Says: Burt the Cashier ordered 3 more Pokemon
+Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 17
 --- Simulation starting day 18
 Guy has arrived at the store on day 18
-Guy Says: Ernie the Cashier has arrived at the store on day 18.
-Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier unpacked the order of Monopoly
-Guy Says: Ernie the Cashier unpacked the order of Pokemon
-Guy Says: Ernie the Cashier sees that register has $2,740.50
+Guy Says: Burt the Cashier has arrived at the store on day 18.
+Guy Says: Burt the Cashier is restocking the games
+Guy Says: Burt the Cashier unpacked the order of Gloomhaven
+Guy Says: Burt the Cashier unpacked the order of Candyland
+Guy Says: Burt the Cashier unpacked the order of Clue
+Guy Says: Burt the Cashier unpacked the order of Pokemon
+Guy Says: Burt the Cashier sees that register has $3,795.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Ernie the Cashier has started vacuuming the store.
-Guy Says: Ernie the Cashier has finished vacuuming the store.
-Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
-Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 11 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 0 add-ons of spare parts to Customer 1 for $43.0
-Guy Says: Ernie the Cashier Ernie sold a Pokemon with 0 add-ons of Special Cards to Customer 1 for $23.0
-Guy Says: Ernie the Cashier Ernie sold a Magic with 0 add-ons of Special Cards to Customer 1 for $29.0
-Guy Says: Ernie the Cashier sold customer 2 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Mousetrap with 0 add-ons of spare parts to Customer 2 for $43.0
-Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer 2 for $19.0
-Guy Says: Ernie the Cashier sold customer 3 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Candyland to Customer 3 for $30.0
-Guy Says: Ernie the Cashier sold customer 4 no cookies
-Guy Says: Ernie the Cashier Customer 4 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 5 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Clue to Customer 5 for $16.0
-Guy Says: Ernie the Cashier sold customer 6 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Pokemon with 0 add-ons of Special Cards to Customer 6 for $23.0
-Guy Says: Ernie the Cashier Ernie sold the last Magic with 0 add-ons of Special Cards to Customer 6 for $29.0
-Guy Says: Ernie the Cashier Ernie sold a Monopoly with 0 add-ons of Special Token pack to Customer 6 for $22.0
-Guy Says: Ernie the Cashier sold customer 7 1 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Pokemon with 0 add-ons of Special Cards to Customer 7 for $23.0
-Guy Says: Ernie the Cashier Ernie sold a Netrunner with 0 add-ons of Special Cards to Customer 7 for $28.0
-Guy Says: Ernie the Cashier saw the cookie monster come in.
-Guy Says: Ernie the Cashier watched in horror as the cookie monster ate 48 cookies!
-Guy Says: Ernie the Cashier watched in terror as the cookie monster broke a Catan
-Guy Says: Ernie the Cashier watched in terror as the cookie monster broke a Connect Four
-Guy Says: Ernie the Cashier watched in terror as the cookie monster broke a Risk
-Guy Says: Ernie the Cashier watched in terror as the cookie monster broke the last Risk
-Guy Says: Ernie the Cashier watched in terror as the cookie monster broke the last Catan
-Guy Says: Ernie the Cashier watched in terror as the cookie monster broke the last Life
-Guy Says: Ernie the Cashier sold customer 9 0 cookie(s), but customer wanted 2 cookies
-Guy Says: Ernie the Cashier Customer 9 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 10 0 cookie(s), but customer wanted 1 cookies
-Guy Says: Ernie the Cashier Customer 10 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 11 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Connect Four to Customer 11 for $19.0
-Guy Says: Ernie the Cashier ordered 3 more Mousetrap
-Guy Says: Ernie the Cashier ordered 3 more Magic
-Guy Says: Ernie the Cashier ordered 3 more Life
-Guy Says: Ernie the Cashier ordered 3 more Candyland
-Guy Says: Ernie the Cashier ordered 3 more Connect Four
-Guy Says: Ernie the Cashier ordered 3 more Risk
-Guy Says: Ernie the Cashier ordered 3 more Clue
-Guy Says: Ernie the Cashier ordered 3 more Pokemon
-Guy Says: Ernie the Cashier ordered 3 more Catan
-Guy Says: Ernie the Cashier has left the store.
+Guy Says: Burt the Cashier has started vacuuming the store.
+Guy Says: Burt the Cashier has finished vacuuming the store.
+Guy Says: Burt the Cashier is stacking games on the shelf
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
+Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
+Guy Says: Burt the Cashier is opening the store
+Guy Says: Burt the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Oliver 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Oliver for $33.0
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Oliver for $43.0
+Guy Says: Burt the Cashier Burt sold a Life to Customer Oliver for $30.0
+Guy Says: Burt the Cashier sold customer John no cookies
+Guy Says: Burt the Cashier Customer John didn't buy a game.
+Guy Says: Burt the Cashier sold customer Peter 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Mousetrap with 0 add-ons of spare parts to Customer Peter for $33.0
+Guy Says: Burt the Cashier Burt sold the last Magic with 4 add-ons of Special Cards to Customer Peter for $28.0
+Guy Says: Burt the Cashier ordered 3 more Mousetrap
+Guy Says: Burt the Cashier ordered 3 more Magic
+Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 18
 --- Simulation starting day 19
 Guy has arrived at the store on day 19
-Guy Says: Bart the Cashier has arrived at the store on day 19.
-Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier unpacked the order of Mousetrap
-Guy Says: Bart the Cashier unpacked the order of Magic
-Guy Says: Bart the Cashier unpacked the order of Life
-Guy Says: Bart the Cashier unpacked the order of Candyland
-Guy Says: Bart the Cashier unpacked the order of Connect Four
-Guy Says: Bart the Cashier unpacked the order of Risk
-Guy Says: Bart the Cashier unpacked the order of Clue
-Guy Says: Bart the Cashier unpacked the order of Pokemon
-Guy Says: Bart the Cashier unpacked the order of Catan
-Guy Says: Bart the Cashier sees that register has $2,741.50
-Guy Says: Gonger the Baker has arrived at the store.
-Guy Says: Gonger the Baker has sold 2 packages of cookies
-Guy Says: Gonger the Baker has charged the store $24.00
-Guy Says: Gonger the Baker has left store
-Guy Says: Bart the Cashier has started vacuuming the store.
-Guy Says: Bart the Cashier has finished vacuuming the store.
-Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 2 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Netrunner in position 3 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Catan in position 4 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 8 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Magic in position 6 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Pokemon in position 7 because of its width of 6 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Monopoly in position 8 because of its width of 5 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Candyland in position 9 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Connect Four in position 10 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 11 because of its width of 3 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Risk in position 12 because of its width of 2 and its inventory of 3
-Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 6 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Bart sold a Magic with 0 add-ons of Special Cards to Customer 1 for $29.0
-Guy Says: Bart the Cashier sold customer 2 no cookies
-Guy Says: Bart the Cashier Customer 2 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 3 no cookies
-Guy Says: Bart the Cashier Bart sold a Pokemon with 5 add-ons of Special Cards to Customer 3 for $28.0
-Guy Says: Bart the Cashier sold customer 4 no cookies
-Guy Says: Bart the Cashier Bart sold a Catan to Customer 4 for $43.0
-Guy Says: Bart the Cashier sold customer 5 no cookies
-Guy Says: Bart the Cashier Customer 5 didn't buy a game.
-Guy Says: Bart the Cashier sold customer 6 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer 6 for $28.0
-Guy Says: Bart the Cashier Bart sold a Life to Customer 6 for $32.0
-Guy Says: Bart the Cashier Bart sold a Mousetrap with 2 add-ons of spare parts to Customer 6 for $45.0
-Guy Says: Bart the Cashier has left the store.
-Guy has left the store.
-End of day 19
---- Simulation starting day 20
-Guy has arrived at the store on day 20
-Guy Says: Ernie the Cashier has arrived at the store on day 20.
+Guy Says: Ernie the Cashier has arrived at the store on day 19.
 Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier sees that register has $2,976.50
+Guy Says: Ernie the Cashier unpacked the order of Mousetrap
+Guy Says: Ernie the Cashier unpacked the order of Magic
+Guy Says: Ernie the Cashier sees that register has $3,891.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -874,38 +858,97 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Ernie the Cashier has started vacuuming the store.
 Guy Says: Ernie the Cashier has finished vacuuming the store.
 Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
 Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 3 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 2 add-ons of spare parts to Customer 1 for $45.0
-Guy Says: Ernie the Cashier Ernie sold a Life to Customer 1 for $32.0
-Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer 1 for $19.0
-Guy Says: Ernie the Cashier sold customer 2 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Mousetrap with 1 add-ons of spare parts to Customer 2 for $44.0
-Guy Says: Ernie the Cashier sold customer 3 no cookies
-Guy Says: Ernie the Cashier Customer 3 didn't buy a game.
-Guy Says: Ernie the Cashier ordered 3 more Mousetrap
+Guy Says: Ernie the Cashier welcomed 7 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Steve 3 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Steve for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Netrunner with 0 add-ons of Special Cards to Customer Steve for $47.0
+Guy Says: Ernie the Cashier Ernie sold the last Life to Customer Steve for $30.0
+Guy Says: Ernie the Cashier sold customer Taylor 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Taylor for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Monopoly with 1 add-ons of Special Token pack to Customer Taylor for $27.0
+Guy Says: Ernie the Cashier sold customer Sophia no cookies
+Guy Says: Ernie the Cashier Customer Sophia didn't buy a game.
+Guy Says: Ernie the Cashier sold customer Aaron 3 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Pokemon with 0 add-ons of Special Cards to Customer Aaron for $42.0
+Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 0 add-ons of spare parts to Customer Aaron for $33.0
+Guy Says: Ernie the Cashier sold customer Peter no cookies
+Guy Says: Ernie the Cashier Customer Peter didn't buy a game.
+Guy Says: Ernie the Cashier sold customer Ethan no cookies
+Guy Says: Ernie the Cashier Customer Ethan didn't buy a game.
+Guy Says: Ernie the Cashier sold customer Isabella 3 cookie(s).
+Guy Says: Ernie the Cashier Customer Isabella didn't buy a game.
+Guy Says: Ernie the Cashier ordered 3 more Life
+Guy Says: Ernie the Cashier ordered 3 more Monopoly
+Guy Says: Ernie the Cashier ordered 3 more Netrunner
 Guy Says: Ernie the Cashier has left the store.
+Guy has left the store.
+End of day 19
+--- Simulation starting day 20
+Guy has arrived at the store on day 20
+Guy Says: Bart the Cashier has arrived at the store on day 20.
+Guy Says: Bart the Cashier is restocking the games
+Guy Says: Bart the Cashier unpacked the order of Life
+Guy Says: Bart the Cashier unpacked the order of Monopoly
+Guy Says: Bart the Cashier unpacked the order of Netrunner
+Guy Says: Bart the Cashier sees that register has $3,994.00
+Guy Says: Gonger the Baker has arrived at the store.
+Guy Says: Gonger the Baker has sold 1 packages of cookies
+Guy Says: Gonger the Baker has charged the store $12.00
+Guy Says: Gonger the Baker has left store
+Guy Says: Bart the Cashier has started vacuuming the store.
+Guy Says: Bart the Cashier has finished vacuuming the store.
+Guy Says: Bart the Cashier is stacking games on the shelf
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Clue in position 2 because of its width of 12 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Pokemon in position 3 because of its width of 11 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 4 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Life in position 5 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Monopoly in position 6 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Magic in position 7 because of its width of 4 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 8 because of its width of 1 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Catan in position 9 because of its width of 9 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Connect Four in position 10 because of its width of 7 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Risk in position 11 because of its width of 4 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Candyland in position 12 because of its width of 2 and its inventory of 1
+Guy Says: Bart the Cashier is opening the store
+Guy Says: Bart the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Roger no cookies
+Guy Says: Bart the Cashier Bart sold a Clue to Customer Roger for $43.0
+Guy Says: Bart the Cashier sold customer Steve no cookies
+Guy Says: Bart the Cashier Bart sold the last Clue to Customer Steve for $43.0
+Guy Says: Bart the Cashier Bart sold a Netrunner with 5 add-ons of Special Cards to Customer Steve for $52.0
+Guy Says: Bart the Cashier sold customer Rebecca 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Mousetrap with 2 add-ons of spare parts to Customer Rebecca for $35.0
+Guy Says: Bart the Cashier Bart sold a Life to Customer Rebecca for $30.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 1 add-ons of Special Token pack to Customer Rebecca for $27.0
+Guy Says: Bart the Cashier sold customer Liam 2 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Magic with 3 add-ons of Special Cards to Customer Liam for $27.0
+Guy Says: Bart the Cashier Bart sold the last Catan to Customer Liam for $31.0
+Guy Says: Bart the Cashier ordered 3 more Clue
+Guy Says: Bart the Cashier ordered 3 more Catan
+Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 20
 --- Simulation starting day 21
 Guy has arrived at the store on day 21
 Guy Says: Burt the Cashier has arrived at the store on day 21.
 Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Mousetrap
-Guy Says: Burt the Cashier sees that register has $3,068.50
+Guy Says: Burt the Cashier unpacked the order of Clue
+Guy Says: Burt the Cashier unpacked the order of Catan
+Guy Says: Burt the Cashier sees that register has $4,191.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -913,40 +956,40 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Burt the Cashier has started vacuuming the store.
 Guy Says: Burt the Cashier has finished vacuuming the store.
 Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
 Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
 Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
 Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 5 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 1 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier Burt sold a Catan to Customer 1 for $43.0
-Guy Says: Burt the Cashier Burt sold the last Life to Customer 1 for $32.0
-Guy Says: Burt the Cashier sold customer 2 no cookies
-Guy Says: Burt the Cashier Burt sold the last Netrunner with 0 add-ons of Special Cards to Customer 2 for $28.0
-Guy Says: Burt the Cashier sold customer 3 2 cookie(s).
-Guy Says: Burt the Cashier Customer 3 didn't buy a game.
-Guy Says: Burt the Cashier saw the cookie monster come in.
-Guy Says: Burt the Cashier watched in horror as the cookie monster ate 48 cookies!
-Guy Says: Burt the Cashier watched in terror as the cookie monster broke a Monopoly
-Guy Says: Burt the Cashier watched in terror as the cookie monster broke a Risk
-Guy Says: Burt the Cashier watched in terror as the cookie monster broke a Risk
-Guy Says: Burt the Cashier watched in terror as the cookie monster broke a Pokemon
-Guy Says: Burt the Cashier watched in terror as the cookie monster broke a Mousetrap
-Guy Says: Burt the Cashier watched in terror as the cookie monster broke a Connect Four
-Guy Says: Burt the Cashier sold customer 5 no cookies
-Guy Says: Burt the Cashier Customer 5 didn't buy a game.
-Guy Says: Burt the Cashier ordered 3 more Life
-Guy Says: Burt the Cashier ordered 3 more Netrunner
+Guy Says: Burt the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer David 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Catan to Customer David for $31.0
+Guy Says: Burt the Cashier Burt sold the last Connect Four to Customer David for $23.0
+Guy Says: Burt the Cashier Burt sold a Monopoly with 1 add-ons of Special Token pack to Customer David for $27.0
+Guy Says: Burt the Cashier sold customer Elizabeth 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Mousetrap with 0 add-ons of spare parts to Customer Elizabeth for $33.0
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Elizabeth for $42.0
+Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer Elizabeth for $47.0
+Guy Says: Burt the Cashier sold customer Savannah 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Savannah for $43.0
+Guy Says: Burt the Cashier Burt sold the last Pokemon with 0 add-ons of Special Cards to Customer Savannah for $42.0
+Guy Says: Burt the Cashier Burt sold a Life to Customer Savannah for $30.0
+Guy Says: Burt the Cashier sold customer Lauren 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Lauren for $43.0
+Guy Says: Burt the Cashier Burt sold the last Candyland to Customer Lauren for $23.0
+Guy Says: Burt the Cashier Burt sold a Gloomhaven with 2 add-ons of custom miniatures to Customer Lauren for $52.0
+Guy Says: Burt the Cashier ordered 3 more Mousetrap
+Guy Says: Burt the Cashier ordered 3 more Candyland
+Guy Says: Burt the Cashier ordered 3 more Connect Four
+Guy Says: Burt the Cashier ordered 3 more Pokemon
 Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 21
@@ -954,156 +997,48 @@ End of day 21
 Guy has arrived at the store on day 22
 Guy Says: Ernie the Cashier has arrived at the store on day 22.
 Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier unpacked the order of Life
-Guy Says: Ernie the Cashier unpacked the order of Netrunner
-Guy Says: Ernie the Cashier sees that register has $3,115.50
+Guy Says: Ernie the Cashier unpacked the order of Mousetrap
+Guy Says: Ernie the Cashier unpacked the order of Candyland
+Guy Says: Ernie the Cashier unpacked the order of Connect Four
+Guy Says: Ernie the Cashier unpacked the order of Pokemon
+Guy Says: Ernie the Cashier sees that register has $4,473.50
 Guy Says: Gonger the Baker has arrived at the store.
-Guy Says: Gonger the Baker has sold 2 packages of cookies
-Guy Says: Gonger the Baker has charged the store $24.00
+Guy Says: Gonger the Baker has sold 1 packages of cookies
+Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
 Guy Says: Ernie the Cashier has started vacuuming the store.
 Guy Says: Ernie the Cashier has finished vacuuming the store.
 Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
 Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 7 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Connect Four to Customer 1 for $19.0
-Guy Says: Ernie the Cashier Ernie sold the last Monopoly with 0 add-ons of Special Token pack to Customer 1 for $22.0
-Guy Says: Ernie the Cashier Ernie sold the last Catan to Customer 1 for $43.0
-Guy Says: Ernie the Cashier sold customer 2 2 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold a Life to Customer 2 for $32.0
-Guy Says: Ernie the Cashier Ernie sold a Magic with 5 add-ons of Special Cards to Customer 2 for $34.0
-Guy Says: Ernie the Cashier Ernie sold a Clue to Customer 2 for $16.0
-Guy Says: Ernie the Cashier sold customer 3 no cookies
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 0 add-ons of spare parts to Customer 3 for $43.0
-Guy Says: Ernie the Cashier Ernie sold the last Clue to Customer 3 for $16.0
-Guy Says: Ernie the Cashier sold customer 4 1 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Mousetrap with 0 add-ons of spare parts to Customer 4 for $43.0
-Guy Says: Ernie the Cashier Ernie sold the last Pokemon with 2 add-ons of Special Cards to Customer 4 for $25.0
-Guy Says: Ernie the Cashier sold customer 5 no cookies
-Guy Says: Ernie the Cashier Customer 5 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 6 no cookies
-Guy Says: Ernie the Cashier Customer 6 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 7 no cookies
-Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer 7 for $30.0
-Guy Says: Ernie the Cashier ordered 3 more Mousetrap
-Guy Says: Ernie the Cashier ordered 3 more Connect Four
-Guy Says: Ernie the Cashier ordered 3 more Clue
-Guy Says: Ernie the Cashier ordered 3 more Monopoly
-Guy Says: Ernie the Cashier ordered 3 more Pokemon
-Guy Says: Ernie the Cashier ordered 3 more Catan
+Guy Says: Ernie the Cashier welcomed 2 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Jessica 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Jessica for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer Jessica for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Pokemon with 0 add-ons of Special Cards to Customer Jessica for $42.0
+Guy Says: Ernie the Cashier sold customer Mason 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold the last Netrunner with 0 add-ons of Special Cards to Customer Mason for $47.0
+Guy Says: Ernie the Cashier ordered 3 more Netrunner
 Guy Says: Ernie the Cashier has left the store.
 Guy has left the store.
 End of day 22
 --- Simulation starting day 23
 Guy has arrived at the store on day 23
-Guy Says: Burt the Cashier has arrived at the store on day 23.
-Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Mousetrap
-Guy Says: Burt the Cashier unpacked the order of Connect Four
-Guy Says: Burt the Cashier unpacked the order of Clue
-Guy Says: Burt the Cashier unpacked the order of Monopoly
-Guy Says: Burt the Cashier unpacked the order of Pokemon
-Guy Says: Burt the Cashier unpacked the order of Catan
-Guy Says: Burt the Cashier sees that register has $3,216.50
-Guy Says: Gonger the Baker has arrived at the store.
-Guy Says: Gonger the Baker has sold 1 packages of cookies
-Guy Says: Gonger the Baker has charged the store $12.00
-Guy Says: Gonger the Baker has left store
-Guy Says: Burt the Cashier has started vacuuming the store.
-Guy Says: Burt the Cashier has finished vacuuming the store.
-Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
-Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 4 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 1 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier Burt sold a Life to Customer 1 for $32.0
-Guy Says: Burt the Cashier Burt sold a Connect Four to Customer 1 for $19.0
-Guy Says: Burt the Cashier sold customer 2 2 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Gloomhaven with 0 add-ons of custom miniatures to Customer 2 for $41.0
-Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer 2 for $28.0
-Guy Says: Burt the Cashier Burt sold a Monopoly with 0 add-ons of Special Token pack to Customer 2 for $22.0
-Guy Says: Burt the Cashier sold customer 3 2 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Gloomhaven with 0 add-ons of custom miniatures to Customer 3 for $41.0
-Guy Says: Burt the Cashier Burt sold a Pokemon with 6 add-ons of Special Cards to Customer 3 for $29.0
-Guy Says: Burt the Cashier sold customer 4 no cookies
-Guy Says: Burt the Cashier Customer 4 didn't buy a game.
-Guy Says: Burt the Cashier has left the store.
-Guy has left the store.
-End of day 23
---- Simulation starting day 24
-Guy has arrived at the store on day 24
-Guy Says: Ernie the Cashier has arrived at the store on day 24.
-Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier sees that register has $3,466.50
-Guy Says: Gonger the Baker has arrived at the store.
-Guy Says: Gonger the Baker has sold 1 packages of cookies
-Guy Says: Gonger the Baker has charged the store $12.00
-Guy Says: Gonger the Baker has left store
-Guy Says: Ernie the Cashier has started vacuuming the store.
-Guy Says: Ernie the Cashier has finished vacuuming the store.
-Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
-Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 5 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 no cookies
-Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 0 add-ons of spare parts to Customer 1 for $43.0
-Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer 1 for $30.0
-Guy Says: Ernie the Cashier sold customer 2 no cookies
-Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer 2 for $19.0
-Guy Says: Ernie the Cashier sold customer 3 no cookies
-Guy Says: Ernie the Cashier Customer 3 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 4 1 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Candyland to Customer 4 for $30.0
-Guy Says: Ernie the Cashier sold customer 5 no cookies
-Guy Says: Ernie the Cashier Ernie sold the last Connect Four to Customer 5 for $19.0
-Guy Says: Ernie the Cashier ordered 3 more Candyland
-Guy Says: Ernie the Cashier ordered 3 more Connect Four
-Guy Says: Ernie the Cashier has left the store.
-Guy has left the store.
-End of day 24
---- Simulation starting day 25
-Guy has arrived at the store on day 25
-Guy Says: Bart the Cashier has arrived at the store on day 25.
+Guy Says: Bart the Cashier has arrived at the store on day 23.
 Guy Says: Bart the Cashier is restocking the games
-Guy Says: Bart the Cashier unpacked the order of Candyland
-Guy Says: Bart the Cashier unpacked the order of Connect Four
-Guy Says: Bart the Cashier sees that register has $3,548.00
+Guy Says: Bart the Cashier unpacked the order of Netrunner
+Guy Says: Bart the Cashier sees that register has $4,558.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -1111,58 +1046,34 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Bart the Cashier has started vacuuming the store.
 Guy Says: Bart the Cashier has finished vacuuming the store.
 Guy Says: Bart the Cashier is stacking games on the shelf
-Guy Says: Bart the Cashier stacked the game Clue in position 1 because of its width of 11 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Netrunner in position 2 because of its width of 9 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Pokemon in position 4 because of its width of 6 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Monopoly in position 5 because of its width of 5 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Candyland in position 6 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Connect Four in position 7 because of its width of 4 and its inventory of 3
-Guy Says: Bart the Cashier stacked the game Mousetrap in position 8 because of its width of 3 and its inventory of 2
-Guy Says: Bart the Cashier stacked the game Gloomhaven in position 9 because of its width of 9 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Life in position 10 because of its width of 8 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Magic in position 11 because of its width of 6 and its inventory of 1
-Guy Says: Bart the Cashier stacked the game Risk in position 12 because of its width of 2 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 12 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Connect Four in position 4 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 5 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Magic in position 6 because of its width of 4 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Candyland in position 7 because of its width of 2 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 8 because of its width of 1 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Clue in position 9 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Life in position 10 because of its width of 5 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Monopoly in position 11 because of its width of 5 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Risk in position 12 because of its width of 4 and its inventory of 1
 Guy Says: Bart the Cashier is opening the store
-Guy Says: Bart the Cashier welcomed 7 customer(s) into the store.
-Guy Says: Bart the Cashier sold customer 1 no cookies
-Guy Says: Bart the Cashier Bart sold a Clue to Customer 1 for $16.0
-Guy Says: Bart the Cashier sold customer 2 no cookies
-Guy Says: Bart the Cashier Bart sold a Catan to Customer 2 for $43.0
-Guy Says: Bart the Cashier sold customer 3 1 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Catan to Customer 3 for $43.0
-Guy Says: Bart the Cashier Bart sold a Pokemon with 0 add-ons of Special Cards to Customer 3 for $23.0
-Guy Says: Bart the Cashier sold customer 4 2 cookie(s).
-Guy Says: Bart the Cashier Bart sold the last Pokemon with 2 add-ons of Special Cards to Customer 4 for $25.0
-Guy Says: Bart the Cashier Bart sold a Mousetrap with 0 add-ons of spare parts to Customer 4 for $43.0
-Guy Says: Bart the Cashier Bart sold the last Risk to Customer 4 for $17.0
-Guy Says: Bart the Cashier sold customer 5 1 cookie(s).
-Guy Says: Bart the Cashier Bart sold the last Clue to Customer 5 for $16.0
-Guy Says: Bart the Cashier sold customer 6 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold a Netrunner with 3 add-ons of Special Cards to Customer 6 for $31.0
-Guy Says: Bart the Cashier Bart sold a Monopoly with 0 add-ons of Special Token pack to Customer 6 for $22.0
-Guy Says: Bart the Cashier Bart sold a Connect Four to Customer 6 for $19.0
-Guy Says: Bart the Cashier sold customer 7 3 cookie(s).
-Guy Says: Bart the Cashier Bart sold the last Catan to Customer 7 for $43.0
-Guy Says: Bart the Cashier Bart sold the last Monopoly with 0 add-ons of Special Token pack to Customer 7 for $22.0
-Guy Says: Bart the Cashier ordered 3 more Risk
-Guy Says: Bart the Cashier ordered 3 more Clue
-Guy Says: Bart the Cashier ordered 3 more Monopoly
-Guy Says: Bart the Cashier ordered 3 more Pokemon
-Guy Says: Bart the Cashier ordered 3 more Catan
+Guy Says: Bart the Cashier welcomed 2 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Thomas 1 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Catan to Customer Thomas for $31.0
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Thomas for $47.0
+Guy Says: Bart the Cashier Bart sold a Gloomhaven with 0 add-ons of custom miniatures to Customer Thomas for $32.0
+Guy Says: Bart the Cashier sold customer Ethan no cookies
+Guy Says: Bart the Cashier Customer Ethan didn't buy a game.
 Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
-End of day 25
---- Simulation starting day 26
-Guy has arrived at the store on day 26
-Guy Says: Ernie the Cashier has arrived at the store on day 26.
+End of day 23
+--- Simulation starting day 24
+Guy has arrived at the store on day 24
+Guy Says: Ernie the Cashier has arrived at the store on day 24.
 Guy Says: Ernie the Cashier is restocking the games
-Guy Says: Ernie the Cashier unpacked the order of Risk
-Guy Says: Ernie the Cashier unpacked the order of Clue
-Guy Says: Ernie the Cashier unpacked the order of Monopoly
-Guy Says: Ernie the Cashier unpacked the order of Pokemon
-Guy Says: Ernie the Cashier unpacked the order of Catan
-Guy Says: Ernie the Cashier sees that register has $3,758.50
+Guy Says: Ernie the Cashier sees that register has $4,682.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -1170,38 +1081,145 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Ernie the Cashier has started vacuuming the store.
 Guy Says: Ernie the Cashier has finished vacuuming the store.
 Guy Says: Ernie the Cashier is stacking games on the shelf
-Guy Says: Ernie the Cashier stacked the game Mousetrap in position 1 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Life in position 2 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 1
-Guy Says: Ernie the Cashier stacked the game Pokemon in position 4 because of its height of 3
-Guy Says: Ernie the Cashier stacked the game Magic in position 5 because of its height of 4
-Guy Says: Ernie the Cashier stacked the game Clue in position 6 because of its height of 5
-Guy Says: Ernie the Cashier stacked the game Candyland in position 7 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Monopoly in position 8 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Catan in position 9 because of its height of 6
-Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 10 because of its height of 8
-Guy Says: Ernie the Cashier stacked the game Netrunner in position 11 because of its height of 9
-Guy Says: Ernie the Cashier stacked the game Risk in position 12 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
 Guy Says: Ernie the Cashier is opening the store
-Guy Says: Ernie the Cashier welcomed 2 customer(s) into the store.
-Guy Says: Ernie the Cashier sold customer 1 no cookies
-Guy Says: Ernie the Cashier Customer 1 didn't buy a game.
-Guy Says: Ernie the Cashier sold customer 2 2 cookie(s).
-Guy Says: Ernie the Cashier Ernie sold the last Mousetrap with 0 add-ons of spare parts to Customer 2 for $43.0
-Guy Says: Ernie the Cashier Ernie sold the last Life to Customer 2 for $32.0
-Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer 2 for $30.0
-Guy Says: Ernie the Cashier ordered 3 more Mousetrap
+Guy Says: Ernie the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Rebecca 1 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold a Candyland to Customer Rebecca for $23.0
+Guy Says: Ernie the Cashier Ernie sold the last Gloomhaven with 0 add-ons of custom miniatures to Customer Rebecca for $32.0
+Guy Says: Ernie the Cashier sold customer Noah no cookies
+Guy Says: Ernie the Cashier Ernie sold the last Life to Customer Noah for $30.0
+Guy Says: Ernie the Cashier sold customer Carl 3 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold the last Candyland to Customer Carl for $23.0
+Guy Says: Ernie the Cashier Ernie sold a Netrunner with 0 add-ons of Special Cards to Customer Carl for $47.0
+Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer Carl for $23.0
+Guy Says: Ernie the Cashier sold customer Aaron no cookies
+Guy Says: Ernie the Cashier Ernie sold the last Monopoly with 0 add-ons of Special Token pack to Customer Aaron for $22.0
+Guy Says: Ernie the Cashier ordered 3 more Gloomhaven
 Guy Says: Ernie the Cashier ordered 3 more Life
+Guy Says: Ernie the Cashier ordered 3 more Candyland
+Guy Says: Ernie the Cashier ordered 3 more Monopoly
 Guy Says: Ernie the Cashier has left the store.
+Guy has left the store.
+End of day 24
+--- Simulation starting day 25
+Guy has arrived at the store on day 25
+Guy Says: Burt the Cashier has arrived at the store on day 25.
+Guy Says: Burt the Cashier is restocking the games
+Guy Says: Burt the Cashier unpacked the order of Gloomhaven
+Guy Says: Burt the Cashier unpacked the order of Life
+Guy Says: Burt the Cashier unpacked the order of Candyland
+Guy Says: Burt the Cashier unpacked the order of Monopoly
+Guy Says: Burt the Cashier sees that register has $4,741.50
+Guy Says: Gonger the Baker has arrived at the store.
+Guy Says: Gonger the Baker has sold 1 packages of cookies
+Guy Says: Gonger the Baker has charged the store $12.00
+Guy Says: Gonger the Baker has left store
+Guy Says: Burt the Cashier has started vacuuming the store.
+Guy Says: Burt the Cashier has finished vacuuming the store.
+Guy Says: Burt the Cashier is stacking games on the shelf
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
+Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
+Guy Says: Burt the Cashier is opening the store
+Guy Says: Burt the Cashier welcomed 9 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Mason no cookies
+Guy Says: Burt the Cashier Burt sold the last Clue to Customer Mason for $43.0
+Guy Says: Burt the Cashier sold customer Joe 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Joe for $33.0
+Guy Says: Burt the Cashier Burt sold the last Catan to Customer Joe for $31.0
+Guy Says: Burt the Cashier Burt sold the last Connect Four to Customer Joe for $23.0
+Guy Says: Burt the Cashier sold customer Emma 1 cookie(s).
+Guy Says: Burt the Cashier Customer Emma didn't buy a game.
+Guy Says: Burt the Cashier sold customer Thomas 2 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Mousetrap with 0 add-ons of spare parts to Customer Thomas for $33.0
+Guy Says: Burt the Cashier Burt sold a Monopoly with 0 add-ons of Special Token pack to Customer Thomas for $22.0
+Guy Says: Burt the Cashier Burt sold the last Risk to Customer Thomas for $18.0
+Guy Says: Burt the Cashier sold customer Steve no cookies
+Guy Says: Burt the Cashier Customer Steve didn't buy a game.
+Guy Says: Burt the Cashier sold customer Aaron no cookies
+Guy Says: Burt the Cashier Customer Aaron didn't buy a game.
+Guy Says: Burt the Cashier sold customer James no cookies
+Guy Says: Burt the Cashier Burt sold the last Mousetrap with 0 add-ons of spare parts to Customer James for $33.0
+Guy Says: Burt the Cashier Burt sold a Monopoly with 1 add-ons of Special Token pack to Customer James for $27.0
+Guy Says: Burt the Cashier sold customer Ethan no cookies
+Guy Says: Burt the Cashier Customer Ethan didn't buy a game.
+Guy Says: Burt the Cashier sold customer Liam no cookies
+Guy Says: Burt the Cashier Customer Liam didn't buy a game.
+Guy Says: Burt the Cashier ordered 3 more Mousetrap
+Guy Says: Burt the Cashier ordered 3 more Connect Four
+Guy Says: Burt the Cashier ordered 3 more Risk
+Guy Says: Burt the Cashier ordered 3 more Clue
+Guy Says: Burt the Cashier ordered 3 more Catan
+Guy Says: Burt the Cashier has left the store.
+Guy has left the store.
+End of day 25
+--- Simulation starting day 26
+Guy has arrived at the store on day 26
+Guy Says: Burt the Cashier has arrived at the store on day 26.
+Guy Says: Burt the Cashier is restocking the games
+Guy Says: Burt the Cashier unpacked the order of Mousetrap
+Guy Says: Burt the Cashier unpacked the order of Connect Four
+Guy Says: Burt the Cashier unpacked the order of Risk
+Guy Says: Burt the Cashier unpacked the order of Clue
+Guy Says: Burt the Cashier unpacked the order of Catan
+Guy Says: Burt the Cashier sees that register has $4,804.50
+Guy Says: Gonger the Baker has arrived at the store.
+Guy Says: Gonger the Baker has sold 1 packages of cookies
+Guy Says: Gonger the Baker has charged the store $12.00
+Guy Says: Gonger the Baker has left store
+Guy Says: Burt the Cashier has started vacuuming the store.
+Guy Says: Burt the Cashier broke a Life
+Guy Says: Burt the Cashier has finished vacuuming the store.
+Guy Says: Burt the Cashier is stacking games on the shelf
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
+Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
+Guy Says: Burt the Cashier is opening the store
+Guy Says: Burt the Cashier welcomed 2 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Sophia no cookies
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Sophia for $43.0
+Guy Says: Burt the Cashier sold customer Ty 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Catan to Customer Ty for $31.0
+Guy Says: Burt the Cashier Burt sold a Magic with 0 add-ons of Special Cards to Customer Ty for $24.0
+Guy Says: Burt the Cashier Burt sold a Risk to Customer Ty for $18.0
+Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 26
 --- Simulation starting day 27
 Guy has arrived at the store on day 27
 Guy Says: Burt the Cashier has arrived at the store on day 27.
 Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Mousetrap
-Guy Says: Burt the Cashier unpacked the order of Life
-Guy Says: Burt the Cashier sees that register has $3,767.00
+Guy Says: Burt the Cashier sees that register has $4,938.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -1209,82 +1227,97 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Burt the Cashier has started vacuuming the store.
 Guy Says: Burt the Cashier has finished vacuuming the store.
 Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
 Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
 Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
 Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 4 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 1 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Netrunner with 0 add-ons of Special Cards to Customer 1 for $28.0
-Guy Says: Burt the Cashier Burt sold a Life to Customer 1 for $32.0
-Guy Says: Burt the Cashier Burt sold a Candyland to Customer 1 for $30.0
-Guy Says: Burt the Cashier sold customer 2 no cookies
-Guy Says: Burt the Cashier Customer 2 didn't buy a game.
-Guy Says: Burt the Cashier sold customer 3 no cookies
-Guy Says: Burt the Cashier Customer 3 didn't buy a game.
-Guy Says: Burt the Cashier sold customer 4 3 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Magic with 0 add-ons of Special Cards to Customer 4 for $29.0
+Guy Says: Burt the Cashier welcomed 5 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer William 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Netrunner with 5 add-ons of Special Cards to Customer William for $52.0
+Guy Says: Burt the Cashier Burt sold the last Monopoly with 0 add-ons of Special Token pack to Customer William for $22.0
+Guy Says: Burt the Cashier sold customer Jack 2 cookie(s).
+Guy Says: Burt the Cashier Customer Jack didn't buy a game.
+Guy Says: Burt the Cashier sold customer Ben 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Ben for $42.0
+Guy Says: Burt the Cashier Burt sold a Connect Four to Customer Ben for $23.0
+Guy Says: Burt the Cashier Burt sold a Life to Customer Ben for $30.0
+Guy Says: Burt the Cashier sold customer Mia 1 cookie(s).
+Guy Says: Burt the Cashier Burt sold a Clue to Customer Mia for $43.0
+Guy Says: Burt the Cashier Burt sold the last Magic with 0 add-ons of Special Cards to Customer Mia for $24.0
+Guy Says: Burt the Cashier sold customer Aaron no cookies
+Guy Says: Burt the Cashier Burt sold the last Pokemon with 0 add-ons of Special Cards to Customer Aaron for $42.0
 Guy Says: Burt the Cashier ordered 3 more Magic
+Guy Says: Burt the Cashier ordered 3 more Monopoly
+Guy Says: Burt the Cashier ordered 3 more Pokemon
 Guy Says: Burt the Cashier ordered 3 more Netrunner
 Guy Says: Burt the Cashier has left the store.
 Guy has left the store.
 End of day 27
 --- Simulation starting day 28
 Guy has arrived at the store on day 28
-Guy Says: Burt the Cashier has arrived at the store on day 28.
-Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Magic
-Guy Says: Burt the Cashier unpacked the order of Netrunner
-Guy Says: Burt the Cashier sees that register has $3,820.50
+Guy Says: Bart the Cashier has arrived at the store on day 28.
+Guy Says: Bart the Cashier is restocking the games
+Guy Says: Bart the Cashier unpacked the order of Magic
+Guy Says: Bart the Cashier unpacked the order of Monopoly
+Guy Says: Bart the Cashier unpacked the order of Pokemon
+Guy Says: Bart the Cashier unpacked the order of Netrunner
+Guy Says: Bart the Cashier sees that register has $5,036.50
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Burt the Cashier has started vacuuming the store.
-Guy Says: Burt the Cashier has finished vacuuming the store.
-Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
-Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 4 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 no cookies
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier sold customer 2 1 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Gloomhaven with 0 add-ons of custom miniatures to Customer 2 for $41.0
-Guy Says: Burt the Cashier Burt sold a Monopoly with 0 add-ons of Special Token pack to Customer 2 for $22.0
-Guy Says: Burt the Cashier sold customer 3 no cookies
-Guy Says: Burt the Cashier Customer 3 didn't buy a game.
-Guy Says: Burt the Cashier sold customer 4 no cookies
-Guy Says: Burt the Cashier Customer 4 didn't buy a game.
-Guy Says: Burt the Cashier ordered 3 more Gloomhaven
-Guy Says: Burt the Cashier has left the store.
+Guy Says: Bart the Cashier has started vacuuming the store.
+Guy Says: Bart the Cashier has finished vacuuming the store.
+Guy Says: Bart the Cashier is stacking games on the shelf
+Guy Says: Bart the Cashier stacked the game Mousetrap in position 1 because of its width of 12 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Pokemon in position 2 because of its width of 11 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Catan in position 3 because of its width of 9 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Connect Four in position 4 because of its width of 7 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Netrunner in position 5 because of its width of 7 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Monopoly in position 6 because of its width of 5 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Magic in position 7 because of its width of 4 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Risk in position 8 because of its width of 4 and its inventory of 2
+Guy Says: Bart the Cashier stacked the game Candyland in position 9 because of its width of 2 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Gloomhaven in position 10 because of its width of 1 and its inventory of 3
+Guy Says: Bart the Cashier stacked the game Clue in position 11 because of its width of 12 and its inventory of 1
+Guy Says: Bart the Cashier stacked the game Life in position 12 because of its width of 5 and its inventory of 1
+Guy Says: Bart the Cashier is opening the store
+Guy Says: Bart the Cashier welcomed 5 customer(s) into the store.
+Guy Says: Bart the Cashier sold customer Victor 2 cookie(s).
+Guy Says: Bart the Cashier Customer Victor didn't buy a game.
+Guy Says: Bart the Cashier sold customer Mason 3 cookie(s).
+Guy Says: Bart the Cashier Bart sold a Mousetrap with 0 add-ons of spare parts to Customer Mason for $33.0
+Guy Says: Bart the Cashier Bart sold a Pokemon with 4 add-ons of Special Cards to Customer Mason for $46.0
+Guy Says: Bart the Cashier Bart sold a Connect Four to Customer Mason for $23.0
+Guy Says: Bart the Cashier sold customer Ethan no cookies
+Guy Says: Bart the Cashier Bart sold a Catan to Customer Ethan for $31.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 1 add-ons of Special Token pack to Customer Ethan for $27.0
+Guy Says: Bart the Cashier sold customer Alexandra 3 cookie(s).
+Guy Says: Bart the Cashier Bart sold the last Connect Four to Customer Alexandra for $23.0
+Guy Says: Bart the Cashier Bart sold a Monopoly with 0 add-ons of Special Token pack to Customer Alexandra for $22.0
+Guy Says: Bart the Cashier Bart sold a Magic with 0 add-ons of Special Cards to Customer Alexandra for $24.0
+Guy Says: Bart the Cashier sold customer Fred no cookies
+Guy Says: Bart the Cashier Bart sold a Mousetrap with 0 add-ons of spare parts to Customer Fred for $33.0
+Guy Says: Bart the Cashier Bart sold a Netrunner with 0 add-ons of Special Cards to Customer Fred for $47.0
+Guy Says: Bart the Cashier ordered 3 more Connect Four
+Guy Says: Bart the Cashier has left the store.
 Guy has left the store.
 End of day 28
 --- Simulation starting day 29
 Guy has arrived at the store on day 29
 Guy Says: Burt the Cashier has arrived at the store on day 29.
 Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Gloomhaven
-Guy Says: Burt the Cashier sees that register has $3,852.00
+Guy Says: Burt the Cashier unpacked the order of Connect Four
+Guy Says: Burt the Cashier sees that register has $5,339.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
@@ -1292,42 +1325,31 @@ Guy Says: Gonger the Baker has left store
 Guy Says: Burt the Cashier has started vacuuming the store.
 Guy Says: Burt the Cashier has finished vacuuming the store.
 Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
+Guy Says: Burt the Cashier stacked the game Mousetrap in position 1 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Clue in position 2 because of its width of 12
+Guy Says: Burt the Cashier stacked the game Pokemon in position 3 because of its width of 11
 Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
+Guy Says: Burt the Cashier stacked the game Connect Four in position 5 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Netrunner in position 6 because of its width of 7
+Guy Says: Burt the Cashier stacked the game Life in position 7 because of its width of 5
 Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Magic in position 9 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Risk in position 10 because of its width of 4
+Guy Says: Burt the Cashier stacked the game Candyland in position 11 because of its width of 2
+Guy Says: Burt the Cashier stacked the game Gloomhaven in position 12 because of its width of 1
 Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 6 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 no cookies
-Guy Says: Burt the Cashier Customer 1 didn't buy a game.
-Guy Says: Burt the Cashier sold customer 2 no cookies
-Guy Says: Burt the Cashier Burt sold a Catan to Customer 2 for $43.0
-Guy Says: Burt the Cashier sold customer 3 2 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer 3 for $28.0
-Guy Says: Burt the Cashier Burt sold a Life to Customer 3 for $32.0
-Guy Says: Burt the Cashier Burt sold a Pokemon with 1 add-ons of Special Cards to Customer 3 for $24.0
-Guy Says: Burt the Cashier sold customer 4 3 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Catan to Customer 4 for $43.0
-Guy Says: Burt the Cashier Burt sold a Magic with 0 add-ons of Special Cards to Customer 4 for $29.0
-Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer 4 for $23.0
-Guy Says: Burt the Cashier sold customer 5 no cookies
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 5 for $16.0
-Guy Says: Burt the Cashier Burt sold the last Catan to Customer 5 for $43.0
-Guy Says: Burt the Cashier Burt sold a Monopoly with 0 add-ons of Special Token pack to Customer 5 for $22.0
-Guy Says: Burt the Cashier sold customer 6 1 cookie(s).
-Guy Says: Burt the Cashier Burt sold the last Clue to Customer 6 for $16.0
-Guy Says: Burt the Cashier Burt sold the last Pokemon with 2 add-ons of Special Cards to Customer 6 for $25.0
-Guy Says: Burt the Cashier Burt sold the last Monopoly with 1 add-ons of Special Token pack to Customer 6 for $27.0
+Guy Says: Burt the Cashier welcomed 3 customer(s) into the store.
+Guy Says: Burt the Cashier sold customer Ike no cookies
+Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer Ike for $47.0
+Guy Says: Burt the Cashier sold customer Matthew 3 cookie(s).
+Guy Says: Burt the Cashier Burt sold the last Mousetrap with 1 add-ons of spare parts to Customer Matthew for $34.0
+Guy Says: Burt the Cashier Burt sold a Pokemon with 0 add-ons of Special Cards to Customer Matthew for $42.0
+Guy Says: Burt the Cashier Burt sold the last Catan to Customer Matthew for $31.0
+Guy Says: Burt the Cashier sold customer Edward no cookies
+Guy Says: Burt the Cashier Burt sold the last Clue to Customer Edward for $43.0
+Guy Says: Burt the Cashier Burt sold the last Pokemon with 0 add-ons of Special Cards to Customer Edward for $42.0
+Guy Says: Burt the Cashier ordered 3 more Mousetrap
 Guy Says: Burt the Cashier ordered 3 more Clue
-Guy Says: Burt the Cashier ordered 3 more Monopoly
 Guy Says: Burt the Cashier ordered 3 more Pokemon
 Guy Says: Burt the Cashier ordered 3 more Catan
 Guy Says: Burt the Cashier has left the store.
@@ -1335,77 +1357,72 @@ Guy has left the store.
 End of day 29
 --- Simulation starting day 30
 Guy has arrived at the store on day 30
-Guy Says: Burt the Cashier has arrived at the store on day 30.
-Guy Says: Burt the Cashier is restocking the games
-Guy Says: Burt the Cashier unpacked the order of Clue
-Guy Says: Burt the Cashier unpacked the order of Monopoly
-Guy Says: Burt the Cashier unpacked the order of Pokemon
-Guy Says: Burt the Cashier unpacked the order of Catan
-Guy Says: Burt the Cashier sees that register has $4,080.50
+Guy Says: Ernie the Cashier has arrived at the store on day 30.
+Guy Says: Ernie the Cashier is restocking the games
+Guy Says: Ernie the Cashier unpacked the order of Mousetrap
+Guy Says: Ernie the Cashier unpacked the order of Clue
+Guy Says: Ernie the Cashier unpacked the order of Pokemon
+Guy Says: Ernie the Cashier unpacked the order of Catan
+Guy Says: Ernie the Cashier sees that register has $5,371.00
 Guy Says: Gonger the Baker has arrived at the store.
 Guy Says: Gonger the Baker has sold 1 packages of cookies
 Guy Says: Gonger the Baker has charged the store $12.00
 Guy Says: Gonger the Baker has left store
-Guy Says: Burt the Cashier has started vacuuming the store.
-Guy Says: Burt the Cashier broke a Pokemon
-Guy Says: Burt the Cashier has finished vacuuming the store.
-Guy Says: Burt the Cashier is stacking games on the shelf
-Guy Says: Burt the Cashier stacked the game Clue in position 1 because of its width of 11
-Guy Says: Burt the Cashier stacked the game Gloomhaven in position 2 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Netrunner in position 3 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Catan in position 4 because of its width of 9
-Guy Says: Burt the Cashier stacked the game Life in position 5 because of its width of 8
-Guy Says: Burt the Cashier stacked the game Magic in position 6 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Pokemon in position 7 because of its width of 6
-Guy Says: Burt the Cashier stacked the game Monopoly in position 8 because of its width of 5
-Guy Says: Burt the Cashier stacked the game Candyland in position 9 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Connect Four in position 10 because of its width of 4
-Guy Says: Burt the Cashier stacked the game Mousetrap in position 11 because of its width of 3
-Guy Says: Burt the Cashier stacked the game Risk in position 12 because of its width of 2
-Guy Says: Burt the Cashier is opening the store
-Guy Says: Burt the Cashier welcomed 3 customer(s) into the store.
-Guy Says: Burt the Cashier sold customer 1 no cookies
-Guy Says: Burt the Cashier Burt sold a Clue to Customer 1 for $16.0
-Guy Says: Burt the Cashier Burt sold a Catan to Customer 1 for $43.0
-Guy Says: Burt the Cashier sold customer 2 3 cookie(s).
-Guy Says: Burt the Cashier Burt sold a Catan to Customer 2 for $43.0
-Guy Says: Burt the Cashier Burt sold the last Life to Customer 2 for $32.0
-Guy Says: Burt the Cashier Burt sold a Monopoly with 0 add-ons of Special Token pack to Customer 2 for $22.0
-Guy Says: Burt the Cashier sold customer 3 no cookies
-Guy Says: Burt the Cashier Burt sold a Netrunner with 0 add-ons of Special Cards to Customer 3 for $28.0
-Guy Says: Burt the Cashier ordered 3 more Life
-Guy Says: Burt the Cashier has left the store.
+Guy Says: Ernie the Cashier has started vacuuming the store.
+Guy Says: Ernie the Cashier broke the last Life
+Guy Says: Ernie the Cashier has finished vacuuming the store.
+Guy Says: Ernie the Cashier is stacking games on the shelf
+Guy Says: Ernie the Cashier stacked the game Candyland in position 1 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Netrunner in position 2 because of its height of 1
+Guy Says: Ernie the Cashier stacked the game Connect Four in position 3 because of its height of 2
+Guy Says: Ernie the Cashier stacked the game Life in position 4 because of its height of 5
+Guy Says: Ernie the Cashier stacked the game Gloomhaven in position 5 because of its height of 6
+Guy Says: Ernie the Cashier stacked the game Monopoly in position 6 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Pokemon in position 7 because of its height of 7
+Guy Says: Ernie the Cashier stacked the game Magic in position 8 because of its height of 8
+Guy Says: Ernie the Cashier stacked the game Mousetrap in position 9 because of its height of 9
+Guy Says: Ernie the Cashier stacked the game Catan in position 10 because of its height of 10
+Guy Says: Ernie the Cashier stacked the game Risk in position 11 because of its height of 11
+Guy Says: Ernie the Cashier stacked the game Clue in position 12 because of its height of 11
+Guy Says: Ernie the Cashier is opening the store
+Guy Says: Ernie the Cashier welcomed 4 customer(s) into the store.
+Guy Says: Ernie the Cashier sold customer Alexandra no cookies
+Guy Says: Ernie the Cashier Customer Alexandra didn't buy a game.
+Guy Says: Ernie the Cashier sold customer Elizabeth no cookies
+Guy Says: Ernie the Cashier Ernie sold the last Netrunner with 3 add-ons of Special Cards to Customer Elizabeth for $50.0
+Guy Says: Ernie the Cashier sold customer William 2 cookie(s).
+Guy Says: Ernie the Cashier Ernie sold the last Monopoly with 1 add-ons of Special Token pack to Customer William for $27.0
+Guy Says: Ernie the Cashier Ernie sold a Mousetrap with 2 add-ons of spare parts to Customer William for $35.0
+Guy Says: Ernie the Cashier Ernie sold a Catan to Customer William for $31.0
+Guy Says: Ernie the Cashier sold customer Steve no cookies
+Guy Says: Ernie the Cashier Ernie sold a Connect Four to Customer Steve for $23.0
+Guy Says: Ernie the Cashier ordered 3 more Life
+Guy Says: Ernie the Cashier ordered 3 more Monopoly
+Guy Says: Ernie the Cashier ordered 3 more Netrunner
+Guy Says: Ernie the Cashier has left the store.
 Guy has left the store.
 End of day 30
 ==Store Summary Report==
 Games in inventory and number sold: 
-    -Mousetrap : 3 are in inventory and 14 were sold in total, and the total value of the games sold was $602.00
-    -Gloomhaven : 3 are in inventory and 9 were sold in total, and the total value of the games sold was $369.00
-    -Magic : 2 are in inventory and 13 were sold in total, and the total value of the games sold was $377.00
-    -Life : 0 are in inventory and 20 were sold in total, and the total value of the games sold was $640.00
-    -Candyland : 1 are in inventory and 11 were sold in total, and the total value of the games sold was $330.00
-    -Connect Four : 2 are in inventory and 17 were sold in total, and the total value of the games sold was $323.00
-    -Risk : 3 are in inventory and 5 were sold in total, and the total value of the games sold was $85.00
-    -Clue : 2 are in inventory and 24 were sold in total, and the total value of the games sold was $384.00
-    -Monopoly : 2 are in inventory and 11 were sold in total, and the total value of the games sold was $242.00
-    -Pokemon : 2 are in inventory and 20 were sold in total, and the total value of the games sold was $500.00
-    -Netrunner : 1 are in inventory and 25 were sold in total, and the total value of the games sold was $700.00
-    -Catan : 1 are in inventory and 17 were sold in total, and the total value of the games sold was $731.00
+    -Mousetrap : 2 are in inventory and 22 were sold in total, and the total value of the games sold was $770.00
+    -Gloomhaven : 3 are in inventory and 9 were sold in total, and the total value of the games sold was $288.00
+    -Magic : 2 are in inventory and 7 were sold in total, and the total value of the games sold was $168.00
+    -Life : 0 are in inventory and 13 were sold in total, and the total value of the games sold was $390.00
+    -Candyland : 3 are in inventory and 18 were sold in total, and the total value of the games sold was $414.00
+    -Connect Four : 2 are in inventory and 25 were sold in total, and the total value of the games sold was $575.00
+    -Risk : 2 are in inventory and 4 were sold in total, and the total value of the games sold was $72.00
+    -Clue : 3 are in inventory and 24 were sold in total, and the total value of the games sold was $1,032.00
+    -Monopoly : 0 are in inventory and 24 were sold in total, and the total value of the games sold was $648.00
+    -Pokemon : 3 are in inventory and 30 were sold in total, and the total value of the games sold was $1,260.00
+    -Netrunner : 0 are in inventory and 27 were sold in total, and the total value of the games sold was $1,350.00
+    -Catan : 2 are in inventory and 19 were sold in total, and the total value of the games sold was $589.00
 Games that were broken: 
-    -Mousetrap : 3
-    -Connect Four : 4
-    -Life : 3
-    -Clue : 3
-    -Risk : 6
-    -Monopoly : 4
-    -Pokemon : 4
-    -Netrunner : 3
-    -Catan : 5
-register has $4,234.50
+    -Life : 4
+register has $5,392.50
 The money was refilled 1 time(s)
-119 cookies were sold in total
+138 cookies were sold in total
 For each of the days, the number of cookies sold were: 
-[2, 6, 6, 7, 0, 3, 9, 1, 2, 2, 2, 3, 3, 5, 2, 6, 6, 10, 3, 3, 3, 3, 5, 1, 10, 2, 4, 1, 6, 3]
-276 total cookies have been eaten by cookie monster
-Gonger was paid $396.00 in total
+[2, 7, 5, 3, 11, 2, 3, 5, 3, 2, 5, 3, 6, 2, 4, 1, 8, 4, 11, 4, 8, 4, 1, 4, 5, 3, 9, 8, 3, 2]
+0 total cookies have been eaten by cookie monster
+Gonger was paid $360.00 in total
 END OF SIMULATION

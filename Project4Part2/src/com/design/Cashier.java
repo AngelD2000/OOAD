@@ -146,24 +146,26 @@ public class Cashier extends Employee {
     private double customersCome(GameList inventory, Store store) {
         double total = 0.0;
         String choice;
-        String customer_name;
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
         report("welcomed " + num_customers +  " customer(s) into the store.");
+
+        CustomerFactory custFact = CustomerFactory.getInstance();
         for(int i=0; i < num_customers; i++){
-            Customer nextCustomer = new Customer((i+1));
-            customer_name = nextCustomer.pickName();
-            if (nextCustomer.isMonster() == true){
-                store.rampage();
-            }
-            else {
-                choice = nextCustomer.considerCookies(store);
-                report("sold customer " + customer_name+ " " + choice);
-                List<Integer> bought = nextCustomer.considerGames(inventory);
-                if (bought.size() == 0) {
-                    report("Customer " + customer_name + " didn't buy a game.");
+
+            Customer nextCustomer = custFact.getCustomer((i+1));
+            if(nextCustomer != null) {
+                if (nextCustomer.isMonster()) {
+                    store.rampage();
+                } else {
+                    choice = nextCustomer.considerCookies(store);
+                    report("sold customer " + nextCustomer.getName() + " " + choice);
+                    List<Integer> bought = nextCustomer.considerGames(inventory);
+                    if (bought.size() == 0) {
+                        report("Customer " + nextCustomer.getName() + " didn't buy a game.");
+                    }
+                    total += sellGames(inventory, nextCustomer.getName(), bought);
                 }
-                total += sellGames(inventory, customer_name, bought);
             }
         }
         return total;

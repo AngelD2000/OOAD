@@ -1,10 +1,7 @@
 package com.design;
 
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public abstract class Util {
     //Initialization data for Store simulation
@@ -44,6 +41,9 @@ public abstract class Util {
             "Ty", "Victor", "Ashley", "Sarah", "Alexis", "Samantha", "Jessica", "Elizabeth", "Taylor", "Lauren",
             "Alyssa", "Alexandra", "Savannah", "Chloe", "Rebecca" };
 
+    //Order of odds: Family Gamer, Kid Gamer, Card Gamer, Board Gamers, Cookie Monster
+    public static final String[] customerTypes = {"Family Gamer", "Kid Gamer", "Card Gamer", "Board Gamer", "Cookie Monster"};
+    public static final Double[] customerChance = {.245, .49, .735, .99, 1.0};
 
     /**
      * Function to handle printing syntax
@@ -142,6 +142,37 @@ public abstract class Util {
             p *= uniform();
         } while (p >= expLambda);
         return k-1;
+    }
+
+    /**
+     * Picks a random name from the Util.names array for customers and demonstrators
+     */
+    public static String pickName(){
+        int rand = Util.rndFromRange(1, names.length);
+        return names[rand-1];
+    }
+
+    /**
+     * Picks a customer type based on an array of probability ranges for different events
+     * https://stackoverflow.com/questions/48121883/best-way-of-setting-up-probabilities-for-multiple-items-in-java
+     */
+    public static String getCustomerType() {
+        int event = Arrays.binarySearch(customerChance, Math.random());
+        if (event < 0) event = -event - 1;
+        switch (event) {
+            case 0:
+                return customerTypes[0];
+            case 1:
+                return customerTypes[1];
+            case 2:
+                return customerTypes[2];
+            case 3:
+                return customerTypes[3];
+            case 4:
+                return customerTypes[4];
+            default:
+                return "";
+        }
     }
 }
 

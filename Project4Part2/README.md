@@ -7,8 +7,10 @@ Elly Landrum, Angel Dong, Sam Feig
 ### Assumptions: ###
 - All customers have a 50% chance of buying cookies
 - Announcer is an EagerAnnouncer (Set this in Util.announcerType)
-
+- Customer types are given by the probabilities in Util.customerChance {Family gamer: 24.5%, Kid Gamer: 24.5%, Card Gamer: 24.5%, Board Gamer: 25.5%, Cookie Monster: 1%}
 ### Updated UML Changes: ###
+- Announcer made abstract to support the Singleton pattern in Eager and Lazy Announcer
+- Announcer has no instance variable, this is instead only in Eager and Lazy Announcer
 - 
 
 ### For Bonus Run Difference with/without test###
