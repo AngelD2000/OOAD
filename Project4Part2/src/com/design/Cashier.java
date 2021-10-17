@@ -122,7 +122,7 @@ public class Cashier extends Employee {
      * Handles changing the money in regsiter and games in stock
      * Will also announce sale
      */
-    private double sellGames(GameList inventory, int customerNum, List<Integer> bought) {
+    private double sellGames(GameList inventory, String customerName, List<Integer> bought) {
         double total = 0.0;
         for (int j = 0; j < bought.size(); j++) {
             Game current = inventory.getGameAtPos(bought.get(j));
@@ -130,9 +130,9 @@ public class Cashier extends Employee {
             total += current.getPrice();
             boolean flag_store = inventory.removeGame(inventory.getKey(current), true);
             if (flag_store) {
-                report(getName() + " sold the last " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(getName() + " sold the last " + current.getGameName() + " to Customer " + customerName + " for $" + current.getPrice());
             } else {
-                report(getName() + " sold a " + current.getGameName() + " to Customer " + (customerNum + 1) + " for $" + current.getPrice());
+                report(getName() + " sold a " + current.getGameName() + " to Customer " + customerName + " for $" + current.getPrice());
             }
         }
         return total;
@@ -146,22 +146,24 @@ public class Cashier extends Employee {
     private double customersCome(GameList inventory, Store store) {
         double total = 0.0;
         String choice;
+        String customer_name;
         int num_customers = 1+Util.poisson(3);
         store.customers.add(num_customers);
         report("welcomed " + num_customers +  " customer(s) into the store.");
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
+            customer_name = nextCustomer.getName();
             if (nextCustomer.isMonster() == true){
                 store.rampage();
             }
             else {
                 choice = nextCustomer.considerCookies(store);
-                report("sold customer " + (i + 1) + " " + choice);
+                report("sold customer " + customer_name+ " " + choice);
                 List<Integer> bought = nextCustomer.considerGames(inventory);
                 if (bought.size() == 0) {
-                    report("Customer " + (i + 1) + " didn't buy a game.");
+                    report("Customer " + customer_name + " didn't buy a game.");
                 }
-                total += sellGames(inventory, i, bought);
+                total += sellGames(inventory, customer_name, bought);
             }
         }
         return total;
