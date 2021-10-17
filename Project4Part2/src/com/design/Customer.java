@@ -63,8 +63,7 @@ public class Customer {
     }
 
     String pickName(){
-        int rand = Util.rndFromRange(1,10);
-        String[] name = {"Liam", "Olivia","Noah","Emma","Oliver","Ava","Elijah","Charlotte","William","Sophia"};
-        return name[rand-1];
+        int rand = Util.rndFromRange(1,Util.names.length);
+        return Util.names[rand-1];
     }
 }
