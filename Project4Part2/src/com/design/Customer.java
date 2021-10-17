@@ -62,7 +62,7 @@ public class Customer {
         return cookieMonster;
     }
 
-    String getName(){
+    String pickName(){
         int rand = Util.rndFromRange(1,10);
         String[] name = {"Liam", "Olivia","Noah","Emma","Oliver","Ava","Elijah","Charlotte","William","Sophia"};
         return name[rand-1];

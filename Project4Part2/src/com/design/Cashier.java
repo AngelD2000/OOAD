@@ -152,7 +152,7 @@ public class Cashier extends Employee {
         report("welcomed " + num_customers +  " customer(s) into the store.");
         for(int i=0; i < num_customers; i++){
             Customer nextCustomer = new Customer((i+1));
-            customer_name = nextCustomer.getName();
+            customer_name = nextCustomer.pickName();
             if (nextCustomer.isMonster() == true){
                 store.rampage();
             }
