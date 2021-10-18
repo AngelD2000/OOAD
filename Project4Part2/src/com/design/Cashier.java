@@ -5,11 +5,20 @@ import java.util.*;
 public class Cashier extends Employee {
     private final double vacSkill;
     private StackBehaviour stackPref;
+    private Demonstrator demonstrator = null;
+    Cashier(String setName, double vacBreakage, StackBehaviour stackPreference, Demonstrator demonstrator){
+        setType("Cashier");
+        setName(setName);
+        vacSkill = vacBreakage;
+        stackPref = stackPreference;
+        this.demonstrator = demonstrator;
+    }
     Cashier(String setName, double vacBreakage, StackBehaviour stackPreference){
         setType("Cashier");
         setName(setName);
         vacSkill = vacBreakage;
         stackPref = stackPreference;
+        this.demonstrator = demonstrator;
     }
 
     /**
@@ -152,12 +161,13 @@ public class Cashier extends Employee {
 
         CustomerFactory custFact = CustomerFactory.getInstance();
         for(int i=0; i < num_customers; i++){
-
             Customer nextCustomer = custFact.getCustomer((i+1));
             if(nextCustomer != null) {
                 if (nextCustomer.isMonster()) {
                     store.rampage();
                 } else {
+                    nextCustomer.demandDemos(inventory, this);
+                    report(" noticed customer " + nextCustomer.getName() + " is done asking for demos");
                     choice = nextCustomer.considerCookies(store);
                     report("sold customer " + nextCustomer.getName() + " " + choice);
                     List<Integer> bought = nextCustomer.considerGames(inventory);
@@ -169,5 +179,29 @@ public class Cashier extends Employee {
             }
         }
         return total;
+    }
+    /**
+     * Cashier acts as invoker in command pattern for demonstrator
+     * Will route a command to appropriate function in demonstrator
+     * param action: what type of demonstrating demonstrator should do: demonstrate, recommend, explain
+     */
+    public void demonstrate(GameList inventory, String action, Customer customer){
+
+        String gameName = demonstrator.pickGame(inventory, customer);
+
+        if(demonstrator != null){
+            if(action.equals("demonstrate")){
+                customer.incrementPurchaseBonus(gameName, demonstrator.demonstrate(gameName, customer.getName()));
+            }
+            else if(action.equals("recommend")){
+                customer.incrementPurchaseBonus(gameName, demonstrator.recommend(gameName, customer.getName()));
+            }
+            else if(action.equals("explain")){
+                customer.incrementPurchaseBonus(gameName, demonstrator.explain(gameName, customer.getName()));
+            }
+        }
+        else{
+            throw new RuntimeException("Bad.");
+        }
     }
 }

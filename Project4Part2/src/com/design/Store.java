@@ -16,6 +16,7 @@ public class Store {
     List<Integer> allCookiesSold = new ArrayList<Integer>();
     int eatenCookies = 0;
     List<Integer> customers = new ArrayList<>();
+    Demonstrator demonstrator;
     Store() {
         //Create employees
 
@@ -31,14 +32,14 @@ public class Store {
                 guy = EagerAnnouncer.getInstance();
         }
 
+        demonstrator = new Demonstrator(guy);
         for (int i = 0; i < Util.employeeNames.length; i++) {
-            Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i]);
+            Cashier temp = new Cashier(Util.employeeNames[i], Util.vacSkill[i], Util.stackPref[i], demonstrator);
             //Subscribe to Announcer
             temp.subscribe(guy);
             Util.print(guy.getName() + " Subscribed to " + temp.getName());
             cashiers.add(temp);
         }
-
         baker = new Baker("Gonger");
         //Subscribe to Announcer
         baker.subscribe(guy);
@@ -150,9 +151,13 @@ public class Store {
         currentCashier.report("has finished vacuuming the store.");
         //Cashier stacks ordered games
         currentCashier.stackShelf(inventory, orderedGames);
+        //Demonstrator arrives
+        demonstrator.report("has arrived at the store.");
         //Cashier opens the store
         currentCashier.storeOpen(inventory, register, this);
-        //Cashier orders the games
+        //Demonstrator leaves
+        demonstrator.report(" has left the store.");
+        //Cashier orders the games and cookies
         currentCashier.orderGame(orderedGames, inventory, register);
         currentCashier.orderCookies(baker, this);
         currentCashier.close();
@@ -248,6 +253,7 @@ public class Store {
      * Cookie monster goes on a rampage (sugar rush)
      */
     public void rampage() {
+        demonstrator.report("screams and runs. We'll need a new Demonstrator.");
         currentCashier.report("saw the cookie monster come in.");
         if(cookies > 0){
             eatenCookies+=cookies;
@@ -261,6 +267,8 @@ public class Store {
         else{
             currentCashier.report("watched in joy as the cookie monster cried for lack of cookies.");
         }
+        demonstrator = new Demonstrator(guy);
+        demonstrator.report("is much braver than the last guy, and ready to demo!");
     }
     /**
      * Selling cookies

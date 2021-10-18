@@ -1,7 +1,9 @@
 package com.design;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 
 
 public abstract class Customer {
@@ -10,10 +12,12 @@ public abstract class Customer {
     private Boolean cookieMonster = false;
     private int customerNum;
     private String type;
-    private double[] purchaseBonus = {0, 0, 0};
+    /**
+     * Bonuses applied to a customer buying a game. .1 is 10% more likely
+     * */
+    HashMap<String, Double> purchaseBonus = new HashMap<String, Double>();
 
     Customer(int num, String name){
-//        cookieMonster = Util.testOdds(Util.monsterChance);
         customerNum = num;
         this.name = name;
     }
@@ -22,12 +26,20 @@ public abstract class Customer {
         return name;
     }
 
-    public void setPurchaseBonus(double[] bonus) {
-        purchaseBonus = bonus;
+    public void setPurchaseBonus(String gameName, double bonus) {
+        purchaseBonus.put(gameName, bonus);
+    }
+    public void incrementPurchaseBonus(String gameName, double bonus) {
+        if(purchaseBonus.containsKey(gameName)){
+            purchaseBonus.put(gameName, purchaseBonus.get(gameName)+bonus);
+        }
+        else{
+            setPurchaseBonus(gameName, bonus);
+        }
     }
 
-    public double[] getPurchaseBonus() {
-        return purchaseBonus;
+    public double getPurchaseBonus(String gameName) {
+        return purchaseBonus.get(gameName);
     }
 
     public void setCookieMonster(boolean val) {
@@ -86,5 +98,20 @@ public abstract class Customer {
         }
         return bought;
     }
-
+    /**
+     * Customer requests actions from demonstrator
+     * */
+    public void demandDemos(GameList inventory, Cashier cashier){
+        Random rand = new Random();
+        for (int i =0; i < Util.maxDemoActions; i++){
+            int index = rand.nextInt(Util.demonstratorActions.length);
+            String action = Util.demonstratorActions[index];
+            if(action == "none"){
+                return;
+            }
+            else{
+                cashier.demonstrate(inventory, action,this);
+            }
+        }
+    }
 }

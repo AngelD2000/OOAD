@@ -12,6 +12,7 @@ abstract class Game{
     protected int posOnShelf;
     protected int count = 0;
     protected int numSold = 0;
+    protected String type = null;
 
     Game() { }
     Game(String name, ArrayList<Integer> dim, double price){
@@ -56,11 +57,17 @@ abstract class Game{
         return gameName;
     }
 
+    public String getSimpleGameName() {
+        return gameName;
+    }
+
     public ArrayList<Integer> getGameDimension() {
         return gameDimension;
     }
 
+    public String getType(){return type;}
 
+    protected void setType(String type){this.type = type;}
 }
 
 // Each of these classes is an example of Inheritance
@@ -68,6 +75,7 @@ class FamilyGame extends Game{
     FamilyGame() {}
     FamilyGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
+        setType(Util.family);
     }
 }
 class Monopoly extends FamilyGame{
@@ -93,6 +101,7 @@ class KidsGame extends Game{
     KidsGame() {}
     KidsGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
+        setType(Util.kid);
     }
 }
 class Mousetrap extends KidsGame{
@@ -117,7 +126,7 @@ class ConnectFour extends KidsGame{
 class BoardGame extends Game{
     BoardGame() {}
     BoardGame(String name, ArrayList<Integer> dim, double price){
-        super(name, dim, price);
+        super(name, dim, price);setType(Util.board);
     }
 }
 class Gloomhaven extends BoardGame{
@@ -143,6 +152,7 @@ class CardGame extends Game{
     CardGame() {}
     CardGame(String name, ArrayList<Integer> dim, double price){
         super(name, dim, price);
+        setType(Util.card);
     }
 }
 class Magic extends CardGame{
@@ -202,5 +212,9 @@ class AddOn extends Game{
     }
     public String getGameName() {
         return base.getGameName() + " with " + num_bought + " add-ons of " + this.gameName;
+    }
+    public String getType(){return base.getType();}
+    public String getSimpleGameName() {
+        return base.getSimpleGameName();
     }
 }

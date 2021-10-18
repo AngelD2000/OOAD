@@ -1,6 +1,9 @@
 package com.design;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Random;
 
 //Each game in GameList has its own unique Identity
 public class GameList extends HashMap<String, Game> {
@@ -116,6 +119,25 @@ public class GameList extends HashMap<String, Game> {
             if (entry.getValue().equals(value)) {
                 return entry.getKey();
             }
+        }
+        return null;
+    }
+    /**
+     * Gets a random game of the designated type
+     */
+    public String pickRandomType(String type) {
+        GameList games = new GameList();
+        for (String key : this.keySet()) {
+            Game hold = get(key);
+            if (hold.getType().equals(type)){
+                games.addGame(hold.getSimpleGameName(), hold);
+            }
+        }
+        if(games.size() > 0){
+            Random rand = new Random();
+            List<String> keysAsArray = new ArrayList<String>(games.keySet());
+            String pick = keysAsArray.get(rand.nextInt(games.size()));
+            return pick;
         }
         return null;
     }
