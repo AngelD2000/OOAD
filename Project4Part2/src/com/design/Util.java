@@ -19,6 +19,10 @@ public abstract class Util {
     public static final int maxCookiesDesired = 3;
     public static final double monsterChance = .01;
     public static final int maxMonsterBreaks = 6;
+    public static final String family = "Family";
+    public static final String kid = "Kid";
+    public static final String card = "Card";
+    public static final String board = "Board";
     //Init helpers
     public static final String[] employeeNames = {"Burt", "Ernie", "Bart"};
     public static final Double[] vacSkill = {.1, .05, .02};
@@ -44,7 +48,10 @@ public abstract class Util {
     //Order of odds: Family Gamer, Kid Gamer, Card Gamer, Board Gamers, Cookie Monster
     public static final String[] customerTypes = {"Family Gamer", "Kid Gamer", "Card Gamer", "Board Gamer", "Cookie Monster"};
     public static final Double[] customerChance = {.245, .49, .735, .99, 1.0};
-
+    //Actions of demonstrator
+    public static final String[] demonstratorActions = {"demonstrate", "explain", "recommend", "none"};
+    //Number of requests customer will send to demonstrator
+    public static final int maxDemoActions = 3;
     /**
      * Function to handle printing syntax
      */
