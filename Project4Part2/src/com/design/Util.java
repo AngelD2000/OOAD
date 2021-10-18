@@ -181,5 +181,12 @@ public abstract class Util {
                 return "";
         }
     }
+    /**
+     * Converts the string of a customer type to a game type
+     */
+    public static String customerTypeToGameType(String customerType) {
+        String[] gameType = customerType.split(" ", 2);
+        return gameType[0];
+    }
 }
 

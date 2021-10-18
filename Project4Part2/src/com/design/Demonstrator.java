@@ -17,9 +17,8 @@ public class Demonstrator extends Employee {
      * Will return name of game
      */
     public String pickGame(GameList inventory, Customer customer){
-        String customerType = customer.getType();
-        String[] gameType = customerType.split(" ", 2);
-        return inventory.pickRandomType(gameType[0]);
+        String gameType = Util.customerTypeToGameType(customer.getType());
+        return inventory.pickRandomType(gameType);
     }
     /**
      * Demonstrate a game for a customer

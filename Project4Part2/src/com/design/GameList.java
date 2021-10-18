@@ -123,9 +123,9 @@ public class GameList extends HashMap<String, Game> {
         return null;
     }
     /**
-     * Gets a random game of the designated type
+     * Gets all games of the designated type
      */
-    public String pickRandomType(String type) {
+    public GameList getType(String type) {
         GameList games = new GameList();
         for (String key : this.keySet()) {
             Game hold = get(key);
@@ -133,6 +133,13 @@ public class GameList extends HashMap<String, Game> {
                 games.addGame(hold.getSimpleGameName(), hold);
             }
         }
+        return games;
+    }
+    /**
+     * Gets a random game of the designated type
+     */
+    public String pickRandomType(String type) {
+        GameList games = getType(type);
         if(games.size() > 0){
             Random rand = new Random();
             List<String> keysAsArray = new ArrayList<String>(games.keySet());

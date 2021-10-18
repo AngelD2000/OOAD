@@ -188,7 +188,6 @@ public class Cashier extends Employee {
     public void demonstrate(GameList inventory, String action, Customer customer){
 
         String gameName = demonstrator.pickGame(inventory, customer);
-
         if(demonstrator != null){
             if(action.equals("demonstrate")){
                 customer.incrementPurchaseBonus(gameName, demonstrator.demonstrate(gameName, customer.getName()));
