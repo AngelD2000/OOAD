@@ -5,19 +5,23 @@ class HumanActivity:
     #How much warmer global warming makes the planet each day
     temperatureAddition = 0
     """Creates a HumanActivity instance"""
-    def HumanActivity(self, deforestation, climateChange):
+    def __init__(self, deforestation, climateChange):
         self.deforestation = deforestation
         self.temperatureAddition = climateChange
 
-    def harvestBamboo(self, bamboo):
+    """Returns how bamboo humans will deforest"""
+    def harvestBamboo(self, verbose=False):
         if (self.deforestation != 0):
-            print("Humans cut down " + self.deforestation + "pounds of bamboo.")
-            return bamboo-self.deforestation
+            if verbose:
+                print("Humans cut down " + str(self.deforestation) + " pounds of bamboo.")
+            return self.deforestation
         else:
-            print("Humans provide the pandas with all the bamboo they need.")
-            return bamboo-self.deforestation
-    def changeTemp(self, temp):
-        if(self.temperatureAddition != 0):
-            print("Human actions have increased the temperature by " + self.temperatureAddition)
-        else:
-            print("The humans keep the panda enclosure at the perfect temperature.")
+            return self.deforestation
+    """Returns how much warmer humans have made planet"""
+    def changeTemp(self, verbose=False):
+        if verbose:
+            if(self.temperatureAddition != 0):
+                print("Human actions have increased the temperature by " + str(self.temperatureAddition))
+            else:
+                print("The humans keep the panda enclosure at the perfect temperature.")
+        return self.temperatureAddition
