@@ -90,8 +90,14 @@ public abstract class Customer {
         //For every shelf position
         for (int j = 0; j < inventory.size(); j++) {
             //See if game picked in stock
-            if(inventory.getGameAtPos(j+1).getCount() > 0) {
-                if (bought.size() <= 2 && Util.testOdds(.2 - (.02 * j) + Util.cookieOdds.get(cookiesConsumed))) {
+            Game hold = inventory.getGameAtPos(j+1);
+            if(hold.getCount() > 0) {
+                double buyOdds = .2 - (.02 * j);
+                buyOdds += Util.cookieOdds.get(cookiesConsumed);
+                if(purchaseBonus.containsKey(hold.getGameName())){
+                    buyOdds += purchaseBonus.get(hold.getGameName());
+                }
+                if (bought.size() <= 2 && Util.testOdds(buyOdds)){
                     bought.add(j + 1);
                 }
             }
