@@ -89,8 +89,11 @@ public abstract class Customer {
             //See if game picked in stock
             Game hold = inventory.getGameAtPos(j+1);
             if(hold.getCount() > 0) {
+                //Base odds based on shelf position
                 double buyOdds = .2 - (.02 * j);
+                //Add in bonus for cookies
                 buyOdds += Util.cookieOdds.get(cookiesConsumed);
+                //Add in bonus from game type and demonstrator commands
                 if(purchaseBonus.containsKey(hold.getGameName())){
                     buyOdds += purchaseBonus.get(hold.getGameName());
 //                    Util.print(Double.toString(buyOdds));
