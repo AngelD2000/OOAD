@@ -11,7 +11,7 @@ Elly Landrum, Angel Dong, Sam Feig
 ### Updated UML Changes: ###
 - Announcer made abstract to support the Singleton pattern in Eager and Lazy Announcer
 - Announcer has no instance variable, this is instead only in Eager and Lazy Announcer
-- 
+- Util updated for new functions and simulation variables
 
 ### For Bonus Run Difference with/without test###
 JUnit runs through IntelliJ: (Private post piazza, got confirmation this is ok)

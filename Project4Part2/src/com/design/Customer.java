@@ -1,9 +1,6 @@
 package com.design;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 
 public abstract class Customer {
@@ -112,7 +109,7 @@ public abstract class Customer {
         for (int i =0; i < Util.maxDemoActions; i++){
             int index = rand.nextInt(Util.demonstratorActions.length);
             String action = Util.demonstratorActions[index];
-            if(action == "none"){
+            if(action.equals("none")){
                 return;
             }
             else{

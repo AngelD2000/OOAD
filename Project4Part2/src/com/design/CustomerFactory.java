@@ -1,5 +1,6 @@
 package com.design;
 
+// Implements the Factory Pattern to create Customers, is also an Eager Singleton
 public class CustomerFactory {
     private static final CustomerFactory instance = new CustomerFactory();
 

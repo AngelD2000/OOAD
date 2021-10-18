@@ -167,7 +167,7 @@ public class Cashier extends Employee {
                     store.rampage();
                 } else {
                     nextCustomer.demandDemos(inventory, this);
-                    report(" noticed customer " + nextCustomer.getName() + " is done asking for demos");
+                    report("noticed customer " + nextCustomer.getName() + " is done asking for demos");
                     choice = nextCustomer.considerCookies(store);
                     report("sold customer " + nextCustomer.getName() + " " + choice);
                     List<Integer> bought = nextCustomer.considerGames(inventory);
