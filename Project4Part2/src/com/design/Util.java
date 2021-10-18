@@ -188,5 +188,40 @@ public abstract class Util {
         String[] gameType = customerType.split(" ", 2);
         return gameType[0];
     }
+
+    /**
+     * Set the bonus probabilities for each game in the customer's category
+     */
+    public static void setBonus(Customer customer) {
+        // Customer bonus probabilities for each game in their category
+        ArrayList<Double> bonuses = new ArrayList<>(Arrays.asList(0.2, 0.1, 0.0));
+        String[] games = new String[]{};
+
+        switch(customer.getType()) {
+            case "Family Gamer":
+                games = familyGames;
+                break;
+            case "Kid Gamer":
+                games = kidsGames;
+                break;
+            case "Card Gamer":
+                games = cardGames;
+                break;
+            case "Board Gamer":
+                games = boardGames;
+                break;
+        }
+
+        //Loop through each game and get a random probability from the bonuses list for that game
+        for(String game:games) {
+            double val = bonuses.get(Util.rndFromRange(0, bonuses.size() - 1));
+            customer.setPurchaseBonus(game, val);
+            bonuses.remove(val);
+
+//            Util.print("******" + customer.getName() + " " + customer.getType() + " " + game + " " + customer.getPurchaseBonus(game));
+        }
+
+    }
+
 }
 

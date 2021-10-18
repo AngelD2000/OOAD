@@ -93,6 +93,7 @@ public abstract class Customer {
                 buyOdds += Util.cookieOdds.get(cookiesConsumed);
                 if(purchaseBonus.containsKey(hold.getGameName())){
                     buyOdds += purchaseBonus.get(hold.getGameName());
+//                    Util.print(Double.toString(buyOdds));
                 }
                 if (bought.size() <= 2 && Util.testOdds(buyOdds)){
                     bought.add(j + 1);
