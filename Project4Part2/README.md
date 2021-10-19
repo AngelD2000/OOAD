@@ -12,8 +12,9 @@ Elly Landrum, Angel Dong, Sam Feig
 - Announcer made abstract to support the Singleton pattern in Eager and Lazy Announcer
 - Announcer has no instance variable, this is instead only in Eager and Lazy Announcer
 - Util updated for new functions and simulation variables
+- Minor edits to Demonstrator to remove unnecessary functions
 
-### For Bonus Run Difference with/without test###
+### For Bonus Run Difference with/without test ###
 JUnit runs through IntelliJ: (Private post piazza, got confirmation this is ok)
 - Running without tests: Configuration is set to Main and click the run button
 - Running with tests: Configuration is set to test and click the run button
