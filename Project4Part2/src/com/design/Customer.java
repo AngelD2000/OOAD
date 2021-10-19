@@ -9,6 +9,7 @@ public abstract class Customer {
     private Boolean cookieMonster = false;
     private int customerNum;
     private String type;
+    private Demonstration[] demos;
     /**
      * Bonuses applied to a customer buying a game. .1 is 10% more likely
      * */
@@ -17,6 +18,10 @@ public abstract class Customer {
     Customer(int num, String name){
         customerNum = num;
         this.name = name;
+        Demonstrate demonstrate = new Demonstrate(this);
+        Explain explain = new Explain(this);
+        Recommend recommend = new Recommend(this);
+        demos = new Demonstration[] {demonstrate, explain, recommend, null};
     }
 
     public String getName() {
@@ -111,13 +116,13 @@ public abstract class Customer {
     public void demandDemos(GameList inventory, Cashier cashier){
         Random rand = new Random();
         for (int i =0; i < Util.maxDemoActions; i++){
-            int index = rand.nextInt(Util.demonstratorActions.length);
-            String action = Util.demonstratorActions[index];
-            if(action.equals("none")){
+            int index = rand.nextInt(demos.length);
+            Demonstration action = demos[index];
+            if(Objects.isNull(action)){
                 return;
             }
             else{
-                cashier.demonstrate(inventory, action,this);
+                cashier.demonstrate(inventory, action);
             }
         }
     }

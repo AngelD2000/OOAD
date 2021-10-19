@@ -185,22 +185,7 @@ public class Cashier extends Employee {
      * Will route a command to appropriate function in demonstrator
      * param action: what type of demonstrating demonstrator should do: demonstrate, recommend, explain
      */
-    public void demonstrate(GameList inventory, String action, Customer customer){
-
-        String gameName = demonstrator.pickGame(inventory, customer);
-        if(demonstrator != null){
-            if(action.equals("demonstrate")){
-                customer.incrementPurchaseBonus(gameName, demonstrator.demonstrate(gameName, customer.getName()));
-            }
-            else if(action.equals("recommend")){
-                customer.incrementPurchaseBonus(gameName, demonstrator.recommend(gameName, customer.getName()));
-            }
-            else if(action.equals("explain")){
-                customer.incrementPurchaseBonus(gameName, demonstrator.explain(gameName, customer.getName()));
-            }
-        }
-        else{
-            throw new RuntimeException("Bad.");
-        }
+    public void demonstrate(GameList inventory, Demonstration action){
+        action.execute(inventory, demonstrator);
     }
 }
