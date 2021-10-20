@@ -231,7 +231,7 @@ public class test {
      * Checks if a board game is instance of a game
      * */
     @Test
-    void recommend() {
+    void Demonstrate() {
         GameList inventory = new GameList();
         String gameName = "";
         Announcer guy = EagerAnnouncer.getInstance();
@@ -277,7 +277,7 @@ public class test {
         double currBonus = customer.getPurchaseBonus(gameName);
         System.out.println("Curr: " + currBonus);
 
-        //Checks whether there is a increase in purchase bonus percentage, if there isn't the assertion will fail
+        //Checks whether there is an increase in purchase bonus percentage, if there isn't the assertion will fail
         Assertions.assertTrue(currBonus - prevBonus > 0);
     }
     //Announcer Test 1
