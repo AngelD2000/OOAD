@@ -226,14 +226,59 @@ public class test {
         FamilyGame Life_plus = new FamilyGame();
         Assertions.assertTrue(Life_plus instanceof Game);
     }
-    //Game Test 2
+    //Demonstrator Test 1
     /**
      * Checks if a board game is instance of a game
      * */
     @Test
-    public void checkGameType1(){
-        BoardGame boardGame = new BoardGame();
-        Assertions.assertTrue(boardGame instanceof Game);
+    void recommend() {
+        GameList inventory = new GameList();
+        String gameName = "";
+        Announcer guy = EagerAnnouncer.getInstance();
+        Demonstrator demonstrator = new Demonstrator(guy);
+        Cashier cashier = new Cashier("Billy",.2, Util.stackPref[2],demonstrator);
+        //Create the customer
+        CustomerFactory custFact = CustomerFactory.getInstance();
+        Customer customer = custFact.getCustomer((1));
+        String type = customer.getType();
+        while(type == "Cookie Monster"){
+            customer = custFact.getCustomer(1);
+            type = customer.getType();
+        }
+        if(type == "Family Gamer"){
+            gameName = "Monopoly";
+            Game game = new FamilyGame(gameName, Util.assign_dim(), 10);
+            inventory.put(gameName,game);
+        }
+        else if(type == "Kid Gamer"){
+            gameName = "Mousetrap";
+            Game game = new KidsGame(gameName, Util.assign_dim(), 25);
+            inventory.put(gameName,game);
+        }
+        else if(type == "Board Gamer"){
+            gameName = "Catan";
+            Game game = new BoardGame(gameName, Util.assign_dim(), 20);
+            inventory.put(gameName,game);
+        }
+        else if(type == "Card Gamer"){
+            gameName = "Magic";
+            Game game = new CardGame(gameName, Util.assign_dim(), 20);
+            inventory.put(gameName,game);
+        }
+
+        //Check the previous purchase bonus of the game
+        double prevBonus = customer.getPurchaseBonus(gameName);
+        System.out.println("Prev: " + prevBonus);
+
+        //Have the cashier demonstrate the game
+        customer.demandDemos(inventory, cashier);
+
+        //Get the current purchase bonus of the game
+        double currBonus = customer.getPurchaseBonus(gameName);
+        System.out.println("Curr: " + currBonus);
+
+        //Checks whether there is a increase in purchase bonus percentage, if there isn't the assertion will fail
+        Assertions.assertTrue(currBonus - prevBonus > 0);
     }
     //Announcer Test 1
     /**
