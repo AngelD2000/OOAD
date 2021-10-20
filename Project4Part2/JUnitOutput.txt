@@ -6,6 +6,7 @@ JUnit runs through IntelliJ:
 To see how run results run without test: output.txt
 ----------------------------------------------------------
 Below is run results with test:
+Guy Subscribed to Ava
 Guy Subscribed to Burt
 Guy Subscribed to Ernie
 Guy Subscribed to Bart
@@ -22,16 +23,31 @@ Guy Subscribed to Gonger
     -Pokemon : 3
     -Netrunner : 3
     -Catan : 3
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {breakGameTest()}
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Guy Subscribed to Amelia
+Prev: 0.0
+Guy Says: Amelia the Demonstrator recommends Monopoly for customer Joe
+Guy Says: Amelia the Demonstrator explains Monopoly for customer Joe
+Guy Says: Amelia the Demonstrator demonstrates Monopoly for customer Joe
+Curr: 0.30000000000000004
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
+INFO: Test successful for test {Demonstrate()}
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {incrementStoreTotal()}
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {addGame()}
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {checkIfNeedFill()}
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {orderGame()}
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
+INFO: Test successful for test {checkGuy2()}
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
+INFO: Test successful for test {checkGuy3()}
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
+INFO: Test successful for test {checkGameType()}
+Guy Subscribed to Lucas
 Guy Subscribed to Burt
 Guy Subscribed to Ernie
 Guy Subscribed to Bart
@@ -48,8 +64,9 @@ Guy Subscribed to Gonger
     -Pokemon : 3
     -Netrunner : 3
     -Catan : 3
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {stackTallShort()}
+Guy Subscribed to Ben
 Guy Subscribed to Burt
 Guy Subscribed to Ernie
 Guy Subscribed to Bart
@@ -66,8 +83,12 @@ Guy Subscribed to Gonger
     -Pokemon : 3
     -Netrunner : 3
     -Catan : 3
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Guy Says: Ben the Demonstrator screams and runs. We'll need a new Demonstrator.
+Guy Subscribed to Joe
+Guy Says: Joe the Demonstrator is much braver than the last guy, and ready to demo!
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {rampage()}
+Guy Subscribed to Emma
 Guy Subscribed to Burt
 Guy Subscribed to Ernie
 Guy Subscribed to Bart
@@ -85,10 +106,13 @@ Guy Subscribed to Gonger
     -Netrunner : 3
     -Catan : 3
 here?
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {stackOddTest()}
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {removeGame()}
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
+INFO: Test successful for test {checkGuy()}
+Guy Subscribed to Ben
 Guy Subscribed to Burt
 Guy Subscribed to Ernie
 Guy Subscribed to Bart
@@ -105,9 +129,7 @@ Guy Subscribed to Gonger
     -Pokemon : 3
     -Netrunner : 3
     -Catan : 3
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher testSuccessful
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher testSuccessful
 INFO: Test successful for test {orderCookies()}
-Oct 05, 2021 11:08:16 PM com.design.gameTestWatcher afterAll
-INFO: Test result summary for {test} {SUCCESSFUL=10}
-
-Process finished with exit code 0
+Oct 19, 2021 9:38:23 PM com.design.gameTestWatcher afterAll
+INFO: Test result summary for {test} {SUCCESSFUL=15}
