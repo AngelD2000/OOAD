@@ -15,8 +15,8 @@ public class FlashpointController {
     @FXML
     protected void onStartGameClick() {
         //Need to render a new page with the map
-        Stage stage = new Stage();
-        //Second argument is a map
-        startGame.game(stage);
+//        Stage stage = new Stage();
+//        //Second argument is a map
+//        startGame.game(stage);
     }
 }

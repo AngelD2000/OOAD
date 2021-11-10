@@ -19,13 +19,6 @@ import java.util.ArrayList;
 public class Flashpoint extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Flashpoint.class.getResource("flashpoint.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    public void game(Stage stage) {
         //https://stackoverflow.com/questions/35294207/place-multiple-rectangles-in-javafx-randomly
         AnchorPane root = new AnchorPane();
         Scene scene = new Scene(root);
