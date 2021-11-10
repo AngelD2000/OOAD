@@ -28,7 +28,7 @@ public class Flashpoint extends Application {
         for (int i = 0; i < Util.columns; ++i) {
             for (int j = 0; j < Util.rows; ++j) {
                 rect = new Rectangle(Util.horizontal * j, Util.vertical * i, Util.horizontal, Util.vertical);
-                if(i == 0 || j == 0 ||i == columns - 1 || j == rows - 1){
+                if(i == 0 || j == 0 ||i == Util.columns - 1 || j == Util.rows - 1){
                     rect.setFill(Color.GREEN);
                 }
                 else{
