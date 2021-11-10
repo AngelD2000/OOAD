@@ -24,11 +24,10 @@ public class Flashpoint extends Application {
         Scene scene = new Scene(root);
         stage.setScene(scene);
 
-        int columns = 7, rows = 10, horizontal = 60, vertical = 60;
         Rectangle rect = null;
-        for (int i = 0; i < columns; ++i) {
-            for (int j = 0; j < rows; ++j) {
-                rect = new Rectangle(horizontal * j, vertical * i, horizontal, vertical);
+        for (int i = 0; i < Util.columns; ++i) {
+            for (int j = 0; j < Util.rows; ++j) {
+                rect = new Rectangle(Util.horizontal * j, Util.vertical * i, Util.horizontal, Util.vertical);
                 if(i == 0 || j == 0 ||i == columns - 1 || j == rows - 1){
                     rect.setFill(Color.GREEN);
                 }
