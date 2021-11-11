@@ -10,7 +10,6 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="com.example.project6_fx.FlashpointController">
    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
       <children>
-         <Button layoutX="237.0" layoutY="238.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="125.0" text="Start Game" onAction="#onStartGameClick"/>
          <Text layoutX="57.0" layoutY="72.0" strokeType="INSIDE" strokeWidth="0.0" text="Welcome to Flashpoint, click Start Game button to start " wrappingWidth="485.4345703125">
             <font>
                <Font name="Courier" size="24.0" />

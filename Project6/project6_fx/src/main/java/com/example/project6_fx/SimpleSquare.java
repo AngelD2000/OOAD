@@ -1,63 +1,34 @@
 package com.example.project6_fx;
 
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+
 import java.lang.reflect.Array;
 
 public class SimpleSquare {
-    private int fire = 0;
-    private int POI = 0;
-    private int outside = 0;
-    public boolean firefighter = false;
+//    private int fire = 0;
+//    private int POI = 0;
+//    private boolean outside = true;
+//    private boolean firefighter = false;
     final private int[] coordinate;
+    private String color;
+    public Rectangle rect;
 
-    SimpleSquare(int fire, int POI, int outside, boolean firefighter, int[] coordinate){
-        this.fire =fire;
-        this.POI = POI;
-        this.outside = outside;
-        this.firefighter = firefighter;
+    SimpleSquare(int[] coordinate,String color, Rectangle rect){
+//        this.fire =fire;
+//        this.POI = POI;
+//        this.outside = outside;
+//        this.firefighter = firefighter;
         this.coordinate = coordinate;
-    }
-
-    public void setFire(int fire) {
-        this.fire = fire;
-    }
-
-    public void setPOI(int POI) {
-        this.POI = POI;
-    }
-
-    public void setOutside(int outside) {
-        this.outside = outside;
-    }
-
-    public Boolean isFire(){
-        if(this.fire == 2){
-            return true;
+        this.color = color;
+        this.rect = rect;
+        if(this.color == "WHITE"){
+            this.rect.setFill(Color.WHITE);
         }
-        return false;
-    }
-
-    public Boolean isSmoke(){
-        if(this.fire == 1){
-            return true;
+        else{
+            this.rect.setFill(Color.GREEN);
         }
-        return false;
+        this.rect.setStroke(Color.BLACK);
     }
 
-    public Boolean POI(){
-        if(this.POI == 1){
-            return true;
-        }
-        return false;
-    }
-
-    public Boolean isOutside(){
-        if(this.outside == 1){
-            return true;
-        }
-        return false;
-    }
-
-    public int[] getCoordinate() {
-        return coordinate;
-    }
 }
