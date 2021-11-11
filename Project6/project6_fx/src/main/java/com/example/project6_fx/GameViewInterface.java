@@ -23,5 +23,5 @@ public interface GameViewInterface {
      *   Personally I think it makes more sense if we dealt the logic in the controller for Game and gets
      *   rendered ActionMenu
      */
-    void ActionMenu();
+    void actionMenu();
 }

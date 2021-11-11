@@ -11,24 +11,36 @@ public class Flashpoint extends Application implements GameViewInterface {
     private  ViewManager manager = new ViewManager();
     private SimpleGame game = new SimpleGame();
 
+    /**
+     * This function is at the top most level of the program with Applications
+     *    - JavaFX is a single threaded program, with one scene per stage
+     *  In order to use the scene and stage, both of them are declared ViewManager along with the size of the window
+     * */
+
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage = manager.getMainStage();
-        manager.drawMap(game.map);
+        try{
+            primaryStage = manager.getMainStage();
+            manager.drawMap(game.map);
 
-        //Trying to simulate a change in game, this will turn one of the squares red
-        //game.event();
-        primaryStage.show();
+            //Trying to simulate a change in game, this will turn one of the squares red when uncommented
+            //game.event();
+            primaryStage.show();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
-    //Draw an updated square
+    /** Draw the updated square by changing the property of the current square */
     @Override
     public void drawUpdateSquare(SimpleSquare square){
         manager.updateSquare(square);
     }
 
+    //TODO: This function should bring up the menu when the event of mouse click on a square happens
     @Override
-    public void ActionMenu() {
+    public void actionMenu() {
 
     }
     public static void main(String args[]){
