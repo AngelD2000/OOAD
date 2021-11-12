@@ -23,8 +23,6 @@ public class Flashpoint extends Application implements GameViewInterface {
             primaryStage = manager.getMainStage();
             manager.drawMap(game.map);
 
-            //Trying to simulate a change in game, this will turn one of the squares red when uncommented
-            //game.event();
             primaryStage.show();
         }
         catch (Exception e){

@@ -10,9 +10,9 @@ public class SimpleGame {
     ArrayList<SimpleSquare> map = generateMap.createMap();
 
     public void event(){
-        Flashpoint flash = new Flashpoint();
+        ViewManager manager = new ViewManager();
         SimpleSquare sq = map.get(13);
-        flash.drawUpdateSquare(sq);
+        //manager.updateSquare(sq,"FireFighter");
     }
 
 }
