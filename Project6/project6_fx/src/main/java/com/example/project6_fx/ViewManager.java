@@ -85,9 +85,9 @@ public class ViewManager {
 //    }
 
     //TODO: Render FF
-    public void displayFF(SimpleSquare square){
-        Image ff = new Image();
-    }
+    //public void displayFF(SimpleSquare square){
+    //    Image ff = new Image();
+    //}
 //    //TODO: Render POI
 
 

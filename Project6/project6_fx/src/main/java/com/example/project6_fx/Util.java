@@ -8,4 +8,39 @@ public class Util {
     public static final int length = 60;
     public static final int columns = 7;
     public static final int rows = 10;
+    //Firefighter creation constants
+    public static final int green = 0;
+    public static final int black = 1;
+    public static final int red = 2;
+    public static final int blue = 3;
+    public static final int numFirefighters = 4;
+    public static final String[] firefighterImages = new String[]{"/graphics/green_ff.png",
+            "/graphics/black_ff.png", "/graphics/red_ff.png", "/graphics/blue_ff.png"};
+    public static final Integer[][] firefighterLocations = new Integer[][]{{1, 1}, {2, 2}, {3, 3}, {4, 4}};
+    //Firefighter actions
+    public static final int move = 0;
+    public static final int drag = 1;
+    public static final int hose = 2;
+    public static final int chop = 3;
+
+    //Map constants
+    public static final int notAdjacent = 0;
+    public static final int wallBetween = 0;
+    public static final int adjacent = 0;
+
+    //POI constants
+    public static final int victims =12;
+    public static final int blanks = 6;
+    public static final int maxTokens = 3;
+
+    //Square directions
+    public static final int north = 0;
+    public static final int south = 1;
+    public static final int east = 2;
+    public static final int west = 3;
+
+    public static void print(String content){
+        System.out.println(content);
+    }
+
 }
