@@ -6,13 +6,24 @@ public class Game {
     Building building = null;
     FirefighterLogic firefighterLogic = null;
     FireLogic fireLogic = null;
+    int damage = 24;
+    Map map = null;
     Game(){
-        building = new Building();
+        MapFactory mapFactory = new MapFactory();
+        Map map = mapFactory.makeMap();
+        building = new Building(map);
         firefighterLogic = new FirefighterLogic(this);
-        fireLogic = new FireLogic(building.getMap(), building);
+        fireLogic = new FireLogic(map, building);
     }
     Map getMap(){
-        return building.getMap();
+        return map;
+    }
+
+    int getDamage(){
+        return damage;
+    }
+    void incrementDamage(){
+        damage -= 1;
     }
 
     /**
@@ -21,7 +32,7 @@ public class Game {
      * @ return The associated square
      */
     Square getLoc(Integer[] loc){
-        return building.getMap().getLoc(loc);
+        return getMap().getLoc(loc);
     }
 
     /**
@@ -59,6 +70,7 @@ public class Game {
             endTurn();
         }
     }
+
     /**
      * Game handles flipping the POI if applicable
      */
@@ -67,6 +79,7 @@ public class Game {
             building.flipPoi(square);
         }
     }
+
     /**
      * Game handles ending the turn
      * Spread fire
@@ -78,7 +91,7 @@ public class Game {
         if(building.getSaved() >= 7){
             Util.print("The game ended in a victory!");
         }
-        else if(building.getPerished() >= 4 || building.getDamage() < 0){
+        else if(building.getPerished() >= 4 || damage < 0){
             Util.print("The game ended in a loss...");
         }
         //Add poi

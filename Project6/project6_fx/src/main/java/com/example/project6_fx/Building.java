@@ -3,19 +3,14 @@ package com.example.project6_fx;
 public class Building {
     int saved = 0;
     int perished = 0;
-    int damage = 24;
     int victims = 0;
     int blanks = 0;
     int numTokens = 0;
+
     Map map = null;
 
-    Building(){
-        MapFactory mapFactory = new MapFactory();
-        map = mapFactory.makeMap();
-    }
-
-    public Map getMap(){
-        return map;
+    Building(Map map){
+        this.map = map;
     }
 
     int getSaved(){
@@ -29,13 +24,6 @@ public class Building {
         return perished;
     }
     void incrementPerished(){
-        perished += 1;
-    }
-
-    int getDamage(){
-        return perished;
-    }
-    void incrementDamage(){
         perished += 1;
     }
 
