@@ -8,8 +8,11 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.CubicCurve;
 import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.StrokeType;
 import javafx.stage.Stage;
+
+import java.io.File;
 import java.util.ArrayList;
 
 public class ViewManager {
@@ -70,23 +73,27 @@ public class ViewManager {
     }
 
 //    //TODO:Figure out the file path -> not working for some reason
-//    public void displayFire(SimpleSquare square){
-//
-//        Image fire = new Image("/graphics/fire.png");
-//        ImagePattern firePattern = new ImagePattern(fire);
-//        square.rect.setFill(firePattern);
-//        ImageView fireView = new ImageView(fire);
-//        mainPane.getChildren().add(fireView);
-////        int[] coord = square.getCoordinate();
-////        imageView.setImage(fire);
-////        imageView.setX(coord[0]);
-////        imageView.setY(coord[1]);
-//
-//    }
+    public void displayFire(SimpleSquare square){
+
+        File fire = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/fire.png");
+        Image fireImage = new Image(fire.toURI().toString());
+        ImagePattern firePattern = new ImagePattern(fireImage);
+        square.rect.setFill(firePattern);
+        ImageView ffBlack = new ImageView(fireImage);
+        ffBlack.setFitHeight(60);
+        ffBlack.setFitWidth(60);
+
+    }
 
     //TODO: Render FF
     public void displayFF(SimpleSquare square){
-        Image ff = new Image();
+        File ffBlackPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/black_ff.png");
+        Image ffBlackImage = new Image(ffBlackPath.toURI().toString());
+        ImagePattern ffPattern = new ImagePattern(ffBlackImage);
+        square.rect.setFill(ffPattern);
+        ImageView ffBlack = new ImageView(ffBlackImage);
+        ffBlack.setFitHeight(60);
+        ffBlack.setFitWidth(60);
     }
 //    //TODO: Render POI
 
@@ -97,6 +104,13 @@ public class ViewManager {
     public void drawMap(ArrayList<SimpleSquare>map){
         for(SimpleSquare singleSquare: map){
             mainPane.getChildren().add(singleSquare.rect);
+            if(singleSquare.isFirefighter()){
+                System.out.println("FF should appear");
+                displayFF(singleSquare);
+            }
+            if(singleSquare.getFire()==2){
+                displayFire(singleSquare);
+            }
         }
     }
 

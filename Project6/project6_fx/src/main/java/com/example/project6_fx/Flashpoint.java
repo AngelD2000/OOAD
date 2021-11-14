@@ -22,7 +22,6 @@ public class Flashpoint extends Application implements GameViewInterface {
         try{
             primaryStage = manager.getMainStage();
             manager.drawMap(game.map);
-
             primaryStage.show();
         }
         catch (Exception e){

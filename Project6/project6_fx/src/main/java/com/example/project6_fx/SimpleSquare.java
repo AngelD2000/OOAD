@@ -56,4 +56,8 @@ public class SimpleSquare {
     public void setEdges(int[] edges) {
         this.edges = edges;
     }
+
+    public boolean isFirefighter() {
+        return firefighter;
+    }
 }
