@@ -6,6 +6,7 @@ class HumanActivity:
     temperatureAddition = 0
     """Creates a HumanActivity instance"""
     def __init__(self, deforestation, climateChange):
+        print(deforestation)
         self.deforestation = deforestation
         self.temperatureAddition = climateChange
 

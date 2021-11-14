@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b65b52-f284-4ca6-b7df-e848d419bfb6" name="Changes" comment="" />
+    <list default="true" id="d5b65b52-f284-4ca6-b7df-e848d419bfb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../GradProject/JavaSim/src/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GradProject/JavaSim/src/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GradProject/JavaSim/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GradProject/JavaSim/src/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GradProject/PythonSim/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GradProject/PythonSim/environment.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project1Part2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
