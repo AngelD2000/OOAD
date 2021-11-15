@@ -17,12 +17,11 @@ public class FirefighterLogic {
 
     /**
      * Gets the array of legal actions given the targeted location
-     * @param loc Array of [x, y] location on the map
+     * @param target Array of [x, y] location on the map
      * @ return An arraylist of legal actions
      */
-    ArrayList<Integer> getActions(Integer[] loc){
+    ArrayList<Integer> getActions(Square target){
         ArrayList<Integer> answer = new ArrayList<Integer>(0);
-        Square target = game.getLoc(loc);
         Square location = company.getActiveLocation();
         Map map = game.getMap();
         Integer adj = map.areAdjacent(target, location);
