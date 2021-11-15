@@ -2,6 +2,10 @@ package com.example.project6_fx;
 
 public class Square {
     //TODO: Whole class
+    /**
+     * Need a Rectangle object associated with each square for Javafx
+     * */
+    private Firefighter FF;
     Square(){
 
     }
@@ -44,4 +48,15 @@ public class Square {
 
     }
 
+    public boolean hasFF() {
+
+    }
+
+    public Firefighter getFF() {
+        return FF;
+    }
+
+    public void setFF(Firefighter FF) {
+        this.FF = FF;
+    }
 }

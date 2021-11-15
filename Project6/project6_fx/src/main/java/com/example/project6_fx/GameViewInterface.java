@@ -12,7 +12,7 @@ public interface GameViewInterface {
      *                  - FF, smoke, fire, POI
      *  - The argument is a square because Map is just made up with a bunch of squares
      */
-    void drawUpdateSquare(SimpleSquare square);
+    void updateSquare(Square square);
 
     /**
      * Display available menu options when user clicks the square with an action menu
@@ -24,4 +24,6 @@ public interface GameViewInterface {
      *   rendered ActionMenu
      */
     void actionMenu();
+
+    void displayStatus(Game game);
 }

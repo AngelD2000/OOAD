@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0946da70-b572-4c05-8001-6e404ba7c4ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Project4Part2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project4Part2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project4Part2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project6_fx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project6_fx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Firefighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Firefighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Flashpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Flashpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/GameViewInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/GameViewInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/ViewManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +34,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="20sNQp1dmQo8wI7YkgcrDRNgGYq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +55,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project4Part2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,8 +83,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636829321814</updated>
+      <workItem from="1636999899496" duration="2179000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -76,5 +100,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

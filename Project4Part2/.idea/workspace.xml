@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7df14319-656d-4a20-9c32-06e127d8275c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project6/project6_fx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/project6_fx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/project6_fx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/project6_fx/project6_fx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/src/main/java/com/example/project6_fx/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/project6_fx/src/main/java/com/example/project6_fx/Building.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/project6_fx/src/main/java/com/example/project6_fx/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/project6_fx/src/main/java/com/example/project6_fx/Game.java" afterDir="false" />
     </list>
@@ -31,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -7,9 +7,8 @@ import java.util.ArrayList;
 
 //https://stackoverflow.com/questions/35294207/place-multiple-rectangles-in-javafx-randomly
 
-public class Flashpoint extends Application implements GameViewInterface {
+public class Flashpoint extends Application {
     private  ViewManager manager = new ViewManager();
-    private SimpleGame game = new SimpleGame();
 
     /**
      * This function is at the top most level of the program with Applications
@@ -21,8 +20,7 @@ public class Flashpoint extends Application implements GameViewInterface {
     public void start(Stage primaryStage) throws IOException {
         try{
             primaryStage = manager.getMainStage();
-            manager.drawMap(game.map);
-
+            manager.drawMap();
             primaryStage.show();
         }
         catch (Exception e){
@@ -30,17 +28,6 @@ public class Flashpoint extends Application implements GameViewInterface {
         }
     }
 
-    /** Draw the updated square by changing the property of the current square */
-    @Override
-    public void drawUpdateSquare(SimpleSquare square){
-        manager.updateSquare(square);
-    }
-
-    //TODO: This function should bring up the menu when the event of mouse click on a square happens
-    @Override
-    public void actionMenu() {
-
-    }
     public static void main(String args[]){
         launch(Flashpoint.class);
     }
