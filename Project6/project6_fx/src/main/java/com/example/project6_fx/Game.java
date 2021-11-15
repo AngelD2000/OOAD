@@ -41,7 +41,8 @@ public class Game {
      * @ return An arraylist of legal actions
      */
     ArrayList<Integer> getActions(Integer[] loc){
-        return firefighterLogic.getActions(loc);
+        Square target = getMap().getLoc(loc);
+        return firefighterLogic.getActions(target);
     }
 
     /**

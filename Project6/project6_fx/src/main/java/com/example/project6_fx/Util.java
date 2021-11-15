@@ -32,11 +32,6 @@ public class Util {
     public static final int wallBetween = 0;
     public static final int adjacent = 0;
 
-    //POI constants
-    public static final int victims =12;
-    public static final int blanks = 6;
-    public static final int maxTokens = 3;
-
     //Square directions
     public static final int north = 0;
     public static final int south = 1;

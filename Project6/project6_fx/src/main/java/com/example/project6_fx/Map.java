@@ -4,6 +4,12 @@ public class Map {
     Map(){
 
     }
+
+    /**
+     * Gets the square associated with the coordinates
+     * @param loc Array of [x, y] location on the map
+     * @ return The associated square
+     */
     public Square getLoc(Integer[] loc){
         //TODO: Make this actually get the square
         return new Square();

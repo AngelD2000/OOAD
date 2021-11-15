@@ -1,6 +1,11 @@
 package com.example.project6_fx;
 
 public class Building {
+    //POI constants
+    public static final int maxVictims =12;
+    public static final int maxBlanks = 6;
+    public static final int maxTokens = 3;
+
     int saved = 0;
     int perished = 0;
     int victims = 0;
@@ -40,7 +45,7 @@ public class Building {
     public void flipPoi(Square square){
         square.removePoi();
         double random_int = Math.random()*(2);
-        double odds = (Util.victims - victims) / (Util.victims + Util.blanks - victims - blanks);
+        double odds = (maxVictims - victims) / (maxVictims + maxBlanks - victims - blanks);
         //It's a victim!
         if (random_int >= odds){
             victims += 1;
@@ -58,7 +63,7 @@ public class Building {
     }
 
     public void placePoi(){
-        while(numTokens <= Util.maxTokens){
+        while(numTokens <= maxTokens){
             Square loc = map.getRandomSquare();
             while(loc.hasFire() || loc.hasSmoke()){
                 loc = map.getRandomSquare();
