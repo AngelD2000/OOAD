@@ -1,18 +1,16 @@
 package com.example.project6_fx;
 
-public class Square {
-    //TODO: Whole class
+import java.util.Arrays;
+
+public abstract class Square {
     /**
      * Need a Rectangle object associated with each square for Javafx
      * */
 
-    Square base;
     //Edges stored in order: North, South, East, West (same as Util Square directions)
-    private Edge[] edges = {null, null, null, null};
+    protected Edge[] edges = {null, null, null, null};
     private Firefighter FF;
-    Square(){
-
-    }
+    Square(){}
 
     public void setEdge(int direction) {
         edges[direction] = new Edge();
@@ -33,26 +31,49 @@ public class Square {
     }
 
     @Override
-    public boolean equals(Object otherObject) {
-        return false;
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        final Square other = (Square) obj;
+        return (Arrays.equals(getEdges(), other.getEdges()) && getFF().equals(other.getFF()));
     }
+
     //Turns fire into smoke, or removes the smoke
-    public void removeFire(){}
+    public Square removeFire() {
+        return this;
+    };
     //Turns smoke into fire or none into smoke
-    public void addFire(){}
+    public Square addFire()  {
+        return this;
+    };
     public boolean hasPoi(){
         return false;
     }
 
     //Turns none into poi
-    public void addPoi() {};
+    public Square addPoi() {
+        return this;
+    };
+
     //Turns poi into none
-    public void removePoi() {};
+    public Square removePoi() {
+        return this;
+    };
     public boolean hasVictim(){
         return false;
     }
-    public void addVictim() {};
-    public void removeVictim() {};
+
+    public Square addVictim() {
+        return this;
+    };
+    public Square removeVictim() {
+        return this;
+    };
 
     public boolean hasFire(){
         return false;
@@ -77,59 +98,104 @@ public class Square {
     public void setFF(Firefighter FF) {
         this.FF = FF;
     }
+
+    public Edge[] getEdges() {
+        return edges;
+    }
 }
 
-class FireSquare extends Square {
+class BaseSquare extends Square {
+    Square base;
+
+    BaseSquare() {
+        super();
+    }
+
+    BaseSquare(Square square) {
+        this.base = square;
+        this.edges = square.edges;
+        this.setFF(square.getFF());
+    }
+
+}
+
+class FireSquare extends BaseSquare {
+    FireSquare(Square base){
+        super(base);
+    }
     @Override
     public boolean hasFire(){
         return true;
     }
 
     //turn fire into smoke
-    public void removeFire(){
-        this.base = new SmokeSquare();
+    @Override
+    public SmokeSquare removeFire(){
+        return new SmokeSquare(this.base);
     }
 
-    public void addFire(){} // Do nothing
+    @Override
+    public Square addFire(){
+        return this;
+    } // Do nothing
 }
 
-class SmokeSquare extends Square {
+class SmokeSquare extends BaseSquare {
+    SmokeSquare(Square base){
+        super(base);
+    }
+
     @Override
     public boolean hasSmoke(){
         return true;
     }
 
     //turn smoke into fire
-    public void addFire(){
-        this.base = new FireSquare();
+    @Override
+    public FireSquare addFire(){
+        return new FireSquare(this.base);
     }
 
     //turn smoke into base
-    public void removeFire(){
-        this.base = new Square();
+    @Override
+    public BaseSquare removeFire(){
+        return new BaseSquare(this.base);
     }
 }
 
-class OutsideSquare extends Square {
+class OutsideSquare extends BaseSquare {
+    OutsideSquare(Square base){
+        super(base);
+    }
     @Override
     public boolean isOutside(){
         return true;
     }
 
-    public void addFire(){} // Do nothing
+    @Override
+    public Square addFire(){
+        return this;
+    } // Do nothing
 
 }
 
-class POISquare extends Square {
+class POISquare extends BaseSquare {
+    POISquare(Square base){
+        super(base);
+    }
     @Override
     public boolean hasPoi(){
         return true;
     }
 
-    public void addPoi() {} // Do nothing
+    @Override
+    public Square addPoi() {
+        return this;
+    } // Do nothing
 
-    public void removePoi() {
-        this.base = new Square();
+    @Override
+    public BaseSquare removePoi() {
+         return new BaseSquare(this.base);
     }
 
     public void removeFF(){};
