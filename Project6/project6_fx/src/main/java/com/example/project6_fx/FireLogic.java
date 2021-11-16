@@ -22,14 +22,13 @@ public class FireLogic {
             square.addFire();
             building.killPoi(square);
         }
-        //TODO: Need a map iterator
-        int i;
-        for(i = 0; i < 0; i++){
+        while(map.hasNext()){
             Square square = map.next();
             if(square.hasSmoke() && map.fireAdjacent(square)){
                 square.addFire();
             }
         }
+        map.resetIterator();
     }
 
     /**
