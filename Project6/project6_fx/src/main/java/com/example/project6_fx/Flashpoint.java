@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 public class Flashpoint extends Application {
     private  ViewManager manager = new ViewManager();
+    private Game game = new Game();
 
     /**
      * This function is at the top most level of the program with Applications
@@ -20,7 +21,7 @@ public class Flashpoint extends Application {
     public void start(Stage primaryStage) throws IOException {
         try{
             primaryStage = manager.getMainStage();
-            manager.drawMap();
+            manager.drawMap(game.getMap());
             primaryStage.show();
         }
         catch (Exception e){

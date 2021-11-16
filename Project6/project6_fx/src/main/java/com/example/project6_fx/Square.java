@@ -1,6 +1,9 @@
 package com.example.project6_fx;
 
-public class Square {
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+
+public class Square extends Rectangle {
     //TODO: Whole class
     /**
      * Need a Rectangle object associated with each square for Javafx
@@ -10,10 +13,12 @@ public class Square {
     //Edges stored in order: North, South, East, West (same as Util Square directions)
     private Edge[] edges = {null, null, null, null};
     private Firefighter FF;
+    private Rectangle rectangle;
     Square(){
+       this.rectangle = new Rectangle();
+       this.rectangle.setStroke(Color.LIGHTGREY);
 
     }
-
     public void setEdge(int direction) {
         edges[direction] = new Edge();
     }
@@ -76,6 +81,14 @@ public class Square {
 
     public void setFF(Firefighter FF) {
         this.FF = FF;
+    }
+
+    public Rectangle getRectangle() {
+        return rectangle;
+    }
+
+    public Edge[] getEdges() {
+        return edges;
     }
 }
 
