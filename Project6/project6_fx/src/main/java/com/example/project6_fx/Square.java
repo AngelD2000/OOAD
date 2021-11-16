@@ -1,7 +1,6 @@
 package com.example.project6_fx;
 
 public abstract class Square {
-    //TODO: Whole class
     /**
      * Need a Rectangle object associated with each square for Javafx
      * */
@@ -34,22 +33,36 @@ public abstract class Square {
         return false;
     }
     //Turns fire into smoke, or removes the smoke
-    public void removeFire(){}
+    public Square removeFire() {
+        return this;
+    };
     //Turns smoke into fire or none into smoke
-    public void addFire(){}
+    public Square addFire()  {
+        return this;
+    };
     public boolean hasPoi(){
         return false;
     }
 
     //Turns none into poi
-    public void addPoi() {};
+    public Square addPoi() {
+        return this;
+    };
+
     //Turns poi into none
-    public void removePoi() {};
+    public Square removePoi() {
+        return this;
+    };
     public boolean hasVictim(){
         return false;
     }
-    public void addVictim() {};
-    public void removeVictim() {};
+
+    public Square addVictim() {
+        return this;
+    };
+    public Square removeVictim() {
+        return this;
+    };
 
     public boolean hasFire(){
         return false;
@@ -102,12 +115,14 @@ class FireSquare extends BaseSquare {
 
     //turn fire into smoke
     @Override
-    public void removeFire(){
-        this.base = new SmokeSquare(this);
+    public SmokeSquare removeFire(){
+        return new SmokeSquare(this);
     }
 
     @Override
-    public void addFire(){} // Do nothing
+    public Square addFire(){
+        return this;
+    } // Do nothing
 }
 
 class SmokeSquare extends BaseSquare {
@@ -122,14 +137,14 @@ class SmokeSquare extends BaseSquare {
 
     //turn smoke into fire
     @Override
-    public void addFire(){
-        this.base = new FireSquare(this);
+    public FireSquare addFire(){
+        return new FireSquare(this);
     }
 
     //turn smoke into base
     @Override
-    public void removeFire(){
-        this.base = new BaseSquare(this);
+    public BaseSquare removeFire(){
+        return new BaseSquare(this);
     }
 }
 
@@ -143,7 +158,9 @@ class OutsideSquare extends BaseSquare {
     }
 
     @Override
-    public void addFire(){} // Do nothing
+    public Square addFire(){
+        return this;
+    } // Do nothing
 
 }
 
@@ -157,10 +174,12 @@ class POISquare extends BaseSquare {
     }
 
     @Override
-    public void addPoi() {} // Do nothing
+    public Square addPoi() {
+        return this;
+    } // Do nothing
 
     @Override
-    public void removePoi() {
-        this.base = new BaseSquare(this);
+    public BaseSquare removePoi() {
+         return new BaseSquare(this);
     }
 }
