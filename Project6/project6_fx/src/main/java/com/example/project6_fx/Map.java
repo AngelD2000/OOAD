@@ -137,6 +137,11 @@ public class Map implements Iterator<Square> {
         return getLoc(pos);
     }
 
+    public void resetIterator() {
+        rowIndex = 0;
+        columnIndex = 0;
+    }
+
     @Override
     public boolean hasNext() {
         return rowIndex < map.length && columnIndex < map[rowIndex].length;
