@@ -7,10 +7,31 @@ public class Square {
      * */
 
     Square base;
+    //Edges stored in order: North, South, East, West (same as Util Square directions)
+    private Edge[] edges = {null, null, null, null};
     private Firefighter FF;
     Square(){
 
     }
+
+    public void setEdge(int direction) {
+        edges[direction] = new Edge();
+    }
+
+    public Edge getEdge(int direction) {
+        switch(direction) {
+            case Util.north:
+                return edges[0];
+            case Util.south:
+                return edges[1];
+            case Util.east:
+                return edges[2];
+            case Util.west:
+                return edges[3];
+        }
+        return null;
+    }
+
     @Override
     public boolean equals(Object otherObject) {
         return false;
