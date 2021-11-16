@@ -1,18 +1,15 @@
 package com.example.project6_fx;
 
-public class Square {
+public abstract class Square {
     //TODO: Whole class
     /**
      * Need a Rectangle object associated with each square for Javafx
      * */
 
-    Square base;
     //Edges stored in order: North, South, East, West (same as Util Square directions)
-    private Edge[] edges = {null, null, null, null};
+    protected Edge[] edges = {null, null, null, null};
     private Firefighter FF;
-    Square(){
-
-    }
+    Square(){}
 
     public void setEdge(int direction) {
         edges[direction] = new Edge();
@@ -79,56 +76,91 @@ public class Square {
     }
 }
 
-class FireSquare extends Square {
+class BaseSquare extends Square {
+    Square base;
+
+    BaseSquare() {
+        super();
+    }
+
+    BaseSquare(Square square) {
+        this.base = square;
+        this.edges = square.edges;
+        this.setFF(square.getFF());
+    }
+
+}
+
+class FireSquare extends BaseSquare {
+    FireSquare(Square base){
+        super(base);
+    }
     @Override
     public boolean hasFire(){
         return true;
     }
 
     //turn fire into smoke
+    @Override
     public void removeFire(){
-        this.base = new SmokeSquare();
+        this.base = new SmokeSquare(this);
     }
 
+    @Override
     public void addFire(){} // Do nothing
 }
 
-class SmokeSquare extends Square {
+class SmokeSquare extends BaseSquare {
+    SmokeSquare(Square base){
+        super(base);
+    }
+
     @Override
     public boolean hasSmoke(){
         return true;
     }
 
     //turn smoke into fire
+    @Override
     public void addFire(){
-        this.base = new FireSquare();
+        this.base = new FireSquare(this);
     }
 
     //turn smoke into base
+    @Override
     public void removeFire(){
-        this.base = new Square();
+        this.base = new BaseSquare(this);
     }
 }
 
-class OutsideSquare extends Square {
+class OutsideSquare extends BaseSquare {
+    OutsideSquare(Square base){
+        super(base);
+    }
     @Override
     public boolean isOutside(){
         return true;
     }
 
+    @Override
     public void addFire(){} // Do nothing
 
 }
 
-class POISquare extends Square {
+class POISquare extends BaseSquare {
+    POISquare(Square base){
+        super(base);
+    }
     @Override
     public boolean hasPoi(){
         return true;
     }
 
+    @Override
     public void addPoi() {} // Do nothing
 
+    @Override
     public void removePoi() {
-        this.base = new Square();
+        this.base = new BaseSquare(this);
     }
 }

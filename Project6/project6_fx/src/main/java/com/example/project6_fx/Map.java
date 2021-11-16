@@ -15,7 +15,7 @@ public class Map implements Iterator<Square> {
 
         for(int i = 0; i < Util.mapWidth; i++) {
             for(int j = 0; j < Util.mapHeight; j++) {
-                map[i][j] = new Square();
+                map[i][j] = new BaseSquare();
             }
         }
     }
@@ -58,14 +58,19 @@ public class Map implements Iterator<Square> {
     public ArrayList<Square> getNeighbors(Square square) {
         int[] pos = getPos(square);
 
+
         ArrayList<Square> squares = new ArrayList<Square>();
         pos[0] += 1;
         squares.add(getLoc(pos));
         pos[1] += 1;
         squares.add(getLoc(pos));
-        pos[0] -= 2;
+        //Reset pos
+        pos[0] -= 1;
+        pos[1] -= 1;
+
+        pos[0] -= 1;
         squares.add(getLoc(pos));
-        pos[1] -= 2;
+        pos[1] -= 1;
         squares.add(getLoc(pos));
 
         // Strip null out of neighbors (will be null if on an edge where one or more neighbors doesnt exist
@@ -161,10 +166,12 @@ public class Map implements Iterator<Square> {
      * Get a random square on the map that is inside
      */
     public Square getRandomSquare(){
-        //Bounded 1 to Util.mapHeight and 1 to Util.mapWidth
+        //Bounded 1 to Util.mapHeight-1 and 1 to Util.mapWidth-1 (exclude outside squares)
         Random rand = new Random();
         int loci = rand.nextInt(Util.mapHeight-1) + 1;
         int locj = rand.nextInt(Util.mapWidth-1) + 1;
+
+        assert(!(map[loci][locj] instanceof OutsideSquare));
         return map[loci][locj];
     }
 
