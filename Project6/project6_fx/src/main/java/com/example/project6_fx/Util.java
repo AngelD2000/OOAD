@@ -4,6 +4,8 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+import java.io.File;
+
 public class Util {
     public static final int length = 60;
     public static final int columns = 8;
@@ -18,8 +20,17 @@ public class Util {
     public static final int red = 2;
     public static final int blue = 3;
     public static final int numFirefighters = 4;
-    public static final String[] firefighterImages = new String[]{"/graphics/green_ff.png",
-            "/graphics/black_ff.png", "/graphics/red_ff.png", "/graphics/blue_ff.png"};
+
+    /**
+     * Firefighter paths
+     * */
+
+    private static String ffBlackPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/black_ff.png").toURI().toString();
+    private static String ffBluePath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/blue_ff.png").toURI().toString();
+    private static String ffGreenPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/green_ff.png").toURI().toString();
+    private static String ffRedPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/red_ff.png").toURI().toString();
+
+    public static final String[] firefighterImages = new String[]{ffBluePath,ffBlackPath,ffGreenPath,ffRedPath};
     public static final int[][] firefighterLocations = new int[][]{{1, 1}, {2, 2}, {3, 3}, {4, 4}};
     //Firefighter actions
     public static final int move = 0;
