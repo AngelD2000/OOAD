@@ -7,6 +7,6 @@ public class MapFactory {
     }
 
     public Map makeMap(){
-
+        return new Map();
     }
 }

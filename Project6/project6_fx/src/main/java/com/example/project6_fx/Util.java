@@ -20,7 +20,7 @@ public class Util {
     public static final int numFirefighters = 4;
     public static final String[] firefighterImages = new String[]{"/graphics/green_ff.png",
             "/graphics/black_ff.png", "/graphics/red_ff.png", "/graphics/blue_ff.png"};
-    public static final Integer[][] firefighterLocations = new Integer[][]{{1, 1}, {2, 2}, {3, 3}, {4, 4}};
+    public static final int[][] firefighterLocations = new int[][]{{1, 1}, {2, 2}, {3, 3}, {4, 4}};
     //Firefighter actions
     public static final int move = 0;
     public static final int drag = 1;
@@ -28,9 +28,12 @@ public class Util {
     public static final int chop = 3;
 
     //Map constants
+    public static final int mapWidth = 10;
+    public static final int mapHeight = 8;
     public static final int notAdjacent = 0;
-    public static final int wallBetween = 0;
-    public static final int adjacent = 0;
+    public static final int adjacent = 1;
+    public static final int wallBetween = 2;
+
 
     //Square directions
     public static final int north = 0;

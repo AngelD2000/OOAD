@@ -31,7 +31,7 @@ public class Game {
      * @param loc Array of [x, y] location on the map
      * @ return The associated square
      */
-    Square getLoc(Integer[] loc){
+    Square getLoc(int[] loc){
         return getMap().getLoc(loc);
     }
 
@@ -40,7 +40,7 @@ public class Game {
      * @param loc Array of [x, y] location on the map
      * @ return An arraylist of legal actions
      */
-    ArrayList<Integer> getActions(Integer[] loc){
+    ArrayList<Integer> getActions(int[] loc){
         Square target = getMap().getLoc(loc);
         return firefighterLogic.getActions(target);
     }

@@ -24,9 +24,8 @@ public class FireLogic {
         }
         //TODO: Need a map iterator
         int i;
-        MapIterator mapIterator = new MapIterator();
         for(i = 0; i < 0; i++){
-            Square square = mapIterator.next();
+            Square square = map.next();
             if(square.hasSmoke() && map.fireAdjacent(square)){
                 square.addFire();
             }
