@@ -75,10 +75,11 @@ public class FirefighterLogic {
     }
 
     public void drag(Square square){
+        Map map = game.getMap();
         Square location = company.getActiveLocation();
-        location.removeVictim();
-        square.addVictim();
-        company.move(square);
+        map.updateSquare(location, Util.removeVict);
+        map.updateSquare(square, Util.addVict);
+        move(square);
         actions -= 2;
     }
 }

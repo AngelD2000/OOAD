@@ -17,13 +17,13 @@ public class FireLogic {
             explosion(square);
         }
         else{
-            square.addFire();
+            map.updateSquare(square, Util.addFire);
             building.killPoi(square);
         }
         while(map.hasNext()){
-            Square square = map.next();
+            square = map.next();
             if(square.hasSmoke() && map.fireAdjacent(square)){
-                square.addFire();
+                map.updateSquare(square, Util.addFire);
             }
         }
         map.resetIterator();
@@ -54,7 +54,7 @@ public class FireLogic {
             translateExplosion(next, direction);
         }
         else{
-            next.addFire();
+            map.updateSquare(next, Util.addFire);
         }
     }
 }
