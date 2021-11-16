@@ -22,8 +22,8 @@ public class Map implements Iterator<Square> {
 
     /**
      * Gets the square associated with the coordinates
-     * @param loc Array of [x, y] location on the map
-     * @return The associated square
+     * @param loc Array of [i, j] location on the map
+     * @return The associated square object
      */
     public Square getLoc(int[] loc){
         if(loc[0] >= 0 && loc[1] >= 0 && loc[0] <= Util.mapWidth && loc[1] <= Util.mapHeight) {
@@ -35,9 +35,9 @@ public class Map implements Iterator<Square> {
     }
 
     /**
-     * Gets the position of a square
+     * Gets the i,j position of a square
      * @param square Square object to get its location
-     * @return The associated  i, j coordinates
+     * @return The associated i, j coordinates
      */
     public int[] getPos(Square square){
         for(int i = 0; i < Util.mapWidth; i++) {
@@ -50,6 +50,11 @@ public class Map implements Iterator<Square> {
         throw new NoSuchElementException("That Square doesnt exist");
     }
 
+    /**
+     * Get a list of the squares neighboring the current one
+     * @param square Current square
+     * @return ArrayList of neighboring squares. Will be of size 4 if all neighbors exist or smaller if on an edge without all 4 neighbors
+     */
     public ArrayList<Square> getNeighbors(Square square) {
         int[] pos = getPos(square);
 
@@ -103,6 +108,12 @@ public class Map implements Iterator<Square> {
         return false;
     }
 
+    /**
+     * Returns an integer representation of the direction the second square is in relation to the first
+     * @param firstSquare
+     * @param secondSquare
+     * @return Int representing the direction the second square is in relation to the first
+     */
     private int getDirection(Square firstSquare, Square secondSquare) {
         ArrayList<Square> neighbors = getNeighbors(firstSquare);
         if (!neighbors.contains(secondSquare) || firstSquare.equals(secondSquare)) {
@@ -186,16 +197,27 @@ public class Map implements Iterator<Square> {
         return getLoc(pos);
     }
 
+    /**
+     * Resets the Iterator indexes to 0
+     */
     public void resetIterator() {
         rowIndex = 0;
         columnIndex = 0;
     }
 
+    /**
+     * Checks if there are more Squares to iterate over in the map
+     * @return boolean
+     */
     @Override
     public boolean hasNext() {
         return rowIndex < map.length && columnIndex < map[rowIndex].length;
     }
 
+    /**
+     * Returns the next square in the map
+     * @return Square
+     */
     @Override
     public Square next() {
         if (!hasNext()) {
@@ -209,11 +231,17 @@ public class Map implements Iterator<Square> {
         return map[rowIndex][columnIndex++];
     }
 
+    /**
+     * Not implemented
+     */
     @Override
     public void remove() {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
+    /**
+     * Not implemented
+     */
     @Override
     public void forEachRemaining(Consumer action) {
         throw new UnsupportedOperationException("Not yet implemented");
