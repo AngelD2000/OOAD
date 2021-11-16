@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 
 public class Util {
     public static final int length = 60;
-    public static final int columns = 7;
+    public static final int columns = 6;
     public static final int rows = 10;
     public static final int setDisplayX = 700;
     //Feel free to change the screen size
