@@ -59,4 +59,6 @@ public class Square {
     public void setFF(Firefighter FF) {
         this.FF = FF;
     }
+
+    public void removeFF(){};
 }

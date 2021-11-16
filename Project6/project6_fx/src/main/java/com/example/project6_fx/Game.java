@@ -10,7 +10,7 @@ public class Game {
     Map map = null;
     Game(){
         MapFactory mapFactory = new MapFactory();
-        Map map = mapFactory.makeMap();
+        Map map = mapFactory.makeMap(this);
         building = new Building(map);
         firefighterLogic = new FirefighterLogic(this);
         fireLogic = new FireLogic(map, building);
@@ -18,6 +18,8 @@ public class Game {
     Map getMap(){
         return map;
     }
+    Building getBuilding(){return building;}
+    FireLogic getFireLogic(){return fireLogic;}
 
     int getDamage(){
         return damage;
