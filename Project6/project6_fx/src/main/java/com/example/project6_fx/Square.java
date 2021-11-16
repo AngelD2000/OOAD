@@ -1,5 +1,7 @@
 package com.example.project6_fx;
 
+import java.util.Arrays;
+
 public abstract class Square {
     /**
      * Need a Rectangle object associated with each square for Javafx
@@ -29,9 +31,18 @@ public abstract class Square {
     }
 
     @Override
-    public boolean equals(Object otherObject) {
-        return false;
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        final Square other = (Square) obj;
+        return (Arrays.equals(getEdges(), other.getEdges()) && getFF().equals(other.getFF()));
     }
+
     //Turns fire into smoke, or removes the smoke
     public Square removeFire() {
         return this;
@@ -87,6 +98,10 @@ public abstract class Square {
     public void setFF(Firefighter FF) {
         this.FF = FF;
     }
+
+    public Edge[] getEdges() {
+        return edges;
+    }
 }
 
 class BaseSquare extends Square {
@@ -116,7 +131,7 @@ class FireSquare extends BaseSquare {
     //turn fire into smoke
     @Override
     public SmokeSquare removeFire(){
-        return new SmokeSquare(this);
+        return new SmokeSquare(this.base);
     }
 
     @Override
@@ -138,13 +153,13 @@ class SmokeSquare extends BaseSquare {
     //turn smoke into fire
     @Override
     public FireSquare addFire(){
-        return new FireSquare(this);
+        return new FireSquare(this.base);
     }
 
     //turn smoke into base
     @Override
     public BaseSquare removeFire(){
-        return new BaseSquare(this);
+        return new BaseSquare(this.base);
     }
 }
 
@@ -180,6 +195,6 @@ class POISquare extends BaseSquare {
 
     @Override
     public BaseSquare removePoi() {
-         return new BaseSquare(this);
+         return new BaseSquare(this.base);
     }
 }
