@@ -41,6 +41,12 @@ public class Util {
     public static final int east = 2;
     public static final int west = 3;
 
+    //Square Update
+    public static final int addFire = 0;
+    public static final int removeFire = 1;
+    public static final int addPoi = 2;
+    public static final int removePoi = 3;
+
     public static void print(String content){
         System.out.println(content);
     }
