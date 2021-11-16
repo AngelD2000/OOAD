@@ -1,7 +1,5 @@
 package com.example.project6_fx;
 
-import java.util.function.Consumer;
-
 public class FireLogic {
     Map map = null;
     Building building;
@@ -47,7 +45,7 @@ public class FireLogic {
      * @param direction Direction explosion is moving
      */
     public void translateExplosion(Square square, int direction){
-        Square next = map.getDirection(square, direction);
+        Square next = map.getSquareInDirection(square, direction);
         if(map.areAdjacent(square, next) == Util.wallBetween){
             Edge edge = map.getEdge(square, next);
             edge.doDamage();

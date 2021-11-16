@@ -5,6 +5,7 @@ import java.util.function.Consumer;
 
 public class Map implements Iterator<Square> {
     private Square[][] map = new Square[Util.mapWidth][Util.mapHeight];
+
     private int rowIndex;
     private int columnIndex;
 
@@ -21,17 +22,22 @@ public class Map implements Iterator<Square> {
 
     /**
      * Gets the square associated with the coordinates
-     * @param loc Array of [x, y] location on the map
-     * @return The associated square
+     * @param loc Array of [i, j] location on the map
+     * @return The associated square object
      */
     public Square getLoc(int[] loc){
-        return map[loc[0]][loc[1]];
+        if(loc[0] >= 0 && loc[1] >= 0 && loc[0] <= Util.mapWidth && loc[1] <= Util.mapHeight) {
+            return map[loc[0]][loc[1]];
+        }
+        else {
+            return null;
+        }
     }
 
     /**
-     * Gets the position of a square
+     * Gets the i,j position of a square
      * @param square Square object to get its location
-     * @return The associated  i, j coordinates
+     * @return The associated i, j coordinates
      */
     public int[] getPos(Square square){
         for(int i = 0; i < Util.mapWidth; i++) {
@@ -41,7 +47,30 @@ public class Map implements Iterator<Square> {
                 }
             }
         }
-        return new int[] {-1, -1};
+        throw new NoSuchElementException("That Square doesnt exist");
+    }
+
+    /**
+     * Get a list of the squares neighboring the current one
+     * @param square Current square
+     * @return ArrayList of neighboring squares. Will be of size 4 if all neighbors exist or smaller if on an edge without all 4 neighbors
+     */
+    public ArrayList<Square> getNeighbors(Square square) {
+        int[] pos = getPos(square);
+
+        ArrayList<Square> squares = new ArrayList<Square>();
+        pos[0] += 1;
+        squares.add(getLoc(pos));
+        pos[1] += 1;
+        squares.add(getLoc(pos));
+        pos[0] -= 2;
+        squares.add(getLoc(pos));
+        pos[1] -= 2;
+        squares.add(getLoc(pos));
+
+        // Strip null out of neighbors (will be null if on an edge where one or more neighbors doesnt exist
+        squares.removeAll(Collections.singleton(null));
+        return squares;
     }
 
     /**
@@ -49,37 +78,18 @@ public class Map implements Iterator<Square> {
      * @return An integer representing the adjacency of two squares
      */
     public int areAdjacent(Square firstSquare, Square secondSquare) {
-        int[] pos1 = getPos(firstSquare);
-        int[] pos2 = getPos(secondSquare);
-        int rowdiff = Math.abs(pos1[0] - pos2[0]);
-        int coldiff = Math.abs(pos1[1] - pos2[1]);
-
-        // Same row
-        if (rowdiff == 0) {
-            // same row, adj col (east/west)
-            if (Arrays.asList(-1, 1).contains(coldiff)) {
-                //Check if wall between
-                if (getEdge(firstSquare, secondSquare) == null) {
-                    return Util.adjacent;
-                } else {
-                    return Util.wallBetween;
-                }
+        ArrayList<Square> neighbors = getNeighbors(firstSquare);
+        if(!neighbors.contains(secondSquare)) {
+            return Util.notAdjacent;
+        }
+        else {
+            if(hasEdge(firstSquare,secondSquare)) {
+                return Util.wallBetween;
+            }
+            else {
+                return Util.adjacent;
             }
         }
-        //Different adj row
-        else if (Arrays.asList(-1, 1).contains(rowdiff)) {
-            // adj row, same col (north/south)
-            if (coldiff == 0) {
-                //Check if wall between
-                if (getEdge(firstSquare, secondSquare) == null) {
-                    return Util.adjacent;
-                } else {
-                    return Util.wallBetween;
-
-                }
-            }
-        }
-        return Util.notAdjacent;
     }
 
     /**
@@ -88,15 +98,65 @@ public class Map implements Iterator<Square> {
      * @return A boolean
      */
     public boolean fireAdjacent(Square square){
+        ArrayList<Square> neighbors = getNeighbors(square);
+
+        for(Square sq : neighbors){
+            if (sq instanceof FireSquare) {
+                return true;
+            }
+        }
         return false;
+    }
+
+    /**
+     * Returns an integer representation of the direction the second square is in relation to the first
+     * @param firstSquare
+     * @param secondSquare
+     * @return Int representing the direction the second square is in relation to the first
+     */
+    private int getDirection(Square firstSquare, Square secondSquare) {
+        ArrayList<Square> neighbors = getNeighbors(firstSquare);
+        if (!neighbors.contains(secondSquare) || firstSquare.equals(secondSquare)) {
+            return -1; // No direction
+        } else {
+            int[] pos1 = getPos(firstSquare);
+            int[] pos2 = getPos(secondSquare);
+            int rowdiff = pos1[0] - pos2[0];
+            int coldiff = pos1[1] - pos2[1];
+
+            if (rowdiff == -1) {
+                return Util.south;
+            } else if (rowdiff == 1) {
+                return Util.north;
+            } else if (coldiff == -1) {
+                return Util.west;
+            } else if (coldiff == 1) {
+                return Util.east;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * Returns true if there is an edge between two squares
+     */
+    public boolean hasEdge(Square firstSquare, Square secondSquare){
+        return getEdge(firstSquare, secondSquare) != null;
     }
 
     /**
      * Returns edge between two squares
      */
     public Edge getEdge(Square firstSquare, Square secondSquare){
-        return new Edge();
+        int direction = getDirection(firstSquare, secondSquare);
+
+        // No edge between the two
+        if(direction == -1) {
+            return null;
+        }
+        return firstSquare.getEdge(direction);
     }
+
     /**
      * Get a random square on the map that is inside
      */
@@ -111,7 +171,7 @@ public class Map implements Iterator<Square> {
     /**
      * Gets the square in the direction relative to given square
      */
-    public Square getDirection(Square square, Integer direction){
+    public Square getSquareInDirection(Square square, Integer direction){
         int[] pos = getPos(square);
 
         // Can't go that direction as it is an edge square
@@ -137,11 +197,27 @@ public class Map implements Iterator<Square> {
         return getLoc(pos);
     }
 
+    /**
+     * Resets the Iterator indexes to 0
+     */
+    public void resetIterator() {
+        rowIndex = 0;
+        columnIndex = 0;
+    }
+
+    /**
+     * Checks if there are more Squares to iterate over in the map
+     * @return boolean
+     */
     @Override
     public boolean hasNext() {
         return rowIndex < map.length && columnIndex < map[rowIndex].length;
     }
 
+    /**
+     * Returns the next square in the map
+     * @return Square
+     */
     @Override
     public Square next() {
         if (!hasNext()) {
@@ -155,11 +231,17 @@ public class Map implements Iterator<Square> {
         return map[rowIndex][columnIndex++];
     }
 
+    /**
+     * Not implemented
+     */
     @Override
     public void remove() {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
+    /**
+     * Not implemented
+     */
     @Override
     public void forEachRemaining(Consumer action) {
         throw new UnsupportedOperationException("Not yet implemented");
