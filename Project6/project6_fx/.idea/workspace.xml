@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0946da70-b572-4c05-8001-6e404ba7c4ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FirefighterLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FirefighterLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/MapIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FireLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FireLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
