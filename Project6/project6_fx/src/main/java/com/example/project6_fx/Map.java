@@ -20,6 +20,25 @@ public class Map implements Iterator<Square> {
         }
     }
 
+    public void updateSquare(Square square, int action) {
+        int[] loc = getPos(square);
+
+        switch(action) {
+            case Util.addFire:
+                map[loc[0]][loc[1]] = square.addFire();
+                break;
+            case Util.removeFire:
+                map[loc[0]][loc[1]] = square.removeFire();
+                break;
+            case Util.addPoi:
+                map[loc[0]][loc[1]] = square.addPoi();
+                break;
+            case Util.removePoi:
+                map[loc[0]][loc[1]] = square.removePoi();
+                break;
+        }
+    }
+
     /**
      * Gets the square associated with the coordinates
      * @param loc Array of [i, j] location on the map
