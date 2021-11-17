@@ -8,7 +8,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class ViewManager implements GameViewInterface {
+public class ViewManager {
 
 
     private AnchorPane mainPane;
@@ -83,12 +83,10 @@ public class ViewManager implements GameViewInterface {
      * Argument needed:
      * - Current square
      * */
-    @Override
     public void updateSquare(Square square) {
         display.displayElement(square);
     }
 
-    @Override
     /**
      * TODO: Display how many people saved and damage of the building
      * */
@@ -109,7 +107,6 @@ public class ViewManager implements GameViewInterface {
     }
 
 
-    @Override
     public void actionMenu() {
 
     }
