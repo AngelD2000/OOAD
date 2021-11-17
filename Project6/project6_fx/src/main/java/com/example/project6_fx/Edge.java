@@ -2,7 +2,7 @@ package com.example.project6_fx;
 
 import javafx.scene.shape.Line;
 
-public class Edge extends Line {
+public class Edge{
     private int wall = 2;
     private Line line;
     /**
