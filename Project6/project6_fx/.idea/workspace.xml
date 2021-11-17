@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/MapFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/MapFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/MapFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/MapFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Util.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -195,10 +195,10 @@ public class Map implements Iterator<Square> {
     public Square getRandomSquare(){
         //Bounded 1 to Util.mapHeight-1 and 1 to Util.mapWidth-1 (exclude outside squares)
         Random rand = new Random();
-        int loci = rand.nextInt(Util.mapHeight-1) + 1;
-        int locj = rand.nextInt(Util.mapWidth-1) + 1;
+        int loci = rand.nextInt(Util.mapHeight-2) + 1;
+        int locj = rand.nextInt(Util.mapWidth-2) + 1;
 
-        assert(!(map[loci][locj] instanceof OutsideSquare));
+        assert(!(map[loci][locj].isOutside()));
         return map[loci][locj];
     }
 
@@ -207,12 +207,6 @@ public class Map implements Iterator<Square> {
      */
     public Square getSquareInDirection(Square square, Integer direction){
         int[] pos = getPos(square);
-
-        // Can't go that direction as it is an edge square
-        if(pos[0] <= 0 || pos[0] >= Util.mapHeight || pos[1] <= 0 || pos[1] >= Util.mapWidth) {
-            return square;
-        }
-
         // Determine new square coordinates
         switch(direction) {
             case Util.north:
@@ -227,6 +221,11 @@ public class Map implements Iterator<Square> {
             case Util.west:
                 pos[0] -= 1;
                 break;
+        }
+        // Can't go that direction as it is an edge square
+        Util.print("" + pos[0] + " " + pos[1] + "\n");
+        if(pos[0] < 0 || pos[0] >= Util.mapHeight || pos[1] < 0 || pos[1] >= Util.mapWidth) {
+            return square;
         }
         return getLoc(pos);
     }
