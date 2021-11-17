@@ -59,21 +59,14 @@ public class ViewManager {
     public void drawMap(Map map){
         int x = 0;
         int y = 0;
-        for (Map it = map; it.hasNext(); ) {
-            Square square = it.next();
+        while (map.hasNext()) {
+            Square square = map.next();
             //TODO: Need a Map iterator here, each square should be linked with a Rectangle object from Javafx
             //Example: mainPane.getChildren().add(square.rect) or something of equivalent
             Rectangle rectangle = square.getRectangle();
             rectangle.setX(x);
             rectangle.setY(y);
             mainPane.getChildren().add(rectangle);
-            drawWall(square);
-            display.displayElement(square);
-            x+=Util.length;
-            if (x >= Util.length*Util.mapWidth){
-                y += Util.length;
-                x = 0;
-            }
         }
         map.resetIterator();
     }

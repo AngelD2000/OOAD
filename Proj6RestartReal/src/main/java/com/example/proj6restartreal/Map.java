@@ -280,8 +280,7 @@ public class Map implements Iterator<Square> {
                 Util.print("\n");
             }
             square = this.next();
-            Util.print(" * ");
-
+            Util.print(" " + square.getX() + square.getY());
         }
         this.resetIterator();
     }
