@@ -5,7 +5,6 @@ import javafx.scene.image.Image;
 import java.util.Arrays;
 
 public class Firefighter {
-
     private  Square location = null;
     private Image image = null;
     Firefighter(Square square){
@@ -39,6 +38,8 @@ public class Firefighter {
     }
 
     public void setLoc(Square location){
+        this.location.removeFF();
         this.location = location;
+        location.setFF(this);
     }
 }

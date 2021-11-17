@@ -207,4 +207,6 @@ class POISquare extends BaseSquare {
     public BaseSquare removePoi() {
          return new BaseSquare(this.base);
     }
+
+    public void removeFF(){};
 }
