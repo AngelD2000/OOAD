@@ -60,7 +60,7 @@ public class ViewManager implements GameViewInterface {
             Square square = it.next();
             //TODO: Need a Map iterator here, each square should be linked with a Rectangle object from Javafx
             //Example: mainPane.getChildren().add(square.rect) or something of equivalent
-            mainPane.getChildren().add(square);
+            mainPane.getChildren().add(square.getRectangle());
             drawWall(square);
             display.displayElement(square);
         }
