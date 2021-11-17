@@ -5,7 +5,7 @@ import javafx.scene.shape.Rectangle;
 
 import java.util.Arrays;
 
-abstract public class Square {
+public abstract class Square {
     /**
      * Need a Rectangle object associated with each square for Javafx
      * */
@@ -15,8 +15,8 @@ abstract public class Square {
     private Firefighter FF = null;
     private Rectangle rectangle;
     Square(){
-       this.rectangle = new Rectangle();
-       this.rectangle.setStroke(Color.LIGHTGREY);
+        this.rectangle = new Rectangle();
+        this.rectangle.setStroke(Color.LIGHTGREY);
 
     }
     public void setEdge(int direction) {
@@ -47,7 +47,14 @@ abstract public class Square {
         }
 
         final Square other = (Square) obj;
-        return (Arrays.equals(getEdges(), other.getEdges()) && getFF().equals(other.getFF()));
+        if(!Arrays.equals(getEdges(), other.getEdges())){
+            return false;
+        }
+
+        if(FF != null && !FF.equals(other.getFF())) {
+            return false;
+        }
+        return true;
     }
 
     //Turns fire into smoke, or removes the smoke
@@ -209,7 +216,7 @@ class POISquare extends BaseSquare {
 
     @Override
     public BaseSquare removePoi() {
-         return new BaseSquare(this.base);
+        return new BaseSquare(this.base);
     }
 }
 

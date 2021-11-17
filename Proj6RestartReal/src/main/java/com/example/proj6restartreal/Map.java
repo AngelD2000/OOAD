@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.function.Consumer;
 
 public class Map implements Iterator<Square> {
-    private Square[][] map = new Square[Util.mapWidth][Util.mapHeight];
+    private Square[][] map = new Square[Util.mapHeight][Util.mapWidth];
 
     private int rowIndex;
     private int columnIndex;
@@ -13,8 +13,8 @@ public class Map implements Iterator<Square> {
         rowIndex = 0;
         columnIndex = 0;
 
-        for(int i = 0; i < Util.mapWidth; i++) {
-            for(int j = 0; j < Util.mapHeight; j++) {
+        for(int i = 0; i < Util.mapHeight; i++) {
+            for(int j = 0; j < Util.mapWidth; j++) {
                 map[i][j] = new BaseSquare();
             }
         }
@@ -53,7 +53,7 @@ public class Map implements Iterator<Square> {
      * @return The associated square object
      */
     public Square getLoc(int[] loc){
-        if(loc[0] >= 0 && loc[1] >= 0 && loc[0] <= Util.mapWidth && loc[1] <= Util.mapHeight) {
+        if(loc[0] >= 0 && loc[1] >= 0 && loc[0] < Util.mapWidth && loc[1] < Util.mapHeight) {
             return map[loc[0]][loc[1]];
         }
         else {
@@ -67,8 +67,8 @@ public class Map implements Iterator<Square> {
      * @return The associated i, j coordinates
      */
     public int[] getPos(Square square){
-        for(int i = 0; i < Util.mapWidth; i++) {
-            for(int j = 0; j < Util.mapHeight; j++) {
+        for(int i = 0; i < Util.mapHeight; i++) {
+            for(int j = 0; j < Util.mapWidth; j++) {
                 if(map[i][j].equals(square)) {
                     return new int[] {i, j};
                 }

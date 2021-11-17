@@ -1,6 +1,5 @@
 package com.example.proj6restartreal;
 
-
 public class MapFactory {
     private static final MapFactory instance = new MapFactory();
     private MapFactory() {}
@@ -27,8 +26,8 @@ public class MapFactory {
 
     private void buildStaticMap(Map map) {
         //Add 32 Outside squares
-        int[] edgesi = new int[] {0, Util.mapHeight};
-        int[] edgesj = new int[] {0, Util.mapWidth};
+        int[] edgesi = new int[] {0, Util.mapHeight-1};
+        int[] edgesj = new int[] {0, Util.mapWidth-1};
         for(int i : edgesi) {
             for(int j=0; j < Util.mapWidth; j++) {
                 map.updateSquare(map.getLoc(new int[] {i, j}), Util.addOutside);
