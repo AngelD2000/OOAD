@@ -1,9 +1,12 @@
 package com.example.project6_fx;
 
-import java.util.HashMap;
 
 public class MapFactory {
-    MapFactory(){}
+    private static final MapFactory instance = new MapFactory();
+    private MapFactory() {}
+    public static MapFactory getInstance() {
+        return instance;
+    }
 
     //Just guessing parameters this will need
     public Map makeMap(Game game){
