@@ -280,4 +280,12 @@ public class Map implements Iterator<Square> {
     public void forEachRemaining(Consumer action) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
+
+    public void mapBasicPrint(){
+        Square square;
+        while(this.hasNext()){
+            square = this.next();
+            Util.print(" * ");
+        }
+    }
 }
