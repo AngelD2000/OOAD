@@ -14,11 +14,20 @@ public abstract class Square {
     protected Edge[] edges = {null, null, null, null};
     private Firefighter FF = null;
     private Rectangle rectangle;
+    protected int x = 0;
+    protected int y = 0;
     Square(){
         this.rectangle = new Rectangle();
         this.rectangle.setStroke(Color.LIGHTGREY);
-
     }
+
+    public int getX() {
+        return x;
+    }
+    public int getY(){
+        return y;
+    }
+
     public void setEdge(int direction) {
         edges[direction] = new Edge();
     }
@@ -128,8 +137,10 @@ public abstract class Square {
 class BaseSquare extends Square {
     Square base;
 
-    BaseSquare() {
+    BaseSquare(int x, int y) {
         super();
+        this.x = x;
+        this.y = y;
     }
 
     BaseSquare(Square square) {

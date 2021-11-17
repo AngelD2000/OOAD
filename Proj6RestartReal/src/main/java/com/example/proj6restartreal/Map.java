@@ -12,10 +12,9 @@ public class Map implements Iterator<Square> {
     Map(){
         rowIndex = 0;
         columnIndex = 0;
-
         for(int i = 0; i < Util.mapHeight; i++) {
             for(int j = 0; j < Util.mapWidth; j++) {
-                map[i][j] = new BaseSquare();
+                map[i][j] = new BaseSquare(i, j);
             }
         }
     }
@@ -67,14 +66,7 @@ public class Map implements Iterator<Square> {
      * @return The associated i, j coordinates
      */
     public int[] getPos(Square square){
-        for(int i = 0; i < Util.mapHeight; i++) {
-            for(int j = 0; j < Util.mapWidth; j++) {
-                if(map[i][j].equals(square)) {
-                    return new int[] {i, j};
-                }
-            }
-        }
-        throw new NoSuchElementException("That Square doesnt exist");
+        return new int[] {square.x, square.y};
     }
 
     /**

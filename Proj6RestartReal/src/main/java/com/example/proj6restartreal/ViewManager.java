@@ -4,6 +4,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -56,14 +57,25 @@ public class ViewManager implements GameViewInterface {
     //This is assuming that a Rectangle object is already an attribute of square - Take a look at SimpleMap
     //TODO: This will require change as there will be other objects placed on top of the squares
     public void drawMap(Map map){
+        int x = 0;
+        int y = 0;
         for (Map it = map; it.hasNext(); ) {
             Square square = it.next();
             //TODO: Need a Map iterator here, each square should be linked with a Rectangle object from Javafx
             //Example: mainPane.getChildren().add(square.rect) or something of equivalent
-            mainPane.getChildren().add(square.getRectangle());
+            Rectangle rectangle = square.getRectangle();
+            rectangle.setX(x);
+            rectangle.setY(y);
+            mainPane.getChildren().add(rectangle);
             drawWall(square);
             display.displayElement(square);
+            x+=Util.length;
+            if (x >= Util.length*Util.mapWidth){
+                y += Util.length;
+                x = 0;
+            }
         }
+        map.resetIterator();
     }
 
 

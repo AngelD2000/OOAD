@@ -34,7 +34,7 @@ public class FireLogic {
      */
     public void explosion(Square square){
         int i;
-        for(i = 0; 0 < 4; i++){
+        for(i = 0; i < 4; i++){
             translateExplosion(square, i);
         }
     }

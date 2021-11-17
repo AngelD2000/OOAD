@@ -3,7 +3,9 @@ package com.example.proj6restartreal;
 import java.io.File;
 
 public class Util {
+    //Size of square
     public static final int length = 60;
+    //SIze of map
     public static final int columns = 8;
     public static final int rows = 10;
     public static final int setDisplayX = 700;
