@@ -57,6 +57,7 @@ public class Util {
     public static final int removeFire = 1;
     public static final int addPoi = 2;
     public static final int removePoi = 3;
+    public static final int addOutside = 4;
 
     public static void print(String content){
         System.out.println(content);

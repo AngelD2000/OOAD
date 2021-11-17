@@ -36,6 +36,8 @@ public class Map implements Iterator<Square> {
             case Util.removePoi:
                 map[loc[0]][loc[1]] = square.removePoi();
                 break;
+            case Util.addOutside:
+                map[loc[0]][loc[1]] = new OutsideSquare(square);
         }
     }
 
