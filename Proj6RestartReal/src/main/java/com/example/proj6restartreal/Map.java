@@ -209,7 +209,7 @@ public class Map implements Iterator<Square> {
         int[] pos = getPos(square);
 
         // Can't go that direction as it is an edge square
-        if(pos[0] <= 0 || pos[0] >= Util.mapWidth || pos[1] <= 0 || pos[1] >= Util.mapHeight) {
+        if(pos[0] <= 0 || pos[0] >= Util.mapHeight || pos[1] <= 0 || pos[1] >= Util.mapWidth) {
             return square;
         }
 
