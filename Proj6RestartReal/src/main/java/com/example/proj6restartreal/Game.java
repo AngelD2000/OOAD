@@ -14,6 +14,8 @@ public class Game {
         building = new Building(map);
         firefighterLogic = new FirefighterLogic(this);
         fireLogic = new FireLogic(map, building);
+
+        mapFactory.setup(map, fireLogic, building);
     }
     Map getMap(){
         return map;

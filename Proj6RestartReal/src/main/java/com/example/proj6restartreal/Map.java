@@ -53,7 +53,7 @@ public class Map implements Iterator<Square> {
      * @return The associated square object
      */
     public Square getLoc(int[] loc){
-        if(loc[0] >= 0 && loc[1] >= 0 && loc[0] < Util.mapWidth && loc[1] < Util.mapHeight) {
+        if(loc[0] >= 0 && loc[1] >= 0 && loc[0] < Util.mapHeight && loc[1] < Util.mapWidth) {
             return map[loc[0]][loc[1]];
         }
         else {

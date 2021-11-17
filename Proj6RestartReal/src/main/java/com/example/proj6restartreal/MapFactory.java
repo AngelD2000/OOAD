@@ -13,7 +13,7 @@ public class MapFactory {
         Map map = new Map();
         buildStaticMap(map);
 
-        setup(map, game.getFireLogic(), game.getBuilding());
+
         return map;
     }
 

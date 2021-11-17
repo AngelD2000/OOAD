@@ -21,10 +21,10 @@ public class Util {
      * Firefighter paths
      * */
 
-    private static String ffBlackPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/black_ff.png").toURI().toString();
-    private static String ffBluePath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/blue_ff.png").toURI().toString();
-    private static String ffGreenPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/green_ff.png").toURI().toString();
-    private static String ffRedPath = new File("/Users/angeldong/Desktop/CSCI5448/OOAD/Project6/project6_fx/src/main/graphics/red_ff.png").toURI().toString();
+    private static String ffBlackPath = new File("/src/main/graphics/black_ff.png").toURI().toString();
+    private static String ffBluePath = new File("/src/main/graphics/blue_ff.png").toURI().toString();
+    private static String ffGreenPath = new File("/src/main/graphics/green_ff.png").toURI().toString();
+    private static String ffRedPath = new File("/src/main/graphics/red_ff.png").toURI().toString();
 
     public static final String[] firefighterImages = new String[]{ffBluePath,ffBlackPath,ffGreenPath,ffRedPath};
     public static final int[][] firefighterLocations = new int[][]{{1, 1}, {2, 2}, {3, 3}, {4, 4}};
