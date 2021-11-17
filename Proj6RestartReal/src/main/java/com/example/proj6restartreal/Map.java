@@ -245,7 +245,7 @@ public class Map implements Iterator<Square> {
      */
     @Override
     public boolean hasNext() {
-        return rowIndex < map.length && columnIndex < map[rowIndex].length;
+        return rowIndex < map.length && columnIndex <= map[rowIndex].length;
     }
 
     /**
@@ -257,12 +257,13 @@ public class Map implements Iterator<Square> {
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
+        Square answer = map[rowIndex][columnIndex++];
         // Move on to next row
         if (columnIndex >= map[rowIndex].length) {
             rowIndex++;
             columnIndex = 0;
         }
-        return map[rowIndex][columnIndex++];
+        return answer;
     }
 
     /**
@@ -284,8 +285,13 @@ public class Map implements Iterator<Square> {
     public void mapBasicPrint(){
         Square square;
         while(this.hasNext()){
+            if(columnIndex == 0){
+                Util.print("\n");
+            }
             square = this.next();
             Util.print(" * ");
+
         }
+        this.resetIterator();
     }
 }

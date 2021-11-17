@@ -58,7 +58,7 @@ public class Util {
     public static final int addOutside = 6;
 
     public static void print(String content){
-        System.out.println(content);
+        System.out.print(content);
     }
 
 }

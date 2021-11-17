@@ -12,7 +12,7 @@ public class MapFactory {
         //Make the map
         Map map = new Map();
         buildStaticMap(map);
-
+        map.mapBasicPrint();
 
         return map;
     }
