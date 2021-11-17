@@ -19,6 +19,11 @@ public class Util {
     public static final int blue = 3;
     public static final int numFirefighters = 4;
 
+    public static String firePath = new File("/src/main/graphics/fire.png").toURI().toString();
+    public static String smokePath = new File("/src/main/graphics/smoke.png").toURI().toString();
+    public static String poiPath = new File("/src/main/graphics/poi.png").toURI().toString();
+    public static String personPath = new File("/src/main/graphics/person.png").toURI().toString();
+
     /**
      * Firefighter paths
      * */

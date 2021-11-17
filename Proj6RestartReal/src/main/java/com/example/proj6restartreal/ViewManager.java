@@ -92,6 +92,7 @@ public class ViewManager {
             rectangle.setX(square.getX());
             rectangle.setY(square.getY());
             mainPane.getChildren().add(rectangle);
+            break;
         }
         map.resetIterator();
     }
