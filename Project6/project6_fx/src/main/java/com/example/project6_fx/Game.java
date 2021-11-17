@@ -9,7 +9,7 @@ public class Game {
     int damage = 24;
     Map map = null;
     Game(){
-        MapFactory mapFactory = new MapFactory();
+        MapFactory mapFactory = MapFactory.getInstance();
         Map map = mapFactory.makeMap(this);
         building = new Building(map);
         firefighterLogic = new FirefighterLogic(this);

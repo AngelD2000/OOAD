@@ -21,7 +21,7 @@ public class FireLogic {
             building.killPoi(square);
         }
         while(map.hasNext()){
-            square = map.next();
+            Square square = map.next();
             if(square.hasSmoke() && map.fireAdjacent(square)){
                 map.updateSquare(square, Util.addFire);
             }

@@ -5,7 +5,6 @@ import javafx.scene.image.Image;
 import java.util.Arrays;
 
 public class Firefighter {
-
     private  Square location = null;
     private Image image = null;
     Firefighter(Square square){
