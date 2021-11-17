@@ -48,7 +48,7 @@ public class MapFactory {
         map.getLoc(new int[] {0, 3}).setEdge(Util.south);
         map.getLoc(new int[] {0, 4}).setEdge(Util.south);
         map.getLoc(new int[] {0, 5}).setEdge(Util.south);
-        //0, 6
+        //0,6
         map.getLoc(new int[] {0, 7}).setEdge(Util.south);
         map.getLoc(new int[] {0, 8}).setEdge(Util.south);
         //0,9

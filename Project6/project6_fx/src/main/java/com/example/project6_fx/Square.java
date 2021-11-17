@@ -56,7 +56,7 @@ public class Square extends Rectangle {
     };
     //Turns smoke into fire or none into smoke
     public Square addFire()  {
-        return this;
+        return new FireSquare(this);
     };
     public boolean hasPoi(){
         return false;
@@ -64,7 +64,7 @@ public class Square extends Rectangle {
 
     //Turns none into poi
     public Square addPoi() {
-        return this;
+        return new POISquare(this);
     };
 
     //Turns poi into none
@@ -76,7 +76,7 @@ public class Square extends Rectangle {
     }
 
     public Square addVictim() {
-        return this;
+        return new VictSquare(this);
     };
     public Square removeVictim() {
         return this;
@@ -211,6 +211,24 @@ class POISquare extends BaseSquare {
     public BaseSquare removePoi() {
          return new BaseSquare(this.base);
     }
+}
 
-    public void removeFF(){};
+class VictSquare extends BaseSquare {
+    VictSquare(Square base){
+        super(base);
+    }
+
+    @Override
+    public boolean hasVictim(){
+        return true;
+    }
+
+    public Square addVictim() {
+        return this;
+    } // Do nothing
+
+    @Override
+    public Square removeVictim() {
+        return new BaseSquare(this.base);
+    };
 }

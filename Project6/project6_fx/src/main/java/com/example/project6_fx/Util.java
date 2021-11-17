@@ -59,7 +59,7 @@ public class Util {
     public static final int removePoi = 3;
     public static final int addVict = 4;
     public static final int removeVict = 5;
-    public static final int addOutside = 4;
+    public static final int addOutside = 6;
 
     public static void print(String content){
         System.out.println(content);
