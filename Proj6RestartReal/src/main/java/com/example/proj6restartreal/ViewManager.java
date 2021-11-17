@@ -11,6 +11,9 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class ViewManager {
 
 
@@ -29,7 +32,7 @@ public class ViewManager {
         return mainStage;
     }
 
-    public void displayElement(Square square) {
+    public void squareUpdate(Square square) {
         Image image = null;
         if (square.hasFire() || square.hasSmoke() || square.hasFF() || square.hasPoi() || square.hasVictim()) {
             if (square.hasFire())
@@ -55,23 +58,39 @@ public class ViewManager {
     //TODO: Argument is a single square
     public void drawWall(Square square) {
         //TODO: Iterate through the edges of each square
-        for (Edge edge: square.getEdges()) {
-            //Add each edge to the mainPane ex. mainPane.getChildren().add(edge.line)
-            //square.edge.line.setStroke(2);
-            //If it is damaged: lineAdd.getStrokeDashArray().addAll(25d, 10d);
-            Line line = edge.getLine();
-            if(edge.getDamage() == 2){
-                line.setFill(Color.BLACK);
-                line.setStrokeWidth(3);
+        for(int i = 0; i < 4; i++){
+            Edge edge = square.getEdge(i);
+            if(edge != null){
+                Line line = edge.getLine();
+                double x = square.getRectangle().getX();
+                double y = square.getRectangle().getY();
+                if(i == 0){
+                    line.setStartX(x);
+                    line.setStartY(y);
+                    line.setEndX(Util.length + x);
+                    line.setEndY(y);
+                }
+                else if(i == 1){
+                    line.setStartX(x);
+                    line.setStartY(y + Util.length);
+                    line.setEndX(Util.length + x);
+                    line.setEndY(y + Util.length);
+
+                }
+                else if(i == 2){
+                    line.setStartX(Util.length + x);
+                    line.setStartY(y);
+                    line.setEndX(Util.length + x);
+                    line.setEndY(Util.length);
+                }
+
+                else{
+                    line.setStartX(x);
+                    line.setStartY(y);
+                    line.setEndX(x);
+                    line.setEndY(Util.length);
+                }
                 mainPane.getChildren().add(line);
-            }
-            else if(edge.getDamage() == 1){
-                line.setFill(Color.ORANGERED);
-                line.getStrokeDashArray().addAll(25d, 15d);
-                mainPane.getChildren().add(line);
-            }
-            else{
-                mainPane.getChildren().remove(line);
             }
         }
     }
@@ -92,6 +111,8 @@ public class ViewManager {
             rectangle.setX(square.getX());
             rectangle.setY(square.getY());
             mainPane.getChildren().add(rectangle);
+            drawWall(square);
+            //displayElement(square);
             break;
         }
         map.resetIterator();
@@ -103,7 +124,7 @@ public class ViewManager {
      * - Current square
      * */
     public void updateSquare(Square square) {
-        displayElement(square);
+        squareUpdate(square);
     }
 
     /**

@@ -1,9 +1,9 @@
 package com.example.proj6restartreal;
 
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 
 public class Edge{
-    private int wall = 2;
     private Line line;
     /**
      * Each edge object needs a line objects to display
@@ -27,6 +27,9 @@ public class Edge{
      * */
     public Edge(){
         //Create a line
+        this.line = new Line();
+        this.line.setFill(Color.BLACK);
+        this.line.setStrokeWidth(3);
     }
 
     /**
@@ -34,13 +37,6 @@ public class Edge{
      */
     public void doDamage(){
 
-    }
-
-    /**
-     * Get current damage on a wall
-     */
-    public int getDamage(){
-        return wall;
     }
 
     public Line getLine() {
