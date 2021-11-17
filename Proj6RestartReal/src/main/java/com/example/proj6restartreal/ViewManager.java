@@ -1,8 +1,11 @@
 package com.example.proj6restartreal;
 
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
@@ -15,9 +18,6 @@ public class ViewManager {
     private Scene mainScene;
     private Stage mainStage;
 
-    private Display display = new Display();
-    private Game game = new Game();
-
     public ViewManager(){
         mainPane = new AnchorPane();
         mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
@@ -27,6 +27,29 @@ public class ViewManager {
 
     public Stage getMainStage(){
         return mainStage;
+    }
+
+    public void displayElement(Square square) {
+        Image image = null;
+        if (square.hasFire() || square.hasSmoke() || square.hasFF() || square.hasPoi() || square.hasVictim()) {
+            if (square.hasFire())
+                image = new Image(Util.firePath);
+            if (square.hasSmoke())
+                image = new Image(Util.smokePath);
+            if (square.hasFF())
+                image = square.getFF().getImage();
+            if (square.hasPoi())
+                image = new Image(Util.poiPath);
+            if (square.hasVictim())
+                image = new Image(Util.personPath);
+
+            Rectangle rect = square.getRectangle();
+            ImagePattern pattern = new ImagePattern(image);
+            rect.setFill(pattern);
+            ImageView view = new ImageView(image);
+            view.setFitHeight(60);
+            view.setFitWidth(60);
+        }
     }
 
     //TODO: Argument is a single square
@@ -68,7 +91,7 @@ public class ViewManager {
             rectangle.setY(y);
             mainPane.getChildren().add(rectangle);
             drawWall(square);
-            display.displayElement(square);
+            displayElement(square);
             x+=Util.length;
             if (x >= Util.length*Util.mapWidth){
                 y += Util.length;
@@ -84,7 +107,7 @@ public class ViewManager {
      * - Current square
      * */
     public void updateSquare(Square square) {
-        display.displayElement(square);
+        displayElement(square);
     }
 
     /**
