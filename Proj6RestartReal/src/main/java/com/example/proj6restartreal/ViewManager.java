@@ -80,15 +80,17 @@ public class ViewManager {
     //This is assuming that a Rectangle object is already an attribute of square - Take a look at SimpleMap
     //TODO: This will require change as there will be other objects placed on top of the squares
     public void drawMap(Map map){
-        int x = 0;
-        int y = 0;
         while (map.hasNext()) {
             Square square = map.next();
-            //TODO: Need a Map iterator here, each square should be linked with a Rectangle object from Javafx
-            //Example: mainPane.getChildren().add(square.rect) or something of equivalent
             Rectangle rectangle = square.getRectangle();
-            rectangle.setX(x);
-            rectangle.setY(y);
+            if(square instanceof OutsideSquare){
+                rectangle.setFill(Color.GREEN);
+            }
+            else{
+                rectangle.setFill(Color.WHITE);
+            }
+            rectangle.setX(square.getX());
+            rectangle.setY(square.getY());
             mainPane.getChildren().add(rectangle);
         }
         map.resetIterator();
