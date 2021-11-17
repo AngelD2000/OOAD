@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project6_fx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project6_fx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FireLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FireLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FirefighterLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FirefighterLogic.java" afterDir="false" />
-=======
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Map.java" afterDir="false" />
->>>>>>> master
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Firefighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Firefighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Flashpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Flashpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/ViewManager.java" afterDir="false" />
->>>>>>> Stashed changes
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/MapFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/MapFactory.java" afterDir="false" />
->>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
