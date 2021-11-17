@@ -5,7 +5,7 @@ import javafx.scene.shape.Rectangle;
 
 import java.util.Arrays;
 
-public class Square extends Rectangle {
+abstract public class Square {
     /**
      * Need a Rectangle object associated with each square for Javafx
      * */
