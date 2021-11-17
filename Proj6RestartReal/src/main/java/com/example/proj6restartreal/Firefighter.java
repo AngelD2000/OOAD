@@ -23,7 +23,6 @@ public class Firefighter {
     }
 
     public void setImage(String imagePath){
-        //TODO: Fix this once images figured out
         this.image = new Image(imagePath);
     }
 

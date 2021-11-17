@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/MapFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/MapFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Firefighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Firefighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Firefighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Firefighter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -7,9 +7,9 @@ public class Company {
     Company(Game game){
         firefighters= new Firefighter[Util.numFirefighters];
         for (int i = 0; i < Util.numFirefighters; i++) {
-            firefighters[i].setImage(Util.firefighterImages[i]);
             Square location = game.getLoc(Util.firefighterLocations[i]);
-            firefighters[i].setLoc(location);
+            firefighters[i] = new Firefighter(location);
+            firefighters[i].setImage(Util.firefighterImages[i]);
         }
     }
 
