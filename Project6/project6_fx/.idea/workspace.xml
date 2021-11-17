@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/ViewManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/project6_fx/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/project6_fx/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/project6_fx/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/project6_fx/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/project6_fx/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/project6_fx/ViewManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,9 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
@@ -59,8 +66,8 @@
       <recent name="C:\Users\elly\Documents\Programming\OOAD\Project6\project6_fx\src\main\graphics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Flashpoint">
+    <configuration name="Flashpoint" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.project6_fx.Flashpoint" />
       <module name="project6_fx" />
       <method v="2">
@@ -93,19 +100,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Flashpoint" />
       <item itemvalue="Maven.project6_fx" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0946da70-b572-4c05-8001-6e404ba7c4ba" name="Changes" comment="" />
+      <changelist id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="" />
       <created>1636829321814</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636829321814</updated>
       <workItem from="1636999899496" duration="2179000" />
+      <workItem from="1637123400144" duration="665000" />
     </task>
     <servers />
   </component>
