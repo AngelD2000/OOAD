@@ -7,6 +7,7 @@ public class Firefighter {
     private Image image = null;
     Firefighter(Square square){
         this.location = square;
+        this.location.setFF(this);
     }
 
     @Override

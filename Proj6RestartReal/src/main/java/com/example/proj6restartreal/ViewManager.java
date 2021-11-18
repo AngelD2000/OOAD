@@ -48,7 +48,6 @@ public class ViewManager {
             }
             if (square.hasFF()){
                 image = square.getFF().getImage();
-                System.out.println("Firefighter!");
             }
             if (square.hasPoi()) {
                 image = new Image(Util.poiPath);

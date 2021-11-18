@@ -322,7 +322,10 @@ class BaseSquare implements Square {
 
     @Override
     public boolean hasFF() {
-        return false;
+        if(getFF()==null){
+            return false;
+        }
+        return true;
     }
 }
 
