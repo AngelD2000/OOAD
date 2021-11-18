@@ -11,6 +11,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class ViewManager {
 
@@ -25,6 +26,9 @@ public class ViewManager {
         mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
         mainStage = new Stage();
         mainStage.setScene(mainScene);
+        Rectangle background_rec = new Rectangle(0,0,600,480);
+        background_rec.setFill(Color.GREEN);
+        mainPane.getChildren().add(background_rec);
     }
 
 
@@ -40,6 +44,7 @@ public class ViewManager {
 
     public void updateSquare(Square square) {
         Image image = null;
+        ImageView imageView = null;
         if (square.hasFire() || square.hasSmoke() || square.hasFF() || square.hasPoi() || square.hasVictim()) {
             if (square.hasFire()){
                 image = new Image(Util.firePath);
@@ -49,8 +54,6 @@ public class ViewManager {
             }
             if (square.hasFF()){
                 image = square.getFF().getImage();
-                ImageView imageView = new ImageView(image);
-                imageView.setOpacity(.5);
 
             }
             if (square.hasPoi()) {
@@ -63,7 +66,6 @@ public class ViewManager {
             Rectangle rect = square.getRectangle();
             ImagePattern pattern = new ImagePattern(image);
             rect.setFill(pattern);
-
         }
     }
 
@@ -121,7 +123,7 @@ public class ViewManager {
                     line.setEndY(Util.length);
                 }
 
-                else{
+                else if(i == 3){
                     line.setStartX(x);
                     line.setStartY(y);
                     line.setEndX(x);
