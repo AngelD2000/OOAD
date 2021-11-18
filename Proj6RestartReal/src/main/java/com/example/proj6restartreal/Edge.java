@@ -29,7 +29,7 @@ public class Edge{
         //Create a line
         this.line = new Line();
         this.line.setFill(Color.BLACK);
-        this.line.setStrokeWidth(3);
+        this.line.setStrokeWidth(4);
     }
 
     /**

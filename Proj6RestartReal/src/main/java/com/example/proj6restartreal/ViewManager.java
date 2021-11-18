@@ -60,9 +60,6 @@ public class ViewManager {
             Rectangle rect = square.getRectangle();
             ImagePattern pattern = new ImagePattern(image);
             rect.setFill(pattern);
-            ImageView view = new ImageView(image);
-            view.setFitHeight(60);
-            view.setFitWidth(60);
         }
     }
 
@@ -142,19 +139,18 @@ public class ViewManager {
             Rectangle rectangle = square.getRectangle();
             if(square.isOutside()){
                 rectangle.setFill(Color.GREEN);
+
             }
             else{
                 rectangle.setFill(Color.WHITE);
             }
-
             rectangle.setY(square.getX()*Util.length);
             rectangle.setX(square.getY()*Util.length);
             rectangle.setWidth(Util.length);
             rectangle.setHeight(Util.length);
-
-            drawWall(square);
-            updateSquare(square);
             mainPane.getChildren().add(rectangle);
+            updateSquare(square);
+            drawWall(square);
         }
         map.resetIterator();
     }

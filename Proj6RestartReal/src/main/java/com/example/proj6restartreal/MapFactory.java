@@ -124,7 +124,7 @@ public class MapFactory {
         map.getLoc(new int[] {6, 6}).setEdge(Util.south);
         map.getLoc(new int[] {6, 7}).setEdge(Util.south);
         map.getLoc(new int[] {6, 8}).setEdge(Util.south); map.getLoc(new int[] {6, 8}).setEdge(Util.east);
-        map.getLoc(new int[] {6, 9}).setEdge(Util.south); map.getLoc(new int[] {6, 9}).setEdge(Util.west);
+        map.getLoc(new int[] {6, 9}).setEdge(Util.west);
 
         // i=7
         //7,0

@@ -182,8 +182,6 @@ class BaseSquare implements Square {
         this.rectangle.setStroke(Color.LIGHTGREY);
         this.x = x;
         this.y = y;
-//        this.setX(x);
-//        this.setY(y);
     }
 
     public int getX() {
