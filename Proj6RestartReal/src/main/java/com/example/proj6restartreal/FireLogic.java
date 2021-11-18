@@ -37,7 +37,7 @@ public class FireLogic {
      */
     public void explosion(Square square){
         Util.print("Explosion: " + square.getX() + ", " + square.getY() + "\n");
-        map.updateSquare(square, Util.addPoi);
+        map.updateSquare(square, Util.addFire);
         for(int i = 0; i < 4; i++){
             translateExplosion(square, i);
         }
