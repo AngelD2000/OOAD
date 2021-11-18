@@ -102,14 +102,17 @@ public class ViewManager {
         while (map.hasNext()) {
             Square square = map.next();
             Rectangle rectangle = square.getRectangle();
-            if(square instanceof OutsideSquare){
+            if(square.isOutside()){
                 rectangle.setFill(Color.GREEN);
+            }
+            else if (square.hasFire()) {
+                rectangle.setFill(Color.RED);
             }
             else{
                 rectangle.setFill(Color.WHITE);
             }
-            rectangle.setX(square.getX()*Util.length);
-            rectangle.setY(square.getY()*Util.length);
+            rectangle.setY(square.getX()*Util.length);
+            rectangle.setX(square.getY()*Util.length);
             rectangle.setWidth(Util.length);
             rectangle.setHeight(Util.length);
             mainPane.getChildren().add(rectangle);

@@ -16,7 +16,6 @@ public class Game {
         fireLogic = new FireLogic(map, building);
 
         mapFactory.setup(map, fireLogic, building);
-        Util.print("here");
     }
     Map getMap(){
         return map;

@@ -33,8 +33,8 @@ public class FireLogic {
      * Handles an explosion at designated square
      */
     public void explosion(Square square){
-        int i;
-        for(i = 0; i < 4; i++){
+        map.updateSquare(square, Util.addFire);
+        for(int i = 0; i < 4; i++){
             translateExplosion(square, i);
         }
     }

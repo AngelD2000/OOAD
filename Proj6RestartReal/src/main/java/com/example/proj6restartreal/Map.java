@@ -42,7 +42,8 @@ public class Map implements Iterator<Square> {
                 map[loc[0]][loc[1]] = square.removeVictim();
                 break;
             case Util.addOutside:
-                map[loc[0]][loc[1]] = new OutsideSquare(square);
+                map[loc[0]][loc[1]] = square.addOutside();
+                break;
         }
     }
 
@@ -66,7 +67,7 @@ public class Map implements Iterator<Square> {
      * @return The associated i, j coordinates
      */
     public int[] getPos(Square square){
-        return new int[] {square.x, square.y};
+        return new int[] {square.getX(), square.getY()};
     }
 
     /**
@@ -79,17 +80,24 @@ public class Map implements Iterator<Square> {
 
 
         ArrayList<Square> squares = new ArrayList<Square>();
-        pos[0] += 1;
+        //Get right neighbor
+        pos[0] += 1; //pos[0] + 1
+        //pos[1] + 0
         squares.add(getLoc(pos));
-        pos[1] += 1;
-        squares.add(getLoc(pos));
-        //Reset pos
-        pos[0] -= 1;
-        pos[1] -= 1;
 
-        pos[0] -= 1;
+        //Get bottom neighbor
+        pos[0] -= 1; //pos[0] + 0
+        pos[1] += 1; //pos[1] + 1
         squares.add(getLoc(pos));
-        pos[1] -= 1;
+
+        //Get left neighbor
+        pos[0] -= 1; //pos[0] - 1
+        pos[1] -= 1; //pos[1] + 0
+        squares.add(getLoc(pos));
+
+        //Get top neighbor
+        pos[0] += 1; //pos[0] + 1
+        pos[1] -= 1; //pos[1] - 1
         squares.add(getLoc(pos));
 
         // Strip null out of neighbors (will be null if on an edge where one or more neighbors doesnt exist
@@ -125,7 +133,7 @@ public class Map implements Iterator<Square> {
         ArrayList<Square> neighbors = getNeighbors(square);
 
         for(Square sq : neighbors){
-            if (sq instanceof FireSquare) {
+            if (sq.hasFire()) {
                 return true;
             }
         }
@@ -145,13 +153,13 @@ public class Map implements Iterator<Square> {
         } else {
             int[] pos1 = getPos(firstSquare);
             int[] pos2 = getPos(secondSquare);
-            int rowdiff = pos1[0] - pos2[0];
-            int coldiff = pos1[1] - pos2[1];
+            int rowdiff = pos2[0] - pos1[0];
+            int coldiff = pos2[1] - pos1[1];
 
             if (rowdiff == -1) {
-                return Util.south;
-            } else if (rowdiff == 1) {
                 return Util.north;
+            } else if (rowdiff == 1) {
+                return Util.south;
             } else if (coldiff == -1) {
                 return Util.west;
             } else if (coldiff == 1) {
@@ -190,7 +198,9 @@ public class Map implements Iterator<Square> {
         int loci = rand.nextInt(Util.mapHeight-2) + 1;
         int locj = rand.nextInt(Util.mapWidth-2) + 1;
 
-        assert(!(map[loci][locj].isOutside()));
+        if(map[loci][locj].isOutside()) {
+                    throw new IllegalStateException("Cant explode a outside square");
+        }
         return map[loci][locj];
     }
 
@@ -215,7 +225,7 @@ public class Map implements Iterator<Square> {
                 break;
         }
         // Can't go that direction as it is an edge square
-        Util.print("" + pos[0] + " " + pos[1] + "\n");
+//        Util.print("\nEDGE: " + direction + " to "+ pos[0] + " " + pos[1]);
         if(pos[0] < 0 || pos[0] >= Util.mapHeight || pos[1] < 0 || pos[1] >= Util.mapWidth) {
             return square;
         }
@@ -283,5 +293,6 @@ public class Map implements Iterator<Square> {
             Util.print(" " + square.getX() + square.getY());
         }
         this.resetIterator();
+        Util.print("\n");
     }
 }

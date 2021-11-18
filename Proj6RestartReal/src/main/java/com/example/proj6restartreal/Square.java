@@ -5,21 +5,185 @@ import javafx.scene.shape.Rectangle;
 
 import java.util.Arrays;
 
-public abstract class Square {
-    /**
-     * Need a Rectangle object associated with each square for Javafx
-     * */
+public interface Square {
+    public int getX();
+    public int getY();
+    public void setX(int x);
+    public void setY(int y);
 
-    //Edges stored in order: North, South, East, West (same as Util Square directions)
+    public Rectangle getRectangle();
+
+    public void setEdge(int direction);
+
+    public Edge getEdge(int direction);
+
+    public Edge[] getEdges();
+
+    //Turns fire into smoke, or removes the smoke
+    public Square removeFire();
+    //Turns smoke into fire or none into smoke
+    public Square addFire();
+    public boolean hasPoi();
+
+    //Turns none into poi
+    public Square addPoi();
+
+    //Turns poi into none
+    public Square removePoi();
+    public boolean hasVictim();
+
+    public Square addVictim();
+    public Square removeVictim();
+
+    public boolean hasFire();
+
+    public boolean hasSmoke();
+
+    public boolean isOutside();
+
+    public Square addOutside();
+
+    public Square removeOutside();
+
+    public boolean hasFF();
+    public Firefighter getFF();
+    public void setFF(Firefighter FF);
+    public void removeFF();
+}
+
+class SquareDecorator implements Square {
+    Square base;
+
+    SquareDecorator(Square square) {
+        base = square;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return base.equals(obj);
+    }
+
+    @Override
+    public int getX() {
+        return base.getX();
+    }
+
+    @Override
+    public int getY() {
+        return base.getY();
+    }
+
+    @Override
+    public void setX(int x) {
+        base.setX(x);
+    }
+
+    @Override
+    public void setY(int y) {
+        base.setY(y);
+    }
+
+    @Override
+    public Rectangle getRectangle() {
+        return base.getRectangle();
+    }
+
+    @Override
+    public void setEdge(int direction) {
+        base.setEdge(direction);
+    }
+
+    @Override
+    public Edge getEdge(int direction) {
+        return base.getEdge(direction);
+    }
+
+    @Override
+    public Edge[] getEdges() {
+        return base.getEdges();
+    }
+
+    //Turns fire into smoke, or removes the smoke
+    public Square removeFire() {
+        return base.removeFire();
+    }
+    //Turns smoke into fire or none into smoke
+    public Square addFire()  {
+        return base.addFire();
+    }
+    public boolean hasPoi(){
+        return base.hasPoi();
+    }
+
+    //Turns none into poi
+    public Square addPoi() {
+        return base.addPoi();
+    }
+
+    //Turns poi into none
+    public Square removePoi() {
+        return base.removePoi();
+    }
+    public boolean hasVictim(){
+        return base.hasVictim();
+    }
+
+    public Square addVictim() {
+        return base.addVictim();
+    }
+    public Square removeVictim() {
+        return base.removeVictim();
+    }
+
+    public boolean hasFire(){
+        return base.hasFire();
+    }
+
+    public boolean hasSmoke(){
+        return base.hasSmoke();
+    }
+
+    public boolean isOutside(){
+        return base.isOutside();
+    }
+    public Square addOutside() {
+        return base.addOutside();
+    }
+    public Square removeOutside() { return base.removeOutside(); }
+
+    public boolean hasFF() {
+        return base.hasFF();
+    }
+
+    @Override
+    public Firefighter getFF() {
+        return base.getFF();
+    }
+
+    @Override
+    public void setFF(Firefighter FF) {
+        base.setFF(FF);
+    }
+    @Override
+    public void removeFF() {
+        base.removeFF();
+    }
+}
+
+class BaseSquare implements Square {
     protected Edge[] edges = {null, null, null, null};
     private Firefighter FF = null;
     private Rectangle rectangle;
-    protected int x = 0;
-    protected int y = 0;
-    Square(){
+    private int x = 0;
+    private int y = 0;
+    BaseSquare(int x, int y) {
+        super();
         this.rectangle = new Rectangle();
         this.rectangle.setStroke(Color.LIGHTGREY);
-
+        this.x = x;
+        this.y = y;
+//        this.setX(x);
+//        this.setY(y);
     }
 
     public int getX() {
@@ -27,6 +191,13 @@ public abstract class Square {
     }
     public int getY(){
         return y;
+    }
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        this.y = y;
     }
 
     public void setEdge(int direction) {
@@ -44,6 +215,11 @@ public abstract class Square {
             case Util.west:
                 return edges[3];
         }
+        return null;
+    }
+
+    @Override
+    public Square removeFire() {
         return null;
     }
 
@@ -67,54 +243,6 @@ public abstract class Square {
         return true;
     }
 
-    //Turns fire into smoke, or removes the smoke
-    public Square removeFire() {
-        return this;
-    };
-    //Turns smoke into fire or none into smoke
-    public Square addFire()  {
-        return new FireSquare(this);
-    };
-    public boolean hasPoi(){
-        return false;
-    }
-
-    //Turns none into poi
-    public Square addPoi() {
-        return new POISquare(this);
-    };
-
-    //Turns poi into none
-    public Square removePoi() {
-        return this;
-    };
-    public boolean hasVictim(){
-        return false;
-    }
-
-    public Square addVictim() {
-        return new VictSquare(this);
-    };
-    public Square removeVictim() {
-        return this;
-    };
-
-    public boolean hasFire(){
-        return false;
-    }
-
-    public boolean hasSmoke(){
-        return false;
-    }
-
-    public boolean isOutside(){
-        return false;
-    }
-
-    public boolean hasFF() {
-        return false;
-    }
-
     public Firefighter getFF() {
         return FF;
     }
@@ -133,29 +261,78 @@ public abstract class Square {
     public Edge[] getEdges() {
         return edges;
     }
-}
 
-class BaseSquare extends Square {
-    Square base;
-
-    BaseSquare(int x, int y) {
-        super();
-        this.x = x;
-        this.y = y;
+    @Override
+    public Square addFire() {
+        return new FireSquare(this);
     }
 
-    BaseSquare(Square square) {
-        this.base = square;
-        this.edges = square.edges;
-        this.setFF(square.getFF());
+    @Override
+    public boolean hasPoi() {
+        return false;
     }
 
+    @Override
+    public Square addPoi() {
+        return new PoiSquare(this);
+    }
+
+    @Override
+    public Square removePoi() {
+        return null;
+    }
+
+    @Override
+    public boolean hasVictim() {
+        return false;
+    }
+
+    @Override
+    public Square addVictim() {
+        return new VictSquare(this);
+    }
+
+    @Override
+    public Square removeVictim() {
+        return null;
+    }
+
+    @Override
+    public boolean hasFire() {
+        return false;
+    }
+
+    @Override
+    public boolean hasSmoke() {
+        return false;
+    }
+
+    @Override
+    public boolean isOutside() {
+        return false;
+    }
+
+    @Override
+    public Square addOutside() {
+        return new OutsideSquare(this);
+    }
+
+    @Override
+    public Square removeOutside() {
+        return null;
+    }
+
+    @Override
+    public boolean hasFF() {
+        return false;
+    }
 }
 
-class FireSquare extends BaseSquare {
+class FireSquare extends SquareDecorator {
     FireSquare(Square base){
         super(base);
     }
+
     @Override
     public boolean hasFire(){
         return true;
@@ -167,13 +344,9 @@ class FireSquare extends BaseSquare {
         return new SmokeSquare(this.base);
     }
 
-    @Override
-    public Square addFire(){
-        return this;
-    } // Do nothing
 }
 
-class SmokeSquare extends BaseSquare {
+class SmokeSquare extends SquareDecorator {
     SmokeSquare(Square base){
         super(base);
     }
@@ -191,31 +364,40 @@ class SmokeSquare extends BaseSquare {
 
     //turn smoke into base
     @Override
-    public BaseSquare removeFire(){
-        return new BaseSquare(this.base);
+    public Square removeFire(){
+        return this.base;
     }
 }
 
-class OutsideSquare extends BaseSquare {
+class OutsideSquare extends SquareDecorator {
     OutsideSquare(Square base){
         super(base);
-        this.x = base.getX();
-        this.y = base.getY();
     }
+
     @Override
     public boolean isOutside(){
         return true;
     }
 
+    //Can't add fire to outside
     @Override
-    public Square addFire(){
+    public Square addFire() {
         return this;
-    } // Do nothing
-
+    }
+    //Can't add poi to outside
+    @Override
+    public Square addPoi() {
+        return this;
+    }
+    //Can't add victim to outside
+    @Override
+    public Square addVictim() {
+        return this;
+    }
 }
 
-class POISquare extends BaseSquare {
-    POISquare(Square base){
+class PoiSquare extends SquareDecorator {
+    PoiSquare(Square base){
         super(base);
     }
     @Override
@@ -224,17 +406,12 @@ class POISquare extends BaseSquare {
     }
 
     @Override
-    public Square addPoi() {
-        return this;
-    } // Do nothing
-
-    @Override
-    public BaseSquare removePoi() {
-        return new BaseSquare(this.base);
+    public Square removePoi() {
+        return this.base;
     }
 }
 
-class VictSquare extends BaseSquare {
+class VictSquare extends SquareDecorator {
     VictSquare(Square base){
         super(base);
     }
@@ -244,12 +421,8 @@ class VictSquare extends BaseSquare {
         return true;
     }
 
-    public Square addVictim() {
-        return this;
-    } // Do nothing
-
     @Override
     public Square removeVictim() {
-        return new BaseSquare(this.base);
-    };
+        return this.base;
+    }
 }

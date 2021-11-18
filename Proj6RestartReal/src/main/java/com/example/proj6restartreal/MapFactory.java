@@ -19,7 +19,9 @@ public class MapFactory {
 
     public void setup(Map map, FireLogic fireLogic, Building building){
         for(int i = 0; i < 3; i++){
-            fireLogic.explosion(map.getRandomSquare());
+            Square square = map.getRandomSquare();
+            Util.print("Explosion: " + square.getX() + square.getY() + "\n");
+            fireLogic.explosion(square);
         }
         building.placePoi();
     }
@@ -53,7 +55,7 @@ public class MapFactory {
         //0,9
 
         // i=1
-        map.getLoc(new int[] {1,0}).setEdge(Util.east);
+        map.getLoc(new int[] {1, 0}).setEdge(Util.east);
         map.getLoc(new int[] {1, 1}).setEdge(Util.north); map.getLoc(new int[] {1, 2}).setEdge(Util.west);
         map.getLoc(new int[] {1, 2}).setEdge(Util.north);
         map.getLoc(new int[] {1, 3}).setEdge(Util.north);
@@ -84,15 +86,15 @@ public class MapFactory {
         map.getLoc(new int[] {3, 4}).setEdge(Util.north);
         map.getLoc(new int[] {3, 5}).setEdge(Util.north);
         map.getLoc(new int[] {3, 6}).setEdge(Util.east);
-        map.getLoc(new int[] {3, 7}).setEdge(Util.north);map.getLoc(new int[] {3, 7}).setEdge(Util.west);
+        map.getLoc(new int[] {3, 7}).setEdge(Util.north); map.getLoc(new int[] {3, 7}).setEdge(Util.west);
         map.getLoc(new int[] {3, 8}).setEdge(Util.east);
         map.getLoc(new int[] {3, 9}).setEdge(Util.west);
 
         // i=4
         map.getLoc(new int[] {4, 0}).setEdge(Util.east);
         map.getLoc(new int[] {4, 1}).setEdge(Util.south); map.getLoc(new int[] {4, 1}).setEdge(Util.west);
-        map.getLoc(new int[] {4, 2}).setEdge(Util.north);
-        map.getLoc(new int[] {4, 3}).setEdge(Util.north);
+        map.getLoc(new int[] {4, 2}).setEdge(Util.south); map.getLoc(new int[] {4, 2}).setEdge(Util.east);
+        map.getLoc(new int[] {4, 3}).setEdge(Util.north); map.getLoc(new int[] {4, 3}).setEdge(Util.west);
         //4,4
         map.getLoc(new int[] {4, 5}).setEdge(Util.south);
         map.getLoc(new int[] {4, 6}).setEdge(Util.south);
@@ -102,7 +104,7 @@ public class MapFactory {
 
         // i=5
         map.getLoc(new int[] {5, 0}).setEdge(Util.east);
-        map.getLoc(new int[] {5, 1}).setEdge(Util.east); map.getLoc(new int[] {5, 1}).setEdge(Util.north);
+        map.getLoc(new int[] {5, 1}).setEdge(Util.west); map.getLoc(new int[] {5, 1}).setEdge(Util.north);
         map.getLoc(new int[] {5, 2}).setEdge(Util.north);
         map.getLoc(new int[] {5, 3}).setEdge(Util.north);
         //5,4
@@ -121,8 +123,8 @@ public class MapFactory {
         map.getLoc(new int[] {6, 5}).setEdge(Util.south);
         map.getLoc(new int[] {6, 6}).setEdge(Util.south);
         map.getLoc(new int[] {6, 7}).setEdge(Util.south);
-        map.getLoc(new int[] {6, 8}).setEdge(Util.south);
-        map.getLoc(new int[] {6, 9}).setEdge(Util.east); map.getLoc(new int[] {6, 9}).setEdge(Util.south);
+        map.getLoc(new int[] {6, 8}).setEdge(Util.south); map.getLoc(new int[] {6, 8}).setEdge(Util.east);
+        map.getLoc(new int[] {6, 9}).setEdge(Util.south); map.getLoc(new int[] {6, 9}).setEdge(Util.west);
 
         // i=7
         //7,0
