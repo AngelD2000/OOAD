@@ -18,7 +18,7 @@ public class MapFactory {
     }
 
     public void setup(Map map, FireLogic fireLogic, Building building){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 4; i++){
             Square square = map.getRandomSquare();
             Util.print("Explosion: " + square.getX() + square.getY() + "\n");
             fireLogic.explosion(square);

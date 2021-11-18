@@ -63,7 +63,7 @@ public class Building {
     }
 
     public void placePoi(){
-        while(numTokens <= maxTokens){
+        while(numTokens < maxTokens){
             Square loc = map.getRandomSquare();
             while(loc.hasFire() || loc.hasSmoke()){
                 loc = map.getRandomSquare();
