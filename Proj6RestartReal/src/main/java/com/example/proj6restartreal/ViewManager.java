@@ -108,10 +108,12 @@ public class ViewManager {
             else{
                 rectangle.setFill(Color.WHITE);
             }
-            rectangle.setX(square.getX());
-            rectangle.setY(square.getY());
+            rectangle.setX(square.getX()*Util.length);
+            rectangle.setY(square.getY()*Util.length);
+            rectangle.setWidth(Util.length);
+            rectangle.setHeight(Util.length);
             mainPane.getChildren().add(rectangle);
-            drawWall(square);
+            //drawWall(square);
             //displayElement(square);
 
         }

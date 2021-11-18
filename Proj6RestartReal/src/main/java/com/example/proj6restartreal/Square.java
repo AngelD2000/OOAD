@@ -19,8 +19,7 @@ public abstract class Square {
     Square(){
         this.rectangle = new Rectangle();
         this.rectangle.setStroke(Color.LIGHTGREY);
-        this.rectangle.setWidth(Util.length);
-        this.rectangle.setHeight(Util.length);
+
     }
 
     public int getX() {
