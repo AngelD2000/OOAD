@@ -200,6 +200,8 @@ class SmokeSquare extends BaseSquare {
 class OutsideSquare extends BaseSquare {
     OutsideSquare(Square base){
         super(base);
+        this.x = base.getX();
+        this.y = base.getY();
     }
     @Override
     public boolean isOutside(){

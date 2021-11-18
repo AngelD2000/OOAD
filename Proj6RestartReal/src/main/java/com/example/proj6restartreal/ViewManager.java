@@ -113,7 +113,7 @@ public class ViewManager {
             mainPane.getChildren().add(rectangle);
             drawWall(square);
             //displayElement(square);
-            break;
+
         }
         map.resetIterator();
     }
