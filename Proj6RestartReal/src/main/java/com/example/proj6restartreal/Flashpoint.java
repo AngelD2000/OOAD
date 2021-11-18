@@ -22,6 +22,7 @@ public class Flashpoint extends Application {
         try{
             primaryStage = manager.getMainStage();
             manager.drawMap(game.getMap());
+            manager.displayStatus(game);
             primaryStage.show();
         }
         catch (Exception e){

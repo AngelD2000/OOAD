@@ -39,6 +39,11 @@ public class Edge{
 
     }
 
+    public void getDamage(){
+
+    }
+
+
     public Line getLine() {
         return line;
     }

@@ -11,41 +11,52 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public class ViewManager {
-
 
     private AnchorPane mainPane;
     private Scene mainScene;
     private Stage mainStage;
 
     public ViewManager(){
+        //Pane is the canvas we're putting stuff on
         mainPane = new AnchorPane();
+        //Scene - how big the canvas is
         mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
         mainStage = new Stage();
         mainStage.setScene(mainScene);
     }
 
+
     public Stage getMainStage(){
         return mainStage;
     }
 
-    public void squareUpdate(Square square) {
+    /**
+     * @param:
+     *      - square
+     * Updates the square according to its properties
+     * */
+
+    public void updateSquare(Square square) {
         Image image = null;
         if (square.hasFire() || square.hasSmoke() || square.hasFF() || square.hasPoi() || square.hasVictim()) {
-            if (square.hasFire())
+            if (square.hasFire()){
                 image = new Image(Util.firePath);
-            if (square.hasSmoke())
+            }
+            if (square.hasSmoke()){
                 image = new Image(Util.smokePath);
-            if (square.hasFF())
+            }
+            if (square.hasFF()){
                 image = square.getFF().getImage();
-            if (square.hasPoi())
+                System.out.println("Firefighter!");
+            }
+            if (square.hasPoi()) {
                 image = new Image(Util.poiPath);
-            if (square.hasVictim())
-                image = new Image(Util.personPath);
+            }
 
+            if (square.hasVictim()){
+                image = new Image(Util.personPath);
+            }
             Rectangle rect = square.getRectangle();
             ImagePattern pattern = new ImagePattern(image);
             rect.setFill(pattern);
@@ -55,15 +66,40 @@ public class ViewManager {
         }
     }
 
-    //TODO: Argument is a single square
+
+    /**
+     * @param:
+     *      - side, square, damage on that wall
+     * Updates the edge according to damage taken
+     * - 2: good edge
+     * - 1: dashed edge
+     * - 0: remove edge
+     * */
+
+    public void updateEdge(int side, Square square, int damage){
+        Edge edge = square.getEdge(side);
+        Line line = edge.getLine();
+        if(damage == 1){
+            line.getStrokeDashArray().addAll(25d, 15d);
+            line.setStroke(Color.ORANGERED);
+        }
+        else{
+            mainPane.getChildren().remove(line);
+        }
+    }
+
+    /**
+     * @param square
+     * For every square, loops through the edges and draws the lines
+     * */
     public void drawWall(Square square) {
-        //TODO: Iterate through the edges of each square
         for(int i = 0; i < 4; i++){
             Edge edge = square.getEdge(i);
             if(edge != null){
                 Line line = edge.getLine();
                 double x = square.getRectangle().getX();
                 double y = square.getRectangle().getY();
+
                 if(i == 0){
                     line.setStartX(x);
                     line.setStartY(y);
@@ -90,14 +126,16 @@ public class ViewManager {
                     line.setEndX(x);
                     line.setEndY(Util.length);
                 }
+                //update edge when damaged
                 mainPane.getChildren().add(line);
             }
         }
     }
 
-    //Drawing the map that is generated with Game (controller) this function will loop through all squares in the array list and display it
-    //This is assuming that a Rectangle object is already an attribute of square - Take a look at SimpleMap
-    //TODO: This will require change as there will be other objects placed on top of the squares
+    /**
+     * @param map
+     * Uses the map iterator to loop through every single square and draws them
+     * */
     public void drawMap(Map map){
         while (map.hasNext()) {
             Square square = map.next();
@@ -105,52 +143,44 @@ public class ViewManager {
             if(square.isOutside()){
                 rectangle.setFill(Color.GREEN);
             }
-            else if (square.hasFire()) {
-                rectangle.setFill(Color.RED);
-            }
             else{
                 rectangle.setFill(Color.WHITE);
             }
-            squareUpdate(square);
 
             rectangle.setY(square.getX()*Util.length);
             rectangle.setX(square.getY()*Util.length);
             rectangle.setWidth(Util.length);
             rectangle.setHeight(Util.length);
-            mainPane.getChildren().add(rectangle);
-            //drawWall(square);
-            //displayElement(square);
 
+            drawWall(square);
+            updateSquare(square);
+            mainPane.getChildren().add(rectangle);
         }
         map.resetIterator();
     }
 
-
     /**
-     * Argument needed:
-     * - Current square
-     * */
-    public void updateSquare(Square square) {
-        squareUpdate(square);
-    }
-
-    /**
-     * TODO: Display how many people saved and damage of the building
+     * @param game
+     * All texts on the canvas, gets the numbers from game since game knows about the numbers
      * */
     public void displayStatus(Game game) {
-        Text damage = new Text("Total Damage: " + game.getDamage());
-        damage.setX(Util.setDisplayX);
-        damage.setY(30);
+        Text currentFF = new Text("Current Firefighter: ");
+        currentFF.setX(Util.setDisplayX);
+        currentFF.setY(50);
 
-        Text peopleSaved = new Text("Total People Saved: " + game.building.saved);
+        Text peopleSaved = new Text("Victims Saved: " + game.building.saved);
         peopleSaved.setX(Util.setDisplayX);
-        peopleSaved.setY(50);
+        peopleSaved.setY(370);
 
-        Text peoplePerished = new Text("Total People Saved: " + game.building.perished);
+        Text peoplePerished = new Text("Victims Perished: " + game.building.perished);
         peoplePerished.setX(Util.setDisplayX);
-        peoplePerished.setY(50);
+        peoplePerished.setY(390);
 
-        mainPane.getChildren().addAll(damage, peopleSaved, peoplePerished);
+        Text damage = new Text("Building Integrity: " + game.getDamage());
+        damage.setX(Util.setDisplayX);
+        damage.setY(410);
+
+        mainPane.getChildren().addAll(currentFF,damage, peopleSaved, peoplePerished);
     }
 
 
