@@ -33,7 +33,7 @@ public class Util {
     private static final String ffGreenPath = "file:src/main/graphics/green_ff.png";
     private static final String ffRedPath = "file:src/main/graphics/red_ff.png";
     public static final String[] firefighterImages = new String[]{ffBluePath,ffBlackPath,ffGreenPath,ffRedPath};
-    public static final int[][] firefighterLocations = new int[][]{{0, 6}, {6, 0}, {7, 3}, {6, 9}};
+    public static final int[][] firefighterLocations = new int[][]{{3, 0}, {0, 6}, {4, 9}, {7, 3}};
 
     //Firefighter actions
     public static final int move = 0;
