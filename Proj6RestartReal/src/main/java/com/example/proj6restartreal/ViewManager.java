@@ -8,6 +8,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -48,6 +49,9 @@ public class ViewManager {
             }
             if (square.hasFF()){
                 image = square.getFF().getImage();
+                ImageView imageView = new ImageView(image);
+                imageView.setOpacity(.5);
+
             }
             if (square.hasPoi()) {
                 image = new Image(Util.poiPath);
@@ -59,6 +63,7 @@ public class ViewManager {
             Rectangle rect = square.getRectangle();
             ImagePattern pattern = new ImagePattern(image);
             rect.setFill(pattern);
+
         }
     }
 
@@ -160,18 +165,22 @@ public class ViewManager {
      * */
     public void displayStatus(Game game) {
         Text currentFF = new Text("Current Firefighter: ");
+        currentFF.setFont(Font.font("SansSerif"));
         currentFF.setX(Util.setDisplayX);
         currentFF.setY(50);
 
         Text peopleSaved = new Text("Victims Saved: " + game.building.saved);
+        peopleSaved.setFont(Font.font("SansSerif"));
         peopleSaved.setX(Util.setDisplayX);
         peopleSaved.setY(370);
 
         Text peoplePerished = new Text("Victims Perished: " + game.building.perished);
+        peoplePerished.setFont(Font.font("SansSerif"));
         peoplePerished.setX(Util.setDisplayX);
         peoplePerished.setY(390);
 
         Text damage = new Text("Building Integrity: " + game.getDamage());
+        damage.setFont(Font.font("SansSerif"));
         damage.setX(Util.setDisplayX);
         damage.setY(410);
 
