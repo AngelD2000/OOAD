@@ -35,8 +35,9 @@ public class Edge{
     /**
      * Does 1 damage to the wall
      */
-    public void doDamage(){
-
+    public void doDamage(Game game){
+        Util.print("Edge Damage\n");
+        game.incrementDamage();
     }
 
     public void getDamage(){

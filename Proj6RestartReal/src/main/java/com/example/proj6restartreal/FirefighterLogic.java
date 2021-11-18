@@ -60,7 +60,7 @@ public class FirefighterLogic {
      */
     public void chop(Square square){
         Edge edge = game.getMap().getEdge(square, company.getActiveLocation());
-        edge.doDamage();
+        edge.doDamage(game);
         actions -= 1;
     }
 

@@ -1,11 +1,13 @@
 package com.example.proj6restartreal;
 
 public class FireLogic {
-    Map map = null;
+    Map map;
     Building building;
-    FireLogic(Map map, Building building){
+    Game game;
+    FireLogic(Map map, Building building, Game game){
         this.map = map;
         this.building = building;
+        this.game = game;
     }
 
     /**
@@ -13,6 +15,7 @@ public class FireLogic {
      */
     public void advanceFire(){
         Square square = map.getRandomSquare();
+        Util.print("Added fire: " + square.getX() + " " + square.getY() + "\n");
         if(square.hasFire()){
             explosion(square);
         }
@@ -33,7 +36,8 @@ public class FireLogic {
      * Handles an explosion at designated square
      */
     public void explosion(Square square){
-        map.updateSquare(square, Util.addFire);
+        Util.print("Explosion: " + square.getX() + ", " + square.getY() + "\n");
+        map.updateSquare(square, Util.addPoi);
         for(int i = 0; i < 4; i++){
             translateExplosion(square, i);
         }
@@ -46,9 +50,12 @@ public class FireLogic {
      */
     public void translateExplosion(Square square, int direction){
         Square next = map.getSquareInDirection(square, direction);
+        Util.print(next.getX() + ", " + next.getY() + " compared to " + square.getX() + ", " + square.getY() + "\n");
+        Util.print(map.areAdjacent(square, next) + "\n");
         if(map.areAdjacent(square, next) == Util.wallBetween){
+            Util.print("Wall hit\n");
             Edge edge = map.getEdge(square, next);
-            edge.doDamage();
+            edge.doDamage(game);
         }
         else if(next.hasSmoke() || next.hasFire()){
             translateExplosion(next, direction);

@@ -13,7 +13,7 @@ public class Game {
         map = mapFactory.makeMap(this);
         building = new Building(map);
         firefighterLogic = new FirefighterLogic(this);
-        fireLogic = new FireLogic(map, building);
+        fireLogic = new FireLogic(map, building, this);
 
         mapFactory.setup(map, fireLogic, building);
     }
