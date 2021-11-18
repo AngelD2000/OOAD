@@ -111,6 +111,8 @@ public class ViewManager {
             else{
                 rectangle.setFill(Color.WHITE);
             }
+            squareUpdate(square);
+
             rectangle.setY(square.getX()*Util.length);
             rectangle.setX(square.getY()*Util.length);
             rectangle.setWidth(Util.length);

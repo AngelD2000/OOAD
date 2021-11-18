@@ -19,22 +19,24 @@ public class Util {
     public static final int blue = 3;
     public static final int numFirefighters = 4;
 
-    public static String firePath = new File("/src/main/graphics/fire.png").toURI().toString();
-    public static String smokePath = new File("/src/main/graphics/smoke.png").toURI().toString();
-    public static String poiPath = new File("/src/main/graphics/poi.png").toURI().toString();
-    public static String personPath = new File("/src/main/graphics/person.png").toURI().toString();
+    /**
+     * Square type paths
+     */
+    public static final String firePath = "file:src/main/graphics/fire.png";
+    public static final String smokePath = "file:src/main/graphics/smoke.png";
+    public static final String poiPath = "file:src/main/graphics/poi.png";
+    public static final String personPath = "file:src/main/graphics/person.png";
 
     /**
      * Firefighter paths
-     * */
-
-    private static String ffBlackPath = new File("/src/main/graphics/black_ff.png").toURI().toString();
-    private static String ffBluePath = new File("/src/main/graphics/blue_ff.png").toURI().toString();
-    private static String ffGreenPath = new File("/src/main/graphics/green_ff.png").toURI().toString();
-    private static String ffRedPath = new File("/src/main/graphics/red_ff.png").toURI().toString();
-
+     */
+    private static final String ffBlackPath = "file:src/main/graphics/black_ff.png";
+    private static final String ffBluePath = "file:src/main/graphics/blue_ff.png";
+    private static final String ffGreenPath = "file:src/main/graphics/green_ff.png";
+    private static final String ffRedPath = "file:src/main/graphics/red_ff.png";
     public static final String[] firefighterImages = new String[]{ffBluePath,ffBlackPath,ffGreenPath,ffRedPath};
     public static final int[][] firefighterLocations = new int[][]{{1, 1}, {2, 2}, {3, 3}, {4, 4}};
+
     //Firefighter actions
     public static final int move = 0;
     public static final int drag = 1;
@@ -47,7 +49,6 @@ public class Util {
     public static final int notAdjacent = 0;
     public static final int adjacent = 1;
     public static final int wallBetween = 2;
-
 
     //Square directions
     public static final int north = 0;
