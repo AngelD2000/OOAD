@@ -69,6 +69,7 @@ public class Building {
                 loc = map.getRandomSquare();
             }
             map.updateSquare(loc, Util.addPoi);
+            Util.print("POI: " + loc.getX() + loc.getY() + "\n");
             numTokens += 1;
         }
     }

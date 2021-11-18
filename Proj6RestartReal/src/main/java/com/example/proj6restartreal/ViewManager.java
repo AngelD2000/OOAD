@@ -120,14 +120,14 @@ public class ViewManager {
                     line.setStartX(Util.length + x);
                     line.setStartY(y);
                     line.setEndX(Util.length + x);
-                    line.setEndY(Util.length);
+                    line.setEndY(y+ Util.length);
                 }
 
                 else if(i == 3){
                     line.setStartX(x);
                     line.setStartY(y);
                     line.setEndX(x);
-                    line.setEndY(Util.length);
+                    line.setEndY(y + Util.length);
                 }
                 //update edge when damaged
                 mainPane.getChildren().add(line);

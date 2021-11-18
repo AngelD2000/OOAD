@@ -6,49 +6,49 @@ import javafx.scene.shape.Rectangle;
 import java.util.Arrays;
 
 public interface Square {
-    public int getX();
-    public int getY();
-    public void setX(int x);
-    public void setY(int y);
+    int getX();
+    int getY();
+    void setX(int x);
+    void setY(int y);
 
-    public Rectangle getRectangle();
+    Rectangle getRectangle();
 
-    public void setEdge(int direction);
+    void setEdge(int direction);
 
-    public Edge getEdge(int direction);
+    Edge getEdge(int direction);
 
-    public Edge[] getEdges();
+    Edge[] getEdges();
 
     //Turns fire into smoke, or removes the smoke
-    public Square removeFire();
+    Square removeFire();
     //Turns smoke into fire or none into smoke
-    public Square addFire();
-    public boolean hasPoi();
+    Square addFire();
+    boolean hasPoi();
 
     //Turns none into poi
-    public Square addPoi();
+    Square addPoi();
 
     //Turns poi into none
-    public Square removePoi();
-    public boolean hasVictim();
+    Square removePoi();
+    boolean hasVictim();
 
-    public Square addVictim();
-    public Square removeVictim();
+    Square addVictim();
+    Square removeVictim();
 
-    public boolean hasFire();
+    boolean hasFire();
 
-    public boolean hasSmoke();
+    boolean hasSmoke();
 
-    public boolean isOutside();
+    boolean isOutside();
 
-    public Square addOutside();
+    Square addOutside();
 
-    public Square removeOutside();
+    Square removeOutside();
 
-    public boolean hasFF();
-    public Firefighter getFF();
-    public void setFF(Firefighter FF);
-    public void removeFF();
+    boolean hasFF();
+    Firefighter getFF();
+    void setFF(Firefighter FF);
+    void removeFF();
 }
 
 class SquareDecorator implements Square {
