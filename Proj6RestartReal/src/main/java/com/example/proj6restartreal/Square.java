@@ -222,11 +222,17 @@ class BaseSquare implements Square {
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public final boolean equals(Object obj) {
+        if(this == obj) {
+            return true;
+        }
         if (obj == null) {
             return false;
         }
 
+        if(!(obj instanceof Square)) {
+            return false;
+        }
         final Square other = (Square) obj;
         return getX() == other.getX() && getY() == other.getY();
     }

@@ -50,8 +50,8 @@ public class FireLogic {
      */
     public void translateExplosion(Square square, int direction){
         Square next = map.getSquareInDirection(square, direction);
-        Util.print(next.getX() + ", " + next.getY() + " compared to " + square.getX() + ", " + square.getY() + "\n");
-        Util.print(map.areAdjacent(square, next) + "\n");
+//        Util.print(next.getX() + ", " + next.getY() + " compared to " + square.getX() + ", " + square.getY() + "\n");
+//        Util.print(map.areAdjacent(square, next) + "\n");
         if(map.areAdjacent(square, next) == Util.wallBetween){
             Util.print("Wall hit\n");
             Edge edge = map.getEdge(square, next);
