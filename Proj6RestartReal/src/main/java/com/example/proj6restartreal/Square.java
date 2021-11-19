@@ -226,19 +226,9 @@ class BaseSquare implements Square {
         if (obj == null) {
             return false;
         }
-        if (obj.getClass() != this.getClass()) {
-            return false;
-        }
 
         final Square other = (Square) obj;
-        if(!Arrays.equals(getEdges(), other.getEdges())){
-            return false;
-        }
-
-        if(FF != null && !FF.equals(other.getFF())) {
-            return false;
-        }
-        return true;
+        return getX() == other.getX() && getY() == other.getY();
     }
 
     public Firefighter getFF() {
