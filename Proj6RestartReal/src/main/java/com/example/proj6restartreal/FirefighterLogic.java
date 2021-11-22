@@ -32,7 +32,7 @@ public class FirefighterLogic {
                 answer.add(Util.chop);
             }
             else{
-                if(location.hasFire() || location.hasSmoke()){
+                if(target.hasFire() || target.hasSmoke()){
                     answer.add(Util.hose);
                 }
                 //Can be moved to
