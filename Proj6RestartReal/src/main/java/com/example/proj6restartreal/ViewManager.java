@@ -103,7 +103,6 @@ public class ViewManager {
         }
     }
 
-
     /**
      * @param:
      *      - side, square, damage on that wall
@@ -266,6 +265,9 @@ public class ViewManager {
         mainPane.getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr);
     }
 
+    /**
+     * Sets the menu for all the squares
+     */
     public void setMenu(){
         Map map = game.getMap();
         while(map.hasNext()){
@@ -279,6 +281,12 @@ public class ViewManager {
         }
     }
 
+    /**
+     * @param item
+     * @param square
+     * @param action
+     * Checks which action to take
+     */
     public void clickChoice(MenuItem item,Square square,String action){
         FirefighterLogic ffLogic = game.firefighterLogic;
         item.setOnAction(new EventHandler<ActionEvent>() {
@@ -301,6 +309,11 @@ public class ViewManager {
         });
     }
 
+    /**
+     * @param square
+     * @param mouseEvent
+     * Displays the menu, for available actions, enables the option
+     */
     public void actionMenu(Square square, MouseEvent mouseEvent) {
         FirefighterLogic ffLogic = game.firefighterLogic;
         menu.disableAll();
