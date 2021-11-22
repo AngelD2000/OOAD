@@ -195,16 +195,58 @@ public class ViewManager {
         map.resetIterator();
     }
 
+
+    /**
+     * Creates new rectangles and render the firefighter images
+     */
+    public void displayFFTurn(){
+        int len = 40;
+        int currentFireFighter = game.firefighterLogic.company.activeFirefighter;
+        String currentFFPath = Util.firefighterImages[currentFireFighter];
+        int height = 90;
+        int displayed = 0;
+        int i = 0;
+        while(displayed < Util.numFirefighters){
+            Rectangle rect;
+            Image ffImage;
+            ImagePattern ffPattern;
+            if(i == currentFireFighter){
+                rect = new Rectangle(Util.setDisplayX, 70,len,len);
+                ffImage = new Image(currentFFPath);
+            }
+            else{
+                height += (len + 10);
+                rect = new Rectangle(Util.setDisplayX, height,len,len);
+                ffImage = new Image(Util.firefighterImages[i]);
+            }
+            displayed++;
+
+            ffPattern = new ImagePattern(ffImage);
+            rect.setFill(ffPattern);
+            mainPane.getChildren().add(rect);
+            if(i == Util.numFirefighters){
+                i = 0;
+            }
+            i++;
+        }
+    }
+
     /**
      * All texts on the canvas, gets the numbers from game since game knows about the numbers
-     * TODO: Display the current active firefighter
      * Problem: Edge doesn't know if it is damaged or not
      * */
     public void displayStatus() {
-        Text currentFF = new Text("Current Firefighter: ");
-        currentFF.setFont(Font.font("SansSerif"));
-        currentFF.setX(Util.setDisplayX);
-        currentFF.setY(50);
+        Text currentFFStr = new Text("Current Firefighter: ");
+        currentFFStr.setFont(Font.font("SansSerif"));
+        currentFFStr.setX(Util.setDisplayX);
+        currentFFStr.setY(50);
+
+        displayFFTurn();
+
+        Text nextFFStr = new Text("Next Firefighters: ");
+        nextFFStr.setFont(Font.font("SansSerif"));
+        nextFFStr.setX(Util.setDisplayX);
+        nextFFStr.setY(130);
 
         Text peopleSaved = new Text("Victims Saved: " + game.building.saved);
         peopleSaved.setFont(Font.font("SansSerif"));
@@ -221,7 +263,7 @@ public class ViewManager {
         damage.setX(Util.setDisplayX);
         damage.setY(410);
 
-        mainPane.getChildren().addAll(currentFF,damage, peopleSaved, peoplePerished);
+        mainPane.getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr);
     }
 
     public void setMenu(){
