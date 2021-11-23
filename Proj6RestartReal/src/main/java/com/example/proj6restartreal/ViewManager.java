@@ -27,6 +27,8 @@ public class ViewManager {
 
     private Game game = new Game();
     private Menu menu = new Menu();
+    private setInitialStage initStage;
+
 
     public Game getGame() {
         return game;
@@ -36,25 +38,18 @@ public class ViewManager {
         return menu;
     }
 
-    public void createBorder(){
-        for(int i = 0; i < Util.mapWidth; i++){
-            for(int j = 0; j < Util.mapHeight; j++){
-                if(i == 0 || i == Util.mapWidth-1 || j == 0 || j ==Util.mapHeight-1){
-                    Rectangle rect = new Rectangle(i * Util.length, j * Util.length, Util.length,Util.length);
-                    rect.setFill(Color.GREEN);
-                    mainPane.getChildren().add(rect);
-                }
-            }
-        }
+    public setInitialStage getInitStage() {
+        return initStage;
     }
 
     public ViewManager(){
         //Pane is the canvas we're putting stuff on
         mainPane = new AnchorPane();
+        initStage = new setInitialStage(game, mainPane,this);
         //Scene - how big the canvas is
         mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
         mainStage = new Stage();
-        createBorder();
+        initStage.createBorder();
         mainStage.setScene(mainScene);
     }
 
@@ -126,143 +121,28 @@ public class ViewManager {
         }
     }
 
-    /**
-     * @param square
-     * For every square, loops through the edges and draws the lines
-     * */
-    public void drawWall(Square square) {
-        for(int i = 0; i < 4; i++){
-            Edge edge = square.getEdge(i);
-            if(edge != null){
-                Line line = edge.getLine();
-                double x = square.getRectangle().getX();
-                double y = square.getRectangle().getY();
-
-                if(i == 0){
-                    line.setStartX(x);
-                    line.setStartY(y);
-                    line.setEndX(Util.length + x);
-                    line.setEndY(y);
-                }
-                else if(i == 1){
-                    line.setStartX(x);
-                    line.setStartY(y + Util.length);
-                    line.setEndX(Util.length + x);
-                    line.setEndY(y + Util.length);
-
-                }
-                else if(i == 2){
-                    line.setStartX(Util.length + x);
-                    line.setStartY(y);
-                    line.setEndX(Util.length + x);
-                    line.setEndY(y+ Util.length);
-                }
-
-                else if(i == 3){
-                    line.setStartX(x);
-                    line.setStartY(y);
-                    line.setEndX(x);
-                    line.setEndY(y + Util.length);
-                }
-                mainPane.getChildren().add(line);
-            }
-        }
-    }
-
-    /**
-     * Uses the map iterator to loop through every single square and draws them
-     * */
-    public void drawMap(){
-        Map map = game.getMap();
-        while (map.hasNext()) {
-            Square square = map.next();
-            Rectangle rectangle = square.getRectangle();
-            if(square.isOutside()){
-                rectangle.setFill(Color.GREEN);
-            }
-            else{
-                rectangle.setFill(Color.WHITE);
-            }
-            rectangle.setY(square.getX()*Util.length);
-            rectangle.setX(square.getY()*Util.length);
-            rectangle.setWidth(Util.length);
-            rectangle.setHeight(Util.length);
-            mainPane.getChildren().add(rectangle);
-            updateSquare(square);
-            drawWall(square);
-        }
-        map.resetIterator();
-    }
-
 
     /**
      * Creates new rectangles and render the firefighter images
      */
-    public void displayFFTurn(){
-        int len = 40;
-        int currentFireFighter = game.firefighterLogic.company.activeFirefighter;
-        String currentFFPath = Util.firefighterImages[currentFireFighter];
-        int height = 90;
-        int displayed = 0;
-        int i = 0;
-        while(displayed < Util.numFirefighters){
-            Rectangle rect;
-            Image ffImage;
-            ImagePattern ffPattern;
-            if(i == currentFireFighter){
-                rect = new Rectangle(Util.setDisplayX, 70,len,len);
-                ffImage = new Image(currentFFPath);
-            }
-            else{
-                height += (len + 10);
-                rect = new Rectangle(Util.setDisplayX, height,len,len);
-                ffImage = new Image(Util.firefighterImages[i]);
-            }
-            displayed++;
 
-            ffPattern = new ImagePattern(ffImage);
-            rect.setFill(ffPattern);
-            mainPane.getChildren().add(rect);
-            if(i == Util.numFirefighters){
-                i = 0;
-            }
-            i++;
-        }
-    }
 
     /**
      * All texts on the canvas, gets the numbers from game since game knows about the numbers
      * Problem: Edge doesn't know if it is damaged or not
      * */
-    public void displayStatus() {
-        Text currentFFStr = new Text("Current Firefighter: ");
-        currentFFStr.setFont(Font.font("SansSerif"));
-        currentFFStr.setX(Util.setDisplayX);
-        currentFFStr.setY(50);
 
-        displayFFTurn();
+    public void updateStatus(){
+        ArrayList<Text> status = initStage.getStatus();
+        ArrayList<Rectangle> ffRect = initStage.getFfRect();
+        for(int i = 0; i < status.size(); i++){
+            mainPane.getChildren().remove(status.get(i));
+        }
+        for(int j = 0; j < ffRect.size(); j++){
+            mainPane.getChildren().removeAll(ffRect.get(j));
+        }
+        initStage.setStatus();
 
-        Text nextFFStr = new Text("Next Firefighters: ");
-        nextFFStr.setFont(Font.font("SansSerif"));
-        nextFFStr.setX(Util.setDisplayX);
-        nextFFStr.setY(130);
-
-        Text peopleSaved = new Text("Victims Saved: " + game.building.saved);
-        peopleSaved.setFont(Font.font("SansSerif"));
-        peopleSaved.setX(Util.setDisplayX);
-        peopleSaved.setY(370);
-
-        Text peoplePerished = new Text("Victims Perished: " + game.building.perished);
-        peoplePerished.setFont(Font.font("SansSerif"));
-        peoplePerished.setX(Util.setDisplayX);
-        peoplePerished.setY(390);
-
-        Text damage = new Text("Building Integrity: " + game.getDamage());
-        damage.setFont(Font.font("SansSerif"));
-        damage.setX(Util.setDisplayX);
-        damage.setY(410);
-
-        mainPane.getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr);
     }
 
     /**
@@ -279,6 +159,8 @@ public class ViewManager {
                 }
             });
         }
+        map.resetIterator();
+        initStage.setStatus();
     }
 
     /**
@@ -287,24 +169,14 @@ public class ViewManager {
      * @param action
      * Checks which action to take
      */
-    public void clickChoice(MenuItem item,Square square,String action){
-        FirefighterLogic ffLogic = game.firefighterLogic;
+    public void clickChoice(MenuItem item,Square square,int action){
+        item.setDisable(false);
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                if(action == "move"){
-                    ffLogic.move(square);
-                }
-                else if(action == "drag"){
-                    ffLogic.drag(square);
-                }
-                else if(action == "hose"){
-                    ffLogic.hose(square);
-                }
-                else if(action == "chop"){
-                    ffLogic.chop(square);
-                }
+                game.takeAction(action,square);
                 updateSquare(square);
+                updateStatus();
             }
         });
     }
@@ -320,23 +192,8 @@ public class ViewManager {
         menu.getCm().show(square.getRectangle(),mouseEvent.getScreenX(),mouseEvent.getScreenY());
         ArrayList<Integer> actions = ffLogic.getActions(square);
         for(int i = 0; i < actions.size();i++){
-            if(actions.get(i) == 0){
-                menu.getMenuItems().get(0).setDisable(false);
-                clickChoice(menu.getMenuItems().get(0),square,"move");
-            }
-            else if(actions.get(i) == 1){
-                menu.getMenuItems().get(1).setDisable(false);
-                clickChoice(menu.getMenuItems().get(1),square,"drag");
-            }
-            else if(actions.get(i) == 2){
-                menu.getMenuItems().get(2).setDisable(false);
-                clickChoice(menu.getMenuItems().get(2),square,"hose");
-
-            }
-            else if(actions.get(i) == 3){
-                menu.getMenuItems().get(3).setDisable(false);
-                clickChoice(menu.getMenuItems().get(3),square,"chop");
-            }
+            MenuItem item = menu.getMenuItems().get(actions.get(i));
+            clickChoice(item,square,actions.get(i));
         }
     }
 }

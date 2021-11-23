@@ -21,13 +21,11 @@ public class Flashpoint extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         try{
-            primaryStage = manager.getMainStage();
-            Game game = manager.getGame();
 
-            manager.drawMap();
+            primaryStage = manager.getMainStage();
+            manager.getInitStage().drawMap();
             manager.getMenu().createMenu();
             manager.setMenu();
-            manager.displayStatus();
             primaryStage.show();
         }
         catch (Exception e){
