@@ -5,17 +5,14 @@ import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
-import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.util.ArrayList;
 
@@ -42,17 +39,20 @@ public class ViewManager {
         return initStage;
     }
 
+    public AnchorPane getMainPane() {
+        return mainPane;
+    }
+
     public ViewManager(){
         //Pane is the canvas we're putting stuff on
         mainPane = new AnchorPane();
-        initStage = new setInitialStage(game, mainPane,this);
+        initStage = new setInitialStage(this);
         //Scene - how big the canvas is
         mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
         mainStage = new Stage();
         initStage.createBorder();
         mainStage.setScene(mainScene);
     }
-
 
     public Stage getMainStage(){
         return mainStage;
@@ -63,7 +63,6 @@ public class ViewManager {
      *      - square
      * Updates the square according to its properties
      * */
-
     public void updateSquare(Square square) {
         Image image = null;
         Rectangle rect = square.getRectangle();
@@ -108,7 +107,6 @@ public class ViewManager {
      * TODO: Update edge
      * Problem: Need to know the damage on current edge
      * */
-
     public void updateEdge(int side, Square square, int damage){
         Edge edge = square.getEdge(side);
         Line line = edge.getLine();
@@ -123,15 +121,8 @@ public class ViewManager {
 
 
     /**
-     * Creates new rectangles and render the firefighter images
+     * Removes all object that compose status and then re-add them with updated values
      */
-
-
-    /**
-     * All texts on the canvas, gets the numbers from game since game knows about the numbers
-     * Problem: Edge doesn't know if it is damaged or not
-     * */
-
     public void updateStatus(){
         ArrayList<Text> status = initStage.getStatus();
         ArrayList<Rectangle> ffRect = initStage.getFfRect();
@@ -143,24 +134,6 @@ public class ViewManager {
         }
         initStage.setStatus();
 
-    }
-
-    /**
-     * Sets the menu for all the squares
-     */
-    public void setMenu(){
-        Map map = game.getMap();
-        while(map.hasNext()){
-            Square square = map.next();
-            square.getRectangle().setOnMouseClicked(new EventHandler<MouseEvent>() {
-                @Override
-                public void handle(MouseEvent mouseEvent) {
-                    actionMenu(square,mouseEvent);
-                }
-            });
-        }
-        map.resetIterator();
-        initStage.setStatus();
     }
 
     /**
