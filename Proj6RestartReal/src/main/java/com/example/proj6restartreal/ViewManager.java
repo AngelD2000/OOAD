@@ -140,7 +140,9 @@ public class ViewManager {
      * @param item
      * @param square
      * @param action
-     * Checks which action to take
+     * Takes the action user choose
+     * Updates the current square
+     * Updates the previous square
      */
     public void clickChoice(MenuItem item,Square square,int action){
         item.setDisable(false);
