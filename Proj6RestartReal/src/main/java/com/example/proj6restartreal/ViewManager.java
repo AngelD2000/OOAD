@@ -147,8 +147,10 @@ public class ViewManager {
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
+                Square prevSquare = game.firefighterLogic.company.getActiveLocation();
                 game.takeAction(action,square);
                 updateSquare(square);
+                updateSquare(prevSquare);
                 updateStatus();
             }
         });
