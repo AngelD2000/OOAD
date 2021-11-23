@@ -1,7 +1,8 @@
 package com.example.proj6restartreal;
 
+import javafx.event.EventHandler;
 import javafx.scene.image.Image;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Line;
@@ -12,18 +13,14 @@ import javafx.scene.text.Text;
 import java.util.ArrayList;
 
 public class setInitialStage {
-    private Game game;
-    private AnchorPane mainPane;
     private ViewManager manager;
     private ArrayList<Text> status;
     private ArrayList<Rectangle> ffRect;
 
-
-    setInitialStage(Game game, AnchorPane mainPane, ViewManager manager){
-        this.game = game;
-        this.mainPane = mainPane;
+    setInitialStage(ViewManager manager){
         this.manager = manager;
     }
+
 
     public ArrayList<Text> getStatus() {
         return status;
@@ -33,13 +30,16 @@ public class setInitialStage {
         return ffRect;
     }
 
+    /**
+     * Creates the green border underneath for the game board
+     */
     public void createBorder(){
         for(int i = 0; i < Util.mapWidth; i++){
             for(int j = 0; j < Util.mapHeight; j++){
                 if(i == 0 || i == Util.mapWidth-1 || j == 0 || j ==Util.mapHeight-1){
                     Rectangle rect = new Rectangle(i * Util.length, j * Util.length, Util.length,Util.length);
                     rect.setFill(Color.GREEN);
-                    mainPane.getChildren().add(rect);
+                    manager.getMainPane().getChildren().add(rect);
                 }
             }
         }
@@ -83,7 +83,7 @@ public class setInitialStage {
                     line.setEndX(x);
                     line.setEndY(y + Util.length);
                 }
-                mainPane.getChildren().add(line);
+                manager.getMainPane().getChildren().add(line);
             }
         }
     }
@@ -92,7 +92,7 @@ public class setInitialStage {
      * Uses the map iterator to loop through every single square and draws them
      * */
     public void drawMap(){
-        Map map = game.getMap();
+        Map map = manager.getGame().getMap();
         while (map.hasNext()) {
             Square square = map.next();
             Rectangle rectangle = square.getRectangle();
@@ -106,16 +106,20 @@ public class setInitialStage {
             rectangle.setX(square.getY()*Util.length);
             rectangle.setWidth(Util.length);
             rectangle.setHeight(Util.length);
-            mainPane.getChildren().add(rectangle);
+            manager.getMainPane().getChildren().add(rectangle);
             manager.updateSquare(square);
             drawWall(square);
         }
         map.resetIterator();
     }
 
+
+    /**
+     * Creates new rectangles and render the firefighter images for status
+     */
     public void displayFFTurn(){
         int len = 40;
-        int currentFireFighter = game.firefighterLogic.company.activeFirefighter;
+        int currentFireFighter = manager.getGame().firefighterLogic.company.activeFirefighter;
         String currentFFPath = Util.firefighterImages[currentFireFighter];
         int height = 90;
         int displayed = 0;
@@ -127,7 +131,7 @@ public class setInitialStage {
                 Image ffImage = new Image(currentFFPath);
                 ImagePattern ffPattern = new ImagePattern(ffImage);
                 rect.setFill(ffPattern);
-                mainPane.getChildren().add(rect);
+                manager.getMainPane().getChildren().add(rect);
                 ffRect.add(rect);
                 startRender = true;
                 displayed++;
@@ -142,7 +146,7 @@ public class setInitialStage {
                 Image ffImage = new Image(Util.firefighterImages[i]);
                 ImagePattern ffPattern = new ImagePattern(ffImage);
                 rect.setFill(ffPattern);
-                mainPane.getChildren().add(rect);
+                manager.getMainPane().getChildren().add(rect);
                 ffRect.add(rect);
                 displayed++;
             }
@@ -150,6 +154,9 @@ public class setInitialStage {
         }
     }
 
+    /**
+     * Display status
+     */
     public void setStatus() {
         this.ffRect = new ArrayList<>();
         this.status = new ArrayList<>();
@@ -161,7 +168,7 @@ public class setInitialStage {
 
         displayFFTurn();
 
-        Text numActions =  new Text(game.firefighterLogic.getActions() + " Actions");
+        Text numActions =  new Text(manager.getGame().firefighterLogic.getActions() + " Actions");
         numActions.setFont(Font.font("SansSerif"));
         numActions.setX(Util.setDisplayX + 50);
         numActions.setY(100);
@@ -171,17 +178,17 @@ public class setInitialStage {
         nextFFStr.setX(Util.setDisplayX);
         nextFFStr.setY(130);
 
-        Text peopleSaved = new Text("Victims Saved: " + game.building.saved);
+        Text peopleSaved = new Text("Victims Saved: " + manager.getGame().building.saved);
         peopleSaved.setFont(Font.font("SansSerif"));
         peopleSaved.setX(Util.setDisplayX);
         peopleSaved.setY(370);
 
-        Text peoplePerished = new Text("Victims Perished: " + game.building.perished);
+        Text peoplePerished = new Text("Victims Perished: " + manager.getGame().building.perished);
         peoplePerished.setFont(Font.font("SansSerif"));
         peoplePerished.setX(Util.setDisplayX);
         peoplePerished.setY(390);
 
-        Text damage = new Text("Building Integrity: " + game.getDamage());
+        Text damage = new Text("Building Integrity: " + manager.getGame().getDamage());
         damage.setFont(Font.font("SansSerif"));
         damage.setX(Util.setDisplayX);
         damage.setY(410);
@@ -192,7 +199,25 @@ public class setInitialStage {
         status.add(peoplePerished);
         status.add(nextFFStr);
         status.add(numActions);
-        mainPane.getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions);
+        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions);
+    }
+
+    /**
+     * Wait for mouse click event for all squares
+     */
+    public void setMenu(){
+        Map map = manager.getGame().getMap();
+        while(map.hasNext()){
+            Square square = map.next();
+            square.getRectangle().setOnMouseClicked(new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent mouseEvent) {
+                    manager.actionMenu(square,mouseEvent);
+                }
+            });
+        }
+        map.resetIterator();
+        setStatus();
     }
 
 }
