@@ -66,10 +66,10 @@ public class Game {
             }
         }
         if (action == Util.hose){
-            firefighterLogic.chop(square);
+            firefighterLogic.hose(square);
         }
         if (action == Util.chop){
-            firefighterLogic.hose(square);
+            firefighterLogic.chop(square);
         }
         if (firefighterLogic.getActions() == 0){
             endTurn();
