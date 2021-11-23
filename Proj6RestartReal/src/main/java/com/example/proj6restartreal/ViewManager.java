@@ -24,7 +24,7 @@ public class ViewManager {
 
     private Game game = new Game();
     private Menu menu = new Menu();
-    private setInitialStage initStage;
+    private setWindow window;
 
 
     public Game getGame() {
@@ -35,8 +35,8 @@ public class ViewManager {
         return menu;
     }
 
-    public setInitialStage getInitStage() {
-        return initStage;
+    public setWindow getWindow() {
+        return window;
     }
 
     public AnchorPane getMainPane() {
@@ -46,11 +46,11 @@ public class ViewManager {
     public ViewManager(){
         //Pane is the canvas we're putting stuff on
         mainPane = new AnchorPane();
-        initStage = new setInitialStage(this);
+        window = new setWindow(this);
         //Scene - how big the canvas is
         mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
         mainStage = new Stage();
-        initStage.createBorder();
+        window.createBorder();
         mainStage.setScene(mainScene);
     }
 
@@ -124,15 +124,15 @@ public class ViewManager {
      * Removes all object that compose status and then re-add them with updated values
      */
     public void updateStatus(){
-        ArrayList<Text> status = initStage.getStatus();
-        ArrayList<Rectangle> ffRect = initStage.getFfRect();
+        ArrayList<Text> status = window.getStatus();
+        ArrayList<Rectangle> ffRect = window.getFfRect();
         for(int i = 0; i < status.size(); i++){
             mainPane.getChildren().remove(status.get(i));
         }
         for(int j = 0; j < ffRect.size(); j++){
             mainPane.getChildren().removeAll(ffRect.get(j));
         }
-        initStage.setStatus();
+        window.setStatus();
 
     }
 

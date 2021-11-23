@@ -12,12 +12,12 @@ import javafx.scene.text.Text;
 
 import java.util.ArrayList;
 
-public class setInitialStage {
+public class setWindow {
     private ViewManager manager;
     private ArrayList<Text> status;
     private ArrayList<Rectangle> ffRect;
 
-    setInitialStage(ViewManager manager){
+    setWindow(ViewManager manager){
         this.manager = manager;
     }
 
