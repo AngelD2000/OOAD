@@ -5,12 +5,14 @@ import javafx.scene.shape.Line;
 
 public class Edge{
     private Line line;
+    private int damage;
 
     public Edge(){
         //Create a line
         this.line = new Line();
         this.line.setFill(Color.BLACK);
         this.line.setStrokeWidth(4);
+        damage = 2;
     }
 
     /**
@@ -19,10 +21,11 @@ public class Edge{
     public void doDamage(Game game){
         Util.print("Edge Damage\n");
         game.incrementDamage();
+        damage -= 1;
     }
 
-    public void getDamage(){
-
+    public int getDamage(){
+        return damage;
     }
 
 

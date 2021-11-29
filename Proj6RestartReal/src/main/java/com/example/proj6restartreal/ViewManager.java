@@ -107,14 +107,16 @@ public class ViewManager {
      * TODO: Update edge
      * Problem: Need to know the damage on current edge
      * */
-    public void updateEdge(int side, Square square, int damage){
+    public void updateEdge(int side, Square square){
         Edge edge = square.getEdge(side);
+        int damage = edge.getDamage();
         Line line = edge.getLine();
         if(damage == 1){
             line.getStrokeDashArray().addAll(25d, 15d);
             line.setStroke(Color.ORANGERED);
         }
-        else{
+        else if (damage == 0){
+            square.setEdge(side, true);
             mainPane.getChildren().remove(line);
         }
     }
