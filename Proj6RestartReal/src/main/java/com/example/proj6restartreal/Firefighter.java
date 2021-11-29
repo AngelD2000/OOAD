@@ -5,6 +5,7 @@ import javafx.scene.image.Image;
 public class Firefighter {
     private Square location = null;
     private Image image = null;
+    private int saved = 0;
     Firefighter(Square square){
         this.location = square;
         this.location.setFF(this);
@@ -29,6 +30,13 @@ public class Firefighter {
 
     public Image getImage(){
         return this.image;
+    }
+
+    public void setActionsSaved(int saved){
+        this.saved = saved;
+    }
+    public int getActionsSaved(){
+        return this.saved;
     }
 
     public Square getLoc(){

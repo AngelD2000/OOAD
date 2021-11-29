@@ -22,17 +22,31 @@ public class Company {
     }
 
     /**
+     * Gets the current active firefighter
+     * @return The associated FF
+     */
+    public Firefighter getActiveFf(){
+        return firefighters[activeFirefighter];
+    }
+
+    /**
      * Moves the firefighter
-     * @return The associated square
      */
     public void move(Square square){
         firefighters[activeFirefighter].setLoc(square);
     }
 
-    public void nextFirefighter(){
+    /**
+     * Goes to the next FF in the company.
+     * Will also save actions of last FF and say how many actions new FF saved
+     * @return The number of actions new FF had saved
+     */
+    public int nextFirefighter(int saved){
+        getActiveFf().setActionsSaved(saved);
         activeFirefighter += 1;
         if (activeFirefighter >= Util.numFirefighters){
             activeFirefighter = 0;
         }
+        return getActiveFf().getActionsSaved();
     }
 }
