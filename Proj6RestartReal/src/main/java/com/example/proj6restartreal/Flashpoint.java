@@ -1,8 +1,6 @@
 package com.example.proj6restartreal;
 
 import javafx.application.Application;
-import javafx.event.EventHandler;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -21,13 +19,11 @@ public class Flashpoint extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         try{
-            primaryStage = manager.getMainStage();
-            Game game = manager.getGame();
 
-            manager.drawMap();
+            primaryStage = manager.getMainStage();
+            manager.getWindow().drawMap();
             manager.getMenu().createMenu();
-            manager.setMenu();
-            manager.displayStatus();
+            manager.getWindow().setMenu();
             primaryStage.show();
         }
         catch (Exception e){
