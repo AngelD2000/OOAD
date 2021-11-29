@@ -1,6 +1,10 @@
 package com.example.project6_fx;
 
-public class Edge {
+import javafx.scene.shape.Line;
+
+public class Edge{
+    private int wall = 2;
+    private Line line;
     /**
      * Each edge object needs a line objects to display
      * //lineAdd.setStroke(Color.BLACK);  - set the color of the wall to black
@@ -22,7 +26,7 @@ public class Edge {
      *
      * */
     public Edge(){
-
+        //Create a line
     }
 
     /**
@@ -30,5 +34,16 @@ public class Edge {
      */
     public void doDamage(){
 
+    }
+
+    /**
+     * Get current damage on a wall
+     */
+    public int getDamage(){
+        return wall;
+    }
+
+    public Line getLine() {
+        return line;
     }
 }

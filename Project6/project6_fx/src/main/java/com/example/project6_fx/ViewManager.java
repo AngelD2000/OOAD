@@ -2,6 +2,8 @@ package com.example.project6_fx;
 
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -27,24 +29,40 @@ public class ViewManager implements GameViewInterface {
     }
 
     //TODO: Argument is a single square
-    public void drawWall() {
+    public void drawWall(Square square) {
         //TODO: Iterate through the edges of each square
-        for () {
+        for (Edge edge: square.getEdges()) {
             //Add each edge to the mainPane ex. mainPane.getChildren().add(edge.line)
-            mainPane.getChildren().add(/*edge.line*/);
+            //square.edge.line.setStroke(2);
+            //If it is damaged: lineAdd.getStrokeDashArray().addAll(25d, 10d);
+            Line line = edge.getLine();
+            if(edge.getDamage() == 2){
+                line.setFill(Color.BLACK);
+                line.setStrokeWidth(3);
+                mainPane.getChildren().add(line);
+            }
+            else if(edge.getDamage() == 1){
+                line.setFill(Color.ORANGERED);
+                line.getStrokeDashArray().addAll(25d, 15d);
+                mainPane.getChildren().add(line);
+            }
+            else{
+                mainPane.getChildren().remove(line);
+            }
         }
     }
 
     //Drawing the map that is generated with Game (controller) this function will loop through all squares in the array list and display it
     //This is assuming that a Rectangle object is already an attribute of square - Take a look at SimpleMap
     //TODO: This will require change as there will be other objects placed on top of the squares
-    public void drawMap(){
-        for(){
+    public void drawMap(Map map){
+        for (Map it = map; it.hasNext(); ) {
+            Square square = it.next();
             //TODO: Need a Map iterator here, each square should be linked with a Rectangle object from Javafx
             //Example: mainPane.getChildren().add(square.rect) or something of equivalent
-            mainPane.getChildren().add(/*square.rectangle*/);
-            drawWall();
-            display.displayElement(/*square*/);
+            mainPane.getChildren().add(square.getRectangle());
+            drawWall(square);
+            display.displayElement(square);
         }
     }
 

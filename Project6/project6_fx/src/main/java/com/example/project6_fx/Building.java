@@ -37,19 +37,19 @@ public class Building {
             flipPoi(square);
         }
         if(square.hasVictim()){
-            square.removeVictim();
+            map.updateSquare(square, Util.removeVict);
             perished+=1;
             numTokens-=1;
         }
     }
     public void flipPoi(Square square){
-        square.removePoi();
+        map.updateSquare(square, Util.removePoi);
         double random_int = Math.random()*(2);
         double odds = (maxVictims - victims) / (maxVictims + maxBlanks - victims - blanks);
         //It's a victim!
         if (random_int >= odds){
             victims += 1;
-            square.addVictim();
+            map.updateSquare(square, Util.addVict);
         }
         else{
             blanks += 1;
@@ -57,7 +57,7 @@ public class Building {
         }
     }
     public void rescue(Square square){
-        square.removeVictim();
+        map.updateSquare(square, Util.removeVict);
         saved += 1;
         numTokens -= 1;
     }
@@ -68,7 +68,7 @@ public class Building {
             while(loc.hasFire() || loc.hasSmoke()){
                 loc = map.getRandomSquare();
             }
-            loc.addPoi();
+            map.updateSquare(loc, Util.addPoi);
             numTokens += 1;
         }
     }

@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0946da70-b572-4c05-8001-6e404ba7c4ba" name="Changes" comment="">
+    <list default="true" id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/FireLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/FireLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/src/main/java/com/example/proj6restartreal/ViewManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/BaseSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/BaseSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/FireLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/FireLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/FireSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/FireSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/OutsideSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/OutsideSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/POISquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/POISquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/SmokeSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/SmokeSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/VictSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/VictSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proj6RestartReal/target/classes/com/example/proj6restartreal/ViewManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FireLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/FireLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Firefighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Firefighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/MapFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/MapFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project6_fx/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,30 +69,64 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\elly\Documents\Programming\OOAD\Project6\project6_fx\src\main\graphics" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Flashpoint">
+    <configuration name="Flashpoint" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.project6_fx.Flashpoint" />
       <module name="project6_fx" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="project6_fx" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="project6_fx" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Flashpoint" />
+      <item itemvalue="Maven.project6_fx" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0946da70-b572-4c05-8001-6e404ba7c4ba" name="Changes" comment="" />
+      <changelist id="ebb01a10-7e69-41f1-952b-8afc0430a31d" name="Changes" comment="" />
       <created>1636829321814</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636829321814</updated>
       <workItem from="1636999899496" duration="2179000" />
+      <workItem from="1637123400144" duration="665000" />
     </task>
     <servers />
   </component>
