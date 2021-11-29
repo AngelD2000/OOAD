@@ -65,7 +65,7 @@ public class FirefighterLogic {
     }
 
     public void hose(Square square){
-        square.removeFire();
+        game.getMap().updateSquare(square, Util.removeFire);
         actions -= 1;
     }
 
