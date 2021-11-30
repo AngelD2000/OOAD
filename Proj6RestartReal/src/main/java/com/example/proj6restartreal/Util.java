@@ -40,6 +40,7 @@ public class Util {
     public static final int drag = 1;
     public static final int hose = 2;
     public static final int chop = 3;
+    public static final int numActions = 5;
 
     //Map constants
     public static final int mapWidth = 10;
