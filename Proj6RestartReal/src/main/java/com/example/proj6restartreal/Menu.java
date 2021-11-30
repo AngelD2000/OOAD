@@ -50,6 +50,8 @@ public class Menu {
         button.setMaxWidth(100);
         button.setLayoutX(Util.setDisplayX);
         button.setLayoutY(450);
+        button.setFont(Font.font("SansSerif"));
+
     }
 
     public Button getButton() {
