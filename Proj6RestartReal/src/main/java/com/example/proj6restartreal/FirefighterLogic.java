@@ -51,7 +51,7 @@ public class FirefighterLogic {
      * Cycles though the active firefighter
      */
     public void nextTurn(){
-        company.nextFirefighter();
+        company.nextFirefighter(actions-getActions());
         actions = 5;
     }
 

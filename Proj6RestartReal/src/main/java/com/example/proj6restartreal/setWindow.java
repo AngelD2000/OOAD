@@ -1,6 +1,7 @@
 package com.example.proj6restartreal;
 
 import javafx.event.EventHandler;
+import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
@@ -45,11 +46,12 @@ public class setWindow {
         }
     }
 
+
     /**
      * @param square
      * For every square, loops through the edges and draws the lines
      * */
-    public void drawWall(Square square) {
+    public void drawWall(Square square,boolean flag) {
         for(int i = 0; i < 4; i++){
             Edge edge = square.getEdge(i);
             if(edge != null){
@@ -83,7 +85,10 @@ public class setWindow {
                     line.setEndX(x);
                     line.setEndY(y + Util.length);
                 }
-                manager.getMainPane().getChildren().add(line);
+                if(flag){
+                    manager.getMainPane().getChildren().add(line);
+                }
+                manager.updateEdge(i,square);
             }
         }
     }
@@ -91,7 +96,7 @@ public class setWindow {
     /**
      * Uses the map iterator to loop through every single square and draws them
      * */
-    public void drawMap(){
+    public void drawMap(boolean flag){
         Map map = manager.getGame().getMap();
         while (map.hasNext()) {
             Square square = map.next();
@@ -102,13 +107,15 @@ public class setWindow {
             else{
                 rectangle.setFill(Color.WHITE);
             }
-            rectangle.setY(square.getX()*Util.length);
-            rectangle.setX(square.getY()*Util.length);
-            rectangle.setWidth(Util.length);
-            rectangle.setHeight(Util.length);
-            manager.getMainPane().getChildren().add(rectangle);
+            if(flag){
+                rectangle.setY(square.getX()*Util.length);
+                rectangle.setX(square.getY()*Util.length);
+                rectangle.setWidth(Util.length);
+                rectangle.setHeight(Util.length);
+                manager.getMainPane().getChildren().add(rectangle);
+            }
             manager.updateSquare(square);
-            drawWall(square);
+            drawWall(square,flag);
         }
         map.resetIterator();
     }
@@ -193,13 +200,20 @@ public class setWindow {
         damage.setX(Util.setDisplayX);
         damage.setY(410);
 
+        Button button = new Button("End Turn");
+        button.setMaxHeight(20);
+        button.setMaxWidth(100);
+        button.setLayoutX(Util.setDisplayX);
+        button.setLayoutY(450);
+
+
         status.add(currentFFStr);
         status.add(damage);
         status.add(peopleSaved);
         status.add(peoplePerished);
         status.add(nextFFStr);
         status.add(numActions);
-        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions);
+        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions,button);
     }
 
     /**

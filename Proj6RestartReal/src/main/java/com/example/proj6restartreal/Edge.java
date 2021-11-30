@@ -8,10 +8,7 @@ public class Edge{
     private int damage;
 
     public Edge(){
-        //Create a line
         this.line = new Line();
-        this.line.setFill(Color.BLACK);
-        this.line.setStrokeWidth(4);
         damage = 2;
     }
 

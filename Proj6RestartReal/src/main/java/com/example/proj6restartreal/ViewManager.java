@@ -114,14 +114,13 @@ public class ViewManager {
         if(damage == 1){
             line.getStrokeDashArray().addAll(25d, 15d);
             line.setStroke(Color.ORANGERED);
+            line.setStrokeWidth(5);
         }
         else if (damage == 0){
             square.setEdge(side, true);
             mainPane.getChildren().remove(line);
         }
     }
-
-
     /**
      * Removes all object that compose status and then re-add them with updated values
      */
@@ -151,10 +150,8 @@ public class ViewManager {
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                Square prevSquare = game.firefighterLogic.company.getActiveLocation();
                 game.takeAction(action,square);
-                updateSquare(square);
-                updateSquare(prevSquare);
+                window.drawMap(false);
                 updateStatus();
             }
         });
