@@ -38,7 +38,8 @@ public class FirefighterLogic {
                 //Can be moved to
                 else if (!target.hasFF()){
                     answer.add(Util.move);
-                    if(location.hasVictim()){
+                    if(location.hasVictim() && actions > 1){
+                        Util.print("Should drag");
                         answer.add(Util.drag);
                     }
                 }

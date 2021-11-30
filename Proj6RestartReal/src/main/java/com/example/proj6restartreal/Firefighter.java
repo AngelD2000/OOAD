@@ -3,12 +3,13 @@ package com.example.proj6restartreal;
 import javafx.scene.image.Image;
 
 public class Firefighter {
-    private Square location = null;
+    public int[] location = {0,0};
     private Image image = null;
     private int saved = 0;
-    Firefighter(Square square){
-        this.location = square;
-        this.location.setFF(this);
+    private Map map;
+    Firefighter(Map map, int x, int y){
+        this.map = map;
+        setLoc(x, y);
     }
 
     @Override
@@ -40,12 +41,13 @@ public class Firefighter {
     }
 
     public Square getLoc(){
-        return location;
+        return map.getLoc(location);
     }
 
-    public void setLoc(Square location){
-        this.location.removeFF();
-        this.location = location;
-        location.setFF(this);
+    public void setLoc(int x, int y){
+        map.getLoc(location).removeFF();
+        location[0] = x;
+        location[1] = y;
+        map.getLoc(location).setFF(this);
     }
 }

@@ -7,8 +7,10 @@ public class Company {
     Company(Game game){
         firefighters= new Firefighter[Util.numFirefighters];
         for (int i = 0; i < Util.numFirefighters; i++) {
-            Square location = game.getLoc(Util.firefighterLocations[i]);
-            firefighters[i] = new Firefighter(location);
+            int[] location = Util.firefighterLocations[i];
+            Util.print("This is it babyee!");
+            Util.print("" + location[0] + location[1]);
+            firefighters[i] = new Firefighter(game.getMap(), location[0], location[1]);
             firefighters[i].setImage(Util.firefighterImages[i]);
         }
     }
@@ -33,7 +35,7 @@ public class Company {
      * Moves the firefighter
      */
     public void move(Square square){
-        firefighters[activeFirefighter].setLoc(square);
+        firefighters[activeFirefighter].setLoc(square.getX(), square.getY());
     }
 
     /**
