@@ -56,8 +56,6 @@ public class ViewManager {
         mainStage = new Stage();
         window.createBorder();
         mainStage.setScene(mainScene);
-        menu.createButton();
-        mainPane.getChildren().add(menu.getButton());
     }
 
     public Stage getMainStage(){
@@ -159,14 +157,6 @@ public class ViewManager {
      * Updates the previous square
      */
     public void clickChoice(MenuItem item,Square square,int action){
-        Button button = menu.getButton();
-        button.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                game.endTurn();
-                updateStatus();
-            }
-        });
         item.setDisable(false);
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -210,5 +200,13 @@ public class ViewManager {
             });
         }
         map.resetIterator();
+        Button button = menu.getButton();
+        button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                game.endTurn();
+                updateStatus();
+            }
+        });
     }
 }

@@ -24,6 +24,8 @@ public class Flashpoint extends Application {
             manager.getWindow().drawMap(true);
             manager.getMenu().createMenu();
             manager.setMenu();
+            manager.getMenu().createButton();
+            manager.getMainPane().getChildren().add(manager.getMenu().getButton());
             primaryStage.show();
         }
         catch (Exception e){
