@@ -163,7 +163,7 @@ public class ViewManager {
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                game.firefighterLogic.nextTurn();
+                game.endTurn();
                 updateStatus();
             }
         });
