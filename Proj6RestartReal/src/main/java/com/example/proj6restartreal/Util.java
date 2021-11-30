@@ -67,4 +67,19 @@ public class Util {
         System.out.print(content);
     }
 
+    public static int getOppositeDirection(int dir) {
+        switch(dir) {
+            case Util.north:
+                return Util.south;
+            case Util.south:
+                return Util.north;
+            case Util.east:
+                return Util.west;
+            case Util.west:
+                return Util.east;
+            default:
+                return -1;
+        }
+    }
+
 }

@@ -18,6 +18,8 @@ public class Edge{
     public void doDamage(Game game){
         Util.print("Edge Damage\n");
         game.incrementDamage();
+
+
         damage -= 1;
     }
 

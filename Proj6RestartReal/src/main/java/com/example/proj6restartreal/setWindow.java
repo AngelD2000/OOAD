@@ -85,7 +85,7 @@ public class setWindow {
                     line.setEndX(x);
                     line.setEndY(y + Util.length);
                 }
-                if(flag){
+                if(flag && !manager.getMainPane().getChildren().contains(line)){
                     manager.getMainPane().getChildren().add(line);
                 }
                 manager.updateEdge(i,square);

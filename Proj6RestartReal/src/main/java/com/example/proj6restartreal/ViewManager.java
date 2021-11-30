@@ -114,6 +114,7 @@ public class ViewManager {
      * Problem: Need to know the damage on current edge
      * */
     public void updateEdge(int side, Square square){
+        //Handle first square
         Edge edge = square.getEdge(side);
         int damage = edge.getDamage();
         Line line = edge.getLine();
@@ -125,9 +126,16 @@ public class ViewManager {
             line.getStrokeDashArray().addAll(25d, 15d);
             line.setStroke(Color.ORANGERED);
             line.setStrokeWidth(5);
+
+//            line2.getStrokeDashArray().addAll(25d, 15d);
+//            line2.setStroke(Color.ORANGERED);
+//            line2.setStrokeWidth(5);
         }
         else if (damage == 0){
-            square.setEdge(side, true);
+            square.setEdge(side, null);
+            Square square2 = getGame().getMap().getSquareInDirection(square, side);
+            int dir2 = Util.getOppositeDirection(side);
+            square2.setEdge(dir2, null);
             mainPane.getChildren().remove(line);
         }
     }

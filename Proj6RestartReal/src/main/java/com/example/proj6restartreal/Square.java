@@ -13,7 +13,7 @@ public interface Square {
 
     Rectangle getRectangle();
 
-    void setEdge(int direction, boolean setNull);
+    void setEdge(int direction, Edge edge);
 
     Edge getEdge(int direction);
 
@@ -89,8 +89,8 @@ class SquareDecorator implements Square {
     }
 
     @Override
-    public void setEdge(int direction, boolean setNull) {
-        base.setEdge(direction, setNull);
+    public void setEdge(int direction, Edge edge) {
+        base.setEdge(direction, edge);
     }
 
     @Override
@@ -198,13 +198,14 @@ class BaseSquare implements Square {
         this.y = y;
     }
 
-    public void setEdge(int direction, boolean setNull) {
-        if(setNull) {
-            edges[direction] = null;
-        }
-        else {
-            edges[direction] = new Edge();
-        }
+    public void setEdge(int direction, Edge edge) {
+        edges[direction] = edge;
+//        if(setNull) {
+//            edges[direction] = null;
+//        }
+//        else {
+//            edges[direction] = edge;
+//        }
 
     }
 
