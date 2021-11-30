@@ -209,4 +209,29 @@ public class setWindow {
         status.add(numActions);
         manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions);
     }
+
+    /**
+     * Wait for mouse click event for all squares
+     */
+    public void setMenu(){
+        Map map = manager.getGame().getMap();
+        while(map.hasNext()){
+            Square square = map.next();
+            square.getRectangle().setOnMouseClicked(new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent mouseEvent) {
+                    manager.actionMenu(square,mouseEvent);
+                }
+            });
+        }
+        map.resetIterator();
+        Button button = manager.getMenu().getButton();
+        button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                manager.getGame().endTurn();
+                manager.updateStatus();
+            }
+        });
+    }
 }

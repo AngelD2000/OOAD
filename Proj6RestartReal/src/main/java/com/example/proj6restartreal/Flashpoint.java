@@ -23,7 +23,7 @@ public class Flashpoint extends Application {
             primaryStage = manager.getMainStage();
             manager.getWindow().drawMap(true);
             manager.getMenu().createMenu();
-            manager.setMenu();
+            manager.getWindow().setMenu();
             manager.getMenu().createButton();
             manager.getMainPane().getChildren().add(manager.getMenu().getButton());
             primaryStage.show();
