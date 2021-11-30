@@ -9,6 +9,7 @@ public class Edge{
 
     public Edge(){
         this.line = new Line();
+        this.line.setStrokeWidth(5);
         damage = 2;
     }
 
@@ -18,8 +19,6 @@ public class Edge{
     public void doDamage(Game game){
         Util.print("Edge Damage\n");
         game.incrementDamage();
-
-
         damage -= 1;
     }
 
