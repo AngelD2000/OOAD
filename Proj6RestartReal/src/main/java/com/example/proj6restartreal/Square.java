@@ -398,6 +398,11 @@ class OutsideSquare extends SquareDecorator {
     public Square addVictim() {
         return this;
     }
+    //Can't add victim to outside
+    @Override
+    public Square removeVictim() {
+        return this;
+    }
 }
 
 class PoiSquare extends SquareDecorator {
