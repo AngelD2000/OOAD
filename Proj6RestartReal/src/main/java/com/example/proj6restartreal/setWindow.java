@@ -49,49 +49,53 @@ public class setWindow {
 
 
     /**
-     * @param square
+     * @param map
      * For every square, loops through the edges and draws the lines
      * */
-    public void drawWall(Square square,boolean flag) {
-        for(int i = 0; i < 4; i++){
-            Edge edge = square.getEdge(i);
-            if(edge != null){
-                Line line = edge.getLine();
-                double x = square.getRectangle().getX();
-                double y = square.getRectangle().getY();
+    public void drawWall(boolean flag,Map map) {
+        while(map.hasNext()){
+            Square square = map.next();
+            for(int i = 0; i < 4; i++){
+                Edge edge = square.getEdge(i);
+                if(edge != null){
+                    Line line = edge.getLine();
+                    double x = square.getRectangle().getX();
+                    double y = square.getRectangle().getY();
 
-                if(i == 0){
-                    line.setStartX(x);
-                    line.setStartY(y);
-                    line.setEndX(Util.length + x);
-                    line.setEndY(y);
-                }
-                else if(i == 1){
-                    line.setStartX(x);
-                    line.setStartY(y + Util.length);
-                    line.setEndX(Util.length + x);
-                    line.setEndY(y + Util.length);
+                    if(i == 0){
+                        line.setStartX(x);
+                        line.setStartY(y);
+                        line.setEndX(Util.length + x);
+                        line.setEndY(y);
+                    }
+                    else if(i == 1){
+                        line.setStartX(x);
+                        line.setStartY(y + Util.length);
+                        line.setEndX(Util.length + x);
+                        line.setEndY(y + Util.length);
 
-                }
-                else if(i == 2){
-                    line.setStartX(Util.length + x);
-                    line.setStartY(y);
-                    line.setEndX(Util.length + x);
-                    line.setEndY(y+ Util.length);
-                }
+                    }
+                    else if(i == 2){
+                        line.setStartX(Util.length + x);
+                        line.setStartY(y);
+                        line.setEndX(Util.length + x);
+                        line.setEndY(y+ Util.length);
+                    }
 
-                else {
-                    line.setStartX(x);
-                    line.setStartY(y);
-                    line.setEndX(x);
-                    line.setEndY(y + Util.length);
+                    else {
+                        line.setStartX(x);
+                        line.setStartY(y);
+                        line.setEndX(x);
+                        line.setEndY(y + Util.length);
+                    }
+                    if(flag && !manager.getMainPane().getChildren().contains(line)){
+                        manager.getMainPane().getChildren().add(line);
+                    }
+                    manager.updateEdge(i,square);
                 }
-                if(flag && !manager.getMainPane().getChildren().contains(line)){
-                    manager.getMainPane().getChildren().add(line);
-                }
-                manager.updateEdge(i,square);
             }
         }
+        map.resetIterator();
     }
 
     /**
@@ -116,9 +120,9 @@ public class setWindow {
                 manager.getMainPane().getChildren().add(rectangle);
             }
             manager.updateSquare(square);
-            drawWall(square,flag);
         }
         map.resetIterator();
+        drawWall(flag,map);
     }
 
 
