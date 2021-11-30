@@ -111,7 +111,11 @@ public class ViewManager {
         Edge edge = square.getEdge(side);
         int damage = edge.getDamage();
         Line line = edge.getLine();
-        if(damage == 1){
+        if(damage == 2){
+            line.setStroke(Color.BLACK);
+            line.setStrokeWidth(4);
+        }
+        else if(damage == 1){
             line.getStrokeDashArray().addAll(25d, 15d);
             line.setStroke(Color.ORANGERED);
             line.setStrokeWidth(5);
@@ -151,6 +155,7 @@ public class ViewManager {
             @Override
             public void handle(ActionEvent actionEvent) {
                 game.takeAction(action,square);
+                //This currently works
                 window.drawMap(false);
                 updateStatus();
             }
