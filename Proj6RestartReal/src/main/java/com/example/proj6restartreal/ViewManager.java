@@ -172,6 +172,7 @@ public class ViewManager {
             @Override
             public void handle(ActionEvent actionEvent) {
                 game.takeAction(action,square);
+                setMenu();
                 //This currently works
                 window.drawMap(false);
                 updateStatus();
@@ -192,5 +193,22 @@ public class ViewManager {
             MenuItem item = menu.getMenuItems().get(action);
             clickChoice(item, square, action);
         }
+    }
+
+    /**
+     * Wait for mouse click event for all squares
+     */
+    public void setMenu(){
+        Map map = game.getMap();
+        while(map.hasNext()){
+            Square square = map.next();
+            square.getRectangle().setOnMouseClicked(new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent mouseEvent) {
+                    actionMenu(square,mouseEvent);
+                }
+            });
+        }
+        map.resetIterator();
     }
 }
