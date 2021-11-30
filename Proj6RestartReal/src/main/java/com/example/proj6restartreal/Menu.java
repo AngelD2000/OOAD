@@ -3,6 +3,8 @@ package com.example.proj6restartreal;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
+import javafx.scene.text.Font;
+
 import java.util.ArrayList;
 
 public class Menu {
@@ -18,6 +20,7 @@ public class Menu {
     private MenuItem getMenuItems(String menuName){
         Label menuLabel = new Label(menuName);
         menuLabel.setStyle("-fx-padding: 5 10 5 10");
+        menuLabel.setFont(Font.font("SansSerif"));
         MenuItem mi = new MenuItem();
         mi.setGraphic(menuLabel);
         this.menuItems.add(mi);
