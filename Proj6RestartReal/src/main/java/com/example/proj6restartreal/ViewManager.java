@@ -3,6 +3,7 @@ package com.example.proj6restartreal;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
@@ -52,6 +53,8 @@ public class ViewManager {
         mainStage = new Stage();
         window.createBorder();
         mainStage.setScene(mainScene);
+        menu.createButton();
+        mainPane.getChildren().add(menu.getButton());
     }
 
     public Stage getMainStage(){
@@ -150,6 +153,14 @@ public class ViewManager {
      * Updates the previous square
      */
     public void clickChoice(MenuItem item,Square square,int action){
+        Button button = menu.getButton();
+        button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                game.endTurn();
+                updateStatus();
+            }
+        });
         item.setDisable(false);
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -163,7 +174,6 @@ public class ViewManager {
     }
 
     /**
-     * @param square
      * @param mouseEvent
      * Displays the menu, for available actions, enables the option
      */
@@ -172,9 +182,9 @@ public class ViewManager {
         menu.disableAll();
         menu.getCm().show(square.getRectangle(),mouseEvent.getScreenX(),mouseEvent.getScreenY());
         ArrayList<Integer> actions = ffLogic.getActions(square);
-        for(int i = 0; i < actions.size();i++){
-            MenuItem item = menu.getMenuItems().get(actions.get(i));
-            clickChoice(item,square,actions.get(i));
+        for (Integer action : actions) {
+            MenuItem item = menu.getMenuItems().get(action);
+            clickChoice(item, square, action);
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.example.proj6restartreal;
 
+import javafx.scene.control.Button;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
@@ -10,6 +11,8 @@ import java.util.ArrayList;
 public class Menu {
     private ContextMenu cm = new ContextMenu();
     private ArrayList<MenuItem> menuItems = new ArrayList<MenuItem>();
+    private Button button = new Button("End Turn");
+
     public void createMenu(){
         cm.getItems().add(getMenuItems("move"));
         cm.getItems().add(getMenuItems("drag"));
@@ -17,6 +20,7 @@ public class Menu {
         cm.getItems().add(getMenuItems("chop"));
 
     }
+
     private MenuItem getMenuItems(String menuName){
         Label menuLabel = new Label(menuName);
         menuLabel.setStyle("-fx-padding: 5 10 5 10");
@@ -41,5 +45,14 @@ public class Menu {
         }
     }
 
+    public void createButton(){
+        button.setMaxHeight(20);
+        button.setMaxWidth(100);
+        button.setLayoutX(Util.setDisplayX);
+        button.setLayoutY(450);
+    }
 
+    public Button getButton() {
+        return button;
+    }
 }

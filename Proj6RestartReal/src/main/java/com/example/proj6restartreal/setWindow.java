@@ -1,5 +1,6 @@
 package com.example.proj6restartreal;
 
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
@@ -21,7 +22,6 @@ public class setWindow {
     setWindow(ViewManager manager){
         this.manager = manager;
     }
-
 
     public ArrayList<Text> getStatus() {
         return status;
@@ -79,7 +79,7 @@ public class setWindow {
                     line.setEndY(y+ Util.length);
                 }
 
-                else if(i == 3){
+                else {
                     line.setStartX(x);
                     line.setStartY(y);
                     line.setEndX(x);
@@ -200,20 +200,13 @@ public class setWindow {
         damage.setX(Util.setDisplayX);
         damage.setY(410);
 
-        Button button = new Button("End Turn");
-        button.setMaxHeight(20);
-        button.setMaxWidth(100);
-        button.setLayoutX(Util.setDisplayX);
-        button.setLayoutY(450);
-
-
         status.add(currentFFStr);
         status.add(damage);
         status.add(peopleSaved);
         status.add(peoplePerished);
         status.add(nextFFStr);
         status.add(numActions);
-        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions,button);
+        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions);
     }
 
     /**
