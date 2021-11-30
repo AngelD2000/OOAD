@@ -109,16 +109,18 @@ public class ViewManager {
      * */
     public void updateEdge(int side, Square square){
         Edge edge = square.getEdge(side);
-        int damage = edge.getDamage();
-        Line line = edge.getLine();
-        if(damage == 1){
-            line.getStrokeDashArray().addAll(25d, 15d);
-            line.setStroke(Color.ORANGERED);
-            line.setStrokeWidth(5);
-        }
-        else if (damage == 0){
-            square.setEdge(side, true);
-            mainPane.getChildren().remove(line);
+        if(edge != null){
+            int damage = edge.getDamage();
+            Line line = edge.getLine();
+            if(damage == 1){
+                line.getStrokeDashArray().addAll(25d, 15d);
+                line.setStroke(Color.ORANGERED);
+                line.setStrokeWidth(5);
+            }
+            else if (damage == 0){
+                square.setEdge(side, true);
+                mainPane.getChildren().remove(line);
+            }
         }
     }
     /**
@@ -150,7 +152,13 @@ public class ViewManager {
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
+                Square prevSquare = game.firefighterLogic.company.getActiveLocation();
                 game.takeAction(action,square);
+//                updateSquare(square);
+//                updateSquare(prevSquare);
+//                for(int i = 0; i < 4; i++){
+//                    updateEdge(i,square);
+//                }
                 window.drawMap(false);
                 updateStatus();
             }
