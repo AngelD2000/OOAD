@@ -36,7 +36,7 @@ public class FirefighterLogic {
                     answer.add(Util.hose);
                 }
                 //Can be moved to
-                else{
+                else if (!target.hasFF()){
                     answer.add(Util.move);
                     if(location.hasVictim()){
                         answer.add(Util.drag);
@@ -65,7 +65,7 @@ public class FirefighterLogic {
     }
 
     public void hose(Square square){
-        square.removeFire();
+        game.getMap().updateSquare(square, Util.removeFire);
         actions -= 1;
     }
 
