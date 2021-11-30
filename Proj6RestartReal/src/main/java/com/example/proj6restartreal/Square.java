@@ -265,7 +265,7 @@ class BaseSquare implements Square {
 
     @Override
     public Square addFire() {
-        return new FireSquare(this);
+        return new SmokeSquare(this);
     }
 
     @Override
