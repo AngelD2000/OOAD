@@ -6,6 +6,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class setWindow {
     private final ViewManager manager;
@@ -70,6 +71,11 @@ public class setWindow {
         nextFFStr.setX(Util.setDisplayX);
         nextFFStr.setY(130);
 
+        Text fireLast = new Text("Fire Last Added: " + Arrays.deepToString(manager.getGame().getFireLogic().getLastFireCoord()));
+        fireLast.setFont(Font.font("SansSerif"));
+        fireLast.setX(Util.setDisplayX);
+        fireLast.setY(330);
+
         Text peopleSaved = new Text("Victims Saved: " + manager.getGame().building.saved);
         peopleSaved.setFont(Font.font("SansSerif"));
         peopleSaved.setX(Util.setDisplayX);
@@ -91,7 +97,9 @@ public class setWindow {
         status.add(peoplePerished);
         status.add(nextFFStr);
         status.add(numActions);
-        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved, peoplePerished,nextFFStr,numActions);
+        status.add(fireLast);
+        manager.getMainPane().getChildren().addAll(currentFFStr,damage, peopleSaved,
+                peoplePerished,nextFFStr,numActions,fireLast);
     }
 
     public ViewManager getManager() {

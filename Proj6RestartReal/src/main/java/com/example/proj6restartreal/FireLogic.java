@@ -1,13 +1,29 @@
 package com.example.proj6restartreal;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class FireLogic {
     Map map;
     Building building;
     Game game;
+    private int[][] lastFireCoord = new int[1][];
+
     FireLogic(Map map, Building building, Game game){
         this.map = map;
         this.building = building;
         this.game = game;
+    }
+
+    public void storeFire(int x, int y){
+        int[] temp = new int[2];
+        temp[0] = x;
+        temp[1] =y;
+        lastFireCoord[0] = temp;
+    }
+
+    public int[][] getLastFireCoord() {
+        return lastFireCoord;
     }
 
     /**
@@ -15,6 +31,7 @@ public class FireLogic {
      */
     public void advanceFire(){
         Square square = map.getRandomSquare();
+        storeFire(square.getX(),square.getY());
         Util.print("Added fire: " + square.getX() + " " + square.getY() + "\n");
         building.killPoi(square);
         if(square.hasFire()){

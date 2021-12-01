@@ -12,10 +12,10 @@ import javafx.scene.text.Font;
 import java.util.ArrayList;
 
 public class Menu {
-    private ViewManager manager;
-    private ContextMenu cm = new ContextMenu();
-    private ArrayList<MenuItem> menuItems = new ArrayList<MenuItem>();
-    private Button button = new Button("End Turn");
+    private final ViewManager manager;
+    private final ContextMenu cm = new ContextMenu();
+    private final ArrayList<MenuItem> menuItems = new ArrayList<MenuItem>();
+    private final Button button = new Button("End Turn");
 
     Menu(ViewManager manager){
         this.manager = manager;
@@ -86,6 +86,7 @@ public class Menu {
             @Override
             public void handle(ActionEvent actionEvent) {
                 manager.getGame().endTurn();
+                manager.getWindow().drawMap(false);
                 manager.updateStatus();
             }
         });

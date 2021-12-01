@@ -180,6 +180,10 @@ public class ViewManager {
         return menu;
     }
 
+    public setWindow getWindow() {
+        return window;
+    }
+
     public AnchorPane getMainPane() {
         return mainPane;
     }
