@@ -36,6 +36,7 @@ public class Building {
         if(square.hasPoi()){
             flipPoi(square);
         }
+        square = map.getLoc(new int[]{square.getX(), square.getY()});
         if(square.hasVictim()){
             map.updateSquare(square, Util.removeVict);
             perished+=1;
@@ -47,7 +48,6 @@ public class Building {
         double random_int = Math.random();
         double odds = (maxVictims - victims) / (maxVictims + maxBlanks - victims - blanks);
         Util.print( "" + random_int + " and the odds were" + odds);
-        Util.print( "Max victims" + maxVictims + " victims" + victims);
         //It's a victim!
         if (random_int <= odds){
             victims += 1;

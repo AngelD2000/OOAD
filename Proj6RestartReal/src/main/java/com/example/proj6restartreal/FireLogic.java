@@ -16,6 +16,7 @@ public class FireLogic {
     public void advanceFire(){
         Square square = map.getRandomSquare();
         Util.print("Added fire: " + square.getX() + " " + square.getY() + "\n");
+        building.killPoi(square);
         if(square.hasFire()){
             explosion(square);
         }
@@ -27,7 +28,7 @@ public class FireLogic {
             if(square.hasSmoke() && map.fireAdjacent(square)){
                 map.updateSquare(square, Util.addFire);
             }
-            if(square.hasFire() && square.hasPoi()){
+            if((square.hasFire() || square.hasSmoke()) && (square.hasPoi() || square.hasVictim())){
                 building.killPoi(square);
             }
         }
@@ -37,6 +38,7 @@ public class FireLogic {
      * Makes an indicated square fire
      */
     public void makeFire(Square square){
+        building.killPoi(square);
         while(!square.hasFire() && !square.isOutside()){
             map.updateSquare(square, Util.addFire);
             square = map.getLoc(new int[]{square.getX(), square.getY()});
