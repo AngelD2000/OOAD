@@ -21,9 +21,7 @@ public class Flashpoint extends Application {
         try{
 
             primaryStage = manager.getMainStage();
-            manager.getWindow().drawMap(true);
-            manager.getMenu().createMenu();
-            manager.setMenu();
+            manager.initialDisplay();
             primaryStage.show();
         }
         catch (Exception e){

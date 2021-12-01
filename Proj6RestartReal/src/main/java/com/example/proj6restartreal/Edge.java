@@ -9,6 +9,7 @@ public class Edge{
 
     public Edge(){
         this.line = new Line();
+        this.line.setStrokeWidth(5);
         damage = 2;
     }
 

@@ -1,11 +1,8 @@
 package com.example.proj6restartreal;
 
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
@@ -15,59 +12,44 @@ import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
-import javafx.stage.Popup;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
 
 public class ViewManager {
 
-    private AnchorPane mainPane;
-    private Scene mainScene;
-    private Stage mainStage;
+    private final AnchorPane mainPane;
+    private final Stage mainStage;
 
-    private Game game = new Game();
-    private Menu menu = new Menu();
-    private setWindow window;
-
-
-    public Game getGame() {
-        return game;
-    }
-
-    public Menu getMenu() {
-        return menu;
-    }
-
-    public setWindow getWindow() {
-        return window;
-    }
-
-    public AnchorPane getMainPane() {
-        return mainPane;
-    }
+    private final Game game = new Game();
+    private final Menu menu = new Menu(this);
+    private final setWindow window;
 
     public ViewManager(){
         //Pane is the canvas we're putting stuff on
         mainPane = new AnchorPane();
         window = new setWindow(this);
         //Scene - how big the canvas is
-        mainScene = new Scene(mainPane,Util.WIDTH,Util.HEIGHT);
+        Scene mainScene = new Scene(mainPane, Util.WIDTH, Util.HEIGHT);
         mainStage = new Stage();
         window.createBorder();
         mainStage.setScene(mainScene);
-        menu.createButton();
-        mainPane.getChildren().add(menu.getButton());
-    }
-
-    public Stage getMainStage(){
-        return mainStage;
     }
 
     /**
-     * @param:
-     *      - square
-     * Updates the square according to its properties
+     * These are what needs to be set up for UI during the initial launch for the program
+     */
+    public void initialDisplay(){
+        window.drawMap(true);
+        menu.createMenu();
+        menu.setMenu();
+        menu.createButton();
+        getMainPane().getChildren().add(menu.getButton());
+    }
+
+    /**
+     * @param: square
+     * Updates the square with images based on the properties it contains
      * */
     public void updateSquare(Square square) {
         Image image = null;
@@ -90,6 +72,7 @@ public class ViewManager {
             if (square.hasVictim()){
                 image = new Image(Util.personPath);
             }
+            assert image != null;
             ImagePattern pattern = new ImagePattern(image);
             rect.setFill(pattern);
         }
@@ -104,14 +87,11 @@ public class ViewManager {
     }
 
     /**
-     * @param:
-     *      - side, square, damage on that wall
-     * Updates the edge according to damage taken
-     * - 2: good edge
-     * - 1: dashed edge
-     * - 0: remove edge
-     * TODO: Update edge
-     * Problem: Need to know the damage on current edge
+     * @param: side, square
+     * Updates the walls according to damage taken
+     * 2 - Normal wall
+     * 1 - Partial wall
+     * 0 - Remove wall
      * */
     public void updateEdge(int side, Square square){
         Edge edge = square.getEdge(side);
@@ -119,12 +99,10 @@ public class ViewManager {
         Line line = edge.getLine();
         if(damage == 2){
             line.setStroke(Color.BLACK);
-            line.setStrokeWidth(4);
         }
         else if(damage == 1){
             line.getStrokeDashArray().addAll(25d, 15d);
             line.setStroke(Color.ORANGERED);
-            line.setStrokeWidth(5);
         }
         else if (damage == 0){
             square.setEdge(side, null);
@@ -134,45 +112,44 @@ public class ViewManager {
             mainPane.getChildren().remove(line);
         }
     }
+
+
+
     /**
-     * Removes all object that compose status and then re-add them with updated values
+     * Display the updated status of the current game on the right side of the board
+     * - Number of turns
+     * - Which FireFighter
+     * - How many people are saved
+     * - How many people died
+     * - Building damage
      */
     public void updateStatus(){
         ArrayList<Text> status = window.getStatus();
         ArrayList<Rectangle> ffRect = window.getFfRect();
-        for(int i = 0; i < status.size(); i++){
-            mainPane.getChildren().remove(status.get(i));
+        for (Text text : status) {
+            mainPane.getChildren().remove(text);
         }
-        for(int j = 0; j < ffRect.size(); j++){
-            mainPane.getChildren().removeAll(ffRect.get(j));
+        for (Rectangle rectangle : ffRect) {
+            mainPane.getChildren().removeAll(rectangle);
         }
         window.setStatus();
 
     }
 
     /**
-     * @param item
-     * @param square
      * @param action
      * Takes the action user choose
-     * Updates the current square
-     * Updates the previous square
+     * Reset the menu after each action is taken
+     * Updates map
+     * Updates the status
      */
     public void clickChoice(MenuItem item,Square square,int action){
-        Button button = menu.getButton();
-        button.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                game.firefighterLogic.nextTurn();
-                updateStatus();
-            }
-        });
         item.setDisable(false);
         item.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 game.takeAction(action,square);
-                setMenu();
+                menu.setMenu();
                 //This currently works
                 window.drawMap(false);
                 updateStatus();
@@ -182,7 +159,7 @@ public class ViewManager {
 
     /**
      * @param mouseEvent
-     * Displays the menu, for available actions, enables the option
+     * Displays the menu, for available actions enable the option for user to choose
      */
     public void actionMenu(Square square, MouseEvent mouseEvent) {
         FirefighterLogic ffLogic = game.firefighterLogic;
@@ -195,20 +172,20 @@ public class ViewManager {
         }
     }
 
-    /**
-     * Wait for mouse click event for all squares
-     */
-    public void setMenu(){
-        Map map = game.getMap();
-        while(map.hasNext()){
-            Square square = map.next();
-            square.getRectangle().setOnMouseClicked(new EventHandler<MouseEvent>() {
-                @Override
-                public void handle(MouseEvent mouseEvent) {
-                    actionMenu(square,mouseEvent);
-                }
-            });
-        }
-        map.resetIterator();
+    public Game getGame() {
+        return game;
     }
+
+    public Menu getMenu() {
+        return menu;
+    }
+
+    public AnchorPane getMainPane() {
+        return mainPane;
+    }
+
+    public Stage getMainStage(){
+        return mainStage;
+    }
+
 }
