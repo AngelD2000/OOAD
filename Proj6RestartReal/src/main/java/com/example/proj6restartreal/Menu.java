@@ -15,13 +15,15 @@ public class Menu {
     private final ViewManager manager;
     private final ContextMenu cm = new ContextMenu();
     private final ArrayList<MenuItem> menuItems = new ArrayList<MenuItem>();
-    private final Button button = new Button("End Turn");
+    private final Button endButton = new Button("End Turn");
 
     Menu(ViewManager manager){
         this.manager = manager;
     }
 
-
+    /**
+     * Creates the interactive menu with options when each square is clicked
+     */
     public void createMenu(){
         cm.getItems().add(getMenuItems("move"));
         cm.getItems().add(getMenuItems("drag"));
@@ -30,6 +32,10 @@ public class Menu {
 
     }
 
+    /**
+     * @param menuName Pass in the name of menuItem want to create
+     * @return The menuItem object from javafx
+     */
     private MenuItem getMenuItems(String menuName){
         Label menuLabel = new Label(menuName);
         menuLabel.setStyle("-fx-padding: 5 10 5 10");
@@ -40,32 +46,29 @@ public class Menu {
         return mi;
     }
 
-    public ContextMenu getCm() {
-        return cm;
-    }
-
-    public ArrayList<MenuItem> getMenuItems() {
-        return menuItems;
-    }
-
+    /**
+     * At the beginning of each turn, disable all choices for each square, only when the action is available
+     * will the choice be enabled
+     */
     public void disableAll(){
         for(int i = 0; i < menuItems.size(); i++){
             menuItems.get(i).setDisable(true);
         }
     }
 
+
+    /**
+     * Create the end turn button
+     */
     public void createButton(){
-        button.setMaxHeight(20);
-        button.setMaxWidth(100);
-        button.setLayoutX(Util.setDisplayX);
-        button.setLayoutY(450);
-        button.setFont(Font.font("SansSerif"));
+        this.endButton.setMaxHeight(20);
+        this.endButton.setMaxWidth(100);
+        this.endButton.setLayoutX(Util.setDisplayX);
+        this.endButton.setLayoutY(450);
+        this.endButton.setFont(Font.font("SansSerif"));
 
     }
 
-    public Button getButton() {
-        return button;
-    }
     /**
      * Wait for mouse click event for all squares
      */
@@ -81,8 +84,7 @@ public class Menu {
             });
         }
         map.resetIterator();
-        Button button = manager.getMenu().getButton();
-        button.setOnAction(new EventHandler<ActionEvent>() {
+        endButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 manager.getGame().endTurn();
@@ -90,5 +92,17 @@ public class Menu {
                 manager.updateStatus();
             }
         });
+    }
+
+    public ContextMenu getCm() {
+        return cm;
+    }
+
+    public ArrayList<MenuItem> getMenuItems() {
+        return menuItems;
+    }
+
+    public Button getButton() {
+        return endButton;
     }
 }

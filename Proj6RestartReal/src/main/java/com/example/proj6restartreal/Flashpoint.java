@@ -8,7 +8,7 @@ import java.io.IOException;
 //https://stackoverflow.com/questions/35294207/place-multiple-rectangles-in-javafx-randomly
 
 public class Flashpoint extends Application {
-    private ViewManager manager = new ViewManager();
+    private final ViewManager manager = new ViewManager();
 
     /**
      * This function is at the top most level of the program with Applications

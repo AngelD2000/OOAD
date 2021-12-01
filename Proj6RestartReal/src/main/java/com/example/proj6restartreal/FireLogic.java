@@ -7,7 +7,7 @@ public class FireLogic {
     Map map;
     Building building;
     Game game;
-    private int[][] lastFireCoord = new int[1][];
+    private final int[][] lastFireCoord = new int[1][];
 
     FireLogic(Map map, Building building, Game game){
         this.map = map;
@@ -15,6 +15,11 @@ public class FireLogic {
         this.game = game;
     }
 
+    /**
+     * Stores the coordinate of where the last fire occured
+     * @param x coordinate
+     * @param y coordinate
+     */
     public void storeFire(int x, int y){
         int[] temp = new int[2];
         temp[0] = x;
@@ -22,6 +27,9 @@ public class FireLogic {
         lastFireCoord[0] = temp;
     }
 
+    /**
+     * Gets the last fire coordinate
+     */
     public int[][] getLastFireCoord() {
         return lastFireCoord;
     }
