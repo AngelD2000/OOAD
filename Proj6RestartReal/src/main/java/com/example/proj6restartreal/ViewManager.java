@@ -2,16 +2,20 @@ package com.example.proj6restartreal;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
@@ -170,6 +174,22 @@ public class ViewManager {
             MenuItem item = menu.getMenuItems().get(action);
             clickChoice(item, square, action);
         }
+    }
+
+    /**
+     * @param message
+     * Displays the message passed in after clearing the whole screen
+     */
+    public void endUI(String message){
+        mainPane.getChildren().clear();
+        StackPane stack = new StackPane();
+        Text finalMessage = new Text(message);
+        finalMessage.setFont(Font.font("SansSerif", 60));
+        finalMessage.setTextAlignment(TextAlignment.CENTER);
+        stack.getChildren().add(finalMessage);
+        StackPane.setAlignment(finalMessage, Pos.CENTER);
+        Scene stackScene = new Scene(stack, Util.WIDTH, Util.HEIGHT);
+        mainStage.setScene(stackScene);
     }
 
     public Game getGame() {
