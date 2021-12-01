@@ -8,7 +8,7 @@ public class Building {
 
     int saved = 0;
     int perished = 0;
-    int victims = 0;
+    double victims = 0.0;
     int blanks = 0;
     int numTokens = 0;
 
@@ -44,10 +44,12 @@ public class Building {
     }
     public void flipPoi(Square square){
         map.updateSquare(square, Util.removePoi);
-        double random_int = Math.random()*(2);
+        double random_int = Math.random();
         double odds = (maxVictims - victims) / (maxVictims + maxBlanks - victims - blanks);
+        Util.print( "" + random_int + " and the odds were" + odds);
+        Util.print( "Max victims" + maxVictims + " victims" + victims);
         //It's a victim!
-        if (random_int >= odds){
+        if (random_int <= odds){
             victims += 1;
             map.updateSquare(square, Util.addVict);
         }
@@ -65,7 +67,7 @@ public class Building {
     public void placePoi(){
         while(numTokens < maxTokens){
             Square loc = map.getRandomSquare();
-            while(loc.hasFire() || loc.hasSmoke() || loc.hasPoi()){
+            while(loc.hasFire() || loc.hasSmoke() || loc.hasPoi() || loc.hasFF() || loc.hasVictim()){
                 loc = map.getRandomSquare();
             }
             map.updateSquare(loc, Util.addPoi);

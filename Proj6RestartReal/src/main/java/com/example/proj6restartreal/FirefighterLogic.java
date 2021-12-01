@@ -39,7 +39,6 @@ public class FirefighterLogic {
                 else if (!target.hasFF()){
                     answer.add(Util.move);
                     if(location.hasVictim() && actions > 1){
-                        Util.print("Should drag");
                         answer.add(Util.drag);
                     }
                 }
@@ -81,6 +80,6 @@ public class FirefighterLogic {
         map.updateSquare(location, Util.removeVict);
         map.updateSquare(square, Util.addVict);
         move(square);
-        actions -= 2;
+        actions -= 1;
     }
 }

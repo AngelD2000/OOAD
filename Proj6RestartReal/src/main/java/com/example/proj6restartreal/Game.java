@@ -91,6 +91,7 @@ public class Game {
      */
     void endTurn(){
         //Spread fire
+        Util.print("Here\n");
         fireLogic.advanceFire();
         //Check end conditions
         if(building.getSaved() >= 7){

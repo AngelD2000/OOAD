@@ -21,15 +21,26 @@ public class FireLogic {
         }
         else{
             map.updateSquare(square, Util.addFire);
-            building.killPoi(square);
         }
         while(map.hasNext()){
             square = map.next();
             if(square.hasSmoke() && map.fireAdjacent(square)){
                 map.updateSquare(square, Util.addFire);
             }
+            if(square.hasFire() && square.hasPoi()){
+                building.killPoi(square);
+            }
         }
         map.resetIterator();
+    }
+    /**
+     * Makes an indicated square fire
+     */
+    public void makeFire(Square square){
+        while(!square.hasFire() && !square.isOutside()){
+            map.updateSquare(square, Util.addFire);
+            square = map.getLoc(new int[]{square.getX(), square.getY()});
+        }
     }
 
     /**
@@ -37,7 +48,7 @@ public class FireLogic {
      */
     public void explosion(Square square){
         Util.print("Explosion: " + square.getX() + ", " + square.getY() + "\n");
-        map.updateSquare(square, Util.addFire);
+        makeFire(square);
         for(int i = 0; i < 4; i++){
             translateExplosion(square, i);
         }
@@ -50,10 +61,7 @@ public class FireLogic {
      */
     public void translateExplosion(Square square, int direction){
         Square next = map.getSquareInDirection(square, direction);
-//        Util.print(next.getX() + ", " + next.getY() + " compared to " + square.getX() + ", " + square.getY() + "\n");
-//        Util.print(map.areAdjacent(square, next) + "\n");
         if(map.areAdjacent(square, next) == Util.wallBetween){
-            Util.print("Wall hit\n");
             Edge edge = map.getEdge(square, next);
             edge.doDamage(game);
         }
@@ -61,7 +69,7 @@ public class FireLogic {
             translateExplosion(next, direction);
         }
         else{
-            map.updateSquare(next, Util.addFire);
+            makeFire(next);
         }
     }
 }

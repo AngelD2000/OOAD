@@ -8,8 +8,6 @@ public class Company {
         firefighters= new Firefighter[Util.numFirefighters];
         for (int i = 0; i < Util.numFirefighters; i++) {
             int[] location = Util.firefighterLocations[i];
-            Util.print("This is it babyee!");
-            Util.print("" + location[0] + location[1]);
             firefighters[i] = new Firefighter(game.getMap(), location[0], location[1]);
             firefighters[i].setImage(Util.firefighterImages[i]);
         }

@@ -20,6 +20,7 @@ public class MapFactory {
     public void setup(Map map, FireLogic fireLogic, Building building){
         for(int i = 0; i < 4; i++){
             Square square = map.getRandomSquare();
+            square.addFire();
             fireLogic.explosion(square);
         }
         building.placePoi();
