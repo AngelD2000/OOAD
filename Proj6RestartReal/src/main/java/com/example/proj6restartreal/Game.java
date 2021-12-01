@@ -8,7 +8,9 @@ public class Game {
     FireLogic fireLogic = null;
     int damage = 24;
     Map map = null;
-    Game(){
+    ViewManager viewManager;
+    Game(ViewManager viewManager){
+        this.viewManager = viewManager;
         MapFactory mapFactory = MapFactory.getInstance();
         map = mapFactory.makeMap(this);
         building = new Building(map);
@@ -95,9 +97,15 @@ public class Game {
         //Check end conditions
         if(building.getSaved() >= 7){
             Util.print("The game ended in a victory!");
+            viewManager.endUI("The firefighters were victorious!");
         }
-        else if(building.getPerished() >= 4 || damage < 0){
+        else if(building.getPerished() >= 4){
             Util.print("The game ended in a loss...");
+            viewManager.endUI("Too many people were allowed to die...");
+        }
+        else if(damage < 0){
+            Util.print("The game ended in a loss...");
+            viewManager.endUI("The building collapsed before everyone was saved!");
         }
         //Add poi
         building.placePoi();

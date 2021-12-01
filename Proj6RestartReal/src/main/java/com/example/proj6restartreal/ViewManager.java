@@ -25,7 +25,7 @@ public class ViewManager {
     private final AnchorPane mainPane;
     private final Stage mainStage;
 
-    private final Game game = new Game();
+    private final Game game = new Game(this);
     private final Menu menu = new Menu(this);
     private final setWindow window;
 
