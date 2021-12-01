@@ -186,6 +186,7 @@ public class ViewManager {
         Text finalMessage = new Text(message);
         finalMessage.setFont(Font.font("SansSerif", 60));
         finalMessage.setTextAlignment(TextAlignment.CENTER);
+        finalMessage.setWrappingWidth(500);
         stack.getChildren().add(finalMessage);
         StackPane.setAlignment(finalMessage, Pos.CENTER);
         Scene stackScene = new Scene(stack, Util.WIDTH, Util.HEIGHT);
