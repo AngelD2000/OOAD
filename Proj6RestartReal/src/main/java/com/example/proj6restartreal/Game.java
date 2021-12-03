@@ -12,7 +12,7 @@ public class Game {
     Game(ViewManager viewManager){
         this.viewManager = viewManager;
         MapFactory mapFactory = MapFactory.getInstance();
-        map = mapFactory.makeMap(this);
+        map = mapFactory.makeMap();
         building = new Building(map);
         firefighterLogic = new FirefighterLogic(this);
         fireLogic = new FireLogic(map, building, this);

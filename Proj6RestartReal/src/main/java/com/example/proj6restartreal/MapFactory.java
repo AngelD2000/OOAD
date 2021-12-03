@@ -1,5 +1,9 @@
 package com.example.proj6restartreal;
 
+/**
+ * Abstract Factory pattern to create a static Map and set up all the squares and Edges within it
+ * Also a Singleton as there is no need for more than 1 factory object
+ */
 public class MapFactory {
     private static final MapFactory instance = new MapFactory();
     private MapFactory() {}
@@ -7,16 +11,23 @@ public class MapFactory {
         return instance;
     }
 
-    //Just guessing parameters this will need
-    public Map makeMap(Game game){
-        //Make the map
-        Map map = new Map();
-        buildStaticMap(map);
+    /**
+     * Create the game map
+     * @return Created Map
+     */
+    public Map makeMap(){
+        Map map = buildStaticMap();
         map.mapBasicPrint();
 
         return map;
     }
 
+    /**
+     * Handles initial fire and poi placement onto the map
+     * @param map default empty map
+     * @param fireLogic instance of logic defining fire behavior
+     * @param building instance of logic defining the building behavior
+     */
     public void setup(Map map, FireLogic fireLogic, Building building){
         for(int i = 0; i < 4; i++){
             Square square = map.getRandomSquare();
@@ -26,7 +37,12 @@ public class MapFactory {
         building.placePoi();
     }
 
-    private void buildStaticMap(Map map) {
+    /**
+     * Builds the static map for the game initializing all squares and edges in the exact configuration
+     * @return Map created
+     */
+    private Map buildStaticMap() {
+        Map map = new Map();
         //Add 32 Outside squares
         int[] edgesi = new int[] {0, Util.mapHeight-1};
         int[] edgesj = new int[] {0, Util.mapWidth-1};
@@ -41,6 +57,8 @@ public class MapFactory {
             }
         }
 
+        //All the edges between squares
+        //i=0
         Edge edge01_11 = new Edge();
         Edge edge02_12 = new Edge();
         Edge edge03_13 = new Edge();
@@ -49,10 +67,12 @@ public class MapFactory {
         Edge edge07_17 = new Edge();
         Edge edge08_18 = new Edge();
 
+        //i=1
         Edge edge10_11 = new Edge();
         Edge edge15_16 = new Edge();
         Edge edge18_19 = new Edge();
 
+        //i=2
         Edge edge20_21 = new Edge();
         Edge edge23_24 = new Edge();
         Edge edge28_29 = new Edge();
@@ -61,9 +81,11 @@ public class MapFactory {
         Edge edge25_35 = new Edge();
         Edge edge27_37 = new Edge();
 
+        //i=3
         Edge edge36_37 = new Edge();
         Edge edge38_39 = new Edge();
 
+        //i=4
         Edge edge40_41 = new Edge();
         Edge edge41_51 = new Edge();
         Edge edge42_43 = new Edge();
@@ -74,11 +96,13 @@ public class MapFactory {
         Edge edge47_57 = new Edge();
         Edge edge48_58 = new Edge();
 
+        //i=5
         Edge edge50_51 = new Edge();
         Edge edge55_56 = new Edge();
         Edge edge57_58 = new Edge();
         Edge edge58_59 = new Edge();
 
+        //i=6
         Edge edge60_61 = new Edge();
         Edge edge61_71 = new Edge();
         Edge edge62_72 = new Edge();
@@ -88,7 +112,6 @@ public class MapFactory {
         Edge edge67_77 = new Edge();
         Edge edge68_78 = new Edge();
         Edge edge68_69 = new Edge();
-
 
 
         //Add edges to squares
@@ -188,5 +211,6 @@ public class MapFactory {
         map.getLoc(new int[] {7, 8}).setEdge(Util.north, edge68_78);
         //7,9
 
+        return map;
     }
 }

@@ -3,6 +3,10 @@ package com.example.proj6restartreal;
 import java.util.*;
 import java.util.function.Consumer;
 
+/**
+ * This is the model in the MVC
+ * THis also is an iterator to enable iterating through all squares in the game map easily
+ */
 public class Map implements Iterator<Square> {
     private Square[][] map = new Square[Util.mapHeight][Util.mapWidth];
 
@@ -19,6 +23,11 @@ public class Map implements Iterator<Square> {
         }
     }
 
+    /**
+     * Update a square using the list of Square Update Parameters in Util
+     * @param square Square to update
+     * @param action action as defined in Util under Square Update
+     */
     public void updateSquare(Square square, int action) {
         int[] loc = getPos(square);
 
@@ -78,7 +87,6 @@ public class Map implements Iterator<Square> {
     public ArrayList<Square> getNeighbors(Square square) {
         int[] pos = getPos(square);
 
-
         ArrayList<Square> squares = new ArrayList<Square>();
         //Get right neighbor
         pos[0] += 1; //pos[0] + 1
@@ -100,13 +108,15 @@ public class Map implements Iterator<Square> {
         pos[1] -= 1; //pos[1] - 1
         squares.add(getLoc(pos));
 
-        // Strip null out of neighbors (will be null if on an edge where one or more neighbors doesnt exist
+        // Strip null out of neighbors (will be null if on an edge where one or more neighbors doesn't exist
         squares.removeAll(Collections.singleton(null));
         return squares;
     }
 
     /**
-     * Returns the adjacency of notAdjacent, wallBetween, or adjacent from Util
+     * Returns the adjacency of two squares as values from Util of notAdjacent, wallBetween, or adjacent.
+     * @param firstSquare first square
+     * @param secondSquare second square to check against
      * @return An integer representing the adjacency of two squares
      */
     public int areAdjacent(Square firstSquare, Square secondSquare) {
@@ -141,10 +151,10 @@ public class Map implements Iterator<Square> {
     }
 
     /**
-     * Returns an integer representation of the direction the second square is in relation to the first
-     * @param firstSquare
-     * @param secondSquare
-     * @return Int representing the direction the second square is in relation to the first
+     * Returns an integer representation of the direction the second square is in relation to the first based on the directions in Util
+     * @param firstSquare first square
+     * @param secondSquare second square to check against
+     * @return Int representing the direction the second square is in relation to the first from Util (north, south, east, west, -1)
      */
     private int getDirection(Square firstSquare, Square secondSquare) {
         ArrayList<Square> neighbors = getNeighbors(firstSquare);
@@ -171,6 +181,9 @@ public class Map implements Iterator<Square> {
 
     /**
      * Returns true if there is an edge between two squares
+     * @param firstSquare first square
+     * @param secondSquare second square to compare against
+     * @return Boolean
      */
     public boolean hasEdge(Square firstSquare, Square secondSquare){
         return getEdge(firstSquare, secondSquare) != null;
@@ -178,6 +191,9 @@ public class Map implements Iterator<Square> {
 
     /**
      * Returns edge between two squares
+     * @param firstSquare first square
+     * @param secondSquare second square to compare against
+     * @return Edge object between the two squares or null if no edge
      */
     public Edge getEdge(Square firstSquare, Square secondSquare){
         int direction = getDirection(firstSquare, secondSquare);
@@ -190,7 +206,9 @@ public class Map implements Iterator<Square> {
     }
 
     /**
-     * Get a random square on the map that is inside
+     * Get a random square on the map that is inside (Bounded 1 to Util.mapHeight-1 and 1 to Util.mapWidth-1 (exclude outside squares))
+     * @return Square randomly selected from inside the map
+     * @throws IllegalStateException if it tries to return an outside square (should never happen)
      */
     public Square getRandomSquare(){
         //Bounded 1 to Util.mapHeight-1 and 1 to Util.mapWidth-1 (exclude outside squares)
@@ -206,8 +224,11 @@ public class Map implements Iterator<Square> {
 
     /**
      * Gets the square in the direction relative to given square
+     * @param square square to start at
+     * @param direction Integer direction to look in based on directions in Util
+     * @return Square in the given direction or the input square if no square in that direction
      */
-    public Square getSquareInDirection(Square square, Integer direction){
+    public Square getSquareInDirection(Square square, int direction){
         int[] pos = getPos(square);
         // Determine new square coordinates
         switch(direction) {
@@ -225,7 +246,6 @@ public class Map implements Iterator<Square> {
                 break;
         }
         // Can't go that direction as it is an edge square
-//        Util.print("\nEDGE: " + direction + " to "+ pos[0] + " " + pos[1]);
         if(pos[0] < 0 || pos[0] >= Util.mapHeight || pos[1] < 0 || pos[1] >= Util.mapWidth) {
             return square;
         }
@@ -233,7 +253,7 @@ public class Map implements Iterator<Square> {
     }
 
     /**
-     * Resets the Iterator indexes to 0
+     * Resets the Iterator indexes to 0. Must be called after done iterating through the map
      */
     public void resetIterator() {
         rowIndex = 0;
@@ -252,6 +272,7 @@ public class Map implements Iterator<Square> {
     /**
      * Returns the next square in the map
      * @return Square
+     * @throws NoSuchElementException if no more squares to iterate over are available
      */
     @Override
     public Square next() {
@@ -269,6 +290,7 @@ public class Map implements Iterator<Square> {
 
     /**
      * Not implemented
+     * @throws UnsupportedOperationException Not implemented
      */
     @Override
     public void remove() {
@@ -277,12 +299,16 @@ public class Map implements Iterator<Square> {
 
     /**
      * Not implemented
+     * @throws UnsupportedOperationException Not implemented
      */
     @Override
     public void forEachRemaining(Consumer action) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
+    /**
+     * Testing function to print the map to CLI as a set of xy coordinates
+     */
     public void mapBasicPrint(){
         Square square;
         while(this.hasNext()){

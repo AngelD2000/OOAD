@@ -51,8 +51,8 @@ public class Menu {
      * will the choice be enabled
      */
     public void disableAll(){
-        for(int i = 0; i < menuItems.size(); i++){
-            menuItems.get(i).setDisable(true);
+        for (MenuItem menuItem : menuItems) {
+            menuItem.setDisable(true);
         }
     }
 

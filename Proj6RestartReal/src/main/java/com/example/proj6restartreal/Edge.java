@@ -1,6 +1,5 @@
 package com.example.proj6restartreal;
 
-import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 
 public class Edge{
@@ -24,7 +23,6 @@ public class Edge{
     public int getDamage(){
         return damage;
     }
-
 
     public Line getLine() {
         return line;
