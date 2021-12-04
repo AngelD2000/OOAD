@@ -112,7 +112,7 @@ public interface Square {
 }
 
 /**
- * Decorator for Squares to inherit from. Acts as a passthrough to the base square's implementation of functions unless
+ * Decorator for Squares to inherit from. Acts as a pass-through to the base square's implementation of functions
  */
 class SquareDecorator implements Square {
     Square base;

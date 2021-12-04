@@ -1,7 +1,7 @@
 package com.example.proj6restartreal;
 
 /**
- * Abstract Factory pattern to create a static Map and set up all the squares and Edges within it
+ * Factory pattern to create a static Map and set up all the squares and Edges within it
  * Also a Singleton as there is no need for more than 1 factory object
  */
 public class MapFactory {
