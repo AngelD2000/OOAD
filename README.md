@@ -6,7 +6,27 @@ Elly Landrum, Angel Dong, Sam Feig
 11.0.12
 
 ### Project 1 - Project 4 ###
-#### Description: 
+#### Description 
+A store that sells different kinds of games with cookies using OO patterns and simulate the running of the store for 30 days. 
+Print the number in inventory, the number sold, and the total sales for that game type.  Also list the contents of the 
+Damaged Game container, the final count of money in the Cash Register, as well as how many times money was 
+added to the register due to low funds in the Count the Money step.  Additionally, list the number of cookies 
+sold each day and in total, as well as total cookies lost to the Cookie Monster; and the total amount of money 
+paid to Gonger (which he puts in his pocket) for his cookies. Capture all output from a single simulation run in your repository in a text file called Output.txt
+
+#### OO Pattern Used: 
+- Decorator pattern implementation to support the following optional purchases and additional cost for 
+these games. A three-level inheritance model for Games:  Game <- Family Game <- Monopoly (for instance).  
+- Strategy pattern for the new cashier Bart. First, Bart stacks 
+games based on their width, with the widest games in the first shelf position.  However, Bart will wait to 
+stack games with an inventory count of one until all games with a greater inventory count have been 
+stacked. Second, Bart will only damage games during the vacuum step with a 2% chance.
+- Observer pattern for announcer Guy. Guy arrives each day just before the 
+Cashier in the morning and is the last Employee to leave the store.  Guy must subscribe for events from 
+all other Employees, each of which becomes an observable publisher. 
+
+#### Other
+Some JUnit tests to check proper initialization of objects and the correctness of functions
 
 ### Project 5 - Project 6 ###
 #### Description: 
